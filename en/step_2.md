@@ -4,20 +4,24 @@ Add an introductory sentence. What will learners achieve by the end of this step
 
 --- task ---
 
-If working **online**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
+Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+--- collapse ---
+---
+title: Working offline
+---
+To set up Scratch for offline use visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+--- /collapse ---
+--- /task ---
 
-You should see...
+The **Stage** is where your project runs. A backdrop changes the way the stage looks.
 
-![starter project](images/starter_project.png)
+--- task ---
+
+Click (or tap) on **Choose a Backdrop** from the Stage pane:
+
+![Scratch editor showing Choose a Backdrop selected in the bottom right corner](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
-
-Step content...
-
---- /task ---
-
---- save ---
