@@ -7,5 +7,16 @@ copyedit: false
 last_tested: "2021-02-17"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Create your bus
+  - title: Scratch Cat catches the bus
+  - title: Hippo flies to the bus
+  - title: The bus leaves
+  - title: Missing the bus
+  - title: Change Speed
+  - title: Reflection
+      knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
   - title: What next?
