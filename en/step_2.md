@@ -77,3 +77,7 @@ To make sure the bus is parked in a better spot, we need to change the numbers i
 Change x to 0 and y to -100
 
 ![bus at bottom centre of Stage](images/bus-coordinates-changed.png)
+
+--- /task ---
+
+If your bus has not moved, click the green flag.
