@@ -12,9 +12,11 @@ title: Working offline
 ---
 To set up Scratch for offline use visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 --- /collapse ---
+
+
 --- /task ---
 
-The **Stage** is where your project runs. A backdrop changes the way the stage looks.
+Add a backdrop to change the look of your stage. We have chosen a school scene, but you can choose whatever backdrop you like.
 
 --- task ---
 
@@ -25,3 +27,7 @@ Click (or tap) on **Choose a Backdrop** from the Stage pane:
 --- /task ---
 
 --- task ---
+
+Click on the **Outdoors** category for a school scene.
+
+--- /task ---
