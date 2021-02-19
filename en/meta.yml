@@ -6,13 +6,18 @@ listed: false
 copyedit: false
 last_tested: "2021-02-17"
 steps:
-  - title: Introduction
-  - title: Create your bus scene
-  - title: Scratch Cat catches the bus
-  - title: Hippo flies to the bus
-  - title: The bus leaves
-  - title: Missing the bus
-  - title: Change Speed
-  - title: Reflection
-  - title: Upgrade your project
-  - title: What next?
+- title: Introduction
+- title: Create your bus scene
+- title: Scratch Cat catches the bus
+- title: Hippo flies to the bus
+- title: The bus leaves
+- title: Missing the bus
+- title: Change Speed
+- title: Reflection
+    knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+- title: Upgrade your project
+- title: What next?
