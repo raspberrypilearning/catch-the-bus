@@ -1,13 +1,11 @@
 ## Introduction
 
-You will create an animation where sprites catch a bus.
+You will create an animation with sprites that run or fly to catch a bus.
 
 You will:
-+ Make sprites do different things `when green flag clicked`{:class="events"}
-+ Position sprites on the **stage**
-+ Use a `repeat`{:class="events"} loop to `Move`{:class="motion"} sprites and `switch costumes`{:class="looks"}
-
-
++ Make sprites do different things `when green flag clicked`{:class="block3events"}
++ Position sprites on the **Stage**
++ Use a `repeat`{:class="block3events"} loop to `Move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
 
 --- no-print ---
 --- task ---
@@ -28,6 +26,6 @@ Click the green flag to watch the animation. Which sprites change their costumes
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
 
-<p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
-**Did you know?** <span style="color: teal">**woodcut animation**</span> was the first form of printmaking in the 1400s. Woodcut artisans would carve each part of the animation out of wood blocks, and roll them over with paint, like stamps, to make prints. When the images were put together in a book, an animation would be made!
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">Animation</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wood blocks and used them as stamps. It's much faster to code your animation using Scratch.
 </p>

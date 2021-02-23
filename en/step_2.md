@@ -1,6 +1,6 @@
 ## Create your bus scene
 
-Create your scene and add a bus.
+You will choose a backdrop and add a bus sprite.
 
 --- task ---
 
@@ -13,10 +13,9 @@ title: Working offline
 To set up Scratch for offline use visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 --- /collapse ---
 
-
 --- /task ---
 
-Add a backdrop to change the look of your Stage. We have chosen a school scene, but you can choose whatever backdrop you like.
+Add a backdrop. We chose the School backdrop. Where will your sprites start their journey?
 
 --- task ---
 
@@ -28,37 +27,47 @@ Click (or tap) on **Choose a Backdrop** from the Stage pane:
 
 --- task ---
 
-Click on the **Outdoors** category for a school scene.
+Click  the **Outdoors** category. Find a backdrop that makes a good starting point for a bus tour.
 
---- /task ---
+Click on the backdrop to add it to your project: 
 
-Add your bus to the scene.
-
---- task ---
-
-Click on **Choose a Sprite** from the Sprite list.
-
-![Choose a sprite menu](images/choose-a-sprite.png)
+![Stage with outdoor backdrop](images/outdoor-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Scroll down and click on the **City Bus** sprite to add it to your project.
+Click on 'Choose a sprite'. 
 
---- /task ---
-
-Position your bus so that it is ready to go
-
---- task ---
-
-Drag a `when this sprite clicked`{:class="block3events"} block from the `Events`{:class="block3events"} block menu. Make sure you are in the **Scratch Tour Bus** sprite.
+![Choose a sprite menu](images/choose-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-`Drag a 'go to x: () y: ()``{:class="block3motion"} block from the `Motion`{:class="block3motion"} block menu, and place it under your first code block.
+Type 'bus' in the search box at the top:
+
+![Sprite search showing bus](images/bus-search.png)
+
+Add the **City Bus** sprite to your project.
+
+--- /task ---
+
+--- task ---
+
+Make sure the **Scratch Tour Bus** sprite is selected in the Sprite list below the Stage.
+
+Drag a `when this sprite clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area. 
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when this sprite clicked
+```
+
+**Tip:** The image in the top right of the Code area shows which sprite you are adding code to.
+
+![Highlighted image of sprite in Code area](images/sprite-in-code-area.png)
 
 --- /task ---
 
@@ -66,18 +75,39 @@ Oh no, our bus is not parked in a good spot!
 
 ![bus in the middle of Stage](images/bus-in-middle.png)
 
-The 'go to x: () y: ()``{:class="block3motion"} block you just added gets a sprite to go to a certain place on the Stage. In Scratch, the coordinates change in the **Blocks menu** until you drag the code block into the **Code area**.
+-- task ---
 
-GIF?
+Drag the bus to a good position in the middle of the stage at the bottom:
 
-To make sure the bus is parked in a better spot, we need to change the numbers in the 'go to x: () y: ()``{:class="block3motion"} block.
+![bus at bottom middle of Stage](images/bus-bottom-middle.png)
 
---- task ---
+The x and y coordinates of the bus show in the Sprite pane below the Stage:
 
-Change x to 0 and y to -100
+![x and y coordinates of bus in the Sprite pane](images/coords-sprite-pane.png)
 
-![bus at bottom centre of Stage](images/bus-coordinates-changed.png)
 
 --- /task ---
 
-If your bus has not moved, click the green flag.
+--- task ---
+Drag a `go to x: () y: ()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block menu, and place it under your first code block.
+
+Your code should look like this:
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when this sprite clicked
++go to x: (0) y: (-100)
+```
+
+The numbers in the 'go to x: () y: ()`{:class="block3motion"} are the current x and y coordinates of the bus. Your numbers might be slightly different. 
+
+--- /task ---
+
+--- task ---
+
+**Test:** Drag the bus to anywhere on the Stage and then click the green flag. The bus should always go to it's starting position at the bottom middle of the Stage.
+
+--- /task ---
+
+--- save ---
+
