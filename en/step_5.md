@@ -19,7 +19,7 @@ The `glide`{:class="block3motion"} block in the `Motion`{:class="block3motion"} 
 Add this code to the bus sprite to make it glide to the right after 5 seconds:
 
 ```blocks3
-when [TIMER v] > [5] 
+when [timer v] > [5] 
 glide [2] secs to x: [320] y: [-100] // right of Stage
 ```
 
