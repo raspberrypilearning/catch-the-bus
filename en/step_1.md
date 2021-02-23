@@ -27,5 +27,5 @@ Click the green flag to watch the animation. Which sprites change their costumes
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Animation</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wood blocks and used them as stamps. It's much faster to code your animation using Scratch.
+<span style="color: #0faeb0">Animation</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wood blocks and used them as stamps. It's much faster to code your animation using Scratch!
 </p>
