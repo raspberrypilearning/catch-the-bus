@@ -1,5 +1,7 @@
 ## Hippo flies to the bus
 
+The Hippo1 sprite has two costumes with wings in different positions so it can be animated to fly.
+
 --- task ---
 
 Add the Hippo1 sprite to your project. 
@@ -15,7 +17,7 @@ Drag the hippo to the top left of the Stage:
 
 --- task ---
 
-Add code to get the hippo to its start position and show:
+Add code to get the hippo to its start position:
 
 ```blocks3
 when flag clicked
@@ -68,6 +70,7 @@ next costume
 end
 + hide
 ```
+
 --- /task ---
 
 --- task ---
