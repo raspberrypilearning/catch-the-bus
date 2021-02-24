@@ -25,7 +25,7 @@ Click (or tap) on **Choose a Backdrop** from the Stage pane:
 
 --- task ---
 
-Click  the **Outdoors** category. Find a backdrop that makes a good starting point for a bus tour. We chose the School backdrop. Where will your sprites start their journey?
+Click  the **Outdoors** category. Find a backdrop that makes a good starting point for a bus tour. We chose the School backdrop. Where will your characters start their journey?
 
 Click on the backdrop to add it to your project: 
 
@@ -37,7 +37,7 @@ Click on the backdrop to add it to your project:
 
 Click on 'Choose a sprite'. 
 
-![Choose a sprite menu](images/choose-sprite.png)
+![Choose a sprite menu](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -51,16 +51,17 @@ Add the **City Bus** sprite to your project.
 
 --- /task ---
 
---- task ---
+You want the bus to be in its start position when you run your project. To do this you use a `when green flag clicked`{:class="block3events"} block which runs the blocks underneath it when you click on the green flag above the stage.
 
+--- task ---
 Make sure the **Scratch Tour Bus** sprite is selected in the Sprite list below the Stage.
 
-Drag a `when this sprite clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area. 
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area. 
 
 ![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
-when this sprite clicked
+when flag clicked
 ```
 
 **Tip:** The image in the top right of the Code area shows which sprite you are adding code to.
@@ -92,7 +93,7 @@ Drag a `go to x: () y: ()`{:class="block3motion"} block from the `Motion`{:class
 Your code should look like this:
 
 ```blocks3
-when this sprite clicked
+when flag clicked
 +go to x: (0) y: (-100)
 ```
 
