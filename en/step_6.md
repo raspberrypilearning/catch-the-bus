@@ -1,41 +1,10 @@
-## Change destination
+## Missing the bus
 
-The bus says Scratch Tours on the side, but you can change this in the Paint editor. 
+To change the speed of the costume changes you can add a wait inside the movement loops for the cat or hippo.
+You will want delays of less that one second. 0.5 is half a second. 0.25 is a quarter of a second and 0.1 is a tenth of a second. 
+Try changing the numbers to get the animation effect you want. 
+Try changing the number of steps the sprite moves each time and the number of times the loop repeats.
 
---- task ---
-Select the City bus sprite:
 
-![Bus sprite selected in Sprite list](images/bus-sprite-selected.png)
-
---- /task ---
-
---- task ---
-Click on the Costumes tab.
-
---- /task ---
-
---- task ---
-Click anywhere on the white Scratch Tours text to select it:
-
-![Scratch tours text selected](images/text-selected.png)
-
---- /task ---
-
---- task ---
-Click Delete to remove the text. 
-
---- /task ---
-
---- task ---
-Now click on the Text tool:
-
-![Text tool highlighted](images/text-tool-highlighted.png)
-
---- /task ---
-
---- task ---
-Click on the bus and type the name of the place that your sprites are visiting:
-
---- /task ---
 
 
