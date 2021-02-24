@@ -8,6 +8,16 @@ Add the Hippo1 sprite to your project.
 
 --- /task ---
 
+The hippo is too big for the bus.
+
+--- task ---
+
+Change the size the of the Hippo1:
+
+![Hippo Sprite pane with size set to 50](images/hippo-sprite-size.png)
+
+--- /task ---
+
 --- task ---
 Drag the hippo to the top left of the Stage:
 
