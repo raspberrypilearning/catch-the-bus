@@ -35,7 +35,7 @@ Your x and y coordinates might be slightly different.
 Add a `hide`{:class="block3looks"} block to make the bus look like it drives off the Stage:
 
 ```blocks3
-when [TIMER v] > [5] 
+when [timer v] > [5] 
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -58,6 +58,8 @@ go to x: [0] y: [-100]
 
 --- task ---
 **Test:** Click the green flag and watch your animation. The bus should appear in the centre of the screen and then drive off to the right and disappear. 
+
+Is everyone on the bus when it leaves? You can change the amount of time the bus waits if you need to.
 --- /task ---
 
 --- save ---
