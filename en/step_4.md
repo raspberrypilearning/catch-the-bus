@@ -1,18 +1,18 @@
 ## Hippo flies to the bus
 
-The Hippo1 sprite has two costumes with wings in different positions so it can be animated to fly.
+The Hippo1 sprite has two costumes with wings in different positions so it can be animated to fly to the bus.
 
 --- task ---
 
-Add the Hippo1 sprite to your project. 
+Add the **Hippo1** sprite to your project. 
 
 --- /task ---
 
-The hippo is too big for the bus.
+The hippo is also too big for the bus!
 
 --- task ---
 
-Change the size the of the Hippo1:
+Change the size the of the **Hippo1** sprite:
 
 ![Hippo Sprite pane with size set to 50](images/hippo-sprite-size.png)
 
@@ -50,24 +50,23 @@ Add code to make the hippo fly towards the bus:
 when flag clicked
 go to x: [-165] y: [145] 
 +repeat [100] 
-+point towards (City Bus v)
-+move [3] steps
-+next costume
+point towards (City Bus v)
+move [3] steps
+next costume
 +end
 ```
 
 --- /task ---
 
-
 --- task ---
-**Test:** Click the green flag to see the hippo fly to the bus. 
+**Test:** Click the green flag to see the hippo fly to the bus. You can change the number of repeats to get the hippo to stop in just the right place. 
 --- /task ---
 
-The hippo needs to hide look like it enters the bus:
+Now the hippo is going to enter the bus.
 
 --- task ---
 
-Add `show` and `hide` blocks:
+Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ```blocks3
 when flag clicked

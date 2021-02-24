@@ -1,11 +1,9 @@
 ## The bus leaves
 
-Now it's time to add code to make the bus drive off to the right of the Stage. 
-
-The bus doesn't need to change costume so you can use a `glide`{:class="block3motion"} block to make it move gradually to a new position.
+A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
 
 --- task ---
-The `glide`{:class="block3motion"} block needs x and y positions to glide to. To set these, drag your bus to the right of the Stage:
+To set the x and y position that the bus will `glide to`{:class="block3motion"}, drag your bus to the right of the Stage:
 
 ![Bus sprite on the right of the Stage](images/bus-right.png)
 
@@ -13,10 +11,9 @@ The `glide`{:class="block3motion"} block needs x and y positions to glide to. To
 
 --- /task ---
 
-The `glide`{:class="block3motion"} block in the `Motion`{:class="block3motion"} Blocks menu will now have the new x and y positions for the bus. 
-
 --- task ---
-Add this code to the bus sprite to make it glide to the right after 5 seconds:
+
+Add a new script to the bus sprite to make it glide to the right after 5 seconds:
 
 ```blocks3
 when [timer v] > [5] 
@@ -42,11 +39,11 @@ glide [2] secs to x: [320] y: [-100]
 --- /task ---
 
 --- task ---
-**Test:** Click the green flag. The bus will now hide after driving off. If you click the green flag again you won't be able to see the bus because it's still hidden! 
+**Test:** Click the green flag. The bus will now hide after driving off. Do you remember how to make sure a sprite reappears when you click the green flag?
 --- /task ---
 
 --- task ---
-Add a `show`{:class="block3looks"} block to make the bus appear when the green flag is clicked:
+Add a `show`{:class="block3looks"} block to your when green flag is clicked script to make the bus appear when you run your project:
 
 ```blocks3
 when flag clicked
