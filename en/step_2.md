@@ -15,8 +15,6 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 
 --- /task ---
 
-Add a backdrop. We chose the School backdrop. Where will your sprites start their journey?
-
 --- task ---
 
 Click (or tap) on **Choose a Backdrop** from the Stage pane:
@@ -27,7 +25,7 @@ Click (or tap) on **Choose a Backdrop** from the Stage pane:
 
 --- task ---
 
-Click  the **Outdoors** category. Find a backdrop that makes a good starting point for a bus tour.
+Click  the **Outdoors** category. Find a backdrop that makes a good starting point for a bus tour. We chose the School backdrop. Where will your sprites start their journey?
 
 Click on the backdrop to add it to your project: 
 
@@ -75,7 +73,7 @@ Oh no, our bus is not parked in a good spot!
 
 ![bus in the middle of Stage](images/bus-in-middle.png)
 
--- task ---
+--- task ---
 
 Drag the bus to a good position in the middle of the stage at the bottom:
 
@@ -92,20 +90,19 @@ The x and y coordinates of the bus show in the Sprite pane below the Stage:
 Drag a `go to x: () y: ()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} block menu, and place it under your first code block.
 
 Your code should look like this:
-![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
 when this sprite clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the 'go to x: () y: ()`{:class="block3motion"} are the current x and y coordinates of the bus. Your numbers might be slightly different. 
+The numbers in the `go to x: () y: ()`{:class="block3motion"} are the current x and y coordinates of the bus. Your numbers might be slightly different. 
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage and then click the green flag. The bus should always go to it's starting position at the bottom middle of the Stage.
+**Test:** Drag the bus to anywhere on the Stage and then click the green flag. The bus should always go to its starting position at the bottom middle of the Stage.
 
 --- /task ---
 
