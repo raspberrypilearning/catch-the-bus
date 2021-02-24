@@ -22,7 +22,15 @@ From the Sprite pane, click in the **Size** property and change the size to `50`
 
 --- /task ---
 
-Scratch cat will appear on the left of the Stage and walk to the bus.  
+Scratch cat will appear on the right of the Stage and walk to the bus.  
+
+--- task ---
+
+From the Sprite pane, click in the **Direction** property and move the arrow to point to `-90`. Click on the middle arrow icon to change the rotation style to `left-right`.
+
+![Sprite pane size property](images/sprite-pane-direction.png)
+
+--- /task ---
 
 --- task ---
 
