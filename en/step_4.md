@@ -31,7 +31,7 @@ Add code to get the hippo to its start position:
 
 ```blocks3
 when flag clicked
-go to x: [-165] y: [145] // top left
+go to x: [-200] y: [150] // top left
 ```
 
 **Tip:** The x and y coordinates in the `go to`{:class="block3motion"} will be the current position of the hippo so you don't need to type them in.
@@ -48,7 +48,7 @@ Add code to make the hippo fly towards the bus:
 
 ```blocks3
 when flag clicked
-go to x: [-165] y: [145] 
+go to x: [-200] y: [150] 
 +repeat [100] 
 point towards (City Bus v)
 move [3] steps
@@ -70,7 +70,7 @@ Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ```blocks3
 when flag clicked
-go to x: [-165] y: [145] 
+go to x: [-200] y: [150] 
 + show
 repeat [100] 
 point towards (City Bus v)
