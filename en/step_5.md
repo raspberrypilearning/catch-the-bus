@@ -2,6 +2,27 @@
 
 A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
 
+The bus will drive off to the right five seconds after the green flag is clicked. The `when [timer v]`{:class="block3events"} block runs the blocks below it after this time delay.
+
+--- task ---
+
+Select the bus sprite.
+
+--- /task ---
+
+--- task ---
+
+From the `Events`{:class="block3events"} Blocks menu drag a `when [loudness v]`{:class="block3events"} block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script.
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when [timer v] > [5] 
+```
+
+Your x and y coordinates might be slightly different. 
+--- /task ---
+
 --- task ---
 To set the x and y position that the bus will `glide to`{:class="block3motion"}, drag your bus to the right of the Stage:
 
@@ -11,22 +32,15 @@ To set the x and y position that the bus will `glide to`{:class="block3motion"},
 
 --- /task ---
 
-
-The bus will glide right five seconds after the green flag is clicked.
-
 --- task ---
-
-
-From the `Events`{:class="block3events"} Blocks menu drag a `when [loudness v]`{:class="block3events"} block. Change `[loudness v]` to `[timer v]`.
+Add a `glide`{:class="block3motion"} block under your `when [timer]`{:class="block3events"} block.
 
 ![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [5] 
-glide [2] secs to x: [320] y: [-100] // right of Stage
++glide [2] secs to x: [320] y: [-100] // right of Stage
 ```
-
-Your x and y coordinates might be slightly different. 
 
 --- /task ---
 

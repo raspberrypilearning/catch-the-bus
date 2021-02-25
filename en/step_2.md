@@ -109,6 +109,24 @@ The numbers in the `go to x: () y: ()`{:class="block3motion"} are the current x 
 
 --- /task ---
 
+Later on, we will be getting characters to get on the bus. To get to the door, the characters will have to be in front of the bus.
+
+--- task ---
+
+To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block and click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}.
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-100)
++ go to [back v] layer
+```
+
+**Tip:** If you can't see the `go to [front v] layer`{:class="block3looks"} block you will need to scroll down in the `Looks`{:class="block3looks"} Blocks menu.
+
+--- /task ---
+
 --- task ---
 If you want to change the colour of the bus you can:
 
@@ -117,6 +135,7 @@ If you want to change the colour of the bus you can:
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
+go to [back v] layer
 +set [color v] effect to (50) // Try numbers up to 200
 ```
 
