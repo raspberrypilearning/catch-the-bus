@@ -132,12 +132,12 @@ Clicking on the code blocks in the Code area is useful for testing your code. No
 
 --- task ---
 
-From the `Events`{:class="block3events"} Blocks menu drag a `when loudness > 10`{:class="block3events"} block and connect it to the top of your code. Click on `loudness` to change it to `timer` and change the wait time to `3` seconds.
+From the `Events`{:class="block3events"} Blocks menu drag a `when green flag clicked`{:class="block3events"} block and connect it to the top of your code. 
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-+ when [timer v] > (3) // wait 3 seconds
++ when flag clicked
 go to x:(200) y:(-150) // bottom right
 show
 repeat (30) // try different numbers
@@ -151,7 +151,7 @@ hide
 
 --- task ---
 
-**Test:** Test your code again. This time instead of clicking on the blocks use the green flag to start your project and reset the timer. 
+**Test:** Test your code again. This time instead of clicking on the blocks use the green flag to start your project. 
 
 --- /task ---
 

@@ -11,9 +11,13 @@ To set the x and y position that the bus will `glide to`{:class="block3motion"},
 
 --- /task ---
 
+
+The bus will glide right five seconds after the green flag is clicked.
+
 --- task ---
 
-Add a new script to the bus sprite to make it glide to the right after 5 seconds:
+
+From the `Events`{:class="block3events"} Blocks menu drag a `when [loudness v]`{:class="block3events"} block. Change `[loudness v]` to `[timer v]`.
 
 ![Bus sprite](images/bus-sprite.png)
 
