@@ -1,6 +1,8 @@
 ## Introduction
 
-You will create an animation with sprites that run or fly to catch a bus.
+You will create an animation with sprites that run or fly to catch a bus. 
+
+<mark>Test</mark>
 
 You will:
 + Make sprites do different things `when green flag clicked`{:class="block3events"}
