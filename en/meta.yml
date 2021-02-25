@@ -12,6 +12,7 @@ steps:
   - title: Hippo flies to the bus
   - title: The bus leaves
   - title: Missing the bus
+  - title: Change the destination
   - title: Reflection
     knowledge_quiz:
       path: quiz1

@@ -22,13 +22,13 @@ hide
 --- /task ---
 
 --- task ---
-**Test:** Click the green flag to see Scratch walk really slowly and miss the bus!
+**Test:** Click the green flag to see Scratch walk too slowly and miss the bus!
 
 --- /task ---
 
---- task ---
-
 You will want delays of less than one second. 0.5 is half a second. 0.25 is a quarter of a second and 0.1 is a tenth of a second. 
+
+--- task ---
 
 Change the delay in the `wait`{:class="block3control"} block:
 
@@ -38,19 +38,19 @@ Change the delay in the `wait`{:class="block3control"} block:
 wait (0.1) seconds // Try 0.2, 0.5, 0.05
 ```
 
-**Test:** Click the green flag to see Scratch walk faster but still miss the bus. Choose the delay that you like best.
+**Choose:** Click the green flag to see Scratch walk faster but still miss the bus. Choose the delay that you like best.
 
 --- /task ---
 
+At the moment Scratch cat disappears even though they have missed the bus. 
+
+Will Scratch cat make it to the bus on time or not? It's your choice.
+
+**Choose:** Choose if you want Scratch to **miss the bus** or **catch the bus**.
+
 --- task ---
 
---- /task ---
-
-At the moment Scratch cat disappears even though it has missed the bus. 
-
---- task ---
-
-One way to fix the problem is to remove the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks from your code so that Scratch cat stays on the Stage.
+If you want Scratch cat to **miss the bus**, remove the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks from your code so that Scratch cat stays on the Stage.
 
 ![Scratch cat sprite](images/removing-blocks-at-script-ends.gif)
 
@@ -71,7 +71,7 @@ end
 --- /task ---
 
 --- task ---
-Another way to fix the problem is to make the bus wait longer before leaving:
+If you want Scratch to **catch the bus**, make the bus wait longer before leaving:
 
 ![Bus sprite](images/bus-sprite.png)
 
@@ -85,7 +85,7 @@ You'll need to put the `hide`{:class="block3looks"} block back in Scratch cat's 
 --- /task ---
 
 --- task ---
-Make changes until you get the animation to work the way you want it to. Will Scratch cat make it to the bus on time or not? It's your choice.
+Make changes until you get the animation to work the way you want it to.
 
 --- /task ---
 
