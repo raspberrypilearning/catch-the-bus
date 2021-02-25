@@ -54,7 +54,7 @@ Add the **City Bus** sprite to your project.
 You want the bus to be in its start position when you run your project. To do this you use a `when green flag clicked`{:class="block3events"} block which runs the blocks underneath it when you click on the green flag above the stage.
 
 --- task ---
-Make sure the **Scratch Tour Bus** sprite is selected in the Sprite list below the Stage.
+Make sure the **City Bus** sprite is selected in the Sprite list below the Stage.
 
 Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area. 
 
@@ -146,7 +146,7 @@ You will get Scratch cat to appear on the right of the Stage then walk to the bu
 
 --- task ---
 
-Click in the **Direction** property and rotate the arrow to point to `-90`. Click on the middle arrow icon to change the rotation style to `left-right`.
+Click in the **Direction** property and rotate the arrow to point to `-90`. Click on the middle arrow icon to change the rotation style to `left-right` to stop Scratch cat turning upside down.
 
 ![...](images/sprite-pane-direction.png)
 
