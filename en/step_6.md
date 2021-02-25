@@ -65,7 +65,7 @@ move (5) steps
 wait (0.5) seconds
 next costume 
 end
-- hide
+-hide
 ```
 
 --- /task ---
@@ -76,7 +76,7 @@ If you want Scratch to **catch the bus**, make the bus wait longer before leavin
 ![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [8] 
++when [timer v] > [8] 
 glide [2] secs to x: [320] y: [-100] // right of Stage
 ```
 
