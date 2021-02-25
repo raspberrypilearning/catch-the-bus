@@ -77,10 +77,11 @@ go to x: [0] y: [-100]
 
 --- /task ---
 
-When you dragged your bus into position it made the bus sprite appear in front of the other sprites. 
+When you dragged your bus into position it made the bus sprite appear in front of the other sprites. The bus needs to be behind the other sprites so they can get to the door to get on the bus.
 
 --- task ---
-To fix this add a `go to front layer`{:class="block3looks"} block and change the value to `back`:
+
+To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block and click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}.
 
 ![Bus sprite](images/bus-sprite.png)
 
@@ -91,8 +92,9 @@ show
 + go to [back v] layer
 ```
 
---- /task ---
+**Tip:** If you can't see the `go to [front v] layer`{:class="block3looks"} block you will need to scroll down in the `Looks`{:class="block3looks"} Blocks menu.
 
+--- /task ---
 
 --- task ---
 **Test:** Click the green flag and watch your animation. The bus should appear in the centre of the screen and then drive off to the right and disappear. 
