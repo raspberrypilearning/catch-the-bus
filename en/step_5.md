@@ -59,6 +59,23 @@ go to x: [0] y: [-100]
 
 --- /task ---
 
+When you dragged your bus into position it made the bus sprite appear in front of the other sprites. 
+
+--- task ---
+To fix this add a `go to front layer`{:class="block3looks"} block and change the value to `back`:
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when flag clicked
+go to x: [0] y: [-100] 
+show
++ go to [back v] layer
+```
+
+--- /task ---
+
+
 --- task ---
 **Test:** Click the green flag and watch your animation. The bus should appear in the centre of the screen and then drive off to the right and disappear. 
 
