@@ -122,5 +122,35 @@ go to x: (0) y: (-100)
 
 --- /task ---
 
+--- task ---
+
+The Scratch cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate Scratch cat.
+
+![Sprite1 selected in the Sprite list](images/sprite1-selected.png)
+
+**Tip:** If you have accidently deleted Scratch cat you can click on the **Choose a Sprite** button and search for 'Cat'. 
+
+--- /task ---
+
+At the moment Scratch cat is far too big to fit on the bus. 
+
+--- task ---
+
+From the Sprite pane, click in the **Size** property and change the size to `50`
+
+![...](images/sprite-pane-size.png)
+
+--- /task --- 
+
+You will get Scratch cat to appear on the right of the Stage then walk to the bus. 
+
+--- task ---
+
+Click in the **Direction** property and rotate the arrow to point to `-90`. Click on the middle arrow icon to change the rotation style to `left-right`.
+
+![...](images/sprite-pane-direction.png)
+
+--- /task ---
+
 --- save ---
 
