@@ -67,7 +67,6 @@ when flag clicked
 **Tip:** The image in the top right of the Code area shows which sprite you are adding code to.
 
 ![Highlighted image of sprite in Code area](images/sprite-in-code-area.png)
-https://prod.liveshare.vsengsaas.visualstudio.com/join?8AC44D247CF4D45B0E626B815D91225D6C7E
 
 --- /task ---
 
