@@ -47,7 +47,7 @@ Drag a `go to x: y:`{:class="block3motion"} block to the Code area:
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 ```
 
 --- /task ---
@@ -69,7 +69,7 @@ Add a `repeat 10`{:class="block3control"} block then drag a `move 10 steps`{:cla
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 + repeat (30) // try different numbers
 move (5) steps //  5 is a good walking speed
 end
@@ -98,7 +98,7 @@ Click back to the Code tab. Add a `next costume`{:class="block3looks"} block and
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 repeat (30) // try different numbers
 move (5) steps //  5 is a good walking speed
 + next costume 
@@ -121,7 +121,7 @@ Add a block to `hide`{:class="block3looks"} Scratch cat when it reaches to the b
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 repeat (30) // try different numbers
 move (5) steps //  5 is a good walking speed
 next costume 
@@ -146,7 +146,7 @@ Add a `show`{:class="block3looks"} block so Scratch cat appears before walking t
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 + show
 repeat (30) // try different numbers
 move (5) steps //  5 is a good walking speed
@@ -167,7 +167,7 @@ From the `Events`{:class="block3events"} Blocks menu drag a 'when loudness > 10'
 
 ```blocks3
 + when [timer v] > (3) // wait 3 seconds
-go to x:(-200) y:(-150) // bottom left
+go to x:(200) y:(-150) // bottom right
 show
 repeat (30) // try different numbers
 move (5) steps //  5 is a good walking speed
