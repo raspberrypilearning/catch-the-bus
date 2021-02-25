@@ -93,6 +93,8 @@ Drag a `go to x: () y: ()`{:class="block3motion"} block from the `Motion`{:class
 
 Your code should look like this:
 
+![Bus sprite](images/bus-sprite.png)
+
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
@@ -105,6 +107,19 @@ The numbers in the `go to x: () y: ()`{:class="block3motion"} are the current x 
 --- task ---
 
 **Test:** Drag the bus to anywhere on the Stage and then click the green flag. The bus should always go to its starting position at the bottom middle of the Stage.
+
+--- /task ---
+
+--- task ---
+If you want to change the colour of the bus you can:
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-100)
++set [color v] effect to (50) // Try numbers up to 200
+```
 
 --- /task ---
 

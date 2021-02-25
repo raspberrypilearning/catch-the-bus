@@ -3,62 +3,94 @@
 What if Scratch cat didn't run fast enough to catch the bus?
 
 --- task ---
-Select the cat sprite and add a `wait` block:
+Select the cat sprite and add a `wait`{:class="block3control"} block:
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-when [timer v] > (3) // wait 3 seconds
-go to x:(-200) y:(-150) // bottom left
+when [timer v] > (3) 
+go to x:(-200) y:(-150) 
 show
 repeat (30) // try different numbers
-move (5) steps //  5 is a good walking speed
-+ wait (1) seconds
+move (5) steps 
 next costume 
++ wait (1) seconds
 end
 hide
 ```
 
 --- /task ---
 
-
 --- task ---
-**Test:***
+**Test:** Click the green flag to see Scratch walk really slowly and miss the bus!
 
 --- /task ---
 
 --- task ---
-
 
 You will want delays of less than one second. 0.5 is half a second. 0.25 is a quarter of a second and 0.1 is a tenth of a second. 
 
---- /task ---
-
---- task ---
-
-#Don't hide the cat when the bus leaves
+Change the delay in the `wait`{:class="block3control"} block:
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-when [timer v] > (3) // wait 3 seconds
-go to x:(-200) y:(-150) // bottom left
-repeat (30) // try different numbers
-move (5) steps //  5 is a good walking speed
+wait (0.1) seconds // Try 0.2, 0.5, 0.05
+```
+
+**Test:** Click the green flag to see Scratch walk faster but still miss the bus. Choose the delay that you like best.
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+At the moment Scratch cat disappears even though it has missed the bus. 
+
+--- task ---
+
+One way to fix the problem is to remove the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks from your code so that Scratch cat stays on the Stage.
+
+![Scratch cat sprite](images/removing-blocks-at-script-ends.gif)
+
+![Scratch cat sprite](images/scratch-cat-sprite.png)
+
+```blocks3
+when [timer v] > (3) 
+go to x:(-200) y:(-150) 
+show
+repeat (30) 
+move (5) steps 
 wait (0.5) seconds
 next costume 
 end
+- hide
 ```
 
 --- /task ---
 
-To change the speed of the costume changes you can add a wait inside the movement loops for the cat or hippo.
-You will want delays of less than one second. 0.5 is half a second. 0.25 is a quarter of a second and 0.1 is a tenth of a second. 
-Try changing the numbers to get the animation effect you want. 
-Try changing the number of steps the sprite moves each time and the number of times the loop repeats.
+--- task ---
+Another way to fix the problem is to make the bus wait longer before leaving:
+
+![Bus sprite](images/bus-sprite.png)
+
+```blocks3
+when [timer v] > [8] 
+glide [2] secs to x: [320] y: [-100] // right of Stage
+```
+
+You'll need to put the `hide`{:class="block3looks"} block back in Scratch cat's code if you have removed it and want the cat to successfully catch the bus.
+
+--- /task ---
+
+--- task ---
+Make changes until you get the animation to work the way you want it to. Will Scratch cat make it to the bus on time or not? It's your choice.
+
+--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project you often go back and change or improve your code as you get new ideas. You don't have to get it right first time. 
+When working on a project you often go back and change or improve your code as you get new ideas. 
 </p>
 
 --- save ---

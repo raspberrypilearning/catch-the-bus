@@ -15,6 +15,8 @@ To set the x and y position that the bus will `glide to`{:class="block3motion"},
 
 Add a new script to the bus sprite to make it glide to the right after 5 seconds:
 
+![Bus sprite](images/bus-sprite.png)
+
 ```blocks3
 when [timer v] > [5] 
 glide [2] secs to x: [320] y: [-100] // right of Stage
@@ -31,6 +33,8 @@ Your x and y coordinates might be slightly different.
 --- task ---
 Add a `hide`{:class="block3looks"} block to make the bus look like it drives off the Stage:
 
+![Bus sprite](images/bus-sprite.png)
+
 ```blocks3
 when [timer v] > [5] 
 glide [2] secs to x: [320] y: [-100]
@@ -44,6 +48,8 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 Add a `show`{:class="block3looks"} block to your when green flag is clicked script to make the bus appear when you run your project:
+
+![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
