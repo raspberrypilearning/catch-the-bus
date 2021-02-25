@@ -132,7 +132,7 @@ Clicking on the code blocks in the Code area is useful for testing your code. No
 
 --- task ---
 
-From the `Events`{:class="block3events"} Blocks menu drag a 'when loudness > 10' and connect it to the top of your code. Click on 'loudness' to change it to 'timer' and change the wait time to '3' seconds.
+From the `Events`{:class="block3events"} Blocks menu drag a `when loudness > 10`{:class="block3events"} block and connect it to the top of your code. Click on `loudness` to change it to `timer` and change the wait time to `3` seconds.
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
