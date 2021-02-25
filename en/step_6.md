@@ -8,7 +8,7 @@ Select the cat sprite and add a `wait`{:class="block3control"} block:
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-when [timer v] > (3) 
+when flag clicked
 go to x:(-200) y:(-150) 
 show
 repeat (30) // try different numbers
@@ -57,7 +57,7 @@ If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3loo
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-when [timer v] > (3) 
+when flag clicked
 go to x:(-200) y:(-150) 
 show
 repeat (30) 
@@ -76,7 +76,7 @@ If you want Scratch to **catch the bus**, make the bus wait longer before leavin
 ![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [8] 
++when [timer v] > [5] // change from 3 to 5
 glide [2] secs to x: [320] y: [-100] // right of Stage
 ```
 
