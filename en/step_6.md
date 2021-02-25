@@ -52,7 +52,7 @@ Will Scratch cat make it to the bus on time or not? It's your choice.
 
 If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that Scratch cat stays on the Stage.
 
-![Scratch cat sprite](images/removing-blocks-at-script-ends.gif)
+![](images/removing-blocks-at-script-ends.gif)
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
