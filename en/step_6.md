@@ -62,8 +62,8 @@ go to x:(-200) y:(-150)
 show
 repeat (30) 
 move (5) steps 
-wait (0.5) seconds
-next costume 
+next costume
+wait (0.5) seconds 
 end
 -hide
 ```
