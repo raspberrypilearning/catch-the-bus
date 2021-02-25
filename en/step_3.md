@@ -178,4 +178,10 @@ hide
 
 --- /task ---
 
+--- task ---
+
+**Test:** Test your code again. This time instead of clicking on the blocks use the green flag to start your project and reset the timer. 
+
+--- /task ---
+
 --- save ---
