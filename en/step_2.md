@@ -113,7 +113,7 @@ Later on, we will be getting characters to get on the bus. To get to the door, t
 
 --- task ---
 
-To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block and click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}.
+To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}.
 
 ![Bus sprite](images/bus-sprite.png)
 
