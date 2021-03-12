@@ -20,6 +20,7 @@ hide
 glide [2] secs to x: [0] y: [-100] // bottom middle of Stage
 
 repeat [30]
+end
 
 point towards (City Bus v)
 
