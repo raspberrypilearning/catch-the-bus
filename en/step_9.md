@@ -8,19 +8,33 @@ You can use any of the blocks you learned about in this project as well as those
 
 ```blocks3
 when flag clicked
+
 when [timer v] > [5]
+
 go to x: [0] y: [0] // drag sprite to choose x and y
+
 show
+
 hide
+
 glide [2] secs to x: [0] y: [-100] // bottom middle of Stage
+
 repeat [30]
+
 point towards (City Bus v)
+
 point in direction (180) // point down
+
 set rotation style [left-right v]
+
 move [3] steps
+
 next costume
+
 start sound [clown honk v]
+
 wait [0.1] seconds // short delay
+
 set [color v] effect to [50] // up to 200
 ```
 
