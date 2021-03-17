@@ -149,17 +149,5 @@ From the Sprite pane, click in the **Size** property and change the size to `50`
 
 --- /task --- 
 
-You will get Scratch cat to appear on the **right** of the Stage then walk to the bus. 
-
---- task ---
-
-Click in the **Direction** property and rotate the arrow to point to `-90`. 
-
-Click on the middle arrow icon to change the rotation style to `left-right` to stop Scratch cat turning upside down.
-
-![sprite pane showing direction -90 with left-right rotation style selected](images/sprite-pane-direction.png)
-
---- /task ---
-
 --- save ---
 
