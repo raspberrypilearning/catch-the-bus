@@ -128,7 +128,7 @@ hide
 
 --- /task ---
 
-Clicking on the code blocks in the Code area is useful for testing your code. Now you will make the code run 3 seconds after the green flag is clicked.
+Clicking on the code blocks in the Code area is useful for testing your code.
 
 --- task ---
 
