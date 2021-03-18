@@ -20,7 +20,6 @@ next costume
 end
 hide
 ```
-
 --- /task ---
 
 --- task ---
@@ -65,7 +64,6 @@ wait (0.5) seconds
 end
 -hide
 ```
-
 --- /task ---
 
 --- task ---
