@@ -1,16 +1,12 @@
 ## Hippo flies to the bus
 
+You will add a Hippo sprite that flies to the bus.
+
 The Hippo1 sprite has two costumes with wings in different positions so it can be animated to fly to the bus.
 
 --- task ---
 
 Add the **Hippo1** sprite to your project. 
-
---- /task ---
-
-The hippo is also too big for the bus!
-
---- task ---
 
 Change the size the of the **Hippo1** sprite:
 
@@ -79,6 +75,8 @@ next costume
 end
 + hide
 ```
+
+**Tip:** When you use a `hide`{:class="block3looks"} block you will need to also add a `show`{:class="block3looks"} block to make sure the sprite is visible when it needs to be.
 
 --- /task ---
 
