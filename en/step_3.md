@@ -1,7 +1,9 @@
-
 ## Scratch Cat catches the bus
 
 You will animate the Scratch cat to appear on the **right** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+
+
+### Get Scratch cat into the start position
 
 --- task ---
 
@@ -41,6 +43,8 @@ go to x:(200) y:(-150) // bottom right
 
 --- /task ---
 
+### Animate Scratch cat
+
 To animate Scratch cat you will add code to repeat a small amount of steps many times in a loop. 
 
 --- task ---
@@ -54,7 +58,7 @@ Add a `repeat 10`{:class="block3control"} block then drag a `move 10 steps`{:cla
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // bottom right
-+ repeat (30) // try different numbers
++ repeat (10) // try different numbers
 move (5) steps //  5 is a good walking speed
 end
 ```
@@ -77,14 +81,14 @@ Click on the Costumes tab. Scratch cat has two costumes and together they can be
 
 --- task ---
 
-Click back to the Code tab. Add a `next costume`{:class="block3looks"} block and click on your code to test it:
+Click back to the Code tab. Add a `next costume`{:class="block3looks"} block:
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // bottom right
-repeat (30) // try different numbers
+repeat (20) // try different numbers
 move (5) steps //  5 is a good walking speed
 + next costume 
 end
@@ -108,7 +112,7 @@ Add a block to `hide`{:class="block3looks"} Scratch cat when it reaches to the b
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // bottom right
-repeat (30) // try different numbers
+repeat (20) // try different numbers
 move (5) steps //  5 is a good walking speed
 next costume 
 end
@@ -145,7 +149,7 @@ hide
 
 --- task ---
 
-**Test:** Click the green flag to test your project. 
+**Test:** Click the green flag to test your project and make sure Scratch cat appears. 
 
 --- /task ---
 
