@@ -1,4 +1,3 @@
-
 ## Scratch Cat catches the bus
 
 You will animate the Scratch cat to appear on the **right** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
