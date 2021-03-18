@@ -35,7 +35,7 @@ Click the **Outdoors** category. Add a backdrop that makes a good starting point
 
 --- task ---
 
-Click on 'Choose a sprite': 
+Click on **Choose a Sprite**: 
 
 ![](images/choose-sprite-menu.png)
 
