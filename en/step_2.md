@@ -150,4 +150,3 @@ From the Sprite pane, click in the **Size** property and change the size to `50`
 --- /task --- 
 
 --- save ---
-
