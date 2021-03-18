@@ -6,7 +6,7 @@ legend: Question 3 of 3
 
 In your project, you made hippo fly and Scratch cat walk to the bus.
 
-![](images/dog-run.png)
+![](images/dog-run.gif)
 
 Which of these scripts uses a loop to make the dog run?
 
@@ -14,6 +14,7 @@ Which of these scripts uses a loop to make the dog run?
 
 - (x) 
 ```blocks3
+when flag clicked
 repeat (5)
 move (5) steps
 next costume
@@ -36,6 +37,7 @@ There is no loop here and so the dog would not run. To make the dog run you woul
 
 - () 
 ```blocks3
+when flag clicked
 next costume
 move (5) steps
 next costume

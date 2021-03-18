@@ -2,16 +2,17 @@
 
 You will animate the Scratch cat to appear on the **right** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 
+![Scratch walking to the bus](images/cat-catches-bus.png){:width="300px"}
 
 ### Get Scratch cat into the start position
 
 --- task ---
 
-Click in the **Direction** property and rotate the arrow to point to `-90`. 
+Click in the **Direction** property in the Sprite pane and rotate the arrow to point to `-90`. 
 
-Click on the middle arrow icon to change the rotation style to `left-right` to stop Scratch cat turning upside down.
+Click on the middle arrow icon to change the rotation style to `left-right` to stop Scratch cat turning upside down:
 
-![sprite pane showing direction -90 with left-right rotation style selected](images/sprite-pane-direction.png)
+![](images/sprite-pane-direction.png)
 
 --- /task ---
 
@@ -45,13 +46,13 @@ go to x:(200) y:(-150) // bottom right
 
 ### Animate Scratch cat
 
-To animate Scratch cat you will add code to repeat a small amount of steps many times in a loop. 
+To animate Scratch cat you will add code to repeat a small amount of steps many times in a `repeat`{:class="block3control"} loop. 
 
 --- task ---
 
 Add a `repeat 10`{:class="block3control"} block then drag a `move 10 steps`{:class="block3motion"} block inside it: 
 
-![Animated gif inserting a block into a loop](images/block-into-loop.gif)
+![Inserting the block into the loop](images/block-into-loop.gif)
 
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
@@ -101,7 +102,7 @@ end
 
 --- /task ---
 
-Now we want Scratch cat to enter the bus. You will get Scratch cat to `hide`{:class="block3looks"} to look like they enter the bus.
+Now we want Scratch cat to appear to enter the bus. 
 
 --- task ---
 
@@ -136,9 +137,10 @@ Add a `show`{:class="block3looks"} block so Scratch cat appears before walking t
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
+when flag clicked
 go to x:(200) y:(-150) // bottom right
 + show
-repeat (30) // try different numbers
+repeat (20) // try different numbers
 move (5) steps //  5 is a good walking speed
 next costume 
 end

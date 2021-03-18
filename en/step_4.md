@@ -2,6 +2,8 @@
 
 You will add a Hippo sprite that flies to the bus.
 
+![Hippo flying to the bus](images/hippo-flies.png){:width="300px"}
+
 The Hippo1 sprite has two costumes with wings in different positions so it can be animated to fly to the bus.
 
 --- task ---
@@ -23,7 +25,7 @@ Drag the hippo to the top left of the Stage:
 
 --- task ---
 
-Add code to get the hippo to its start position:
+Add code to get the hippo to their start position:
 
 ```blocks3
 when flag clicked
@@ -34,19 +36,19 @@ go to x: [-200] y: [150] // top left
 
 --- /task ---
 
-The hippo is going to fly towards the bus, flapping its wings. 
+The hippo is going to fly towards the bus, flapping their wings. 
 
 The hippo will `point towards`{:class="block3motion"} the bus before moving.
 
 --- task ---
 
-Add code to make the hippo fly towards the bus:
+Add code to make the hippo fly towards the **City Bus**:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] 
 +repeat [100] 
-point towards (City Bus v)
+point towards (City Bus v) // change from mouse-pointer
 move [3] steps
 next costume
 +end
@@ -68,7 +70,7 @@ Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 when flag clicked
 go to x: [-200] y: [150] 
 + show
-repeat [100] 
+repeat [90] 
 point towards (City Bus v)
 move [3] steps
 next costume
