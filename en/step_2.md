@@ -2,6 +2,8 @@
 
 You will choose a backdrop and add a bus sprite.
 
+![City Bus on school backdrop](images/bus-scene.png){:width="300px"}
+
 --- task ---
 
 Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
@@ -19,13 +21,13 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 
 Click (or tap) on **Choose a Backdrop** from the Stage pane:
 
-![Scratch editor showing Choose a Backdrop selected in the bottom right corner](images/choose-a-backdrop.png)
+![](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click the **Outdoors** category. Add a backdrop that makes a good starting point for your bus. 
+Click the **Outdoors** category. Add a backdrop that makes a good starting point for your bus: 
 
 ![Stage with outdoor backdrop](images/outdoor-backdrop.png)
 
@@ -33,9 +35,9 @@ Click the **Outdoors** category. Add a backdrop that makes a good starting point
 
 --- task ---
 
-Click on 'Choose a sprite'. 
+Click on 'Choose a sprite': 
 
-![Choose a sprite menu](images/choose-sprite-menu.png)
+![](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -43,7 +45,7 @@ Click on 'Choose a sprite'.
 
 Type 'bus' in the search box at the top:
 
-![Sprite search showing bus](images/bus-search.png)
+![](images/bus-search.png)
 
 Add the **City Bus** sprite to your project.
 
@@ -54,7 +56,7 @@ Add the **City Bus** sprite to your project.
 --- task ---
 Make sure the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area. 
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area: 
 
 ![Bus sprite](images/bus-sprite.png)
 
@@ -72,7 +74,7 @@ Drag the bus to a good position on the stage:
 
 The x and y coordinates of the bus show in the Sprite pane below the Stage:
 
-![x and y coordinates of bus in the Sprite pane](images/coords-sprite-pane.png)
+![](images/coords-sprite-pane.png)
 
 
 --- /task ---
@@ -101,7 +103,7 @@ When you drag the bus it goes in front of the cat.
 
 --- task ---
 
-To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}.
+To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
 ![Bus sprite](images/bus-sprite.png)
 
@@ -116,7 +118,7 @@ go to x: (0) y: (-100)
 --- /task ---
 
 --- task ---
-If you want to change the colour of the bus you can:
+You can change the colour of the bus:
 
 ![Bus sprite](images/bus-sprite.png)
 
@@ -131,21 +133,21 @@ go to [back v] layer
 
 --- task ---
 
-The Scratch cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate Scratch cat.
+The Scratch cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate Scratch cat:
 
-![Sprite1 selected in the Sprite list](images/sprite1-selected.png)
+![](images/sprite1-selected.png)
 
 **Tip:** If you have accidently deleted Scratch cat you can click on the **Choose a Sprite** button and search for 'cat'. 
 
 --- /task ---
 
-At the moment Scratch cat is far too big to fit on the bus. 
+At the moment Scratch cat is too big to fit on the bus. 
 
 --- task ---
 
-From the Sprite pane, click in the **Size** property and change the size to `50`
+From the Sprite pane, click in the **Size** property and change the size to `50`:
 
-![the sprite pane with size propery highlighted](images/sprite-pane-size.png)
+![](images/sprite-pane-size.png)
 
 --- /task --- 
 

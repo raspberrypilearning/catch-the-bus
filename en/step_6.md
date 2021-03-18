@@ -2,6 +2,8 @@
 
 What if Scratch cat didn't run fast enough to catch the bus?
 
+![Scratch missing the bus](images/cat-misses-bus.png){:width="300px"}
+
 --- task ---
 Select the cat sprite and add a `wait`{:class="block3control"} block:
 
@@ -11,7 +13,7 @@ Select the cat sprite and add a `wait`{:class="block3control"} block:
 when flag clicked
 go to x:(-200) y:(-150) 
 show
-repeat (30) // try different numbers
+repeat (20) // try different numbers
 move (5) steps 
 next costume 
 + wait (1) seconds
@@ -35,22 +37,18 @@ Change the delay in the `wait`{:class="block3control"} block:
 ![Scratch cat sprite](images/scratch-cat-sprite.png)
 
 ```blocks3
-wait (0.1) seconds // Try 0.2, 0.5, 0.05
+wait (0.2) seconds // Try 0.1, 0.5, 0.05
 ```
 
-**Choose:** Click the green flag to see Scratch walk faster but still miss the bus. Choose the delay that you like best.
+**Choose:** Click the green flag to see Scratch walk faster. Choose the delay that you like best.
 
 --- /task ---
-
-At the moment Scratch cat disappears even though they have missed the bus. 
-
-Will Scratch cat make it to the bus on time or not? It's your choice.
 
 **Choose:** Choose if you want Scratch to **miss the bus** or **catch the bus**.
 
 --- task ---
 
-If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that Scratch cat stays on the Stage.
+If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that Scratch cat stays on the Stage:
 
 ![](images/removing-blocks-at-script-ends.gif)
 
@@ -60,7 +58,7 @@ If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3loo
 when flag clicked
 go to x:(-200) y:(-150) 
 show
-repeat (30) 
+repeat (20) 
 move (5) steps 
 next costume
 wait (0.5) seconds 
@@ -76,7 +74,7 @@ If you want Scratch to **catch the bus**, make the bus wait longer before leavin
 ![Bus sprite](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [5] // change from 3 to 5
++when [timer v] > [6] // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right of Stage
 ```
 

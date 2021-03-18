@@ -4,6 +4,8 @@ Now you can add a sprite of your choice to your animation. You will need to add 
 
 **Tip:** When you click 'Choose a sprite', you can hover over a sprite to see its costumes and find a sprite that works well for animation. 
 
+![Bus with Maker Festival text](images/bus-upgrade.png){:width="300px"}
+
 You can use any of the blocks you learned about in this project as well as those you already know:
 
 ```blocks3
@@ -41,4 +43,14 @@ set [color v] effect to [50] // up to 200
 
 You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites. You could set the colour effect of the bus. Maybe one of the sprites misses the bus and doesn't hide. 
 
+--- collapse ---
 
+---
+title: Completed project
+---
+
+You can view the [completed project](https://scratch.mit.edu/projects/485673032/).
+
+--- /collapse ---
+
+--- save ---

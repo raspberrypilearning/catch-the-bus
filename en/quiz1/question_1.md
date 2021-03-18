@@ -17,7 +17,7 @@ legend: Question 1 of 3
 In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [5] 
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -31,22 +31,22 @@ When does the bus glide away?
 The code has a timer block before the bus glides away.
   --- /feedback ---
 
-- (x) Three seconds after you click the green flag.
+- (x) Four seconds after you click the green flag.
 
   --- feedback ---
-After you click the green flag,  there is a three second wait before the bus glides away.
+After you click the green flag,  there is a four second wait before the bus glides away.
   --- /feedback ---
 
 - () When you click on the bus. 
 
   --- feedback ---
-The bus doesn't have any code that runs `when this sprite clicked`.
+The bus doesn't have any code that runs `when this sprite clicked`{:class="block3events"}.
   --- /feedback ---
 
-- ( ) When you open your project.
+- ( ) Two seconds after you click the green flag.
 
   --- feedback ---
-  The bus won't move when you open your project, there's something you need to do..
+  The bus takes two seconds to glide away but this is not how long it waits before moving.
   --- /feedback ---
 
 --- /choices ---
