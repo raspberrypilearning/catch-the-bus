@@ -11,7 +11,7 @@ Select the cat sprite and add a `wait`{:class="block3control"} block:
 
 ```blocks3
 when flag clicked
-go to x:(-200) y:(-150) 
+go to x:(200) y:(-150) 
 show
 repeat (20) // try different numbers
 move (5) steps 
@@ -55,7 +55,7 @@ If you want Scratch cat to **miss the bus**, remove the `hide`{:class="block3loo
 
 ```blocks3
 when flag clicked
-go to x:(-200) y:(-150) 
+go to x:(200) y:(-150) 
 show
 repeat (20) 
 move (5) steps 
