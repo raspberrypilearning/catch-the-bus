@@ -77,7 +77,9 @@ Add a `show`{:class="block3looks"} block to your when green flag is clicked scri
 
 ```blocks3
 when flag clicked
-go to x: [0] y: [-100] 
+go to x: (0) y: (-100)
+go to [back v] layer
+set [color v] effect to (50) // Try numbers up to 200
 +show
 ```
 
