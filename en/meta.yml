@@ -1,6 +1,6 @@
 title: Catch the bus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off.
+description: Code sprites to walk or fly to the bus before it drives off
 version: 4
 listed: false
 copyedit: false
@@ -8,8 +8,8 @@ last_tested: 2021-02-17
 steps:
   - title: Introduction
   - title: Create your bus scene
-  - title: Scratch Cat catches the bus
-  - title: Hippo flies to the bus
+  - title: The Scratch Cat catches the bus
+  - title: The hippo flies to the bus
   - title: The bus leaves
   - title: Missing the bus
   - title: Change the destination

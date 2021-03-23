@@ -1,12 +1,12 @@
 ## Upgrade your project
 
-Now you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a start position `point`{:class="block3motion"} in the right direction and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
 
-**Tip:** When you click 'Choose a sprite', you can hover over a sprite to see its costumes and find a sprite that works well for animation. 
+**Tip:** When you click on **Choose a sprite**, you can hover over a sprite to see its costumes and find a sprite that works well for animation. 
 
-![Bus with Maker Festival text](images/bus-upgrade.png){:width="300px"}
+![Bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks you learned about in this project as well as those you already know:
+You can use any of the blocks that you learned about in this project, as well as those that you already know:
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ You can also 'remix' the project to make any changes you like. You could add sou
 title: Completed project
 ---
 
-You can view the [completed project](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
 
