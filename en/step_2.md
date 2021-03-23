@@ -2,7 +2,7 @@
 
 You will choose a backdrop and add a bus sprite.
 
-![City Bus on school backdrop](images/bus-scene.png){:width="300px"}
+![City Bus on school backdrop.](images/bus-scene.png){:width="300px"}
 
 --- task ---
 
@@ -14,7 +14,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 
 --- task ---
 
-Click (or tap) on **Choose a Backdrop** from the Stage pane:
+Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane:
 
 ![](images/choose-a-backdrop.png)
 
@@ -22,9 +22,9 @@ Click (or tap) on **Choose a Backdrop** from the Stage pane:
 
 --- task ---
 
-Click the **Outdoors** category. Add a backdrop that makes a good starting point for your bus: 
+Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus: 
 
-![Stage with outdoor backdrop](images/outdoor-backdrop.png)
+![The Stage with an outdoor backdrop.](images/outdoor-backdrop.png)
 
 --- /task ---
 
@@ -38,7 +38,7 @@ Click on **Choose a Sprite**:
 
 --- task ---
 
-Type 'bus' in the search box at the top:
+Type `bus` in the search box at the top:
 
 ![](images/bus-search.png)
 
@@ -46,14 +46,14 @@ Add the **City Bus** sprite to your project.
 
 --- /task ---
 
- In Scratch you run projects by clicking on the green flag above the stage. Your bus needs to be in its start position `when green flag clicked`{:class="block3events"}.
+ In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
 
 --- task ---
-Make sure the **City Bus** sprite is selected in the Sprite list below the Stage.
+Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu to the Code area: 
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area: 
 
-![Bus sprite](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -63,11 +63,11 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the stage:
+Drag the bus to a good position on the Stage:
 
-![bus at bottom middle of Stage](images/bus-bottom-middle.png)
+![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
 
-The x and y coordinates of the bus show in the Sprite pane below the Stage:
+The **x** and **y** coordinates of the bus are shown in the Sprite pane below the Stage:
 
 ![](images/coords-sprite-pane.png)
 
@@ -75,32 +75,32 @@ The x and y coordinates of the bus show in the Sprite pane below the Stage:
 --- /task ---
 
 --- task ---
-Add a `go to x: () y: ()`{:class="block3motion"} block:
+Add a `go to x: y:`{:class="block3motion"} block:
 
-![Bus sprite](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: () y: ()`{:class="block3motion"} are the current x and y coordinates of the bus. Your numbers might be slightly different. 
+The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage and then click the green flag. The bus should always go to its starting position.
+**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
 
 --- /task ---
 
-When you drag the bus it goes in front of the cat. 
+When you drag the bus, it goes in front of the cat. 
 
 --- task ---
 
-To make sure the **City Bus** sprite is always behind all the character sprites, add a `go to [front v] layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
-![Bus sprite](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -108,14 +108,14 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you can't see the `go to [front v] layer`{:class="block3looks"} block you will need to scroll down in the `Looks`{:class="block3looks"} Blocks menu.
+**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
 
 --- /task ---
 
 --- task ---
 You can change the colour of the bus:
 
-![Bus sprite](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -128,19 +128,19 @@ go to [back v] layer
 
 --- task ---
 
-The Scratch cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate Scratch cat:
+The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate the Scratch Cat:
 
 ![](images/sprite1-selected.png)
 
-**Tip:** If you have accidently deleted Scratch cat you can click on the **Choose a Sprite** button and search for 'cat'. 
+**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click the **Choose a Sprite** button and search for `cat`. 
 
 --- /task ---
 
-At the moment Scratch cat is too big to fit on the bus. 
+At the moment, the Scratch Cat is too big to fit on the bus. 
 
 --- task ---
 
-From the Sprite pane, click in the **Size** property and change the size to `50`:
+In the Sprite pane, click in the **Size** property and change the size to `50`:
 
 ![](images/sprite-pane-size.png)
 
