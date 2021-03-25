@@ -1,8 +1,13 @@
 ## The bus leaves
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
-
+</div>
+<div>
 ![Scratch walking to the bus.](images/bus-leaving.png){:width="300px"}
+</div>
+</div>
 
 The bus will drive off to the right five seconds after the green flag is clicked. The `when timer`{:class="block3events"} block runs the blocks below it after this time delay.
 

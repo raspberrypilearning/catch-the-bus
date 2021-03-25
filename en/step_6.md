@@ -1,8 +1,13 @@
 ## Missing the bus
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 What if the Scratch Cat did not run fast enough to catch the bus?
-
+</div>
+<div>
 ![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:

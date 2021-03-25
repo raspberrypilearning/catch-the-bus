@@ -1,8 +1,13 @@
 ## Create your bus scene
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You will choose a backdrop and add a bus sprite.
-
+</div>
+<div>
 ![City Bus on school backdrop.](images/bus-scene.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
