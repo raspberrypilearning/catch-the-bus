@@ -1,9 +1,13 @@
 ## Change the destination
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
-
+</div>
+<div>
 ![Bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
-
+</div>
+</div>
 
 --- task ---
 Select the **City Bus** sprite and click on the **Costumes** tab:
