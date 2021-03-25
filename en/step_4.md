@@ -1,8 +1,13 @@
 ## The hippo flies to the bus
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You will add a hippo sprite that flies to the bus.
-
+</div>
+<div>
 ![Hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+</div>
+</div>
 
 The **Hippo1** sprite has two costumes with wings in different positions, so it can be animated to fly to the bus.
 
