@@ -41,7 +41,7 @@ Change the delay in the `wait`{:class="block3control"} block:
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
-wait (0.2) seconds // Try 0.1, 0.5, 0.05
+wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
 **Choose:** Click on the green flag to see the Scratch Cat walk faster. Choose the delay that you like the most.
@@ -78,7 +78,7 @@ If you want the Scratch Cat to **catch the bus**, make the bus wait longer befor
 
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right of Stage
+glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 ```
 
 You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.

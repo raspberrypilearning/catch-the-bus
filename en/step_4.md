@@ -5,11 +5,11 @@
 You will add a hippo sprite that flies to the bus.
 </div>
 <div>
-![Hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so it can be animated to fly to the bus.
+The **Hippo1** sprite has two costumes with wings in different positions, so they can be animated to fly to the bus.
 
 --- task ---
 
@@ -24,24 +24,24 @@ Change the **Size** of the **Hippo1** sprite:
 --- task ---
 Drag the hippo to the top left-hand side of the Stage:
 
-![The Hippo1 sprite at the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to its starting position:
+Add code to get the hippo to their starting position:
 
 ```blocks3
 when flag clicked
-go to x: [-200] y: [150] // top left
+go to x: [-200] y: [150] // top left-hand side
 ```
 
 **Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
 
 --- /task ---
 
-The hippo will fly towards the bus, flapping its wings. 
+The hippo will fly towards the bus, flapping their wings. 
 
 The hippo will `point towards`{:class="block3motion"} the bus before moving.
 
@@ -62,7 +62,7 @@ next costume
 --- /task ---
 
 --- task ---
-**Test:** Click on the green flag to see the hippo fly to the bus. You can change the number of repeats to get the hippo to stop in just the right place. 
+**Test:** Click on the green flag to see the hippo fly to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place. 
 --- /task ---
 
 Now, the hippo will enter the bus.
@@ -83,7 +83,7 @@ end
 + hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that the sprite is visible when it needs to be.
+**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
 
 --- /task ---
 

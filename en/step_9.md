@@ -4,7 +4,7 @@ Now, you can add a sprite of your choice to your animation. You will need to add
 
 **Tip:** When you click on **Choose a sprite**, you can hover over a sprite to see its costumes and find a sprite that works well for animation. 
 
-![Bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![A bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
 
 You can use any of the blocks that you learned about in this project, as well as those that you already know:
 
@@ -13,13 +13,13 @@ when flag clicked
 
 when [timer v] > [5]
 
-go to x: [0] y: [0] // drag sprite to choose x and y
+go to x: [0] y: [0] // drag the sprite to choose x and y
 
 show
 
 hide
 
-glide [2] secs to x: [0] y: [-100] // bottom middle of Stage
+glide [2] secs to x: [0] y: [-100] // bottom middle of the Stage
 
 repeat [30]
 end
@@ -41,7 +41,7 @@ wait [0.1] seconds // short delay
 set [color v] effect to [50] // up to 200
 ```
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites. You could set the colour effect of the bus. Maybe one of the sprites misses the bus and doesn't hide. 
+You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
 
 --- collapse ---
 
