@@ -11,7 +11,7 @@ You will choose a backdrop and add a bus sprite.
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 
@@ -137,7 +137,7 @@ The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite
 
 ![](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1 (Scratch Cat)** sprite, you can click the **Choose a Sprite** button and search for `cat`. 
+**Tip:** If you have accidentally deleted the **Sprite1 (Scratch Cat)** sprite, you can click on the **Choose a Sprite** icon and search for `cat`. 
 
 --- /task ---
 

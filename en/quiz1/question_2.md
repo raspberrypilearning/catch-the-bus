@@ -16,7 +16,7 @@ If you drag a sprite to a new position on the Stage, which properties will be up
 To change the direction of the sprite, you need to go to the **Direction** property and change it.
   --- /feedback ---
 
-- (x) The x and y coordinates ![](images/coordinates.png)
+- (x) The x and y coordinates of the sprite ![](images/coordinates.png)
 
   --- feedback ---
 When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.

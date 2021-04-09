@@ -5,7 +5,7 @@
 A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
 </div>
 <div>
-![The School backdrop showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
 </div>
 </div>
 
