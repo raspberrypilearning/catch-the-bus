@@ -4,9 +4,9 @@
 legend: Question 3 of 3
 ---
 
-In your project, you made hippo fly and Scratch cat walk to the bus.
+In your project, you made the hippo fly and the Scratch Cat walk to the bus.
 
-![](images/dog-run.gif)
+![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
 
 Which of these scripts uses a loop to make the dog run?
 
@@ -32,7 +32,7 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here and so the dog would not run. To make the dog run you would have to add a loop.
+There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
   --- /feedback ---
 
 - () 
@@ -62,7 +62,7 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here and so the dog would not run. To make the dog run you would have to add a loop.
+There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
   --- /feedback ---
 
 --- /choices ---

@@ -5,13 +5,13 @@
 You will choose a backdrop and add a bus sprite.
 </div>
 <div>
-![City Bus on school backdrop.](images/bus-scene.png){:width="300px"}
+![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 
@@ -19,7 +19,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane:
+Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
 
 ![](images/choose-a-backdrop.png)
 
@@ -29,7 +29,7 @@ Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane:
 
 Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus: 
 
-![The Stage with an outdoor backdrop.](images/outdoor-backdrop.png)
+![The Stage with the School backdrop.](images/outdoor-backdrop.png)
 
 --- /task ---
 
@@ -45,7 +45,7 @@ Click on **Choose a Sprite**:
 
 Type `bus` in the search box at the top:
 
-![](images/bus-search.png)
+![The search box highlighted in the Sprite Library.](images/bus-search.png)
 
 Add the **City Bus** sprite to your project.
 
@@ -72,7 +72,7 @@ Drag the bus to a good position on the Stage:
 
 ![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates of the bus are shown in the Sprite pane below the Stage:
+The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
 ![](images/coords-sprite-pane.png)
 
@@ -86,7 +86,7 @@ Add a `go to x: y:`{:class="block3motion"} block:
 
 ```blocks3
 when flag clicked
-+go to x: (0) y: (-100)
++go to x: (-7) y: (-119)
 ```
 
 The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
@@ -99,17 +99,17 @@ The numbers in the `go to x: y:`{:class="block3motion"} block are the current x 
 
 --- /task ---
 
-When you drag the bus, it goes in front of the cat. 
+When you drag the bus, it goes in front of the Scratch Cat. 
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block. Click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (-100)
+go to x: (-7) y: (-119)
 + go to [back v] layer
 ```
 
@@ -124,20 +124,20 @@ You can change the colour of the bus:
 
 ```blocks3
 when flag clicked
-go to x: (0) y: (-100)
+go to x: (-7) y: (-119)
 go to [back v] layer
-+set [color v] effect to (50) // Try numbers up to 200
++set [color v] effect to (50) // try numbers up to 200
 ```
 
 --- /task ---
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite to get ready to animate the Scratch Cat:
+The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
 
 ![](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click the **Choose a Sprite** button and search for `cat`. 
+**Tip:** If you have accidentally deleted the **Sprite1 (Scratch Cat)** sprite, you can click on the **Choose a Sprite** icon and search for `cat`. 
 
 --- /task ---
 

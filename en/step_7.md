@@ -5,7 +5,7 @@
 The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
 </div>
 <div>
-![Bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
 </div>
 </div>
 
@@ -23,7 +23,7 @@ Click on the white "Scratch Tours" text to select it, and then click on **Delete
 
 --- /task ---
 
-**Tip:** You can use the **Delete** button in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
 
 --- task ---
 Select the **Text** (writing) tool.
@@ -37,7 +37,7 @@ To change the font (writing style), you can click on the **Font** drop-down menu
 --- /task ---
 
 --- task ---
-Click on the **Select** (arrow) tool, and then drag the text to position it on the bus:
+Click on the **Select (Arrow)** tool, then drag the text to position it on the bus:
 
 ![](images/bus-destination-centered.png)
 

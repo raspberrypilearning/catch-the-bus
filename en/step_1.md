@@ -25,9 +25,9 @@ Which sprites change their costumes to create an animation effect?
 --- /no-print ---
 
 --- print-only ---
-![Completed project.](images/showcase_static.png)
+![The completed project.](images/showcase_static.png)
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wood blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
 </p>

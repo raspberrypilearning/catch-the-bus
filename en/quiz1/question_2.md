@@ -13,25 +13,25 @@ If you drag a sprite to a new position on the Stage, which properties will be up
 - ( ) The direction of the sprite ![](images/direction.png)
 
   --- feedback ---
-To change the direction of the sprite, you need to go to the direction property and change it.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
   --- /feedback ---
 
-- (x) The x and y coordinates ![](images/coordinates.png)
+- (x) The x and y coordinates of the sprite ![](images/coordinates.png)
 
   --- feedback ---
-When you drag a Sprite to a new position, the x and y coordinates are automatically updated.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
   --- /feedback ---
 
 - ( ) Whether the sprite will show or hide ![](images/visibility.png)
 
   --- feedback ---
-Using the eye and eye crossed out icons will make the sprite show or hide.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
   --- /feedback ---
 
 - ( ) The size of the sprite ![](images/size.png)
 
   --- feedback ---
-To change the size of the sprite, you need to go to the size property and change the number there.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
   --- /feedback ---
 
 --- /choices ---
