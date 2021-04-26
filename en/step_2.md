@@ -86,7 +86,7 @@ Add a `go to x: y:`{:class="block3motion"} block:
 
 ```blocks3
 when flag clicked
-+go to x: (-7) y: (-119)
++go to x: (0) y: (-100)
 ```
 
 The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
@@ -109,7 +109,7 @@ To make sure that the **City Bus** sprite is always behind all the character spr
 
 ```blocks3
 when flag clicked
-go to x: (-7) y: (-119)
+go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
@@ -124,7 +124,7 @@ You can change the colour of the bus:
 
 ```blocks3
 when flag clicked
-go to x: (-7) y: (-119)
+go to x: (0) y: (-100)
 go to [back v] layer
 +set [color v] effect to (50) // try numbers up to 200
 ```
