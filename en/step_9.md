@@ -41,12 +41,6 @@ wait [0.1] seconds // short delay
 set [color v] effect to [50] // up to 200
 ```
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
-
-Thanks to digital maker Lyla for sending this fantastic upgrade!
-
-![A flashing colour bus project.](images/Lyla-bus.gif)
-
 --- collapse ---
 
 ---
@@ -56,5 +50,11 @@ title: Completed project
 You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
+
+You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+
+Thanks to digital maker Lyla for sending this fantastic upgrade!
+
+![A flashing colour bus project.](images/Lyla-bus.gif)
 
 --- save ---
