@@ -4,7 +4,7 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- print-only ---
 
-![The 'Find the bug' title page.](images/find-the-bug.png)
+![The 'Find the bug' project.](images/find-the-bug.png)
 
 --- /print-only ---
 

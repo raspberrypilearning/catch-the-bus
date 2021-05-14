@@ -62,7 +62,7 @@ next costume
 --- /task ---
 
 --- task ---
-**Test:** Click on the green flag to see the hippo fly to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place. 
+**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place. 
 --- /task ---
 
 Now, the hippo will enter the bus.
@@ -83,12 +83,10 @@ end
 + hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
-
 --- /task ---
 
 --- task ---
-**Test:** Click on the green flag to see the hippo fly and enter the bus. 
+**Test:** Click on the green flag. The hippo will fly and enter the bus.
 --- /task ---
 
 --- save ---

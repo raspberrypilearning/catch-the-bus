@@ -28,7 +28,7 @@ hide
 --- /task ---
 
 --- task ---
-**Test:** Click on the green flag to see the Scratch Cat walk too slowly and miss the bus!
+**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
 
 --- /task ---
 
@@ -44,7 +44,7 @@ Change the delay in the `wait`{:class="block3control"} block:
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Choose:** Click on the green flag to see the Scratch Cat walk faster. Choose the delay that you like the most.
+**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
 
 --- /task ---
 
