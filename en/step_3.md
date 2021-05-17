@@ -51,7 +51,7 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 ### Animate the Scratch Cat
 
-To animate the Scratch Cat, you will add code to repeat a small number of steps many times in a `repeat`{:class="block3control"} loop. 
+You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
 
 --- task ---
 
@@ -103,7 +103,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to see the Scratch Cat walk to the bus. 
+**Test:** Click on the green flag, and the Scratch Cat will walk to the bus. 
 
 --- /task ---
 
@@ -133,7 +133,7 @@ end
 
 --- /task ---
 
-To get the Scratch Cat back and run the animation again, you need the Scratch Cat to show.
+The Scratch Cat needs to reappear when you run the animation again.
 
 --- task ---
 
@@ -151,6 +151,8 @@ next costume
 end
 hide
 ```
+
+**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
 
 --- /task ---
 
