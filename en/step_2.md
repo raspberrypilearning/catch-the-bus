@@ -135,9 +135,9 @@ go to [back v] layer
 
 The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
 
-![](images/sprite1-selected.png)
+![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1 (Scratch Cat)** sprite, you can click on the **Choose a Sprite** icon and search for `cat`. 
+**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`. 
 
 --- /task ---
 
@@ -145,7 +145,7 @@ At the moment, the Scratch Cat is too big to fit on the bus.
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the size to `50`:
+In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
 
 ![](images/sprite-pane-size.png)
 
