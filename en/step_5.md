@@ -44,7 +44,7 @@ Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="
 --- task ---
 Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block. 
 
-Your `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates might be a bit different:
+The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different:
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
@@ -60,7 +60,7 @@ when [timer v] > [4]
 --- /task ---
 
 --- task ---
-Add a `hide`{:class="block3looks"} block to make the bus look like it drives off the Stage:
+Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
