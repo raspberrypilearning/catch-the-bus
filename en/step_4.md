@@ -9,7 +9,7 @@ You will add a hippo sprite that flies to the bus.
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so they can be animated to fly to the bus.
+The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
 
 --- task ---
 
@@ -17,12 +17,12 @@ Add the **Hippo1** sprite to your project.
 
 Change the **Size** of the **Hippo1** sprite:
 
-![The Sprite pane for the Hippo1 sprite with the size set to 50.](images/hippo-sprite-size.png)
+![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
-Drag the hippo to the top left-hand side of the Stage:
+Drag the hippo to the top left-hand side of the Stage.
 
 ![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
