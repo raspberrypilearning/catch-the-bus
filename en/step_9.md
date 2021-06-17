@@ -4,7 +4,7 @@ Now, you can add a sprite of your choice to your animation. You will need to add
 
 **Tip:** When you click on **Choose a Sprite**, you can hover over a sprite to see its costumes and find a sprite that works well for animation. 
 
-![A bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
 
 You can use any of the blocks that you learned about in this project, as well as those that you already know:
 
