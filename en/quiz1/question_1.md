@@ -4,7 +4,7 @@ Well done, you have learned a lot! Now, it's time to reflect — reflecting is a
 
 Answer the three questions below to reflect on what you have learned.
 
-When you have answered each question, press **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -46,7 +46,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 - ( ) Two seconds after you click on the green flag
 
   --- feedback ---
-  The bus takes two seconds to glide away, but this is not how long it waits before it moves.
+  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
   --- /feedback ---
 
 --- /choices ---
