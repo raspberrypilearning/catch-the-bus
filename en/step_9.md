@@ -55,6 +55,6 @@ You can also 'remix' the project to make any changes you like. You could add sou
 
 Thanks to digital maker Lyla for sending this fantastic upgrade!
 
-![A flashing colour bus project.](images/Lyla-bus.gif)
+![A project with a bus with flashing colours.](images/Lyla-bus.gif)
 
 --- save ---
