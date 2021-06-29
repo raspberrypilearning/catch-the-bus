@@ -32,12 +32,12 @@ Click on the bus where you want your text to start, and type the destination of 
 
 To change the font (writing style), you can click on the **Font** drop-down menu:
 
-![The 'Font' menu selected in the top middle of the Paint editor.](images/bus-text-font.png)
+![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
-Click on the **Select (Arrow)** tool, then drag the text to position it on the bus.
+Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
 
 ![](images/bus-destination-centered.png)
 
