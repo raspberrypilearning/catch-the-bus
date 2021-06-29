@@ -32,7 +32,7 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
+There is no loop here, so the dog would not run. To make the dog run, you would have to add a loop.
   --- /feedback ---
 
 - () 
@@ -62,7 +62,7 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
+There is no loop here, so the dog would not run. To make the dog run, you would have to add a loop.
   --- /feedback ---
 
 --- /choices ---
