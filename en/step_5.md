@@ -56,7 +56,7 @@ when [timer v] > [4]
 --- /task ---
 
 --- task ---
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after five seconds. 
+**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds. 
 --- /task ---
 
 --- task ---
