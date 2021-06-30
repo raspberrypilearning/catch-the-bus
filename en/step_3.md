@@ -9,15 +9,13 @@ You will animate the Scratch Cat to appear on the **right-hand side** of the Sta
 </div>
 </div>
 
-### Get the Scratch Cat into the starting position
+### Get the Scratch Cat into their starting position
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane, and rotate the arrow to point to `-90`. 
+Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
-
-![](images/sprite-pane-direction.png)
+![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
 
 --- /task ---
 
@@ -32,7 +30,7 @@ Drag the Scratch Cat to the bottom right-hand side of the Stage.
 
 --- task ---
 
-Add code to get the Scratch Cat to the starting position:
+Add code to get the Scratch Cat to their starting position:
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -57,7 +55,7 @@ You will add code in a `repeat`{:class="block3control"} loop to make the Scratch
 
 Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it: 
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the loop.](images/block-into-loop.gif)
+![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -107,7 +105,7 @@ end
 
 --- /task ---
 
-Now, we want the Scratch Cat to appear to enter the bus. 
+Now, you will make the Scratch Cat seem to enter the bus. 
 
 --- task ---
 

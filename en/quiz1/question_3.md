@@ -8,7 +8,7 @@ In your project, you made the hippo fly and the Scratch Cat walk to the bus.
 
 ![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
 
-Which of these scripts uses a loop to make the dog run?
+Which of these scripts uses a **loop** to make the dog run?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ next costume
 ```
 
   --- feedback ---
-The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
   --- /feedback ---
 
 - ( ) 
@@ -32,9 +32,9 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
+This code will make the dog move, but only once. There's no loop here so the code will not repeat.
   --- /feedback ---
-
+  
 - () 
 ```blocks3
 when flag clicked
@@ -51,7 +51,7 @@ move (5) steps
 ```
 
   --- feedback ---
-This code makes the dog run, but it does not use a loop. It is always better to use a loop in programming when you can.
+This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
   --- /feedback ---
 
 - ( ) 
@@ -62,7 +62,7 @@ move (5) steps
 ```
 
   --- feedback ---
-There is no loop here, and so the dog would not run. To make the dog run, you would have to add a loop.
+There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
   --- /feedback ---
 
 --- /choices ---
