@@ -9,7 +9,7 @@ A group of connected blocks in Scratch is called a **script**. You will add a ne
 </div>
 </div>
 
-The bus will drive off to the right five seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
+The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
 
 --- task ---
 
