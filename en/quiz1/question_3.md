@@ -32,7 +32,7 @@ move (5) steps
 ```
 
   --- feedback ---
-This code will make the dog move, but only once. There's no loop here so the code will not repeat.
+This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
   --- /feedback ---
   
 - () 
