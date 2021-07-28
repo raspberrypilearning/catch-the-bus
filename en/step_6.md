@@ -79,6 +79,7 @@ If you want the Scratch Cat to **catch the bus**, make the bus wait longer befor
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+hide
 ```
 
 You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
