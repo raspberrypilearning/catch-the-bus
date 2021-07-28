@@ -54,7 +54,7 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![](images/removing-blocks-at-script-ends.gif)
+![Dragging the hide block from the script in the Code area to the blocks menu. The block is then removed from the script.](images/removing-blocks-at-script-ends.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -79,6 +79,7 @@ If you want the Scratch Cat to **catch the bus**, make the bus wait longer befor
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+hide
 ```
 
 You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
