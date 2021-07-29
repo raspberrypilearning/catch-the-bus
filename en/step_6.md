@@ -54,7 +54,7 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![Dragging the hide block from the script in the Code area to the blocks menu. The block is then removed from the script.](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
