@@ -5,19 +5,19 @@
 You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 </div>
 <div>
+
 ![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+
 </div>
 </div>
 
-### Get the Scratch Cat into the starting position
+### Get the Scratch Cat into their starting position
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane, and rotate the arrow to point to `-90`.
+Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
-
-![](images/sprite-pane-direction.png)
+![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
 
 --- /task ---
 
@@ -32,7 +32,7 @@ Drag the Scratch Cat to the bottom right-hand side of the Stage.
 
 --- task ---
 
-Add code to get the Scratch Cat to the starting position:
+Add code to get the Scratch Cat to their starting position:
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -51,13 +51,13 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 ### Animate the Scratch Cat
 
-To animate the Scratch Cat, you will add code to repeat a small number of steps many times in a `repeat`{:class="block3control"} loop.
+You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
 
 --- task ---
 
 Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the loop.](images/block-into-loop.gif)
+![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -103,11 +103,11 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to see the Scratch Cat walk to the bus.
+**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
 
 --- /task ---
 
-Now, we want the Scratch Cat to appear to enter the bus.
+Now, you will make the Scratch Cat seem to enter the bus.
 
 --- task ---
 
@@ -133,7 +133,7 @@ end
 
 --- /task ---
 
-To get the Scratch Cat back and run the animation again, you need the Scratch Cat to show.
+The Scratch Cat needs to reappear when you run the animation again.
 
 --- task ---
 
@@ -151,6 +151,8 @@ next costume
 end
 hide
 ```
+
+**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
 
 --- /task ---
 
