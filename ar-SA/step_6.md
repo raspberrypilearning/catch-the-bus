@@ -5,11 +5,15 @@
 What if the Scratch Cat did not run fast enough to catch the bus?
 </div>
 <div>
+
 ![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+
 </div>
 </div>
 
---- task --- Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+--- task ---
+
+Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -26,7 +30,9 @@ hide
 ```
 --- /task ---
 
---- task --- **Test:** Click on the green flag to see the Scratch Cat walk too slowly and miss the bus!
+--- task ---
+
+**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
 
 --- /task ---
 
@@ -42,7 +48,7 @@ Change the delay in the `wait`{:class="block3control"} block:
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Choose:** Click on the green flag to see the Scratch Cat walk faster. Choose the delay that you like the most.
+**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
 
 --- /task ---
 
@@ -52,7 +58,7 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
@@ -69,20 +75,25 @@ end
 ```
 --- /task ---
 
---- task --- If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+--- task ---
+
+If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+hide
 ```
 
 You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
 
 --- /task ---
 
---- task --- Make changes until you get the animation to work the way that you want it to.
+--- task ---
+
+Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---
 
