@@ -5,7 +5,9 @@
 You will add a hippo sprite that flies to the bus.
 </div>
 <div>
+
 ![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+
 </div>
 </div>
 
@@ -22,6 +24,7 @@ Change the **Size** of the **Hippo1** sprite:
 --- /task ---
 
 --- task ---
+
 Drag the hippo to the top left-hand side of the Stage.
 
 ![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
@@ -62,7 +65,9 @@ next costume
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place. 
+
 --- /task ---
 
 Now, the hippo will enter the bus.
@@ -86,7 +91,9 @@ end
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag. The hippo will fly and enter the bus.
+
 --- /task ---
 
 --- save ---

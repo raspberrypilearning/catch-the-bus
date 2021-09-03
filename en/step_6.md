@@ -5,11 +5,14 @@
 What if the Scratch Cat did not run fast enough to catch the bus?
 </div>
 <div>
+
 ![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+
 </div>
 </div>
 
 --- task ---
+
 Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
@@ -28,6 +31,7 @@ hide
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
 
 --- /task ---
@@ -72,6 +76,7 @@ end
 --- /task ---
 
 --- task ---
+
 If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
 ![The City Bus sprite.](images/bus-sprite.png)
@@ -87,6 +92,7 @@ You will need to put the `hide`{:class="block3looks"} block back in the **Scratc
 --- /task ---
 
 --- task ---
+
 Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---

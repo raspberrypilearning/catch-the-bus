@@ -5,7 +5,9 @@
 A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
 </div>
 <div>
+
 ![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+
 </div>
 </div>
 
@@ -42,6 +44,7 @@ Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="
 --- /task ---
 
 --- task ---
+
 Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block. 
 
 The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
@@ -56,10 +59,13 @@ when [timer v] > [4]
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds. 
+
 --- /task ---
 
 --- task ---
+
 Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
 
 ![The City Bus sprite.](images/bus-sprite.png)
@@ -72,10 +78,13 @@ glide [2] secs to x: [320] y: [-100]
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+
 --- /task ---
 
 --- task ---
+
 Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
 
 ![The City Bus sprite.](images/bus-sprite.png)
@@ -91,9 +100,11 @@ set [color v] effect to (50) // try numbers up to 200
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear. 
 
 Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+
 --- /task ---
 
 --- save ---
