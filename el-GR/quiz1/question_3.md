@@ -1,5 +1,4 @@
 --- question ---
-
 ---
 legend: Question 3 of 3
 ---
@@ -20,7 +19,11 @@ move (5) steps
 next costume
 ```
 
-  --- feedback --- Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run. --- /feedback ---
+  --- feedback ---
+
+Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+
+  --- /feedback ---
 
 - ( )
 ```blocks3
@@ -29,7 +32,11 @@ next costume
 move (5) steps
 ```
 
-  --- feedback --- This code makes the dog move, but only once. There is no loop here, so the code does not repeat. --- /feedback ---
+  --- feedback ---
+
+This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+
+  --- /feedback ---
 
 - ()
 ```blocks3
@@ -46,7 +53,11 @@ next costume
 move (5) steps
 ```
 
-  --- feedback --- This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter. --- /feedback ---
+  --- feedback ---
+
+This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+
+  --- /feedback ---
 
 - ( )
 ```blocks3
@@ -55,7 +66,11 @@ next costume
 move (5) steps
 ```
 
-  --- feedback --- There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop. --- /feedback ---
+  --- feedback ---
+
+There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+
+  --- /feedback ---
 
 --- /choices ---
 
