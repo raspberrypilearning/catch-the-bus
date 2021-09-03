@@ -5,7 +5,9 @@
 You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 </div>
 <div>
+
 ![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+
 </div>
 </div>
 
