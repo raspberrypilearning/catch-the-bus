@@ -8,6 +8,7 @@ You will:
 + Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
 
 --- no-print --- --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -22,7 +23,11 @@ Which sprites change their costumes to create an animation effect?
 </div>
 --- /task --- --- /no-print ---
 
---- print-only --- ![The completed project.](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![The completed project.](images/showcase_static.png)
+
+--- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
