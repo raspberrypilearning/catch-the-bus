@@ -3,7 +3,7 @@ title: Catch the bus
 hero_image: images/banner.png
 description: Code sprites to walk or fly to the bus before it drives off
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
