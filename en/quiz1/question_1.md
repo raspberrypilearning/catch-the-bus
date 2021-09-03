@@ -9,7 +9,6 @@ When you have answered each question, click on **Submit**. You will be guided to
 Have fun!
 
 --- question ---
-
 ---
 legend: Question 1 of 3
 ---
@@ -28,25 +27,33 @@ When does the bus glide away?
 - ( ) Immediately when you click on the green flag
 
   --- feedback ---
+
 The code has a timer block before the bus glides away.
+
   --- /feedback ---
 
 - (x) Four seconds after you click on the green flag
 
   --- feedback ---
+
 After you click on the green flag, there is a four-second wait before the bus glides away.
+
   --- /feedback ---
 
 - () When you click on the bus
 
   --- feedback ---
+
 The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+
   --- /feedback ---
 
 - ( ) Two seconds after you click on the green flag
 
   --- feedback ---
+
   The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  
   --- /feedback ---
 
 --- /choices ---
