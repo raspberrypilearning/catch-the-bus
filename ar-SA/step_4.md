@@ -5,11 +5,13 @@
 You will add a hippo sprite that flies to the bus.
 </div>
 <div>
+
 ![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so they can be animated to fly to the bus.
+The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
 
 --- task ---
 
@@ -17,11 +19,13 @@ Add the **Hippo1** sprite to your project.
 
 Change the **Size** of the **Hippo1** sprite:
 
-![The Sprite pane for the Hippo1 sprite with the size set to 50.](images/hippo-sprite-size.png)
+![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
---- task --- Drag the hippo to the top left-hand side of the Stage:
+--- task ---
+
+Drag the hippo to the top left-hand side of the Stage.
 
 ![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
@@ -60,7 +64,11 @@ next costume
 
 --- /task ---
 
---- task --- **Test:** Click on the green flag to see the hippo fly to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place. --- /task ---
+--- task ---
+
+**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+
+--- /task ---
 
 Now, the hippo will enter the bus.
 
@@ -80,10 +88,12 @@ end
 + hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
-
 --- /task ---
 
---- task --- **Test:** Click on the green flag to see the hippo fly and enter the bus. --- /task ---
+--- task ---
+
+**Test:** Click on the green flag. The hippo will fly and enter the bus.
+
+--- /task ---
 
 --- save ---
