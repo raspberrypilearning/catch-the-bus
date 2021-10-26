@@ -1,29 +1,29 @@
-try numbers up to 200
+tente números até 200
 
-bottom right-hand side
+lado direito inferior
 
-try different numbers
+tente diferentes números
 
-5 is a good walking speed
+5 é uma boa velocidade para se caminhar
 
-top left-hand side
+lado esquerdo superior
 
-change from mouse-pointer
+mudar com o ponteiro do mouse
 
-change 10 to 4
+mude de 10 para 4
 
-right-hand side of the Stage
+lado direito do palco
 
-try 0.1, 0.5, 0.05
+tente 0,1; 0,5 e 0,05
 
-change from 4 to 6
+mudar de 4 para 6
 
-drag the sprite to choose x and y
+arraste o sprite para escolher x e y
 
-bottom middle of the Stage
+meio inferior do palco
 
-point down
+apontar para baixo
 
-short delay
+pequeno curto
 
-up to 200
+até 200
