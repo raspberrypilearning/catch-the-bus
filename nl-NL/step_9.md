@@ -1,12 +1,12 @@
-## Upgrade your project
+## Verbeter je project
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Nu kun je een sprite naar keuze aan je animatie toevoegen. Je moet code toevoegen om je sprite `ga naar`{:class="block3motion"} een startpositie te laten gaan, `richten`{:class="block3motion"} naar de goede richting, en dan `herhaal`{:class ="block3control"} `ga naar`{:class="block3motion"} en `volgende uiterlijk`{:class="block3looks"} blokken gebruiken om de bus te bereiken.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Tip:** Wanneer je klikt op **Kies een sprite**, kun je jouw muiscursor boven een sprite houden om de uiterlijken te zien, of op sommige mobiele apparaten kun je op een sprite tikken en vasthouden om de uiterlijken te zien (als een venster verschijnt wanneer je op een sprite tikt en vasthoudt, tik op de zijkant van het scherm om het venster te sluiten en de uiterlijken te zien). Als je naar de uiterlijken van sprites kijkt, kun je een sprite vinden die goed bij een animatie werkt.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Andere sprites op weg naar een bus met "Maker Festival" tekst.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Je kunt elk van de blokken gebruiken die je in dit project hebt geleerd, evenals de blokken die je al kent:
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/486719199/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Je kunt het project ook 'remixen' om wijzigingen die je leuk vindt aan te brengen. Je zou geluidseffecten aan de bus of andere sprites kunnen toevoegen, of het kleureffect van de bus instellen. Een van de sprites kan de bus missen en niet verdwijnen.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Met dank aan digitale maker Lyla voor het opsturen van deze fantastische upgrade!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Een project met een bus met flitsende kleuren.](images/Lyla-bus.gif)
 
 --- save ---
