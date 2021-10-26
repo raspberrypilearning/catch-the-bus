@@ -1,29 +1,29 @@
-try numbers up to 200
+probeer getallen tot 200
 
-bottom right-hand side
+rechtsonder
 
-try different numbers
+probeer verschillende getallen
 
-5 is a good walking speed
+5 is een goede loopsnelheid
 
-top left-hand side
+linksboven
 
-change from mouse-pointer
+wijzigen van muisaanwijzer
 
-change 10 to 4
+verander 10 naar 4
 
-right-hand side of the Stage
+rechterkant van het speelveld
 
-try 0.1, 0.5, 0.05
+probeer 0.1, 0.5, 0.05
 
-change from 4 to 6
+veranderen van 4 naar 6
 
-drag the sprite to choose x and y
+sleep de sprite om x en y te kiezen
 
-bottom middle of the Stage
+midden onder in het speelveld
 
-point down
+naar beneden wijzen
 
-short delay
+korte vertraging
 
-up to 200
+tot 200
