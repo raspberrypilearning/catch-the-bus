@@ -1,58 +1,58 @@
-## Reflection
+## Reflectie
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Goed gedaan, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
 
-Answer the three questions below to reflect on what you have learned.
+Beantwoord de drie onderstaande vragen om na te denken over wat je hebt geleerd.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Wanneer je elke vraag hebt beantwoord, klik je op **Verzenden**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-In your project, the bus glides away using this code:
+In jouw project glijdt de bus weg met deze code:
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Wanneer glijdt de bus weg?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Onmiddellijk zodra je op de groene vlag klikt
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+De code heeft een tijdblok voordat de bus wegglijdt.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Vier seconden nadat je op de groene vlag hebt geklikt
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze wegglijdt.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Als je op de bus klikt
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+De bus heeft geen code die `wanneer op deze sprite wordt geklikt`{:class="block3events"} uitvoert.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) Twee seconden nadat je op de groene vlag hebt geklikt
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  De bus doet er twee seconden over om weg te glijden, maar zo lang wacht hij niet voordat hij in beweging komt.
 
   --- /feedback ---
 
