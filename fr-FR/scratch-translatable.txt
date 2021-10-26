@@ -1,0 +1,29 @@
+essaye les nombres jusqu'à 200
+
+en bas à droite
+
+essaye différents nombres
+
+5 est une bonne vitesse de marche
+
+en haut à gauche
+
+changement du pointeur de la souris
+
+changer 10 à 4
+
+côté droit de la scène
+
+essaye 0.1, 0.5, 0.05
+
+passer de 4 à 6
+
+fais glisser le sprite pour choisir x et y
+
+en bas au milieu de la scène
+
+pointer vers le bas
+
+court délai
+
+jusqu'à 200
