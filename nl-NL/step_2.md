@@ -13,7 +13,7 @@ Je kiest een achtergrond en voegt een bus-sprite toe.
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Neem de bus startproject](https://scratch.mit.edu/projects/582214330/editor){:target="_ blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
