@@ -1,17 +1,17 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend : Question 3 sur 3
 ---
 
-In your project, you made the hippo fly and the Scratch Cat walk to the bus.
+Dans ton projet, tu as fait voler l'hippopotame et marcher le chat Scratch jusqu'au bus.
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Une animation d'un chien courant de la gauche de la scène vers la droite.](images/dog-run.gif)
 
-Which of these scripts uses a **loop** to make the dog run?
+Lequel de ces scripts utilise une **boucle** pour faire courir le chien ?
 
 --- choices ---
 
-- (x)
+- (X)
 ```blocks3
 when flag clicked
 repeat (5)
@@ -21,7 +21,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Oui! Le bloc `répéter`{:class="block3control"} utilise une boucle pour faire courir le chien.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Ce code fait bouger le chien, mais une seule fois. Il n'y a pas de boucle ici, donc le code ne se répète pas.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Ce code fait courir le chien, mais il n'utilise pas de boucle. L'utilisation d'une boucle peut souvent rendre ton code plus court.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Il n'y a pas de boucle ici, donc le chien ne bougerait qu'une seule fois. Pour faire courir le chien, il faudrait ajouter une boucle.
 
   --- /feedback ---
 
