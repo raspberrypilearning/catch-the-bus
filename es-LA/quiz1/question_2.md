@@ -1,43 +1,43 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pregunta 2 de 3
 ---
 
-The properties of a sprite appear in the Sprite pane below the Stage.
+Las propiedades de un objeto aparecen en el panel de Objetos debajo del escenario.
 
-If you drag a sprite to a new position on the Stage, which properties will be updated?
+Si arrastras un objeto a una nueva posición en el escenario, ¿qué propiedades se actualizarán?
 
 --- choices ---
 
-- ( ) The direction of the sprite ![](images/direction.png)
+- () La dirección del objeto ![](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Para cambiar la dirección del objetos, debes ir a la **Dirección** y cambiarla.
 
   --- /feedback ---
 
-- (x) The x and y coordinates of the sprite ![](images/coordinates.png)
+- (x) Las coordenadas x e y del objeto ![](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Cuando arrastras un objeto a una nueva posición, las coordinadas **x** e **y** se actualizan automáticamente.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will show or hide ![](images/visibility.png)
+- () Si el objeto se mostrará o esconderá ![](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+El uso de los íconos **ojo** y **ojo tachado** hacen que el objeto se muestre o esconda.
 
   --- /feedback ---
 
-- ( ) The size of the sprite ![](images/size.png)
+- () El tamaño del objeto ![](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Para cambiar el tamaño del objeto, debes ir a la propiedad **Tamaño** y cambiar el número allí.
 
   --- /feedback ---
 
