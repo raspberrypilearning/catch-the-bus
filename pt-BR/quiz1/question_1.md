@@ -1,58 +1,58 @@
-## Reflection
+## Reflexão
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Muito bem, você aprendeu muito! Agora, é hora de refletir - refletir é uma parte importante do aprendizado, porque ajuda a fazer novas conexões no em seu cérebro.
 
-Answer the three questions below to reflect on what you have learned.
+Responda às três perguntas abaixo para refletir sobre o que você aprendeu.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Depois de responder a cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta. Você pode repetir quantas vezes quiser.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legenda: Pergunta 1 de 3
 ---
 
-In your project, the bus glides away using this code:
+No projeto, o ônibus sempre vai se afastar com este código:
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Em que momento o ônibus se afasta?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Imediatamente após você clicar na bandeira verde
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+O código tem um bloco de tempo antes do ônibus se afastar.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Quatro segundos após você clicar na bandeira verde
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Depois que você clica na bandeira verde, tem um intervalo de quatro segundo antes que o ônibus se afaste.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Quando você clica no ônibus
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+O ônibus não tem qualquer código que execute `quando este ator é clicado`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) Dois segundos após você clicar na bandeira verde
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  O ônibus leva dois segundos para se afastar, mas não é a mesma quantidade de tempo que ele espera antes de começar a se mover.
 
   --- /feedback ---
 
