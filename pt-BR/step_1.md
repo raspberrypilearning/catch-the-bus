@@ -1,21 +1,21 @@
-## Introduction
+## Introdução
 
-In this project, you will create an animation with sprites that run or fly to catch a bus.
+Neste projeto, você irá criar uma animação com atores que correm ou voam para alcançar um ônibus.
 
-You will:
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
-+ Position sprites on the **Stage**
-+ Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
+Você vai:
++ Fazer com que os atores façam coisas diferentes `quando a bandeira verde for clicada`{:class="block3events"}
++ Posicionar atores no **Palco**
++ Usar um loop do tipo `repeat` para `mover`{:class="block3motion"} e `alternar entre fantasias`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Try it
+### Agora é a sua vez de tentar
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-Click on the green flag to watch the animation. 
+Clique na bandeira verde para assistir a animação. 
 
-Which sprites change their costumes to create an animation effect?
+Quais atores mudam suas fantasias para criar um efeito de animação?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
@@ -25,10 +25,10 @@ Which sprites change their costumes to create an animation effect?
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![O projeto concluído.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+<span style="color: #0faeb0">** Animação **</span> cria o efeito de movimento por alternar entre as imagens rapidamente. Os primeiros animadores esculpiram quadros em blocos de madeira e os usavam como carimbos. É muito mais rápido usar o Scratch para escrever o código da sua animação!
 </p>
