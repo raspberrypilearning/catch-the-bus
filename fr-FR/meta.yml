@@ -1,7 +1,7 @@
 ---
-title: Catch the bus
+title: Prendre le bus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Code les sprites pour marcher ou voler jusqu'au bus avant qu'il ne démarre
 version: 4
 listed: true
 copyedit: false
@@ -10,25 +10,28 @@ steps:
   - 
     title: Introduction
   - 
-    title: Create your bus scene
+    title: Créer ta scène de bus
   - 
-    title: The Scratch Cat catches the bus
+    title: Le chat Scratch attrape le bus
+    completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: L'hippopotame vole vers le bus
   - 
-    title: The bus leaves
+    title: Le bus part
   - 
-    title: Missing the bus
+    title: Rater le bus
   - 
-    title: Change the destination
+    title: Changer de destination
+    completion: internal
   - 
-    title: Reflection
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
+    completion: external
   - 
-    title: What next?
+    title: Et ensuite ?
