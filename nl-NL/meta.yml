@@ -1,0 +1,27 @@
+---
+title: Neem de bus
+hero_image: images/banner.png
+description: Codeer sprites om naar de bus te lopen of te vliegen voordat deze wegrijdt
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Inleiding
+  - title: Creëer je busscène
+  - title: De Scratch-kat haalt de bus
+    completion: engaged
+  - title: Het nijlpaard vliegt naar de bus
+  - title: De bus vertrekt
+  - title: De bus missen
+  - title: Wijzig de bestemming
+    completion: internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Verbeter je project
+    completion: external
+  - title: Wat kun je verder nog doen?
