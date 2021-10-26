@@ -1,10 +1,10 @@
-## What next?
+## Co następne?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+Jeśli podążasz ścieżką [Wprowadzenie do Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), możesz przejść do projektu [Znajdź owada](https://projects.raspberrypi.org/en/projects/find-the-bug). W tym projekcie stworzysz grę, w której będziesz musiał znaleźć owada, który kryje się na każdym poziomie.
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![Projekt „Znajdź owada”.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Jeśli chcesz mieć więcej zabawy podczas odkrywania Scratch, możesz wypróbować dowolny z [tych projektów](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
