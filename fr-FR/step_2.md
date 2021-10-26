@@ -59,7 +59,7 @@ Ajoute le sprite **City Bus** à ton projet.
 
 Assure-toi que le sprite**City Bus** est sélectionné dans la liste Sprite sous la scène.
 
-Fais glisser un `quand le drapeau vert est cliqué sur`  du menu bloc `Événements`{:class="block3events"} vers la zone Code :
+Fais glisser un `quand le drapeau vert est cliqué sur`{:class="block3events"} du menu bloc `Événements`{:class="block3events"} vers la zone Code :
 
 ![Le sprite du City Bus.](images/bus-sprite.png)
 
@@ -142,7 +142,7 @@ Le chat Scratch apparaît dans tous les nouveaux projets Scratch sous la forme *
 
 ![Le sprite Sprite1 sélectionné dans la liste Sprite.](images/sprite1-selected.png)
 
-**Astuce :** Si tu as accidentellement supprimé le sprite **** (Scratch Cat), tu peux cliquer sur l'icon **Choisir un Sprite** et rechercher `cat`.
+**Astuce :** Si tu as accidentellement supprimé le sprite **Sprite1** (Scratch Cat), tu peux cliquer sur l'icon **Choisir un Sprite** et rechercher `cat`.
 
 --- /task ---
 
