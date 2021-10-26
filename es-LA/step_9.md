@@ -1,12 +1,12 @@
-## Upgrade your project
+## Mejora tu proyecto
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Ahora, puedes agregar un objeto de tu elección a tu animación. Necesitarás agregar código para que tu objeto pueda `ir a`{:class="block3motion"} su posición inicial, `apuntar hacia`{:class="block3motion"} la dirección correcta, y luego usar los bloques `repetir`{:class="block3control"}, `mover`{:class="block3motion"} y `siguiente disfraz`{:class="block3looks"} para tomar el autobús.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Sugerencia:** Cuando haces clic en **Elegir un objeto**, puedes mantener el cursor del mouse sobre el objeto para ver sus disfraces, o en algunos dispositivos móviles, puedes tocar y mantener pulsado el objeto para ver sus disfraces (si una ventana aparece cuando tocas y mantienes presionado el objeto, toca en el costado de la pantalla para cerrar la ventana y ver los disfraces). Mirar los disfraces de los objetos puede ayudarte a encontrar un objeto que funcione bien para la animación.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Otros objetos avanzando hacia el autobús con el texto "Festival de creadores".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Puedes usar cualquiera de los bloques que utilizaste en este proyecto, así como los que ya conoces:
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: Proyecto terminado
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Puedes ver el [proyecto completo aquí](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+También puedes '"reinventar"' el proyecto para realizar los cambios que quieras. Podrías agregar efectos de sonido al autobús o a otros objetos, o cambiar el efecto de color del bus. Uno de los objetos podría perder el autobús y no esconderse.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+¡Gracias a la creadora digital Lyla por enviar esta fantástica actualización!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Un proyecto con un autobús con colores destellantes.](images/Lyla-bus.gif)
 
 --- save ---
