@@ -1,34 +1,37 @@
 ---
-title: Catch the bus
+title: Złap autobus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Kod duszka do dojścia lub przelotu do autobusu zanim odjedzie
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Create your bus scene
+    title: Stwórz swoją scenę z autobusem
   - 
-    title: The Scratch Cat catches the bus
+    title: Scratch Kot łapie autobus
+    completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: Hipcio leci do autobusu
   - 
-    title: The bus leaves
+    title: Autobus odjeżdża
   - 
-    title: Missing the bus
+    title: Spóźnienie się na autobus
   - 
-    title: Change the destination
+    title: Zmień miejsce docelowe
+    completion: internal
   - 
-    title: Reflection
+    title: Przemyślenia
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Ulepsz swój projekt
+    completion: external
   - 
-    title: What next?
+    title: Co dalej?
