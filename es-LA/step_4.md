@@ -1,56 +1,56 @@
-## The hippo flies to the bus
+## El hipopótamo vuela hacia el autobús
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a hippo sprite that flies to the bus.
+Agregarás un objeto de hipopótamo que vuela hacia el autobús.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+! [El hipopótamo volando hacia el autobús.](Images / hippo-flies.png){: width = "300px"}
 
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
+El objeto **Hippo1**(Hipopótamo) tiene dos disfraces con las alas en diferentes posiciones, por lo que puedes animar el objeto para que vuele hacia el autobús.
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Agrega el objeto **Hippo1** (Hipopótamo) a tu proyecto.
 
-Change the **Size** of the **Hippo1** sprite:
+Cambia el **Tamaño** del objeto **Hippo1**(Hipopótamo):
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![El panel de Objetos para el objeto Hippo1, con el tamaño establecido en 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Arrastra al hipopótamo a la parte superior izquierda del escenario.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![El objeto Hippo1 en la parte superior izquierda del escenario.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Agrega código para llevar al hipopótamo a su posición inicial:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Sugerencia:** Las coordenadas `x`{: class = "block3motion"} e `y`{: class = "block3motion"} en el bloque `ir a x: y:`{: class = "block3motion"} serán la posición actual del hipopótamo, por lo que no es necesario que los cambies.
 
 --- /task ---
 
-The hippo will fly towards the bus, flapping their wings.
+El hipopótamo volará hacia el autobús, batiendo sus alas.
 
-The hippo will `point towards`{:class="block3motion"} the bus before moving.
+El hipopótamo `apuntará hacia`{: class = "block3motion"} el autobús antes de moverse.
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Agrega código para hacer que el hipopótamo vuele hacia el **City Bus** (Autobús):
 
 ```blocks3
 when flag clicked
@@ -66,15 +66,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Prueba:** Haz clic en la bandera verde y comprueba que el hipopótamo vuela hacia el autobús. Puedes cambiar el número en el bloque `repetir`{: class = "block3control"} hasta que el hipopótamo se detenga en el lugar correcto.
 
 --- /task ---
 
-Now, the hippo will enter the bus.
+Ahora, el hipopótamo entrará en el autobús.
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Agrega los bloques `mostrar`{: class = "block3looks"} y `ocultar`{: class = "block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -92,7 +92,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Prueba:** Haz clic en la bandera verde. El hipopótamo volará y entrará en el autobús.
 
 --- /task ---
 
