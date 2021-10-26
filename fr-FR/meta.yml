@@ -1,0 +1,27 @@
+---
+title: Prendre le bus
+hero_image: images/banner.png
+description: Code les sprites pour marcher ou voler jusqu'au bus avant qu'il ne démarre
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Introduction
+  - title: Créer ta scène de bus
+  - title: Le chat Scratch attrape le bus
+    completion: engaged
+  - title: L'hippopotame vole vers le bus
+  - title: Le bus part
+  - title: Rater le bus
+  - title: Changer de destination
+    completion: internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Améliorer ton projet
+    completion: external
+  - title: Et ensuite ?
