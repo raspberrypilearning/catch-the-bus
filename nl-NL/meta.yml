@@ -1,34 +1,37 @@
 ---
-title: Catch the bus
+title: Neem de bus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Codeer sprites om naar de bus te lopen of te vliegen voordat deze wegrijdt
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Create your bus scene
+    title: Creëer je busscène
   - 
-    title: The Scratch Cat catches the bus
+    title: De Scratch-kat haalt de bus
+    completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: Het nijlpaard vliegt naar de bus
   - 
-    title: The bus leaves
+    title: De bus vertrekt
   - 
-    title: Missing the bus
+    title: De bus missen
   - 
-    title: Change the destination
+    title: Wijzig de bestemming
+    completion: internal
   - 
-    title: Reflection
+    title: Reflectie
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Verbeter je project
+    completion: external
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
