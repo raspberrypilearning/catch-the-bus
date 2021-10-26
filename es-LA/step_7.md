@@ -1,49 +1,49 @@
-## Change the destination
+## Cambia el destino
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+La autobús tiene escrito "Scratch Tours", pero puedes cambiar el destino a uno de tu elección. ¿A dónde quieres que vaya tu autobús?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![El autobús con el texto "Festival de creadores".](Images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Selecciona el objeto **City Bus** (Autobús) y haz clic en la pestaña **Disfraces**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![El disfraz en el Editor de dibujo.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Haz clic en el texto blanco "Scratch Tours" para seleccionarlo y luego haz clic en **Eliminar** para quitarlo.
 
 ![](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Sugerencia:** Puedes usar el ícono **Eliminar** en el editor de dibujo o la tecla <kbd>Supr</kbd> en tu teclado.
 
 --- task ---
 
-Select the **Text** (writing) tool.
+Selecciona la herramienta **Texto** (Escritura).
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+Haz clic en el autobús donde quieres que comience el texto y escribe el destino de tu elección.
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+Para cambiar la fuente (estilo de escritura), puedes hacer clic en el menú desplegable **Fuente**:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![El menú 'Fuente' seleccionado en la parte superior central del Editor de dibujo.](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Haz clic en la herramienta **Seleccionar** (flecha), luego arrastra el texto para colocarlo en el autobús.
 
 ![](images/bus-destination-centered.png)
 
