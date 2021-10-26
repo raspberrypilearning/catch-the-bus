@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legenda: Pergunta 3 de 3
 ---
 
-In your project, you made the hippo fly and the Scratch Cat walk to the bus.
+No seu projeto, você fez o hipopótamo voar e o Gato Scratch caminhar até o ônibus.
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Uma animação de um cachorro correndo da esquerda para a direita do Palco.](images/dog-run.gif)
 
-Which of these scripts uses a **loop** to make the dog run?
+Qual do scripts a seguir usa um **loop** para fazer o cachorro correr?
 
 --- choices ---
 
@@ -21,7 +21,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Sim! O bloco de código `repeat`{:class="block3control"} usa um loop para fazer o cachorro correr.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Esta parte do código faz o cachorro se mover, mas só uma vez. Não tem um loop aqui, então o código não se repete.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Essa parte do código faz o cachorro correr, mas não usa um loop. Usar um loop frequentemente vai deixar teu código menor.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Não tem um loop aqui, então o cachorro iria mover só uma vez. Para fazer o cachorro correr, você teria que adicionar um loop.
 
   --- /feedback ---
 
