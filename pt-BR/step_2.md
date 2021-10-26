@@ -1,19 +1,19 @@
-## Create your bus scene
+## Crie o cenário do teu ônibus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop and add a bus sprite.
+Você vai escolher um cenário e adicionar um ator de ônibus.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![O ônibus de cidade com pano de fundo na escola.] (Images/bus-scene.png) {:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
 
 [[[working-offline]]]
 
@@ -21,7 +21,7 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Clique (ou se você estiver em um tablet, toque) no **Escolha um Cenário** no painel Palco (no canto inferior direito da tela):
 
 ![](images/choose-a-backdrop.png)
 
@@ -29,15 +29,15 @@ Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the b
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Clique na categoria **Outdoors**. Adicione um cenário que seja um bom ponto de partida para o ônibus:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
+![O Palco com o pano de fundo da escola.](images/outdoor-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite**:
+Clique em **Escolher um Ator**:
 
 ![](images/choose-sprite-menu.png)
 
@@ -45,23 +45,23 @@ Click on **Choose a Sprite**:
 
 --- task ---
 
-Type `bus` in the search box at the top:
+Digite `ônibus` na caixa de pesquisa no top da página:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
+![A caixa de pesquisa destacada na Biblioteca de Ator.](images/bus-search.png)
 
-Add the **City Bus** sprite to your project.
+Adicione o **Ônibus de Cidade** ao seu projeto.
 
 --- /task ---
 
- In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
+ No Scratch, você executa os projetos clicando na bandeira verde que fica acima do Palco. O ônibus precisa estar na sua posição inicial `quando bandeira verde for clicada em`{: class = "block3events"}.
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Verifique se o **Ônibus de Cidade** esteja selecionado na lista de Atores abaixo do Palco.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+`Quando a bandeira verde for clicada` {:class="block3events"}, arraste um bloco de `Eventos`para a área de código:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![O ator Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,11 +71,11 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Arraste o ônibus para uma boa posição no Palco:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![O ônibus no meio do palco.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+As coordenadas **x** e **y** (os números usados para descrever a posição) do ônibus são mostradas no painel Ator abaixo do Palco:
 
 ![](images/coords-sprite-pane.png)
 
@@ -84,32 +84,32 @@ The **x** and **y** coordinates (the numbers used to describe the position) of t
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Adicione um bloco `vá para x: y:` {:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![O ator Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Os números no bloco `vá para x: y:` {:class="block3motion"} são as coordenadas atuais x e y do ônibus. Os números no seu projeto podem ser um pouco diferentes.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Teste:** Arraste o ônibus para qualquer lugar do Palco e clique na bandeira verde. O ônibus deve parar na sua posição inicial.
 
 --- /task ---
 
-When you drag the bus, it goes in front of the Scratch Cat.
+Quando você arrasta o ônibus, ele vai na frente do Gato Scratch.
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Para ter certeza de que o ator **Ônibus Cidade** está sempre por trás de todos os outros atores, adicione um bloco `ir para a primeira camada` {:class="block3looks"}, em seguida, clique em `frente` {:class="block3looks"} e altere-o para `costas` {:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![O ator Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +117,15 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Dica:** Se você não conseguir ver o bloco `ir para a primeira camada` {:class="block3looks"}, você precisa rolar para baixo no menu de blocos `Aparência` {:class="block3looks"}.
 
 --- /task ---
 
 --- task ---
 
-You can change the colour of the bus:
+Você pode mudar a cor do ônibus:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![O ator Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -138,19 +138,19 @@ go to [back v] layer
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+O Gato Scratch aparece em todos os novos projetos Scratch como **Sprite1** na lista Sprite. Clique no ator **Sprite1** na lista de Atores para começar a animação do Gato Scratch:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![O ator Ator1 selecionado na lista Ator.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Dica:** Se você acidentalmente excluiu o ator **Ator1** (Gato Scratch), você pode clicar no ícone **Escolher um Ator** e procurar por `gato`.
 
 --- /task ---
 
-At the moment, the Scratch Cat is too big to fit on the bus.
+No momento, o Gato Scratch é grande demais para caber no ônibus.
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+No painel Ator, clique na propriedade **Tamanho** e altere o tamanho do Gato Scratch para `50`:
 
 ![](images/sprite-pane-size.png)
 
