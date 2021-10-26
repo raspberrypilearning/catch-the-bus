@@ -1,40 +1,40 @@
-## The Scratch Cat catches the bus
+## Kot Scratch łapie autobus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Będziesz animować kota Scratch, aby pojawił się po **prawej stronie** sceny i podszedł do autobusu, powtarzając kilka razy mały ruch w **pętli**. 
 </div>
 <div>
 
-![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+![Kot Scratch idący do autobusu.](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Get the Scratch Cat into their starting position
+### Ustaw kota Scratch w pozycji wyjściowej
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
+Kliknij właściwość **Kierunek** w panelu duszka. Obróć strzałkę, aby wskazać `-90`. Następnie kliknij ikonę **Lewo/Prawo** pośrodku, aby zmienić styl obracania na `lewy- prawy` aby zatrzymać odwracanie się do góry nogami kota Scratch:
 
-![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
+![Strzałka wskazująca na -90 i wybrana jest ikona „Lewo/Prawo”.](images/sprite-pane-direction.png)
 
 --- /task ---
 
 
 --- task ---
 
-Drag the Scratch Cat to the bottom right-hand side of the Stage.
+Przeciągnij kota Scratch do prawej dolnej części sceny.
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**Wskazówka:** Jeśli spróbujesz umieścić duszka poza sceną, wróci on do swojej ostatniej pozycji na scenie.
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+Dodaj kod aby ustawić kota Scratch w pozycji wyjściowej:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -45,21 +45,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**Test:** Przeciągnij kota Scratch do nowej pozycji, a następnie kliknij `przejdź do bloku x: y:`{:class="block3motion"}. Kot Scratch powinien za każdym razem cofać się do prawego dolnego rogu.
 
 --- /task ---
 
-### Animate the Scratch Cat
+### Animuj kota Scratch
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+Dodasz kod w pętli `powtórzeń`{:class="block3control"}, aby kot Scratch powtórzył małą liczbę kroków wiele razy. Spowoduje to, że kot Scratch będzie wyglądał na animowanego.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+Dodaj blok `powtórz`{:class="block3control"} `10`, a następnie przeciągnij `przesuń`{:class="block3motion"} `10` `kroków`{:class="block3motion"} do środka:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+![Zmiana liczby kroków w bloku 'przenieś' z 10 na 5, a następnie wstawienie bloku do pętli 'powtórz'.](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -73,23 +73,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers so that the Scratch Cat stops at the bus.
+**Test:** Kliknij zieloną flagę. Spróbuj zmienić numery, aby kot Scratch zatrzymał się przy autobusie.
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+Niektóre duszki mają więcej niż jeden kostium. Użyjesz kostiumy **kota Scratch**, aby stworzyć animację poruszającego się kota Scratch.
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+Naciśnij na zakładkę **Kostiumy**. Duszek kota **Scratch** ma dwa kostiumy i razem mogą być użyte do wykonania efektu poruszania się.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
+Kliknij na zakładkę **Kod**. Dodaj blok `następny kostium`{:class="block3motion"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -103,17 +103,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**Test:** Kliknij zieloną flagę, a kot Scratch pójdzie do autobusu.
 
 --- /task ---
 
-Now, you will make the Scratch Cat seem to enter the bus.
+Teraz sprawisz, że kot Scratch będzie wydawał się wchodzić do autobusu.
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+Dodaj blok do `ukryj`{:class="block3looks"} kot Scratch, gdy dotrze do autobusu:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -129,17 +129,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag again, and you will see that the Scratch Cat has now disappeared.
+**Test:** Kliknij ponownie zieloną flagę, a zobaczysz, że kot Scratch zniknął.
 
 --- /task ---
 
-The Scratch Cat needs to reappear when you run the animation again.
+Kot Scratch musi pojawić się ponownie, gdy ponownie uruchomisz animację.
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+Dodaj blok `pokaż`{:class="block3looks"}, aby kot Scratch pojawił się, zanim podejdzie do autobusu:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -152,13 +152,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**Wskazówka:** Kiedy używasz `ukryj`{:class="block3looks"}, musisz również dodać blok `pokaż`{:class="block3looks"}, aby upewnić się, że duszek jest widoczny, gdy powinien być.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**Test:** Kliknij zieloną flagę, aby przetestować swój projekt i upewnij się, że kot Scratch pojawia się.
 
 --- /task ---
 
