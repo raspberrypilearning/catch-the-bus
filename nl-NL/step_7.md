@@ -1,49 +1,49 @@
-## Change the destination
+## Wijzig de bestemming
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+Het opschrift op de bus zegt "Scratch Tours", maar je kunt de bestemming wijzigen naar jouw keuze. Waar wil je dat je bus heen gaat?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![De bus met de tekst "Maker Festival".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Selecteer de **City Bus** sprite en klik op het tabblad **Uiterlijken**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![Het uiterlijk in de Paint-editor.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Klik op de witte tekst "Scratch Tours" om deze te selecteren en klik vervolgens op **Verwijder** om deze te verwijderen.
 
 ![](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Tip:** Je kunt het **Verwijder** icoon in de Paint-editor of de <kbd>Delete</kbd> toets op je toetsenbord gebruiken.
 
 --- task ---
 
-Select the **Text** (writing) tool.
+Selecteer het **Tekst** (schrijven) gereedschap.
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+Klik op de bus waar je jouw tekst wilt laten beginnen en typ de bestemming van jouw keuze.
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+Om het lettertype (schrijfstijl) te wijzigen, kun je op het vervolgkeuzemenu **Tekst** klikken:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![Het menu 'Lettertype' geselecteerd bovenaan in het midden van de Paint-editor.](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Klik op het **Selecteren** (pijl) gereedschap en sleep de tekst om deze op de bus te plaatsen.
 
 ![](images/bus-destination-centered.png)
 
