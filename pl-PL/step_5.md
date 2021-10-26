@@ -1,31 +1,31 @@
-## The bus leaves
+## Autobus odjeżdża
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
+Grupa połączonych bloków w Scratchu nazywa się **skryptem**. Dodasz nowy skrypt, dzięki któremu autobus odjedzie.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![Scena pokazująca, że autobus przesunął się w prawo.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
+Autobus odjedzie w prawo cztery sekundy po kliknięciu zielonej flagi. Blok `kiedy stoper`{:class="block3events"} uruchomi bloki znajdujące się poniżej po tym czasie opóźnienia.
 
 --- task ---
 
-Select the **City Bus** sprite.
+Wybierz duszka **Autobus**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-From the `Events`{:class="block3events"} blocks menu, drag a `when loudness >`{:class="block3events"} `10` block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script:
+Z menu `Zdarzeń`{:class="block3events"} przeciągnij blok `gdy głośność >`{:class="block3events"} `10` do obszaru Kodu. Zmień `głośności`{:class="block3events"} na `czasomierz`{:class="block3events"}. To uruchomi nowy skrypt:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] // change 10 to 4
@@ -35,21 +35,21 @@ when [timer v] > [4] // change 10 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Przeciągnij swój autobus na prawą stronę sceny. Będzie to pozycja `x`{:class="block3motion"} i `y`{:class="block3motion"}, do której autobus będzie `jechał`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Wskazówka:** Jeśli przesuniesz autobus zbyt daleko w prawo, odskoczy z powrotem. Spróbuj ponownie, ale nie przesuwaj go tak daleko.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block.
+Dodaj blok`leć`{:class="block3motion"} `2` `sekundy do x: y:`{:class="block3motion"} pod `kiedy czasomierz`{:class="block3events"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
+Koordynaty `x`{:class="block3motion"} i `y`{:class="block3motion"} w twoim projekcie mogą być nieco inne.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -60,15 +60,15 @@ when [timer v] > [4]
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Test:** Kliknij zieloną flagę. Kot Scratch i hipopotam przesuną się do autobusu, który po czterech sekundach odjedzie w prawo.
 
 --- /task ---
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Dodaj blok `ukryj`{:class="block3looks"}, aby wywołać wrażenie, że autobus zjeżdża ze sceny:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -79,15 +79,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Test:** Kliknij zieloną flagę. Teraz autobus schowa się po odjeździe. Czy pamiętasz, jak sprawić, by duszek pojawił się ponownie po kliknięciu na zieloną flagę?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Dodaj blok `pokaż`{:class="block3looks"} do swojego `gdy kliknięta zostanie zielona flaga`{:class="block3events"}, aby autobus pojawił się po uruchomieniu projektu:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -101,9 +101,9 @@ set [color v] effect to (50) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Test:** Kliknij zieloną flagę i obejrzyj animację. Autobus powinien pojawić się na środku Sceny, a następnie odjechać w prawo i zniknąć.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Czy wszyscy są w autobusie, kiedy odjeżdża? W razie potrzeby możesz zmienić czas oczekiwania autobusu.
 
 --- /task ---
 
