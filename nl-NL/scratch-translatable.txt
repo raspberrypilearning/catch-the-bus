@@ -1,0 +1,29 @@
+probeer getallen tot 200
+
+rechtsonder
+
+probeer verschillende getallen
+
+5 is een goede loopsnelheid
+
+linksboven
+
+wijzigen van muisaanwijzer
+
+verander 10 naar 4
+
+rechterkant van het speelveld
+
+probeer 0.1, 0.5, 0.05
+
+veranderen van 4 naar 6
+
+sleep de sprite om x en y te kiezen
+
+midden onder in het speelveld
+
+naar beneden wijzen
+
+korte vertraging
+
+tot 200
