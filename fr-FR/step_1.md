@@ -5,7 +5,7 @@ Dans ce projet, tu vas créer une animation avec des sprites qui courent ou vole
 Tu vas devoir :
 + Faire en sorte que les sprites fassent des choses différentes `quand le drapeau vert est cliqué`{:class="block3events"}
 + Positionner les sprites sur la **Scène**
-+ Utiliser une boucle `répéter`{: class = "block3control"} pour faire `avancer`{:class="block3motion"} et `basculer sur le costume`{: class = ""} block3looks
++ Utiliser une boucle `répéter`{: class = "block3control"} pour faire `avancer`{:class="block3motion"} et `basculer sur le costume`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
