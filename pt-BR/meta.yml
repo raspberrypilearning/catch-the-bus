@@ -1,34 +1,37 @@
 ---
-title: Catch the bus
+title: Pegue o ônibus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Atores de código para caminhar ou voar até o ônibus antes que ele desapareça
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: Create your bus scene
+    title: Crie o cenário do teu ônibus
   - 
-    title: The Scratch Cat catches the bus
+    title: O Gato Scratch alcança o ônibus
+    completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: O hipopótamo alcança o ônibus voando
   - 
-    title: The bus leaves
+    title: O ônibus parte
   - 
-    title: Missing the bus
+    title: Perdendo o ônibus
   - 
-    title: Change the destination
+    title: Mudando o destino
+    completion: internal
   - 
-    title: Reflection
+    title: Reflexão
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Melhore o seu projeto
+    completion: external
   - 
-    title: What next?
+    title: E agora?
