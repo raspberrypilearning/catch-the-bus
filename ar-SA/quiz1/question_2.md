@@ -1,43 +1,43 @@
 --- question ---
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-The properties of a sprite appear in the Sprite pane below the Stage.
+تظهر خصائص الكائن في جزء الكائن أسفل المرحلة.
 
-If you drag a sprite to a new position on the Stage, which properties will be updated?
+إذا قمت بسحب كائن إلى موضع جديد في المرحلة ، فما الخصائص التي سيتم تحديثها؟
 
 --- choices ---
 
-- ( ) The direction of the sprite ![](images/direction.png)
+- () اتجاه الكائن ![](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+لتغيير اتجاه الكائن ، عليك الانتقال إلى **Direction** وتغييرها.
 
   --- /feedback ---
 
-- (x) The x and y coordinates of the sprite ![](images/coordinates.png)
+- (x) إحداثيات x و y للكائن ![](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+عندما تسحب كائنًا إلى موضع جديد ، يتم تحديث إحداثيات **x** و **y** تلقائيًا.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will show or hide ![](images/visibility.png)
+- () ما إذا كان الكائن سيظهر أو يختبئ ![](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+سيؤدي استخدام رمز العين **** و **المشطوبتين** إلى إظهار الكائن أو إخفاؤه.
 
   --- /feedback ---
 
-- ( ) The size of the sprite ![](images/size.png)
+- () حجم الكائن ![](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+لتغيير حجم الكائن ، تحتاج إلى الانتقال إلى **الحجم** وتغيير الرقم هناك.
 
   --- /feedback ---
 
