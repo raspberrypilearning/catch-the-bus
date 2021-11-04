@@ -1,0 +1,29 @@
+prueba con un número hasta 200
+
+parte inferior derecha
+
+prueba diferentes números
+
+5 es una buena velocidad para caminar
+
+parte superior izquierda
+
+cambiar desde el puntero del mouse
+
+cambia de 10 a 4
+
+lado derecho del Escenario
+
+prueba 0.1, 0.5, 0.05
+
+cambia de 4 a 6
+
+arrastra el objeto para elegir x e y
+
+mitad inferior del escenario
+
+apuntar hacia abajo
+
+breve retraso
+
+hasta 200

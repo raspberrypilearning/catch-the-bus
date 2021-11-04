@@ -1,0 +1,27 @@
+---
+title: Toma el autobús
+hero_image: images/banner.png
+description: Codifica objetos para caminar o volar hasta el autobús antes de que se ponga en marcha
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Introducción
+  - title: Crea tu escena de autobús
+  - title: El gato de Scratch toma el autobús
+    completion: engaged
+  - title: El hipopótamo vuela hacia el autobús
+  - title: El autobús se pone en marcha
+  - title: Perder el autobús
+  - title: Cambia el destino
+    completion: internal
+  - title: Reflexión
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Mejora tu proyecto
+    completion: external
+  - title: '¿Qué sigue?'
