@@ -1,21 +1,21 @@
-## Missing the bus
+## التأخر عن الحافلة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+ماذا لو لم يعمل كائن القط بالسرعة الكافية للحاق بالحافلة؟
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+! [فقدت القطة الحافلة.] (images / cat-misses-bus.png) {: width = "300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+حدد **كائن القط** وأضف كتلة انتظار ``{: class = "block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -32,35 +32,35 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**اختبار:** انقر فوق العلم الأخضر. سوف يمشي القط ببطء شديد ويفوت الحافلة!
 
 --- /task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+سوف تحتاج إلى تأخير أقل من ثانية واحدة. 0.5 نصف ثانية ، و 0.25 ربع ثانية ، و 0.1 جزء من الثانية.
 
 --- task ---
 
-Change the delay in the `wait`{:class="block3control"} block:
+تغيير التأخير في `الانتظار`{:class="block3control"} block:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**اختبار:** انقر فوق العلم الأخضر ، وسيمشي كائن القط بشكل أسرع. اختر التأخير الذي تفضله.
 
 --- /task ---
 
-**Choose:** Choose if you want the Scratch Cat to **miss the bus** or **catch the bus**.
+**اختر:** اختر ما إذا كنت تريد أن يفوتك **** أو **اللحاق بالحافلة**.
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+إذا كنت تريد أن يفوت كائن القط ** الحافلة ** ، فقم بإزالة كتلة ` إخفاء ` {: class = "block3looks"} من التعليمات البرمجية الخاصة بك حتى يظل الكائن في المنصة:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![سحب كتلة "إخفاء" من البرنامج النصي في منطقة Code إلى قائمة Blocks لإزالة الكتلة من البرنامج النصي.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,9 +77,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+إذا كنت تريد أن يستقل كائن القط **الحافلة ** ، فاجعل الحافلة تنتظر وقتًا أطول قبل مغادرتها:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
@@ -87,18 +87,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+سوف تحتاج إلى `إخفاء`{: class = "block3looks"} مرة أخرى في رمز **Scratch Cat** sprite إذا كنت قد قمت بإزالتها وتريد أن تستقل القطة الحافلة بنجاح.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+قم بإجراء التغييرات حتى تحصل على الرسوم المتحركة تعمل بالطريقة التي تريدها.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+عند العمل في مشروع ما ، غالبًا ما تعود وتغير أو تُحسِّن التعليمات البرمجية عندما تحصل على أفكار جديدة. 
 </p>
 
 --- save ---
