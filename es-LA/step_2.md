@@ -13,7 +13,7 @@ Elegirás un fondo y agregarás el objeto Autobús.
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto de inicio de Toma el autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
