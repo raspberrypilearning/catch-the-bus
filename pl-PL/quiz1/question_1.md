@@ -1,4 +1,4 @@
-## Przemyślenia
+## Powtórka
 
 Dobra robota, dużo materiału już za Tobą! Teraz nadszedł czas na przemyślenia — powtarzanie jest ważną częścią uczenia się, ponieważ pomaga tworzyć nowe połączenia w mózgu.
 
