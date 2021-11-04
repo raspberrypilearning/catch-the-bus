@@ -1,58 +1,58 @@
-## Reflection
+## انعكاس
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+أحسنت ، لقد تعلمت الكثير! الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you have learned.
+أجب عن الأسئلة الثلاثة أدناه للتفكر فيما تعلمته.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+عندما تجيب على كل سؤال ، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+إستمتع!
 
 --- question ---
 ---
-legend: Question 1 of 3
+القائمة: السؤال 1 من 3
 ---
 
-In your project, the bus glides away using this code:
+في مشروعك ، تنزلق الحافلة بعيدًا باستخدام هذا الرمز:
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+متى تنزلق الحافلة بعيدًا؟
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- () مباشرة عند النقر فوق العلم الأخضر
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+يحتوي الرمز على كتلة مؤقت قبل أن تنزلق الحافلة بعيدًا.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) أربع ثوانٍ بعد النقر على العلم الأخضر
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+بعد النقر فوق العلم الأخضر ، هناك انتظار لمدة أربع ثوان قبل انزلاق الحافلة بعيدًا.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () عند النقر فوق الحافلة
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+لا يحتوي الناقل على أية تعليمات برمجية يتم تشغيلها` عند نقر هذا الكائن على`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- () بعد ثانيتين من النقر فوق العلم الأخضر
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  تستغرق الحافلة ثانيتين لتنزلق بعيدًا ، لكن هذه ليست المدة التي تنتظرها قبل أن تتحرك.
 
   --- /feedback ---
 
