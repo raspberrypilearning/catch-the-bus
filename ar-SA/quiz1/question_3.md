@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 3 of 3
+القائمة: السؤال 3 من 3
 ---
 
-In your project, you made the hippo fly and the Scratch Cat walk to the bus.
+في مشروعك ، قمت بعمل ذبابة فرس النهر و القطة تمشي إلى الحافلة.
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![رسم متحرك لكلب يجري من يسار المنصة إلى اليمين.](images/dog-run.gif)
 
-Which of these scripts uses a **loop** to make the dog run?
+أي من النصوص البرمجية التالية يستخدم حلقة **** لجعل الكلب يركض؟
 
 --- choices ---
 
@@ -21,7 +21,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+نعم! `كرر`{: class = "block3control"} تستخدم كتلة التعليمات البرمجية حلقة لجعل الكلب يركض.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+هذا الرمز يجعل الكلب يتحرك ، ولكن مرة واحدة فقط. لا توجد حلقة هنا ، لذا لا يتكرر الرمز.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+هذا الرمز يجعل الكلب يركض ، لكنه لا يستخدم حلقة. غالبًا ما يؤدي استخدام حلقة إلى جعل الرمز الخاص بك أقصر.
 
   --- /feedback ---
 
@@ -68,7 +68,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+لا توجد حلقة هنا ، لذلك لن يتحرك الكلب إلا مرة واحدة. لجعل الكلب يجري ، يجب عليك إضافة حلقة.
 
   --- /feedback ---
 
