@@ -1,4 +1,4 @@
-## El autobus se va
+## El autobús se va
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -6,7 +6,7 @@ En Scratch, un grupo de bloques conectados se llama ** script **. Agregarás una
 </div>
 <div>
 
-! [El escenario mostrando que el autobús se ha movido hacia la derecha.](Images/bus-leave.png){: width = "300px"}
+![El escenario mostrando que el autobús se ha movido hacia la derecha.](Images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
