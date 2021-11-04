@@ -1,31 +1,31 @@
-## The bus leaves
+## الحافلة تغادر
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
+تسمى مجموعة الكتل المتصلة في Scratch بالنصية **. ستضيف نصًا جديدًا لإيقاف تشغيل الحافلة.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+! [تُظهر المرحلة أن الحافلة قد تحركت إلى اليمين.] (images / bus-leave.png) {: width = "300px"}
 
 </div>
 </div>
 
-The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
+ستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ من النقر فوق العلم الأخضر. `عندما يقوم المؤقت`{: class = "block3events"} بتشغيل الكتل الموجودة تحتها بعد هذا التأخير الزمني.
 
 --- task ---
 
-Select the **City Bus** sprite.
+حدد الكائن **باص المدينة**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-From the `Events`{:class="block3events"} blocks menu, drag a `when loudness >`{:class="block3events"} `10` block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script:
+من `الأحداث`{: class = "block3events"} ، اسحب `عند ارتفاع الصوت >`{: class = "block3events"} `10` إلى منطقة الرمز. غيّر `ارتفاع الصوت`{: class = "block3events"} إلى مؤقت ``{: class = "block3events"}. سيبدأ هذا نصًا جديدًا:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] // change 10 to 4
@@ -35,21 +35,21 @@ when [timer v] > [4] // change 10 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `×`{: class = "block3motion"} و `y`{: class = "block3motion"} الذي سينزلق الحافلة ``{: class = "block3motion"} إليه.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**نصيحة:** إذا حركت الحافلة بعيدًا جدًا إلى اليمين ، فسوف تقفز للخلف. حاول مرة أخرى ، لكن لا تحركها حتى الآن.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block.
+أضف `glide`{: class = "block3motion"} `2` `ثوانٍ إلى كتلة x: y:`{: class = "block3motion"} ضمن الكتلة `when timer`{: class = "block3events"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
+`×`{: class = "block3motion"} و `y`{: class = "block3motion"} في مشروعك مختلفة بعض الشيء.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -60,15 +60,15 @@ when [timer v] > [4]
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**اختبار:** انقر فوق العلم الأخضر. سينتقل كائن القط و فرس النهر إلى الحافلة ، وستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ.
 
 --- /task ---
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+أضف `إخفاء`{: class = "block3looks"} لجعل الحافلة تبدو وكأنها تنطلق من المنصة:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -79,15 +79,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**اختبار:** انقر فوق العلم الأخضر. سوف تختبئ الحافلة الآن بعد القيادة. هل تتذكر كيف تتأكد من ظهور كائن ما مرة أخرى عند النقر فوق العلم الأخضر؟
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+أضف `show`{: class = "block3looks"} إلى `عند النقر على العلم الأخضر`نص برمجي {: class = "block3events"} لجعل الحافلة تظهر عند تشغيل مشروعك:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![كائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -101,9 +101,9 @@ set [color v] effect to (50) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**اختبار:** انقر فوق العلم الأخضر وشاهد الرسوم المتحركة الخاصة بك. يجب أن تظهر الحافلة في وسط المنصة ثم تنطلق إلى اليمين وتختفي.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+هل الجميع في الحافلة عندما تغادر؟ يمكنك تغيير مقدار الوقت الذي تنتظره الحافلة ، إذا كنت بحاجة إلى ذلك.
 
 --- /task ---
 
