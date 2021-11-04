@@ -1,12 +1,12 @@
-## Upgrade your project
+## قم بترقية مشروعك
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+الآن ، يمكنك إضافة كائن من اختيارك إلى الرسوم المتحركة الخاصة بك. ستحتاج إلى إضافة رمز لجعل الكائن الخاص بك ` ينتقل إلى ` {: class = "block3motion"} موضع بداية ، ` نقطة ` {: class = "block3motion"} في اليمين ، ثم ` كرر ` {: class = "block3control"} ` حرك ` {: class = "block3motion"} و ` الزي التالي ` {:class="block3looks"} للوصول إلى الحافلة.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**نصيحة:** عند النقر فوق **اختيار الكائن**، يمكنك وضع مؤشر الماوس فوق كائن لرؤية أزياءه ، أو على بعض الأجهزة المحمولة ، يمكنك النقر مع الاستمرار على الكائن لرؤية أزياءه (إذا كان هناك نافذة تنبثق عندما تنقر مع الاستمرار على كائن ما ، انقر على جانب الشاشة لإغلاق النافذة ورؤية الأزياء). يمكن أن يساعدك النظر إلى أزياء الكائنات في العثور على كائن يعمل جيدًا للرسوم المتحركة.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![نقوش متحركة أخرى تتحرك نحو حافلة بها نص "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+يمكنك استخدام أي من الكتل التي تعلمتها في هذا المشروع ، بالإضافة إلى تلك التي تعرفها بالفعل:
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+المشروع المكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+يمكنك عرض [مشروع مكتمل هنا](https://scratch.mit.edu/projects/486719199/){: target = "_ blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+يمكنك أيضًا "إعادة مزج" المشروع لإجراء أي تغييرات تريدها. يمكنك إضافة مؤثرات صوتية إلى الحافلة أو نقوش متحركة أخرى ، أو ضبط تأثير لون الحافلة. يمكن أن تفوت إحدى الكائنات الحافلة ولا تختبئ.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+شكر خاص الى المصمم الرقمي Lyla لإرسال هذه الترقية الرائعة!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![مشروع به حافلة بألوان براقة.](images/Lyla-bus.gif)
 
 --- save ---
