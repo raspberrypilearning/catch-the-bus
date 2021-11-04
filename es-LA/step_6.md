@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![El gato de Scratch pierde el autobús.](Images/cat-misses-bus.png){:width="300px"}
+![El gato de Scratch pierde el autobús.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>

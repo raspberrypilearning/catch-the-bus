@@ -18,7 +18,7 @@ Haz clic en la bandera verde para ver la animación.
 ¿Qué objetos cambian sus disfraces para crear un efecto de animación?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/595269881/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---

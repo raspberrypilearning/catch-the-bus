@@ -6,7 +6,7 @@ La autobús tiene escrito "Scratch Tours", pero puedes cambiar el destino a uno 
 </div>
 <div>
 
-![El autobús con el texto "Festival de creadores".](Images/maker-bus.png){:width="300px"}
+![El autobús con el texto "Festival de creadores".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>

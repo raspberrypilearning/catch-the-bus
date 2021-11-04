@@ -12,7 +12,7 @@ steps:
   - title: El gato de Scratch toma el autobús
     completion: engaged
   - title: El hipopótamo vuela hacia el autobús
-  - title: El autobús se pone en marcha
+  - title: El autobús se va
   - title: Perder el autobús
   - title: Cambia el destino
     completion: internal
