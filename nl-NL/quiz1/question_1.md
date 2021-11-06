@@ -28,7 +28,7 @@ Wanneer glijdt de bus weg?
 
   --- feedback ---
 
-De code heeft een tijdblok voordat de bus wegglijdt.
+De code heeft een klokblok voordat de bus wegglijdt.
 
   --- /feedback ---
 
