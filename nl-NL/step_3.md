@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je animeert de Scratch kat om aan de **rechterkant** van het speelveld te verschijnen en door een kleine beweging vele malen te herhalen in een **lus** naar de bus loopt. 
+Je animeert de Scratch kat om aan de **rechterkant** van het speelveld te verschijnen en door een kleine beweging vele malen te herhalen in een **lus** naar de bus te lopen. 
 </div>
 <div>
 
