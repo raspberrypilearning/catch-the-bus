@@ -15,7 +15,7 @@ Je animeert de Scratch kat om aan de **rechterkant** van het speelveld te versch
 
 --- task ---
 
-Klik op de **Richting** in het Sprite-venster. Draai de pijl naar `-90`. Klik vervolgens op het **Links/Rechts** icoon in het midden om de rotatiestijl te wijzigen naar `links-rechts` om te voorkomen dat de Scratch kat ondersteboven draait:
+Klik op de **Richting** in het Sprite-venster. Draai de pijl naar `-90`. Klik vervolgens op het **Links/Rechts** icoon in het midden om de draaistijl te wijzigen naar `links-rechts` om te voorkomen dat de Scratch kat ondersteboven draait:
 
 ![De pijl wijst naar -90 en het pictogram 'Links/Rechts' is geselecteerd.](images/sprite-pane-direction.png)
 
