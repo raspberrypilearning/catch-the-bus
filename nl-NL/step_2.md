@@ -59,7 +59,7 @@ Voeg de **City Bus** sprite toe aan je project.
 
 Zorg ervoor dat de **City Bus** is geselecteerd in de Sprite lijst onder het speelveld.
 
-Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} veld naar het huidige sprite paneel:
+Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} blokkenmenu naar het huidige sprite paneel:
 
 ![De stadsbus-sprite.](images/bus-sprite.png)
 
