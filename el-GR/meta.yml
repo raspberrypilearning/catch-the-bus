@@ -1,37 +1,37 @@
 ---
-title: Catch the bus
+title: Πρόλαβε το λεωφορείο
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Προγραμμάτισε τα αντικείμενα για να περπατήσουν ή να πετάνε προς το λεωφορείο πριν απομακρυνθεί
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Create your bus scene
+    title: Δημιούργησε την σκηνή σου
   - 
-    title: The Scratch Cat catches the bus
+    title: Η γάτα του Scratch προλαβαίνει το λεωφορείο
     completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: Ο ιπποπόταμος πετάει προς το λεωφορείο
   - 
-    title: The bus leaves
+    title: Το λεωφορείο φεύγει
   - 
-    title: Missing the bus
+    title: Χάνοντας το λεωφορείο
   - 
-    title: Change the destination
+    title: Άλλαξε τον προορισμό
     completion: internal
   - 
-    title: Reflection
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
     completion: external
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
