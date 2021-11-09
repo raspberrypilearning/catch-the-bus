@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-The properties of a sprite appear in the Sprite pane below the Stage.
+Οι ιδιότητες ενός Αντικειμένου εμφανίζονται στο παράθυρο Αντικείμενο κάτω από το Σκηνικό.
 
 If you drag a sprite to a new position on the Stage, which properties will be updated?
 
