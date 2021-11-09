@@ -1,58 +1,58 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Μπράβο, έμαθες πολλά! Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις - ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you have learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Όταν απαντήσεις σε κάθε ερώτηση, κάνε κλικ στην**Υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 ---
 legend: Question 1 of 3
 ---
 
-In your project, the bus glides away using this code:
+Στο έργο σου, το λεωφορείο προχωράει χρησιμοποιώντας αυτόν τον κώδικα:
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Πότε φεύγει το λεωφορείο;
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- () Αμέσως όταν κάνεις κλικ στην πράσινη σημαία
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+Ο κώδικας έχει ένα μπλοκ χρονοδιακόπτη πριν το λεωφορείο απομακρυνθεί.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Τέσσερα δευτερόλεπτα αφού κάνεις κλικ στην πράσινη σημαία
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Αφού κάνεις κλικ στην πράσινη σημαία, υπάρχει μια καθυστέρηση τεσσάρων δευτερολέπτων πριν φύγει το λεωφορείο.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Όταν κάνεις κλικ στο λεωφορείο
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Το λεωφορείο δεν έχει κώδικα που τρέχει`όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- () Δύο δευτερόλεπτα αφού κάνεις κλικ στην πράσινη σημαία
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  Η μετακίνηση του λεωφορείου διαρκεί δύο δευτερόλεπτα, αλλά αυτό δεν είναι το ίδιο χρονικό διάστημα με το πόσο περιμένει για να κινηθεί.
 
   --- /feedback ---
 
