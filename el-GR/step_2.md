@@ -1,19 +1,19 @@
-## Create your bus scene
+## Δημιούργησε την σκηνή σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop and add a bus sprite.
+Θα επιλέξεις ένα σκηνικό και θα προσθέσεις ένα αντικείμενο λεωφορείου.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![Το αστικό λεωφορείο στο σχολικό σκηνικό.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Άνοιξε το έργο [Πρόλαβε το λεωφορείο](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
@@ -21,7 +21,7 @@ Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Κάνε κλικ (ή σε ένα tablet, πάτησε) στο **Επιλέξτε ένα Υπόβαθρο** στο παράθυρο Σκηνή(στην κάτω δεξιά γωνία της οθόνης):
 
 ![](images/choose-a-backdrop.png)
 
@@ -29,15 +29,15 @@ Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the b
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Κάνε κλικ στην κατηγορία **Εξωτερικοί χώροι**. Πρόσθεσε ένα σκηνικό που αποτελεί καλό σημείο εκκίνησης για το λεωφορείο σου:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
+![Η Σκηνή με φόντο το Σχολείο.](images/outdoor-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite**:
+Κάνε κλικ στο **Επέλεξε ένα Αντικείμενο** για να ανοίξεις τη Λίστα Αντικειμένων:
 
 ![](images/choose-sprite-menu.png)
 
@@ -45,23 +45,23 @@ Click on **Choose a Sprite**:
 
 --- task ---
 
-Type `bus` in the search box at the top:
+Πληκτρολόγησε `bus` στο πλαίσιο αναζήτησης στην κορυφή:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
+![Το πλαίσιο αναζήτησης που επισημαίνεται στη Βιβλιοθήκη Χαρακτήρων.](images/bus-search.png)
 
-Add the **City Bus** sprite to your project.
+Πρόσθεσε το αντικείμενο **City Bus** στο έργο σου.
 
 --- /task ---
 
- In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
+ Στο Scratch, εκτελείς έργα κάνοντας κλικ στην πράσινη σημαία πάνω από το Σκηνικό. Το λεωφορείο πρέπει να βρίσκεται στην αρχική του θέση `όταν η πράσινη σημαία γίνεται κλικ `{:class="block3events"}.
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Βεβαιώσου ότι το αντικείμενο **City Bus** είναι επιλεγμένο στη λίστα αντικειμένων κάτω από την Σκηνή.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Σύρε ένα μπλοκ `όταν η πράσινη σημαία γίνει κλικ `{:class="block3events"} από το μενού `συμβάντων`{:class="block3events"} στην περιοχή του Κώδικα:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο του αστικού λεωφορείου.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,11 +71,11 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Σύρε το λεωφορείο σε μια καλή θέση στη Σκηνή:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Το λεωφορείο στο κάτω μέρος της Σκηνής.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Οι συντεταγμένες **x** και **y** (οι αριθμοί που χρησιμοποιούνται για την περιγραφή της θέσης) του λεωφορείου εμφανίζονται στο παράθυρο Αντικειμένου κάτω από την Σκηνή:
 
 ![](images/coords-sprite-pane.png)
 
@@ -84,32 +84,32 @@ The **x** and **y** coordinates (the numbers used to describe the position) of t
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Πρόσθεσε ένα μπλοκ `πήγαινε σε θέση x, y`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο του αστικού λεωφορείου.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Οι αριθμοί στο `πήγαινε σε θέση x, y`{:class="block3motion"} είναι οι τρέχουσες συντεταγμένες x και y του λεωφορείου. Οι αριθμοί στο έργο σου μπορεί να είναι λίγο διαφορετικοί.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Δοκιμή:** Σύρε το λεωφορείο σε οποιοδήποτε σημείο της Σκηνής και μετά κάνε κλικ στην πράσινη σημαία. Το λεωφορείο πρέπει πάντα να πηγαίνει στην αρχική του θέση.
 
 --- /task ---
 
-When you drag the bus, it goes in front of the Scratch Cat.
+Όταν σέρνεις το λεωφορείο, πηγαίνει μπροστά από την Γάτα του Scratch.
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Για να βεβαιωθείς ότι το **Αστικό Λεωφορείο** βρίσκεται πάντα πίσω από όλους τους χαρακτήρες, πρόσθεσε ένα `άλλαξε υπόβαθρο σε πάνω`{:class="block3looks"} και μετά κάνε κλικ στο `άνω υπόβαθρο`{:class="block3looks"} και άλλαξέ το σε `κάτω υπόβαθρο`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο του αστικού λεωφορείου.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +117,15 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Συμβουλή:** Εάν δεν μπορείς να δεις το `άλλαξε υπόβαθρο σε πάνω`{:class="block3looks"}, πρέπει να κάνεις κύλιση προς τα κάτω στις `Όψεις`{:class="block3looks"}.
 
 --- /task ---
 
 --- task ---
 
-You can change the colour of the bus:
+Μπορείς να αλλάξεις το χρώμα του λεωφορείου:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο του αστικού λεωφορείου.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -138,19 +138,19 @@ go to [back v] layer
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Η Γάτα του Scratch εμφανίζεται σε όλα τα νέα έργα Scratch ως **Sprite1** στη λίστα Αντικείμενων. Κάνε κλικ στο αντικείμενο **Sprite1** στη λίστα Αντικειμένων για να ετοιμαστείς να δημιουργήσεις κινούμενη εικόνα με την γάτα του Scratch:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Το αντικείμενο Sprite1 επιλέχθηκε στη λίστα αντικειμένων.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Συμβουλή:** Εάν διέγραψες κατά λάθος το **Sprite1** (γάτα του Scratch), μπορείς να κάνεις κλικ στο εικονίδιο **Επιλέξτε ένα αντικείμενο** και να αναζητήσεις το `cat`.
 
 --- /task ---
 
-At the moment, the Scratch Cat is too big to fit on the bus.
+Αυτή τη στιγμή, η γάτα του Scratch είναι πολύ μεγάλη για να χωρέσει στο λεωφορείο.
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Στο παράθυρο αντικείμενων, κάνε κλικ στo **Mέγεθος ** και άλλαξε το μέγεθος του Sprite1 σε `50`:
 
 ![](images/sprite-pane-size.png)
 
