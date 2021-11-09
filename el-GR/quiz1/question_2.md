@@ -5,39 +5,39 @@ legend: Ερώτηση 2 από 3
 
 Οι ιδιότητες ενός Αντικειμένου εμφανίζονται στο παράθυρο Αντικείμενο κάτω από το Σκηνικό.
 
-If you drag a sprite to a new position on the Stage, which properties will be updated?
+Εάν σύρετε ένα αντικείμενο σε μια νέα θέση στο Υπόβαθρο, ποιες ιδιότητες του Αντικειμένου θα ενημερωθούν;
 
 --- choices ---
 
-- ( ) The direction of the sprite ![](images/direction.png)
+- () Η κατεύθυνση του αντικειμένου ![](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Για να αλλάξεις την κατεύθυνση του αντικειμένου, πρέπει να μεταβείς στην **Κατεύθυνση** και να την αλλάξεις.
 
   --- /feedback ---
 
-- (x) The x and y coordinates of the sprite ![](images/coordinates.png)
+- (x) Οι συντεταγμένες x και y του αντικειμένου ![](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Όταν σύρεις ένα αντικείμενο σε μια νέα θέση, οι συντεταγμένες **x** και **y** ενημερώνονται αυτόματα.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will show or hide ![](images/visibility.png)
+- () Αν το αντικείμενο εμφανιστεί ή κρυφτεί ![](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Χρησιμοποιώντας τα **μάτι** και **διασταυρωμένο μάτι** θα κάνεις το αντικείμενο να εμφανιστεί ή να κρυφτεί.
 
   --- /feedback ---
 
-- ( ) The size of the sprite ![](images/size.png)
+- () Το μέγεθος του αντικειμένου ![](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Για να αλλάξετε το μέγεθος του αντικειμένου, πρέπει να μεταβείς στην ιδιότητα του **Μεγέθους** και να αλλάξεις τον αριθμό εκεί.
 
   --- /feedback ---
 
