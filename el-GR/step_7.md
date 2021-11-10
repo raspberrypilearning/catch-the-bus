@@ -1,49 +1,49 @@
-## Change the destination
+## Άλλαξε τον προορισμό
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+Η γραφή στο λεωφορείο λέει "Scratch Tours", αλλά μπορείς να αλλάξεις τον προορισμό σε κάποιον της επιλογής σου. Πού θέλεις να πάει το λεωφορείο σου;  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![Το λεωφορείο με κείμενο "Maker Festival".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Επίλεξε το αντικείμενο **Αστικό Λεωφορείο** και κάνε κλικ στην καρτέλα **Ενδυμασίες**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![Η ενδυμασία στον επεξεργαστή ζωγραφικής.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Κάνε κλικ στο λευκό κείμενο "Scratch Tours" για να το επιλέξεις και, στη συνέχεια, κάνε κλικ στο **Διαγραφή** για να το αφαιρέσεις.
 
 ![](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Συμβουλή:** Μπορείς να χρησιμοποιήσεις το κουμπί **Διαγραφή** στο πρόγραμμα ζωγραφικής ή το <kbd>Delete</kbd> στο πληκτρολόγιό σου.
 
 --- task ---
 
-Select the **Text** (writing) tool.
+Επίλεξε το εργαλείο **Κειμένου**.
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+Κάνε κλικ στο λεωφορείο στο σημείο από το οποίο θέλεις να ξεκινάει το κείμενό σου και πληκτρολόγησε τον προορισμό της επιλογής σου.
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+Για να αλλάξεις τη γραμματοσειρά (ύφος γραφής), μπορείς να κάνεις κλικ στο αναπτυσσόμενο μενού **Γραμματοσειρά**:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![Το μενού «Γραμματοσειρά» που επιλέχθηκε στο επάνω μέρος του επεξεργαστή ζωγραφικής.](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Κάνε κλικ στο **Επιλογή** (βέλος) και, στη συνέχεια, σύρε το κείμενο για να το τοποθετήσεις στο λεωφορείο.
 
 ![](images/bus-destination-centered.png)
 
