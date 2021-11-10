@@ -1,12 +1,12 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Τώρα, μπορείς να προσθέσεις ένα αντικείμενο της επιλογής σου στο κινούμενο σχέδιο σου. Θα χρειαστεί να προσθέσεις κώδικα για να κάνεις το αντικείμενο να `πάει στην`{:class="block3motion"} αρχική θέση, `να δείξει`{:class="block3motion"} προς τη σωστή κατεύθυνση και μετά `να επαναλάβει`{:class ="block3control"} `κινηθεί`{:class="block3motion"} και να αλλάξει στο `επόμενο κοστούμι`{:class="block3looks"} για να φτάσει στο λεωφορείο.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Συμβουλή:** Όταν κάνεις κλικ στο **Επιλέξτε ένα Αντικείμενο**, μπορείς να κρατήσεις τον δείκτη του ποντικιού πάνω από ένα αντικείμενο για να δεις τις ενδυμασίες του ή σε ορισμένες κινητές συσκευές, μπορείς να πατήσεις παρατεταμένα σε ένα αντικείμενο για να δεις τις ενδυμασίες του (αν υπάρχει παράθυρο εμφανίζεται όταν πατάς παρατεταμένα ένα αντικείμενο, πάτησε στο πλάι της οθόνης για να κλείσεις το παράθυρο και να δεις τις ενδυμασίες). Κοιτάζοντας τις ενδυμασίες των αντικείμενων μπορεί να σε βοηθήσει να βρεις ένα αντικείμενο που λειτουργεί καλά για κινούμενη εικόνα.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Άλλα αντικείμενα κινούνται προς ένα λεωφορείο με κείμενο "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Μπορείς να χρησιμοποιήσεις οποιοδήποτε από τα μπλοκ που έμαθες σε αυτό το έργο, καθώς και αυτά που γνωρίζεις ήδη:
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Μπορείς επίσης να «αναμίξεις» το έργο για να κάνεις όποιες αλλαγές σου αρέσουν. Θα μπορούσες να προσθέσεις ηχητικά εφέ στο λεωφορείο ή άλλα αντικείμενα ή να ορίσεις το χρωματικό εφέ του λεωφορείου. Ένα από τα αντικείμενα θα μπορούσε να χάσει το λεωφορείο και να μην κρυφτεί.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Ευχαριστούμε την ψηφιακή maker Lyla για την αποστολή αυτής της φανταστικής αναβάθμισης!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Ένα έργο με ένα λεωφορείο με χρώματα που αναβοσβήνουν.](images/Lyla-bus.gif)
 
 --- save ---
