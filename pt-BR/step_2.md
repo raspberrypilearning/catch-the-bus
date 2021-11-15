@@ -13,7 +13,7 @@ Você vai escolher um cenário e adicionar um ator de ônibus.
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
+Abra o [projeto inicial Pegue o ônibus](https://scratch.mit.edu/projects/582214330/editor){:target="_ blank"}. O Scratch será aberto em outra aba do navegador.
 
 [[[working-offline]]]
 
