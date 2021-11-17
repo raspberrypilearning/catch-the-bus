@@ -1,37 +1,37 @@
 ---
-title: Catch the bus
+title: バスに乗る
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: バスの出発前にスプライトを到着させるコードをつくります
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Create your bus scene
+    title: バスの場面を作る
   - 
-    title: The Scratch Cat catches the bus
+    title: スクラッチキャットがバスに乗る
     completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: カバはバスに向かって飛ぶ
   - 
-    title: The bus leaves
+    title: バスの出発
   - 
-    title: Missing the bus
+    title: バスに乗り遅れる
   - 
-    title: Change the destination
+    title: 目的地を変更する
     completion: internal
   - 
-    title: Reflection
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: プロジェクトをアップグレードする
     completion: external
   - 
-    title: What next?
+    title: 次は何をしますか？
