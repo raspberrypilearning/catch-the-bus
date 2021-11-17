@@ -1,56 +1,56 @@
-## The hippo flies to the bus
+## カバはバスに向かって飛ぶ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a hippo sprite that flies to the bus.
+バスに向かって飛ぶカバのスプライトを追加します。
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![バスに向かって歩いているスクラッチキャット。](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
+**Hippo1** スプライトには、違う位置に翼のある2つのコスチュームがあるため、バスに向かってスプライトが飛んでいるようなアニメーションにすることができます。
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+プロジェクトに **Hippo1** のスプライトを追加しましょう。
 
-Change the **Size** of the **Hippo1** sprite:
+**Hippo1** スプライトの **大きさ** を変えます:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![大きさが50に設定されたHippo1スプライトのスプライトペイン。](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+カバをステージの左上にドラッグします。
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![ステージの左上にあるHippo1スプライト。](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+カバを出発地点に動かすコードを追加します。
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**ヒント:<0>x座標を〇〇、y座標を〇〇にする**{:class="block3motion"}ブロックの中の</0> `X`{:class="block3motion"}と `Y`{:class="block3motion"}の座標はカバの現在の位置なので、入力する必要はありません。
 
 --- /task ---
 
-The hippo will fly towards the bus, flapping their wings.
+カバはバスに向かって飛んで、羽ばたきます。
 
-The hippo will `point towards`{:class="block3motion"} the bus before moving.
+カバをシティバス `へ向ける`{:class="block3motion"}ようにします。
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+**シティバス**に向けてカバを飛ばすコードを追加します:
 
 ```blocks3
 when flag clicked
@@ -66,15 +66,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**テスト:** 緑色のフラグを押すとカバがバスに向かって飛んでいきます。 `〇回繰り返す`{:class="block3control"}ブロックの数字を変えて、カバを好きなところで止めることができます。
 
 --- /task ---
 
-Now, the hippo will enter the bus.
+これで、カバがバスに乗り込みます。
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+`表示する`{:class="block3looks"}ブロックと `隠す`{:class="block3looks"}ブロックを追加します。
 
 ```blocks3
 when flag clicked
@@ -92,7 +92,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**テスト:** 緑色のフラグを押します。 カバが飛んでいってバスに乗ります。
 
 --- /task ---
 
