@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+[Scratch入門](https://projects.raspberrypi.org/en/pathways/scratch-intro)パスに従っている場合は[虫を捕まえる](https://projects.raspberrypi.org/en/projects/find-the-bug)プロジェクトに進むことができます。 このプロジェクトでは、各レベルに隠れている虫を見つけるゲームを作成します。
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![「バスを捕まえる」プロジェクト。](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Scratchのさまざまな機能を触ってみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)を試してみてください。
