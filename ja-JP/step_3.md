@@ -1,40 +1,40 @@
-## The Scratch Cat catches the bus
+## スクラッチキャットがバスに乗る
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+スクラッチキャットをアニメーション化してステージの**右側**に表示し、**ループ**で小さな動きを何度も繰り返してバスまで歩きます。 
 </div>
 <div>
 
-![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+！[バスに向かって歩いているスクラッチキャット。](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Get the Scratch Cat into their starting position
+### スクラッチキャットを出発地点に移動します。
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
+スプライトペインの **方向** プロパティをクリックします。 `-90`を指すように矢印を動かす 。 **左/右** アイコンをクリックして、回転スタイルを `左右`と し、スクラッチキャットが上下逆さまになるのを防ぎます。
 
-![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
+![-90を指す矢印と、「左/右」アイコンが選択されています。](images/sprite-pane-direction.png)
 
 --- /task ---
 
 
 --- task ---
 
-Drag the Scratch Cat to the bottom right-hand side of the Stage.
+スクラッチキャットをステージの右下にドラッグします。
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**ヒント:** スプライトをステージの外に配置しようとすると、スプライトはステージ上の最後の位置に戻ります。
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+スクラッチキャットを出発地点に動かすコードを追加します。
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -45,21 +45,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**テスト:** スクラッチキャットを新しい場所にドラッグし、 `x座標を〇〇、y座標を〇〇にする`{:class="block3motion"}ブロックをクリックします。 スクラッチキャットは右下にいつも戻るはずです。
 
 --- /task ---
 
-### Animate the Scratch Cat
+### スクラッチキャットをアニメーション化する
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+`繰り返す`{:class="block3control"}ループにコードを追加して、スクラッチキャットが少ないステップを何度も繰り返すようにします。 これにより、スクラッチキャットがアニメーション化されたように見えます。
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+`10回` `繰り返す`{:class="block3control"} ブロックを追加して、次に`10` `歩動かす`{:class="block3control"}ブロックをその中にドラッグします。
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+!['〇歩動かす'ブロックの歩数を10から5に変更してブロックを '繰り返す'ループに挿入します。](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -73,23 +73,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers so that the Scratch Cat stops at the bus.
+**テスト:** 緑色のフラグをクリックします。 スクラッチキャットがバスのところで止まるように数字を変えてみてください。
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+一部のスプライトには複数のコスチュームがあります。 **Scratch Cat** スプライトのコスチュームを使って、スクラッチキャットが歩くアニメーションを作ります。
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+**コスチューム** タブをクリックします。 **Scratch Cat** スプライトには2つのコスチュームがあり、一緒に使うことで歩く動きを表現できます。
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
+**コード** タブをクリックします。 `次のコスチューム`{:class="block3motion"} ブロックを追加します。:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -103,17 +103,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**テスト:** 緑色のフラグをクリックすると、スクラッチキャットがバスに向かって歩きます。
 
 --- /task ---
 
-Now, you will make the Scratch Cat seem to enter the bus.
+ここで、スクラッチキャットがバスの中に入っているように見せます。
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+バスに到着したときにスクラッチキャットを`非表示`{:class="block3looks"}にするためにブロックを追加します。
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -129,17 +129,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag again, and you will see that the Scratch Cat has now disappeared.
+**テスト:** 緑色のフラグをもう一度クリックして、スクラッチキャットが消えることを確かめましょう。
 
 --- /task ---
 
-The Scratch Cat needs to reappear when you run the animation again.
+アニメーションを再実行したときに、スクラッチキャットが再表示されなければなりません。
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+`表示`{:class="block3looks"}ブロックを追加して、バスに行く前にスクラッチキャットが表示されるようにします。
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -152,13 +152,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**ヒント:** `非表示`{:class="block3looks"}ブロックを使う場合は `表示`{:class="block3looks"}ブロックも追加して、必要なときにスプライトが表示されるようにしてください。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**テスト:** 緑色のフラグをクリックしてプロジェクトをテストし、スクラッチキャットが表示されることを確認します。
 
 --- /task ---
 
