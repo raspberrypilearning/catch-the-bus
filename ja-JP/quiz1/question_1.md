@@ -1,58 +1,58 @@
-## Reflection
+## ふりかえり
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+お疲れさまでした。たくさんのことを学びましたね！ 次はふりかえりの時間です。ふりかえりを行うことで、脳に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you have learned.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+それぞれの質問に回答したら、[**送信**] をクリックします。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+お楽しみください!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-In your project, the bus glides away using this code:
+次のコードをプロジェクトに追加するとバスは滑走します。
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+バスはいつ滑走しますか？
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) 緑のフラグをクリックするとすぐに
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+このコードにはバスが滑走する前にタイマーブロックがあります。
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) 緑色のフラグを押してから4秒
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+緑のフラグを押した後、バスは滑走するまで4秒間待ちます。
 
   --- /feedback ---
 
-- () When you click on the bus
+- () バスをクリックすると
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+`スプライトをクリックしたときに`{:class="block3events"}というコードがバスにありません。
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- () 緑色のフラグを押してから2秒
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  バスは2秒間滑走しますが、それはバスが移動するまで待つ時間ではありません。
 
   --- /feedback ---
 
