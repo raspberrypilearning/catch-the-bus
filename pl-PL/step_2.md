@@ -59,7 +59,7 @@ Dodaj duszka **City Bus** do swojego projektu.
 
 Upewnij się, że **Autobus** jest wybrany na liście duszków pod sceną.
 
-Przeciągnij `kiedy kliknięto zieloną flagę`{:class="block3events"} blok z `Wydarzeń`{class = "block3events"} blokuje menu do obszaru kodu:
+Przeciągnij `kiedy kliknięto zieloną flagę`{:class="block3events"} blok z `Wydarzeń`{:class="block3events"} blokuje menu do obszaru kodu:
 
 ![Duszek autobusu.](images/bus-sprite.png)
 

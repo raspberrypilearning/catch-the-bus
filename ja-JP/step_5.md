@@ -23,7 +23,7 @@
 
 --- task ---
 
-`イベント`{:class="block3events"}ブロックメニューから`音量 >`{:class="block3events"} `10`<0>のとき</0>{:class="block3events"} ブロックをコードエリアにドラッグする。 `音量`{:class="block3events"}を `タイマー`{:class="block3events"}に変更します。 これにより、新しいスクリプトが開始されます。
+`イベント`{:class="block3events"}ブロックメニューから`音量 >`{:class="block3events"} `10``のとき`{:class="block3events"} ブロックをコードエリアにドラッグする。 `音量`{:class="block3events"}を `タイマー`{:class="block3events"}に変更します。 これにより、新しいスクリプトが開始されます。
 
 ![シティバスのスプライト。](images/bus-sprite.png)
 
@@ -35,7 +35,7 @@ when [timer v] > [4] // 10から4に変更
 
 --- task ---
 
-バスをステージの右側にドラッグします。 これはバスの行先を`X`{:class="block3motion"}`Y`{{:class="block3motion"}座標に`変える`{:class="block3motion"}ことができます。
+バスをステージの右側にドラッグします。 これはバスの行先を`X`{:class="block3motion"}`Y`{:class="block3motion"}座標に`変える`{:class="block3motion"}ことができます。
 
 ![](images/bus-right.png)
 

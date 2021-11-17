@@ -1,6 +1,6 @@
 ## Τι υπάρχει στη συνέχεια;
 
-Εάν ακολουθείς το μονοπάτι[Εισαγωγή στο Scratch](https://projects.raspberrypi.org/el-GR/pathways/scratch-intro), μπορείς να προχωρήσεις στο έργο [Βρες το έντομο](https://projects.raspberrypi.org/el-GR/projects/find-the-bug). Σε αυτό το έργο, θα φτιάξεις ένα παιχνίδι στο οποίο θα πρέπει να βρεις το έντομο που κρύβεται σε κάθε επίπεδο.
+Εάν ακολουθείς το μονοπάτι [Εισαγωγή στο Scratch](https://projects.raspberrypi.org/el-GR/pathways/scratch-intro), μπορείς να προχωρήσεις στο έργο [Βρες το έντομο](https://projects.raspberrypi.org/el-GR/projects/find-the-bug). Σε αυτό το έργο, θα φτιάξεις ένα παιχνίδι στο οποίο θα πρέπει να βρεις το έντομο που κρύβεται σε κάθε επίπεδο.
 
 --- print-only ---
 

@@ -6,7 +6,7 @@
 </div>
 <div>
 
-！[バスに向かって歩いているスクラッチキャット。](images/cat-catches-bus.png){:width="300px"}
+![バスに向かって歩いているスクラッチキャット。](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
