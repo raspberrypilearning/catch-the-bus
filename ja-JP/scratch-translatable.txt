@@ -1,29 +1,29 @@
-try numbers up to 200
+200までの数
 
-bottom right-hand side
+下部の右側です
 
-try different numbers
+違う数を試してください
 
-5 is a good walking speed
+5歩はちょうど良い歩く速さです
 
-top left-hand side
+上部の左側です
 
-change from mouse-pointer
+「マウスのポインター」から変更
 
-change 10 to 4
+10から4に変更
 
-right-hand side of the Stage
+ステージの右側
 
-try 0.1, 0.5, 0.05
+0.1、0.5、0.05を試してください
 
-change from 4 to 6
+4から6に変更します
 
-drag the sprite to choose x and y
+x座標とy座標を変えてスプライトを動かします
 
-bottom middle of the Stage
+ステージ下の中央
 
-point down
+下向き
 
-short delay
+短い待ち時間
 
-up to 200
+最大200
