@@ -1,21 +1,21 @@
-## Missing the bus
+## バスに乗り遅れる
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+スクラッチキャットがバスに乗るのに十分な速さで走らなかった場合はどうなるでしょう？
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![バスに向かって歩いているスクラッチキャット。](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+**スクラッチキャット**のスプライトを選択し `待つ`{:class="block3control"}ブロックを追加します。
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -32,35 +32,35 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**テスト:** 緑色のフラグをクリックします。 スクラッチキャットは歩くのが遅すぎてバスに乗り遅れます！
 
 --- /task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+1秒未満の待つ時間が必要になります。 0.5は0.5秒、0.25は1/4秒、0.1は10分の1秒です。
 
 --- task ---
 
-Change the delay in the `wait`{:class="block3control"} block:
+`〇秒待つ`{:class="block3control"}ブロックの時間を変えます。
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**テスト:** 緑色のフラグをクリックすると、スクラッチキャットが速く歩きます。 待つ時間に最も好きな値を選んでください。
 
 --- /task ---
 
-**Choose:** Choose if you want the Scratch Cat to **miss the bus** or **catch the bus**.
+**選択：** **バスに乗り遅れる** または **バスに間に合う**を選択します。
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+スクラッチキャットを **バスに乗り遅れる**ようにしたい場合、 `隠す`{:class="block3looks"}ブロックを削除して、スクラッチキャットがステージ上にとどまるようにします。
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+!['隠す'ブロックをコードエリアのスクリプトからブロックメニューの方にドラッグして、スクリプトからブロックを削除します。](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,9 +77,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+スクラッチキャットを **バスに間に合う**ようにしたい場合は、バスが出発するまでの待ち時間を長くします。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
@@ -87,18 +87,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+スクラッチキャットをバスに間に合うようにするために、もし削除してしまっていた場合は`隠す`{:class="block3looks"}ブロックを**スクラッチキャット**のスプライトのコードに追加しましょう。
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+アニメーションが希望通りに動くまで変更を加えます。
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+プロジェクトに取り組んでいるときには、新しいアイデアを得たときに、前に戻ってコードを変更して改善することがよくあります。 
 </p>
 
 --- save ---
