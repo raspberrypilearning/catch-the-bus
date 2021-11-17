@@ -1,31 +1,31 @@
-## The bus leaves
+## バスの出発
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
+スクラッチでは、つながったブロックのグループを**スクリプト**と呼びます。 バスを出発させるスクリプトを追加します。
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![バスが右に移動したことを示すステージ。](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
+緑のフラグが押されてから4秒後にバスが右に走ります。 `タイマー`{:class="block3events"}ブロックは、この時間の経過後にこの下のブロックを実行します。
 
 --- task ---
 
-Select the **City Bus** sprite.
+**City Bus**スプライトを追加します。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-From the `Events`{:class="block3events"} blocks menu, drag a `when loudness >`{:class="block3events"} `10` block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script:
+`イベント`{:class="block3events"}ブロックメニューから`音量 >`{:class="block3events"} `10`<0>のとき</0>{:class="block3events"} ブロックをコードエリアにドラッグする。 `音量`{:class="block3events"}を `タイマー`{:class="block3events"}に変更します。 これにより、新しいスクリプトが開始されます。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] // change 10 to 4
@@ -35,21 +35,21 @@ when [timer v] > [4] // change 10 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+バスをステージの右側にドラッグします。 これはバスの行先を`X`{:class="block3motion"}`Y`{{:class="block3motion"}座標に`変える`{:class="block3motion"}ことができます。
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**ヒント:** バスを右に移動しすぎるとジャンプして戻ります。 もう一度トライしてください。あんまり遠くまで動かさないように。
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block.
+`タイマー`{:class="block3events"} ブロックの下に`2``秒でx座標、y座標を変える`{:class="block3motion"} ブロックを追加します。
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
+`X`{:class="block3motion"}と `Y`{:class="block3motion"}の値が少し違うかもしれません。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -60,15 +60,15 @@ when [timer v] > [4]
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**テスト:** 緑色のフラグをクリックします。 スクラッチキャットとカバがバスに向かって移動して4秒後にバスが右に走ります。
 
 --- /task ---
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+`隠す`{:class="block3looks"}ブロックを追加して、バスがステージから走り出すように見せます。:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -79,15 +79,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**テスト:** 緑色のフラグを押します。 バスは運転を終えると隠れます。 緑のフラグを押したときにスプライトが再び表示されるようにする方法を覚えていますか？
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+`表示する`{:class="block3looks"}ブロックを `緑のフラグが押されたとき`{:class="block3events"}に追加して、プロジェクトの実行時にバスを表示します。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -101,9 +101,9 @@ set [color v] effect to (50) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**テスト:** 緑色のフラグを押すと、アニメーションが見れます。 バスはステージの中央に表示され、右に走って消え去ります。
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+バスが出るとき、みんなバスに乗っていますか？ 必要に応じてバスが待っている時間を変えることをできます。
 
 --- /task ---
 
