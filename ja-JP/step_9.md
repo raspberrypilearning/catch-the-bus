@@ -1,12 +1,12 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+これで、選択したスプライトをアニメーションに追加できます。 `x座標を〇〇、y座標を〇〇にする`{:class="block3motion"}で出発地点に移動すること、右側へ`行く`{:class="block3motion"}ことを確かめるためにコードを追加します。そして、バスに着くまで`動かす`{:class="block3motion"}と`次のコスチュームにする`{:class="block3looks"}のブロックを`繰り返す`{:class="block3control"}ようにします。
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**ヒント:** **スプライトを選択**をクリックして、カーソルをスプライトの上に置くとコスチュームを表示できます。一部のモバイルデバイスでは、スプライトを長押ししてコスチュームを表示できます。（スプライトをタップしてホールドするとウィンドウがポップアップする場合、画面の角をタップしてウィンドウを閉じ、コスチュームを確認します）。 スプライトのコスチュームを確認すると、アニメーションに合ったスプライトを見つけるのに役立ちます。
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+!["メーカー・フェスティバル"と書かれているバスに向かって歩くスプライト 。](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+このプロジェクトで学習したブロックと、すでに知っているブロックを使用できます。
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/486719199/){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+プロジェクトを「リミックス」して、好きな変更を加えることもできます。 バスなどのスプライトに効果音を追加したり、バスにカラーエフェクトを加えたりできます。 スプライトの1つがバスに乗り遅れて、隠れることができませんでした。
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+この素晴らしいアップグレードを送ってくれたデジタルメーカーのLylaに感謝します！
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![色が点滅するバスのプロジェクト。](images/Lyla-bus.gif)
 
 --- save ---
