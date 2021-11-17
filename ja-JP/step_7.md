@@ -1,49 +1,49 @@
-## Change the destination
+## 目的地を変更する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+バスには「Scratch Tours」と書いてありますが、行き先はお好きなものに変更できます。 バスをどこに行かせたいですか？  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![「メーカー・フェスティバル」の文字が表示されたバス。](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+**シティバス** のスプライトを選択し、 **コスチューム**タブをクリックします。
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![ペイントエディタ上のコスチューム。](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+白い「Scratch Tours」の文字をクリックして選択し、 **削除** をクリックして削除します。
 
 ![](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**ヒント:** ペイントエディタの**削除**アイコンでも、キーボードの<kbd>削除</kbd> キーでもよいです。
 
 --- task ---
 
-Select the **Text** (writing) tool.
+**テキスト** ツールを選択します。
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+文字を始めたい位置でバスをクリックして、好きな目的地を入力します。
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+フォント（書体）を変更するには、ドロップダウンメニューの**フォント**をクリックします。:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![ペイントエディタの上部中央で選択された「フォント」メニュー。](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+**選択** （矢印）ツールをクリックし、テキストをドラッグしてバスの上に配置します。
 
 ![](images/bus-destination-centered.png)
 
