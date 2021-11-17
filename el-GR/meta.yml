@@ -1,0 +1,27 @@
+---
+title: Πρόλαβε το λεωφορείο
+hero_image: images/banner.png
+description: Προγραμμάτισε τα αντικείμενα για να περπατήσουν ή να πετάνε προς το λεωφορείο πριν απομακρυνθεί
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Εισαγωγή
+  - title: Δημιούργησε την σκηνή σου
+  - title: Η γάτα του Scratch προλαβαίνει το λεωφορείο
+    completion: engaged
+  - title: Ο ιπποπόταμος πετάει προς το λεωφορείο
+  - title: Το λεωφορείο φεύγει
+  - title: Χάνοντας το λεωφορείο
+  - title: Άλλαξε τον προορισμό
+    completion: internal
+  - title: Αναστοχασμός
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Αναβάθμιση του έργου σου
+    completion: external
+  - title: Τι υπάρχει στη συνέχεια;

@@ -1,0 +1,27 @@
+---
+title: Złap autobus
+hero_image: images/banner.png
+description: Kod duszka do dojścia lub przelotu do autobusu zanim odjedzie
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Wprowadzenie
+  - title: Stwórz swoją scenę z autobusem
+  - title: Scratch Kot łapie autobus
+    completion: engaged
+  - title: Hipcio leci do autobusu
+  - title: Autobus odjeżdża
+  - title: Spóźnienie się na autobus
+  - title: Zmień miejsce docelowe
+    completion: internal
+  - title: Powtórka
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Ulepsz swój projekt
+    completion: external
+  - title: Co dalej?
