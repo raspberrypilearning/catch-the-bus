@@ -59,7 +59,7 @@ Adicione o **City Bus** (Ônibus de Cidade) ao seu projeto.
 
 Verifique se o **Ônibus de Cidade** esteja selecionado na lista de Atores abaixo do Palco.
 
-`Quando a bandeira verde for clicada`{:class="block3events"}, arraste um bloco de `Eventos` para a área de código:
+`Quando a bandeira verde for clicada`{:class="block3events"}, arraste um bloco de `Eventos`{:class="block3events"} para a área de código:
 
 ![O ator Ônibus Cidade.](images/bus-sprite.png)
 

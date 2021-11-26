@@ -6,7 +6,7 @@ Um grupo de blocos conectados no Scratch é chamado de **script**. Você vai adi
 </div>
 <div>
 
-![O Palco mostrando que o ônibus se foi para a direita.](images/bus-leave.png){:width="300px"}
+![O Palco mostrando que o ônibus se foi para a direita.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>

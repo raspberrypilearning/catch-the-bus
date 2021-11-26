@@ -2,7 +2,7 @@
 
 Agora, você pode adicionar um ator de sua escolha à sua animação. Você terá que adicionar código para fazer com que seu sprite `vá para`{:class="block3motion"} a posição inicial, `aponte`{:class="block3motion"} para a direção correta, e então `repetir`{:class="block3control"} os blocos `mova`{:class="block3motion"} e `próxima fantasia`{:class="block3looks"} para alcançar o ônibus.
 
-**Dica:** Quando você clicar em**Escolher um Ator**, você segurar o cursor sobre o ator para ver suas fantasias, ou em alguns dispositivos móveis, você pode tocar e segurar sobre um sprite para ver suas fantasias (se uma janela aparecer quando você tocar e segurar no ator, toque na lateral da tela para fechar a janela e ver as fantasias). Olhar as fantasias dos atores pode te ajudar a decidir qual deles vai funcionar melhor na animação.
+**Dica:** Quando você clicar em **Selecione um Ator**, você segurar o cursor sobre o ator para ver suas fantasias, ou em alguns dispositivos móveis, você pode tocar e segurar sobre um sprite para ver suas fantasias (se uma janela aparecer quando você tocar e segurar no ator, toque na lateral da tela para fechar a janela e ver as fantasias). Olhar as fantasias dos atores pode te ajudar a decidir qual deles vai funcionar melhor na animação.
 
 ![Outros atores se aproximando de um ônibus com o texto "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 

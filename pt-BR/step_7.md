@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-O texto no ônibus diz "Excursão Scratch", mas você pode mudar o destino para onde você quiser. Para onde você quer que o ônibus vá?  
+O texto no ônibus diz "Scratch Tours", mas você pode mudar o destino para onde você quiser. Para onde você quer que o ônibus vá?  
 </div>
 <div>
 
@@ -21,7 +21,7 @@ Selecione o **Ônibus da Cidade** e clique na aba **Fantasias**:
 
 --- task ---
 
-Clique no texto branco "Excursão Scratch" para selecioná-lo, e depois em **Deletar** para removê-lo.
+Clique no texto branco "Scratch Tours" para selecioná-lo, e depois em **Deletar** para removê-lo.
 
 ![](images/bus-delete-text.png)
 

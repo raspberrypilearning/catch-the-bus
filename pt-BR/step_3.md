@@ -87,7 +87,7 @@ Clique no ícone **Fantasias**. O **Gato Scratch** tem duas fantasias e, juntos,
 
 --- task ---
 
-Clique na guia **Código'**. Adicione um bloco `próxima fantasia`{:class="block3looks"}:
+Clique na guia **Código**. Adicione um bloco `próxima fantasia`{:class="block3looks"}:
 
 ![O ator do Gato Scratch.](images/scratch-cat-sprite.png)
 

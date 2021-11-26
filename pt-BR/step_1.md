@@ -5,7 +5,7 @@ Neste projeto, você irá criar uma animação com atores que correm ou voam par
 Você vai:
 + Fazer com que os atores façam coisas diferentes `quando a bandeira verde for clicada`{:class="block3events"}
 + Posicionar atores no **Palco**
-+ Usar um loop do tipo `repita` para `mover`{:class="block3motion"} e `alternar entre fantasias`{:class="block3looks"}
++ Usar um loop do tipo `repita`{:class="block3control"} para `mover`{:class="block3motion"} e `alternar entre fantasias`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
