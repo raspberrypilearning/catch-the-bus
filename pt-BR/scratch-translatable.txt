@@ -1,0 +1,29 @@
+tente números até 200
+
+lado direito inferior
+
+tente diferentes números
+
+5 é uma boa velocidade para se caminhar
+
+lado esquerdo superior
+
+mudar com o ponteiro do mouse
+
+mude de 10 para 4
+
+lado direito do palco
+
+tente 0,1; 0,5 e 0,05
+
+mudar de 4 para 6
+
+arraste o sprite para escolher x e y
+
+meio inferior do palco
+
+apontar para baixo
+
+pequeno curto
+
+até 200
