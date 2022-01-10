@@ -46,7 +46,7 @@ set [color v] effect to [50] // hyd at 200
 title: Prosiect gorffenedig
 ---
 
-Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/626229210/){:target="_blank"}.
 
 --- /collapse ---
 
