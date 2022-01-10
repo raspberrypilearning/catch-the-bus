@@ -13,7 +13,7 @@ Os byddi di'n llusgo corlun i safle newydd ar y Llwyfan, pa briodweddau fydd yn 
 
   --- feedback ---
 
-I newid cyfeiriad y corlun, mae angen i ti fynd i'r briodwedd**Cyfeiriad** a'i newid.
+I newid cyfeiriad y corlun, mae angen i ti fynd i'r briodwedd **Cyfeiriad** a'i newid.
 
   --- /feedback ---
 
