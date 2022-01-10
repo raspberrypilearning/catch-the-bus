@@ -1,19 +1,19 @@
-## Create your bus scene
+## Creu dy olygfa bws
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop and add a bus sprite.
+Byddi di'n dewis cefnlen ac yn ychwanegu corlun bws.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![Bws y Ddinas ar Gefnlen yr Ysgol.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Agora'r [prosiect cychwynnol dal y bws](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
@@ -21,7 +21,7 @@ Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Clicia (neu daro os wyt ti ar dabled) ar **Dewiswch Gefnlen** yn y cwarel Llwyfan (yng nghornel dde isaf y sgrin):
 
 ![](images/choose-a-backdrop.png)
 
@@ -29,15 +29,15 @@ Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the b
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Clicia'r categori **Tu allan**. Ychwanega gefndir a fyddai'n fan cychwyn da ar gyfer dy fws:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
+![Y Llwyfan gyda'r gefnlen School.](images/outdoor-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite**:
+Clicia ar **Dewiswch Gorlun**:
 
 ![](images/choose-sprite-menu.png)
 
@@ -45,23 +45,23 @@ Click on **Choose a Sprite**:
 
 --- task ---
 
-Type `bus` in the search box at the top:
+Teipia `bus` yn y blwch chwilio ar y brig:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
+![Y blwch chwilio wedi'i amlygu yn y Llyfrgell Corluniau.](images/bus-search.png)
 
-Add the **City Bus** sprite to your project.
+Ychwanega'r corlun **City Bus** at dy brosiect.
 
 --- /task ---
 
- In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
+ Yn Scratch, rwyt ti'n rhedeg prosiectau drwy glicio ar y faner werdd uwchben y Llwyfan. Mae angen i'r bws fod yn ei safle cychwynnol `ar ôl clicio'r faner werdd`{: class = "block3events"}.
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Gwna'n siŵr dy fod wedi dewis y corlun **City Bus** yn y rhestr o Gorluniau o dan y Llwyfan.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Llusga floc `pan fydd y faner werdd wedi'i chlicio`{: class = "block3events"} o'r ddewislen blociau `Digwyddiadau`{: class = "block3events"} i ardal y Cod:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,11 +71,11 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Llusga'r bws i safle da ar y Llwyfan:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Y bws yng nghanol isaf y Llwyfan.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Mae cyfesurynnau **x** ac **y** (sef y rhifau a ddefnyddir i ddisgrifio'r safle) y bws yn cael eu dangos yng nghwarel y Corlun o dan y Llwyfan:
 
 ![](images/coords-sprite-pane.png)
 
@@ -84,32 +84,32 @@ The **x** and **y** coordinates (the numbers used to describe the position) of t
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Ychwanega floc `mynd i x: y:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Y rhifau yn y bloc `mynd i x: y:` yw cyfesurynnau x ac y presennol y bws. Efallai bydd y rhifau yn dy brosiect di ychydig yn wahanol.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Prawf:** Llusga'r bws i unrhyw le ar y Llwyfan, ac yna clicia ar y faner werdd. Dylai'r bws fynd i'w fan cychwyn bob amser.
 
 --- /task ---
 
-When you drag the bus, it goes in front of the Scratch Cat.
+Pan fyddi di'n llusgo'r bws, bydd yn mynd o flaen y Scratch Cat.
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+I wneud yn siŵr bod y corlun **City Bus** bob amser y tu ôl i gorluniau cymeriadau, ychwanega floc `mynd i haen blaen`{:class="block3looks"}, ac wedyn clicio `blaen`{:class="block3looks"} i'w newid i `cefn`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +117,15 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Awgrym:** Os nad wyt ti'n gallu gweld y bloc `mynd i haen blaen`{: class = "block3looks"}, mae angen i ti sgrolio i lawr yn y ddewislen blociau `Edrychiad`{: class = "block3looks"}.
 
 --- /task ---
 
 --- task ---
 
-You can change the colour of the bus:
+Galli di newid lliw y bws:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -138,19 +138,19 @@ go to [back v] layer
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Mae'r Gath Scratch yn ymddangos ym mhob prosiect Scratch newydd fel **Sprite1** yn rhestr Corluniau. Clicia ar y corlun **Sprite1** yn y rhestr Corluniau i baratoi i animeiddio'r Scratch Cat:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Y corlun Sprite1 wedi'i ddewis yn y rhestr Corluniau.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Awgrym:** Os wyt ti wedi dileu'r corlun **Sprite1** (Scratch Cat) yn ddamweiniol, galli di glicio ar yr eicon **Dewiswch Gorlun** a chwilio am `cat`.
 
 --- /task ---
 
-At the moment, the Scratch Cat is too big to fit on the bus.
+Ar hyn o bryd, mae'r Gath Scratch yn rhy fawr i ffitio ar y bws.
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Yn y cwarel Corluniau, cliciwch yn y briodwedd **Maint** a newid maint y Gath Scratch i `50`:
 
 ![](images/sprite-pane-size.png)
 
