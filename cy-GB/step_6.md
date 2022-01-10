@@ -1,21 +1,21 @@
-## Missing the bus
+## Methu'r bws
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+Beth os nad oedd y Gath Scratch wedi rhedeg yn ddigon cyflym i ddal y bws?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![Y Gath Scratch yn methu'r bws.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+Dewisa gorlun y **Gath Scratch** ac ychwanegu bloc `aros`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -32,35 +32,35 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**Prawf:** Clicia ar y faner werdd. Bydd y Gath Scratch yn cerdded yn rhy araf ac yn methu'r bws!
 
 --- /task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Bydd angen amser oedi o lai nag un eiliad. Mae 0.5 yn hanner eiliad, 0.25 yn chwarter eiliad, a 0.1 yn ddegfed ran o eiliad.
 
 --- task ---
 
-Change the delay in the `wait`{:class="block3control"} block:
+Newidia yr amser oedi yn y bloc `aros`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**Prawf:** Clicia ar y faner werdd, a bydd y Gath Scratch yn cerdded yn gyflymach. Dewisa'r amser oedi sydd well gen ti.
 
 --- /task ---
 
-**Choose:** Choose if you want the Scratch Cat to **miss the bus** or **catch the bus**.
+**Dewis:** Dewisa os wyt ti am i'r Gath Scratch **fethu'r bws** neu **ddal y bws**.
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Os wyt ti am i'r Gath Scratch **fethu'r bws**, tynna'r bloc `cuddio`{:class="block3looks"} o dy god fel bod y Gath Scratch yn aros ar y Llwyfan:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Llusgo'r bloc 'cuddio' o'r sgript yn ardal y Cod i'r ddewislen Blocisu i dynnu'r bloc o'r sgript.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,9 +77,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Os wyt ti am i'r Gath Scratch **ddal y bws**, gwna i'r bws aros yn hirach cyn iddo adael:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 +when [timer v] > [6] // change from 4 to 6
@@ -87,18 +87,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Bydd angen i ti roi'r bloc `cuddio`{:class="block3looks"} yn ôl yng nghod corlun y **Gath Scratch** os wyt ti wedi ei dynnu ac os wyt ti am i'r Gath Scratch ddal y bws.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Gwna newidiadau nes i ti gael yr animeiddiad i weithio yn y ffordd rwyt ti am iddo wneud.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Wrth weithio ar brosiect, byddi di'n aml yn mynd yn ôl ac yn gwella dy god wrth gael syniadau newydd. 
 </p>
 
 --- save ---
