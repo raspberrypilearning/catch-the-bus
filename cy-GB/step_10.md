@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+Os wyt ti'n dilyn y llwybr [Cyflwyniad i Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), gallet ti symud ymlaen i'r prosiect [Chwilio am chwilen](https://projects.raspberrypi.org/en/projects/find-the-bug). Yn y prosiect hwn, byddi di'n creu gêm lle mae'n rhaid i ti ddod o hyd i'r chwilen sy'n cuddio ar bob lefel.
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![Y prosiect 'Chwilio am chwilen'.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Os wyt ti am gael mwy o hwyl wrth ddysgu Scratch, gallet ti roi cynnig ar unrhyw un o'r [prosiectau hyn](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
