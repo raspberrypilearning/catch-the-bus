@@ -1,31 +1,31 @@
-## The bus leaves
+## Y bws yn gadael
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
+Gelwir grŵp o flociau cysylltiedig yn Scratch yn **script**. Byddi di'n ychwanegu sgript newydd i wneud i'r bws yrru i ffwrdd.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![Y Llwyfan yn dangos bod y bws wedi symud i'r dde.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
+Bydd y bws yn gyrru i ffwrdd i'r dde bedair eiliad ar ôl i'r faner werdd gael ei chlicio. Bydd y bloc `pan fydd yr amserydd`{:class="block3events"} yn rhedeg y blociau oddi tano ar ôl yr amser oedi hwn.
 
 --- task ---
 
-Select the **City Bus** sprite.
+Dewisa'r corlun **City Bus**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-From the `Events`{:class="block3events"} blocks menu, drag a `when loudness >`{:class="block3events"} `10` block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script:
+Llusga bloc `pan cryfder sain >`{:class="block3events"} `10` i ardal y cod o'r ddewislen blociau `Digwyddiadau`{:class="block3events"}. Newidia `cryfder sain`{:class="block3events"} i `amserydd`{:class="block3events"}. Bydd hyn yn cychwyn sgript newydd:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] // change 10 to 4
@@ -35,21 +35,21 @@ when [timer v] > [4] // change 10 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Llusga dy fws i ochr dde y Llwyfan. Dyma fydd y safle `x`{:class="block3motion"} ac `y`{:class="block3motion"} y bydd y bws yn `llithro`{:class="block3motion"} iddo.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Awgrym:** Os wyt ti'n symud y bws yn rhy bell i'r dde, bydd yn neidio yn ôl. Rho gynnig arall arni, ond paid â'i symud mor bell â hynny.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block.
+Ychwanega floc `llithro`{:class="block3motion"} am `2` `eiliad i x: y:`{:class="block3motion"} o dan y bloc `pan amserydd`{:class="block3events"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
+Efallai fydd cyfuserynnau `x`{:class="block3motion"} a `y`{:class="block3motion"} dy brosiect di ychydig yn wahanol.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -60,15 +60,15 @@ when [timer v] > [4]
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Prawf:** Clicia ar y faner werdd. Bydd y Gath Scratch a'r hipo yn symud i'r bws, a bydd y bws yn gyrru i ffwrdd i'r dde ar ôl pedair eiliad.
 
 --- /task ---
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Ychwanega floc `cuddio`{:class="block3looks"} i wneud i'r bws ymddangos fel petai'n gyrru oddi ar y Llwyfan:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when [timer v] > [4] 
@@ -79,15 +79,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Prawf:** Clicia ar y faner werdd. Bydd y bws nawr yn cuddio ar ôl gyrru i ffwrdd. Wyt ti'n cofio sut i wneud yn siŵr bod corlun yn ailymddangos pan fyddi di'n clicio ar y faner werdd?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Ychwanega floc `dangos`{:class="block3looks"} at dy sgript `pan fydd y faner werdd wedi'i chlicio`{:class="block3events"} i wneud i'r bws ymddangos pan fyddi di'n rhedeg dy brosiect:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Corlun Bws y Ddinas.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -101,9 +101,9 @@ set [color v] effect to (50) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Prawf:** Clicia ar y faner werdd a gwylio dy animeiddiad. Dylai'r bws ymddangos yng nghanol y Llwyfan ac yna gyrru i ffwrdd i'r dde a diflannu.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Ydy pawb ar y bws pan mae'n gadael? Galli di newid faint o amser y mae'r bws yn aros, os bydd angen.
 
 --- /task ---
 
