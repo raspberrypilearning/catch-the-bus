@@ -1,21 +1,21 @@
-## Introduction
+## Cyflwyniad
 
-In this project, you will create an animation with sprites that run or fly to catch a bus.
+Yn y prosiect hwn, byddi di'n creu animeiddiad gyda chorluniau sy'n rhedeg neu'n hedfan i ddal bws.
 
-You will:
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
-+ Position sprites on the **Stage**
-+ Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
+Byddi di'n:
++ Gwneud i gorluniau wneud pethau gwahanol `pan fydd y faner werdd wedi'i chlicio`{: class = "block3events"}
++ Lleoli corluniau ar y **Llwyfan**
++ Defnyddia ddolen `ailadrodd`{:class="block3control"} i `symud`{:class="block3motion"} corluniau a `newid gwisgoedd`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Try it
+### Rho gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-Click on the green flag to watch the animation. 
+Clicia'r faner werdd i wylio'r animeiddiad. 
 
-Which sprites change their costumes to create an animation effect?
+Pa gorluniau sy'n newid eu gwisgoedd i greu effaith animeiddio?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
@@ -25,10 +25,10 @@ Which sprites change their costumes to create an animation effect?
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Y prosiect gorffenedig.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+Mae <span style="color: #0faeb0">**Animeiddio**</span> yn creu effaith symudiad drwy newid lluniau'n gyflym. Cerfiodd yr animeiddwyr cyntaf luniau allan o flociau pren a'u defnyddio fel stampiau. Mae'n llawer cyflymach defnyddio Scratch i godio dy animeiddiad!
 </p>
