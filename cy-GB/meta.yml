@@ -1,30 +1,30 @@
 ---
-title: Catch the bus
+title: Dal y bws
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Cyfle i ysgrifennu cod i ddweud wrth y corlun i gerdded neu hedfan i'r bws cyn iddo adael
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Create your bus scene
+    title: Creu dy olygfa bws
   - 
-    title: The Scratch Cat catches the bus
+    title: Scratch Cat yn dal y bws
     completion: engaged
   - 
-    title: The hippo flies to the bus
+    title: Mae'r hipo yn hedfan i'r bws
   - 
-    title: The bus leaves
+    title: Mae'r bws yn gadael
   - 
-    title: Missing the bus
+    title: Colli'r bws
   - 
-    title: Change the destination
+    title: Newid y gyrchfan
     completion: internal
   - 
-    title: Reflection
+    title: Myfyrio
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: What next?
+    title: Beth nesaf?
