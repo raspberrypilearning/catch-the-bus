@@ -13,7 +13,7 @@ steps:
     completion: engaged
   - title: Mae'r hipo yn hedfan i'r bws
   - title: Mae'r bws yn gadael
-  - title: Colli'r bws
+  - title: Methu'r bws
   - title: Newid y gyrchfan
     completion: internal
   - title: Myfyrio

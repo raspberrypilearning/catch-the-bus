@@ -93,7 +93,7 @@ when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-Y rhifau yn y bloc `mynd i x: y:` yw cyfesurynnau x ac y presennol y bws. Efallai bydd y rhifau yn dy brosiect di ychydig yn wahanol.
+Y rhifau yn y bloc `mynd i x: y:`{:class="block3motion"} yw cyfesurynnau x ac y presennol y bws. Efallai bydd y rhifau yn dy brosiect di ychydig yn wahanol.
 
 --- /task ---
 
@@ -138,11 +138,11 @@ go to [back v] layer
 
 --- task ---
 
-Mae'r Gath Scratch yn ymddangos ym mhob prosiect Scratch newydd fel **Sprite1** yn rhestr Corluniau. Clicia ar y corlun **Sprite1** yn y rhestr Corluniau i baratoi i animeiddio'r Scratch Cat:
+Mae'r Gath Scratch yn ymddangos ym mhob prosiect Scratch newydd fel **Corlun1** yn rhestr Corluniau. Clicia ar y corlun **Corlun1** yn y rhestr Corluniau i baratoi i animeiddio'r Scratch Cat:
 
-![Y corlun Sprite1 wedi'i ddewis yn y rhestr Corluniau.](images/sprite1-selected.png)
+![Y corlun Corlun1 wedi'i ddewis yn y rhestr Corluniau.](images/sprite1-selected.png)
 
-**Awgrym:** Os wyt ti wedi dileu'r corlun **Sprite1** (Scratch Cat) yn ddamweiniol, galli di glicio ar yr eicon **Dewiswch Gorlun** a chwilio am `cat`.
+**Awgrym:** Os wyt ti wedi dileu'r corlun **Corlun1** (Scratch Cat) yn ddamweiniol, galli di glicio ar yr eicon **Dewiswch Gorlun** a chwilio am `cat`.
 
 --- /task ---
 
