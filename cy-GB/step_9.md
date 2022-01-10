@@ -1,12 +1,12 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Nawr, galli di ychwanegu corlun o dy ddewis at dy animeiddiad. Bydd angen i ti ychwanegu cod i wneud i dy gorlun `fynd i`{:class="block3motion"} leoliad dechreuol, `pwyntio`{:class="block3motion"} yn y cyfeiriad cywir, ac wedyn blociau `ailadrodd`{:class="block3control"} `symud`{:class="block3motion"} a `gwisg nesaf`{:class="block3looks"} i gyrraedd y bws.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Awgrym:** Pan fyddi di'n clicio ar **Dewiswch Gorlun**, byddi di'n dal cyrchydd y llygoden dros gorlun i weld ei wisgoedd, neu ar rai ddyfeisiau symudol galli di daro a dal dros gorlun i weld ei wisgoedd (os bydd ffenestr yn ymddangos pan fyddi di'n taro a dal dros gorlun, tara ar ochr y sgrin i gau'r ffenestr a gweld y gwisgoedd). Gall edrych ar wisgoedd corluniau dy helpu i ddod o hyd i corlun sy'n gweithio'n dda ar gyfer animeiddio.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Corluniau eraill yn symud tuag at fws gyda'r testun "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Galli di ddefnyddio unrhyw un o'r blociau y gwnes di ddysgu amdanyn nhw yn y prosiect hwn, yn ogystal â'r rhai rwyt ti'n eu hadnabod eisoes:
 
 ```blocks3
 when flag clicked
@@ -43,17 +43,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Galli di hefyd 'ailgymysgu' y prosiect i wneud unrhyw newidiadau hoffet ti. Fe allet ti ychwanegu effeithiau sain i'r bws neu gorluniau eraill, neu osod effaith lliw y bws. Gallai un o'r corluniau fethu'r bws a pheidio â chuddio.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Diolch i'r gwneuthurwr digidol Lyla am anfon yr uwchraddiad gwych hwn!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Prosiect gyda bws sydd â lliwiau sy'n fflachio.](images/Lyla-bus.gif)
 
 --- save ---
