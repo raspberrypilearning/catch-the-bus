@@ -1,0 +1,27 @@
+---
+title: Dal y bws
+hero_image: images/banner.png
+description: Cyfle i ysgrifennu cod i ddweud wrth y corlun i gerdded neu hedfan i'r bws cyn iddo adael
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Cyflwyniad
+  - title: Creu dy olygfa bws
+  - title: Scratch Cat yn dal y bws
+    completion: engaged
+  - title: Mae'r hipo yn hedfan i'r bws
+  - title: Mae'r bws yn gadael
+  - title: Methu'r bws
+  - title: Newid y gyrchfan
+    completion: internal
+  - title: Myfyrio
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Uwchraddio dy brosiect
+  - title: Beth nesaf?
