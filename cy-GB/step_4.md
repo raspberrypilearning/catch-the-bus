@@ -1,56 +1,56 @@
-## The hippo flies to the bus
+## Yr hipo yn hedfan i'r bws
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a hippo sprite that flies to the bus.
+Byddi di'n ychwanegu corlun hipo sy'n hedfan i'r bws.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![Yr hipo yn hedfan i'r bws.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
+Mae gan y corlun **Hippo1** ddwy wisg sydd ag adenydd mewn gwahanol safleoedd, fel bod modd animeiddio'r corlun i hedfan i'r bws.
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Ychwanega'r corlun **City Bus** at dy brosiect.
 
-Change the **Size** of the **Hippo1** sprite:
+Newidia **Faint** y corlun **Hippo1**:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Cwarel y corlun ar gyfer y corlun Hippo1, gyda'r maint wedi'i osod i 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Llusga'r hipo i ochr chwith uchaf y Llwyfan.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![Y corlun Hippo1 ar ochr chwith uchaf y Llwyfan.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Ychwanega god i roi'r hipo yn ei safle dechreuol:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Awgrym:** Bydd y cyfesurynnau `x`{:class="block3motion"} ac `y`{:class="block3motion"} yn y bloc `mynd i x: y:`{:class="block3motion"} yn adlewyrchu safle presennol yr hipo felly does dim rhaid i ti eu teipio.
 
 --- /task ---
 
-The hippo will fly towards the bus, flapping their wings.
+Bydd yr hipo yn hedfan tuag at y bws, gan fflapio ei adenydd.
 
-The hippo will `point towards`{:class="block3motion"} the bus before moving.
+Bydd yr hipo yn `pwyntio tuag at`{: class = "block3motion"} y bws cyn symud.
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Ychwanega god i wneud i'r hipo hedfan tuag at **Bws y Ddinas**:
 
 ```blocks3
 when flag clicked
@@ -66,15 +66,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Prawf:** Clicia ar y faner werdd a gwirio bod yr hipo yn hedfan i'r bws. Galli di newid y rhif yn y bloc `ailadrodd`{:class="block3control"} i gael yr hipo i stopio yn yr union le cywir.
 
 --- /task ---
 
-Now, the hippo will enter the bus.
+Nawr, bydd yr hipo yn mynd i mewn i'r bws.
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Ychwanega flociau `dangos`{:class="block3looks"} a `cuddio`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -92,7 +92,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Prawf:** Clicia ar y faner werdd. Bydd yr hipo yn hedfan ac yn mynd i mewn i'r bws.
 
 --- /task ---
 
