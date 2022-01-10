@@ -1,29 +1,29 @@
-try numbers up to 200
+rho gynnig ar rifau hyd at 200
 
-bottom right-hand side
+gwaelod yr ochr dde
 
-try different numbers
+rho gynnig ar wahanol rifau
 
-5 is a good walking speed
+mae 5 yn gyflymder cerdded da
 
-top left-hand side
+ochr chwith uchaf
 
-change from mouse-pointer
+newid o bwyntydd llygoden
 
-change 10 to 4
+newid 10 i 4
 
-right-hand side of the Stage
+ochr dde'r Llwyfan
 
-try 0.1, 0.5, 0.05
+rho gynnig ar 0.1, 0.5, 0.05
 
-change from 4 to 6
+newid o 4 i 6
 
-drag the sprite to choose x and y
+llusga'r corlun i ddewis x a y
 
-bottom middle of the Stage
+canol gwaelod y Llwyfan
 
-point down
+pwyntio i lawr
 
-short delay
+oedi byr
 
-up to 200
+hyd at 200
