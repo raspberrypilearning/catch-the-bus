@@ -1,49 +1,49 @@
-## Change the destination
+## Newid y gyrchfan
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+Mae'r ysgrifen ar y bws yn dweud "Scratch Tours", ond galli di newid y gyrchfan i un o dy ddewis di. Ble wyt ti am i dy fws fynd?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![Y bws gyda'r testun "Maker Festival".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Dewisa'r corlun **City Bus** a chlicio'r tab **Gwisgoedd**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![Y wisg yn y Golygydd Paent.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Clicia'r testun gwyn "Scratch Tours" ac wedyn clicio ar **Dileu** i'w dynnu.
 
 ![](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Awgrym:** Galli di ddefnyddio'r eicon **Dileu** yn y Golygydd paent neu'r fysell <kbd>Delete</kbd> ar dy fysellfwrdd.
 
 --- task ---
 
-Select the **Text** (writing) tool.
+Dewsia'r offeryn (ysgrifennu) **Testun**.
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+Clicia ar y bws lle rwyt ti am i dy destun ddechrau, a theipio'r gyrchfan o dy ddewis.
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+I newid y ffont (arddull ysgrifennu), galli di glicio'r ddewislen **Ffont**:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![Y ddewislen 'Ffont' a wedi'i dewis ar frig canol y Golygydd paent.](images/bus-text-font.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Clicia'r offeryn **Dewis** (Saeth) ac wedyn llusgo'r testun i'w leoli ar y bws.
 
 ![](images/bus-destination-centered.png)
 
