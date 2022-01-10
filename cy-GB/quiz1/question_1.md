@@ -1,58 +1,58 @@
-## Reflection
+## Myfyrio
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Da iawn! Rwyt ti wedi dysgu cryn dipyn! Nawr, mae'n bryd myfyrio ar y dysgu - mae hyn yn elfen bwysig o ddysgu, oherwydd mae'n helpu i wneud cysylltiadau newydd yn dy ymennydd.
 
-Answer the three questions below to reflect on what you have learned.
+Ateba'r tri chwestiwn isod i fyfyrio ar yr hyn rwyt ti wedi'i ddysgu.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Galli di wneud hyn gymaint ag y mynni.
 
-Have fun!
+Mwynha!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-In your project, the bus glides away using this code:
+Yn dy brosiect, mae'r bws yn gyrru i ffwrdd gan ddefnyddio'r cod hwn:
 
 ```blocks3
 when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Pryd mae'r bws yn gyrru i ffwrdd?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- () Yn syth, ar ôl i ti glicio ar y faner werdd
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+Mae gan y cod floc amser cyn bod y bws yn gyrru i ffwrdd.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Bedair eiliad ar ôl i ti glicio ar y faner werdd
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Ar ôl i ti glicio ar y faner werdd, mae pedair eiliad o aros cyn i’r bws lithro i ffwrdd.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Pan wyt ti'n clicio ar y bws
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Does gan y bws ddim cod sy'n rhedeg `pan fydd y corlun yn cael ei glicio`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- () Ddwy eiliad ar ôl i ti glicio ar y faner werdd
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+  Mae'r bws yn cymryd dwy eiliad i lithro i ffwrdd, ond nid dyna pa mor hir mae'n aros cyn iddo symud.
 
   --- /feedback ---
 
