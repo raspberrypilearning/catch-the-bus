@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-تسمى مجموعة الكتل المتصلة في Scratch بالنصية **. ستضيف نصًا جديدًا لإيقاف تشغيل الحافلة.
+تسمى مجموعة الكتل المتصلة في Scratch بالنصية . ستضيف نصًا جديدًا لإيقاف تشغيل الحافلة.
 </div>
 <div>
 
@@ -23,7 +23,7 @@
 
 --- task ---
 
-من `الأحداث`{:class="block3events"} ، اسحب `عند ارتفاع الصوت >`{:class="block3events"} `10` إلى منطقة الرمز. غيّر `ارتفاع الصوت`{:class="block3events"} إلى مؤقت ``{:class="block3events"}. سيبدأ هذا نصًا جديدًا:
+من `الأحداث`{:class="block3events"} ، اسحب `عند ارتفاع الصوت >`{:class="block3events"} `10` إلى منطقة الرمز. غيّر `ارتفاع الصوت`{:class="block3events"} إلى `مؤقت`{:class="block3events"} . سيبدأ هذا نصًا جديدًا:
 
 ![كائن باص المدينة.](images/bus-sprite.png)
 
