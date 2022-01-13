@@ -5,7 +5,7 @@
 سوف تقوم بما يلي:
 + اجعل الكائنات تقوم بأشياء مختلفة `عند النقر على العلم الأخضر`{:class="block3events"}
 + ضع الكائنات المتحركة على **المنصة**
-+ استخدم حلقة `repeat`{:class="block3control"} لغرض `تحريك`{:class="block3motion"} الكائنات و `تبديل الأزياء`{:class="block3looks"}
++ استخدم حلقة `كرِّر مرة`{:class="block3control"} لغرض `تحريك`{:class="block3motion"} الكائنات و `تبديل الأزياء`{:class="block3looks"}
 
 --- no-print ---
 --- task ---

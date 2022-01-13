@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![تُظهر المرحلة أن الحافلة قد تحركت إلى اليمين.](images/bus-leave.png){:width="300px"}
+![تُظهر المرحلة أن الحافلة قد تحركت إلى اليمين.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
@@ -35,7 +35,7 @@ when [timer v] > [4] // غيّر من 10 إلى 4
 
 --- task ---
 
-اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `×`{:class="block3motion"} و `y`{:class="block3motion"} الذي {:class="block3motion"}`سينزلق` الحافلة إليه.
+اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `×`{:class="block3motion"} و `y`{:class="block3motion"} الذي `سينزلق`{:class="block3motion"} الحافلة إليه.
 
 ![](images/bus-right.png)
 
@@ -85,7 +85,7 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-أضف `اظهر`{:class="block3looks"} إلى `عند النقر على العلم الأخضر`نص برمجي{:class="block3events"} لجعل الحافلة تظهر عند تشغيل مشروعك:
+أضف `اظهر`{:class="block3looks"} إلى `عند النقر على العلم الأخضر`{:class="block3events"}نص برمجي لجعل الحافلة تظهر عند تشغيل مشروعك:
 
 ![كائن باص المدينة.](images/bus-sprite.png)
 
