@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Als je het [Introductie tot Scratch](https://projects. raspberrypi. org/nl-NL/pathways/scratch-intro) pad volgt, kun je doorgaan naar het [Vind de kever](https://projects. raspberrypi. org/nl-NL/projects/find-the-bug) project. In dit project maak je een spel waarin je de kever moet vinden die zich op elk niveau verbergt.
+Als je het [Introductie tot Scratch](https://projects.raspberrypi.org/nl-NL/pathways/scratch-intro) pad volgt, kun je doorgaan naar het [Vind de kever](https://projects.raspberrypi.org/nl-NL/projects/find-the-bug) project. In dit project maak je een spel waarin je de kever moet vinden die zich op elk niveau verbergt.
 
 --- print-only ---
 
