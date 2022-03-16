@@ -103,7 +103,7 @@ set [color v] effect to (50) // try numbers up to 200
 
 **Test:** Klik op de groene vlag en bekijk je animatie. De bus moet in het midden van het speelveld verschijnen en dan naar rechts rijden en verdwijnen.
 
-Zit iedereen in de bus als deze vertrekt? You can change the amount of time that the bus waits, if you need to.
+Zit iedereen in de bus als deze vertrekt? Indien nodig kun je de tijd dat de bus wacht wijzigen.
 
 --- /task ---
 
