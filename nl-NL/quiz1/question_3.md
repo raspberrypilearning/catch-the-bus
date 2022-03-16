@@ -68,7 +68,7 @@ move (5) steps
 
   --- feedback ---
 
-Er is hier geen lus, dus de hond zou maar één keer bewegen. Om de hond te laten rennen, zou je een lus moeten toevoegen.
+Er is hier geen lus, dus de hond zal maar één keer bewegen. Om de hond te laten rennen, zou je een lus moeten toevoegen.
 
   --- /feedback ---
 

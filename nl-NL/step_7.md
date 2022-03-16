@@ -35,7 +35,7 @@ Selecteer het **Tekst** (schrijven) gereedschap.
 
 Klik op de bus waar je jouw tekst wilt laten beginnen en typ de bestemming van jouw keuze.
 
-Om het lettertype (schrijfstijl) te wijzigen, kun je op het vervolgkeuzemenu **Tekst** klikken:
+Om het lettertype (schrijfstijl) te wijzigen, kun je op het vervolgkeuzemenu **Lettertype** klikken:
 
 ![Het menu 'Lettertype' geselecteerd bovenaan in het midden van de Paint-editor.](images/bus-text-font.png)
 

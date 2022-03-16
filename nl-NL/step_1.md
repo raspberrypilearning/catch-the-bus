@@ -5,9 +5,10 @@ In dit project maak je een animatie met sprites die rennen of vliegen om een bus
 Je gaat:
 + Sprites verschillende dingen laten doen `wanneer op groene vlag wordt geklikt`{:class="block3events"}
 + Sprites op de **speelveld** plaatsen
-+ Een `herhaal`{:class="block3control"} lus gebruiken om sprites te`verplaatsen`{:class="block3motion"} en van `uiterlijk te veranderen`{:class="block3looks"}
++ Een `herhaal`{:class="block3control"} lus gebruiken om sprites te `verplaatsen`{:class="block3motion"} en van `uiterlijk te veranderen`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
+--- task ---
 
 ### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +22,8 @@ Welke sprites veranderen hun uiterlijk om een animatie-effect te creëren?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/589764379/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+--- /task ---
+--- /no-print ---
 
 --- print-only ---
 
