@@ -35,17 +35,17 @@ when [timer v] > [4] // verander 10 naar 4
 
 --- task ---
 
-Sleep je bus naar de rechterkant van het speelveld. Dit zal de `x`{:class="block3motion"} en `y`{:class="block3motion"} positie zijn van de bus waarnaar deze moet `schuiven`{:class="block3motion"}.
+Sleep je bus naar de rechterkant van het speelveld. Dit wordt de `x`{:class="block3motion"} en `y`{:class="block3motion"} positie van de bus waarnaar deze moet `schuiven`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Tip:** Als je de bus te ver naar rechts beweegt, springt hij terug. Probeer het opnieuw, maar verplaats het niet zo ver.
+**Tip:** Als je de bus te ver naar rechts beweegt, springt hij terug. Probeer het opnieuw, maar verplaats het niet te ver.
 
 --- /task ---
 
 --- task ---
 
-Voeg een `schuif in`{:class="block3motion"} `2` `sec naar x: y:`{:class="block3motion"} blok toe onder het `wanneer klok`{:class="block3events"} blok.
+Voeg een `schuif in`{:class="block3motion"} `2` `sec. naar x: y:`{:class="block3motion"} blok toe onder het `wanneer klok`{:class="block3events"} blok.
 
 De `x`{:class="block3motion"} en `y`{:class="block3motion"} in jouw project kunnen een beetje anders zijn.
 
@@ -85,7 +85,7 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-Voeg een `verschijn`{:class="block3looks"}-blok toe aan je `wanneer op de groen vlag wordt geklikt`{:class="block3events"}script om de bus te laten verschijnen wanneer je jouw project uitvoert:
+Voeg een `verschijn`{:class="block3looks"}-blok toe aan je `wanneer op de groen vlag wordt geklikt`{:class="block3events"} script om de bus te laten verschijnen wanneer je jouw project uitvoert:
 
 ![De stadsbus-sprite.](images/bus-sprite.png)
 
@@ -103,7 +103,7 @@ set [color v] effect to (50) // probeer getallen tot 200
 
 **Test:** Klik op de groene vlag en bekijk je animatie. De bus moet in het midden van het speelveld verschijnen en dan naar rechts rijden en verdwijnen.
 
-Zit iedereen in de bus als deze vertrekt? Indien nodig kunt je de tijd dat de bus wacht wijzigen.
+Zit iedereen in de bus als deze vertrekt? Indien nodig kun je de tijd dat de bus wacht wijzigen.
 
 --- /task ---
 

@@ -3,7 +3,7 @@
 legend: Vraag 2 van 3
 ---
 
-De eigenschappen van een sprite verschijnen in het Sprite-venster onder het speelveld.
+De eigenschappen van een sprite verschijnen in het Sprite-paneel onder het speelveld.
 
 Als je een sprite naar een nieuwe positie in het speelveld sleept, welke eigenschappen worden dan bijgewerkt?
 
@@ -37,7 +37,7 @@ Het gebruik van de **oog** en **doorgekruiste oog** iconen zal de sprite laten z
 
   --- feedback ---
 
-Om de grootte van de sprite te wijzigen, moet je naar de **Grootte** en daar het getal wijzigen.
+Om de grootte van de sprite te wijzigen, moet je naar **Grootte** en daar het getal wijzigen.
 
   --- /feedback ---
 

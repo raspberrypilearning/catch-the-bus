@@ -40,7 +40,7 @@ when flag clicked
 go to x: [-200] y: [150] // linksboven
 ```
 
-**Tip:** De `x`{:class="block3motion"} en `y`{:class="block3motion"} coördinaten in het `ga naar x: y:`{:class="block3motion"} blok is de huidige positie van het nijlpaard, zodat je deze niet hoeft in te voeren.
+**Tip:** De `x`{:class="block3motion"} en `y`{:class="block3motion"} coördinaten in het `ga naar x: y:`{:class="block3motion"} blok zijn de huidige positie van het nijlpaard, zodat je deze niet hoeft in te voeren.
 
 --- /task ---
 
@@ -50,7 +50,7 @@ Het nijlpaard zal zich `richten naar`{:class="block3motion"} de bus voordat het 
 
 --- task ---
 
-Voeg code toe om het nijlpaard naar de **City Bus**te laten vliegen:
+Voeg code toe om het nijlpaard naar de **City Bus** te laten vliegen:
 
 ```blocks3
 when flag clicked
