@@ -17,11 +17,11 @@ steps:
   - title: Άλλαξε τον προορισμό
     completion: internal
   - title: Αναστοχασμός
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - title: Αναβάθμιση του έργου σου
-    completion: external
   - title: Τι υπάρχει στη συνέχεια;
