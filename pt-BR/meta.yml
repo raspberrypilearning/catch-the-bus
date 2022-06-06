@@ -7,21 +7,24 @@ listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-  - title: Introdução
-  - title: Crie o cenário do teu ônibus
-  - title: O Gato Scratch alcança o ônibus
-    completion: engaged
-  - title: O hipopótamo alcança o ônibus voando
-  - title: O ônibus parte
-  - title: Perdendo o ônibus
-  - title: Mudando o destino
-    completion: internal
-  - title: Reflexão
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Melhore o seu projeto
-  - title: E agora?
+- title: Introdução
+- title: Crie o cenário do teu ônibus
+- title: O Gato Scratch alcança o ônibus
+  completion:
+  - engaged
+- title: O hipopótamo alcança o ônibus voando
+- title: O ônibus parte
+- title: Perdendo o ônibus
+- title: Mudando o destino
+  completion:
+  - internal
+- title: Reflexão
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Melhore o seu projeto
+- title: E agora?

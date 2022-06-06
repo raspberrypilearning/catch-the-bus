@@ -7,21 +7,24 @@ listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-  - title: はじめに
-  - title: バスの場面を作る
-  - title: スクラッチキャットがバスに乗る
-    completion: engaged
-  - title: カバはバスに向かって飛ぶ
-  - title: バスの出発
-  - title: バスに乗り遅れる
-  - title: 目的地を変更する
-    completion: internal
-  - title: ふりかえり
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: プロジェクトをアップグレードする
-  - title: 次は何をしますか？
+- title: はじめに
+- title: バスの場面を作る
+- title: スクラッチキャットがバスに乗る
+  completion:
+  - engaged
+- title: カバはバスに向かって飛ぶ
+- title: バスの出発
+- title: バスに乗り遅れる
+- title: 目的地を変更する
+  completion:
+  - internal
+- title: ふりかえり
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: プロジェクトをアップグレードする
+- title: 次は何をしますか？
