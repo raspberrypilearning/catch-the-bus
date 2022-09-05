@@ -16,7 +16,8 @@ legend: Question 1 of 3
 In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -28,7 +29,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +37,7 @@ The code has a timer block before the bus glides away.
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
