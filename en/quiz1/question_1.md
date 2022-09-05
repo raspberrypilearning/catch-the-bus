@@ -53,7 +53,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
   
   --- /feedback ---
 
