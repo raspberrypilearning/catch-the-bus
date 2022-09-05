@@ -26,6 +26,8 @@ Click in the **Direction** property in the Sprite pane. Rotate the arrow to poin
 
 Drag the Scratch Cat to the bottom right-hand side of the Stage.
 
+![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+
 **Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage. 
 
 --- /task ---
@@ -73,7 +75,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers so that the Scratch Cat stops at the bus.
+**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
 
 --- /task ---
 

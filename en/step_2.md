@@ -101,6 +101,8 @@ The numbers in the `go to x: y:`{:class="block3motion"} block are the current x 
 
 **Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
 
+![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+
 --- /task ---
 
 When you drag the bus, it goes in front of the Scratch Cat. 

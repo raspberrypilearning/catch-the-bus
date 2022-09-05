@@ -11,8 +11,6 @@ A group of connected blocks in Scratch is called a **script**. You will add a ne
 </div>
 </div>
 
-The bus will drive off to the right four seconds after the green flag is clicked. The `when timer`{:class="block3events"} block will run the blocks below it after this time delay.
-
 --- task ---
 
 Select the **City Bus** sprite.
@@ -23,19 +21,20 @@ Select the **City Bus** sprite.
 
 --- task ---
 
-From the `Events`{:class="block3events"} blocks menu, drag a `when loudness >`{:class="block3events"} `10` block to the Code area. Change `loudness`{:class="block3events"} to `timer`{:class="block3events"}. This will start a new script:
+Add code to make the bus drive off to the right four seconds after the green flag is clicked. 
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] // change 10 to 4
+when flag clicked 
+wait [4] seconds // change 1 to 4
 ```
 
 --- /task ---
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
 
 ![](images/bus-right.png)
 
@@ -45,14 +44,15 @@ Drag your bus to the right-hand side of the Stage. This will be the `x`{:class="
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `when timer`{:class="block3events"} block. 
+Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block. 
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different.
+The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // change 1 to 4
 +glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 ```
 
@@ -71,7 +71,8 @@ Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the S
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // change 1 to 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -93,7 +94,7 @@ Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:clas
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // try numbers up to 200
+set [color v] effect to (85) // try numbers up to 200
 +show
 ```
 

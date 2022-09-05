@@ -27,7 +27,7 @@ Which sprites change their costumes to create an animation effect?
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![The completed project.](images/hippo-flies.png)
 
 --- /print-only ---
 
