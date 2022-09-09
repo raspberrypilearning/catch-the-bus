@@ -108,7 +108,7 @@ end
 
 --- /task ---
 
-Now, you will make the Scratch Cat seem to enter the bus. 
+### Hide the Scratch Cat
 
 --- task ---
 
@@ -134,7 +134,7 @@ end
 
 --- /task ---
 
-The Scratch Cat needs to reappear when you run the animation again.
+### Show the Scratch Cat
 
 --- task ---
 

@@ -11,6 +11,8 @@ Add more blocks to make the bus drive off.
 </div>
 </div>
 
+### Animate the Bus
+
 --- task ---
 
 Select the **City Bus** sprite.
@@ -63,6 +65,8 @@ wait [4] seconds // change 1 to 4
 **Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds. 
 
 --- /task ---
+
+### Hide and show the Bus
 
 --- task ---
 
