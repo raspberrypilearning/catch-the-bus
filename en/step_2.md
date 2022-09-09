@@ -11,6 +11,8 @@ Choose a backdrop and add a bus sprite.
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
@@ -18,6 +20,8 @@ Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214
 [[[working-offline]]]
 
 --- /task ---
+
+### Choose a Backdrop
 
 --- task ---
 
@@ -34,6 +38,8 @@ Click on the **Outdoors** category. Add a backdrop that makes a good starting po
 ![The Stage with the School backdrop.](images/outdoor-backdrop.png)
 
 --- /task ---
+
+### Choose a Sprite
 
 --- task ---
 
@@ -53,7 +59,7 @@ Add the **City Bus** sprite to your project.
 
 --- /task ---
 
- In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
+### Give your bus a starting position
 
 --- task ---
 
@@ -104,7 +110,7 @@ The numbers in the `go to x: y:`{:class="block3motion"} block are the current x 
 
 --- /task ---
 
-When you drag the bus, it goes in front of the Scratch Cat. 
+### Move the bus behind the character sprites
 
 --- task ---
 
@@ -122,6 +128,8 @@ go to x: (0) y: (-100)
 
 --- /task ---
 
+### Change the bus colour
+
 --- task ---
 
 You can change the colour of the bus:
@@ -137,6 +145,8 @@ go to [back v] layer
 
 --- /task ---
 
+### Resize the Scratch Cat
+
 --- task ---
 
 The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
@@ -146,8 +156,6 @@ The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite
 **Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`. 
 
 --- /task ---
-
-At the moment, the Scratch Cat is too big to fit on the bus. 
 
 --- task ---
 
