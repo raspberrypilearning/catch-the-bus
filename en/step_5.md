@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A group of connected blocks in Scratch is called a **script**. You will add a new script to make the bus drive off.
+Add more blocks to make the bus drive off.
 </div>
 <div>
 
@@ -10,6 +10,8 @@ A group of connected blocks in Scratch is called a **script**. You will add a ne
 
 </div>
 </div>
+
+### Animate the Bus
 
 --- task ---
 
@@ -63,6 +65,8 @@ wait [4] seconds // change 1 to 4
 **Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds. 
 
 --- /task ---
+
+### Hide and show the Bus
 
 --- task ---
 

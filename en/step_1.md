@@ -1,6 +1,6 @@
-## Introduction
+## You will make
 
-In this project, you will create an animation with sprites that run or fly to catch a bus. 
+Create an animation with sprites that run or fly to catch a bus 🚌. 
 
 You will:
 + Make sprites do different things `when green flag clicked`{:class="block3events"}
@@ -10,13 +10,13 @@ You will:
 --- no-print ---
 --- task ---
 
-### Try it
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Click on the green flag to watch the animation. 
 
-Which sprites change their costumes to create an animation effect?
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>

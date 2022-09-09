@@ -11,6 +11,8 @@ The writing on the bus says "Scratch Tours", but you can change the destination 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Select the **City Bus** sprite and click on the **Costumes** tab:

@@ -11,6 +11,8 @@ What if the Scratch Cat did not run fast enough to catch the bus?
 </div>
 </div>
 
+### Make Scratch Cat miss the bus
+
 --- task ---
 
 Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second. 
+### Make Scratch Cat catch the Bus
 
 --- task ---
+
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second. 
 
 Change the delay in the `wait`{:class="block3control"} block:
 
@@ -52,7 +56,7 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Choose:** Choose if you want the Scratch Cat to **miss the bus** or **catch the bus**.
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
