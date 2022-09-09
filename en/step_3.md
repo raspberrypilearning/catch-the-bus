@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 </div>
 <div>
 
@@ -20,7 +20,6 @@ Click in the **Direction** property in the Sprite pane. Rotate the arrow to poin
 ![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
 
 --- /task ---
-
 
 --- task ---
 

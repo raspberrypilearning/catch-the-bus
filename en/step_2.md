@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop and add a bus sprite.
+Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
@@ -23,7 +23,7 @@ Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214
 
 Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
 
-![](images/choose-a-backdrop.png)
+![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -39,7 +39,7 @@ Click on the **Outdoors** category. Add a backdrop that makes a good starting po
 
 Click on **Choose a Sprite**: 
 
-![](images/choose-sprite-menu.png)
+![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -77,8 +77,7 @@ Drag the bus to a good position on the Stage:
 
 The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
-![](images/coords-sprite-pane.png)
-
+![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
 
 --- /task ---
 
@@ -154,7 +153,7 @@ At the moment, the Scratch Cat is too big to fit on the bus.
 
 In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
 
-![](images/sprite-pane-size.png)
+![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
 
 --- /task --- 
 
