@@ -164,5 +164,3 @@ In the Sprite pane, click in the **Size** property and change the Scratch Cat's 
 ![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
 
 --- /task --- 
-
---- save ---

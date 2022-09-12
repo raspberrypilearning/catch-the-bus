@@ -111,5 +111,3 @@ set [color v] effect to (85) // try numbers up to 200
 Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
 
 --- /task ---
-
---- save ---
