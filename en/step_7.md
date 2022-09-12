@@ -51,4 +51,3 @@ Click on the **Select** (Arrow) tool, then drag the text to position it on the b
 
 --- /task ---
 
---- save ---
