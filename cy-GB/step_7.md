@@ -11,6 +11,8 @@ Mae'r ysgrifen ar y bws yn dweud "Scratch Tours", ond galli di newid y gyrchfan 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Dewisa'r corlun **City Bus** a chlicio'r tab **Gwisgoedd**:
@@ -23,11 +25,11 @@ Dewisa'r corlun **City Bus** a chlicio'r tab **Gwisgoedd**:
 
 Clicia'r testun gwyn "Scratch Tours" ac wedyn clicio ar **Dileu** i'w dynnu.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Awgrym:** Galli di ddefnyddio'r eicon **Dileu** yn y Golygydd paent neu'r fysell <kbd>Delete</kbd> ar dy fysellfwrdd.
 
 --- task ---
 
@@ -45,8 +47,7 @@ I newid y ffont (arddull ysgrifennu), galli di glicio'r ddewislen **Ffont**:
 
 Clicia'r offeryn **Dewis** (Saeth) ac wedyn llusgo'r testun i'w leoli ar y bws.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
