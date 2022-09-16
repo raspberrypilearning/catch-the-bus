@@ -3,11 +3,9 @@
 legend: Vraag 3 van 3
 ---
 
-In je project liet je het nijlpaard vliegen en de Scratch kat naar de bus lopen.
+Which of these scripts uses a **loop** to animate the dog?
 
 ![Een animatie van een hond die van links van het speelveld naar rechts rent.](images/dog-run.gif)
-
-Welke van deze scripts gebruikt een **lus** om de hond te laten rennen?
 
 --- choices ---
 
@@ -21,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Ja! Het `herhaal`{:class="block3control"} blok gebruikt een lus om de hond te laten rennen.
+Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
 
   --- /feedback ---
 
@@ -34,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-Deze code laat de hond bewegen, maar slechts één keer. Er is hier geen lus, dus de code wordt niet herhaald.
+This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
 
   --- /feedback ---
 
@@ -55,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-Deze code laat de hond rennen, maar maakt geen gebruik van een lus. Het gebruik van een lus kan je code vaak korter maken.
+This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
 
   --- /feedback ---
 
@@ -68,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-Er is hier geen lus, dus de hond zal maar één keer bewegen. Om de hond te laten rennen, zou je een lus moeten toevoegen.
+There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
 
   --- /feedback ---
 
