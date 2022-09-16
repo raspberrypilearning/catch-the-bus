@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Make Scratch Cat miss the bus
+
 --- task ---
 
 Επίλεξε το αντικείμενο **Γάτα του Scratch** και πρόσθεσε ένα μπλοκ `περίμενε`{:class="block3control"}:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Χρειάζεσαι καθυστερήσεις μικρότερες του ενός δευτερολέπτου. Το 0,5 είναι μισό δευτερόλεπτο, το 0,25 είναι ένα τέταρτο του δευτερολέπτου και το 0,1 είναι ένα δέκατο του δευτερολέπτου.
+### Make Scratch Cat catch the Bus
 
 --- task ---
+
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
 Άλλαξε την καθυστέρηση στο μπλοκ `περίμενε`{:class="block3control"}:
 
@@ -52,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Επίλεξε:** Επίλεξε εάν θέλεις την γάτα του Scratch να **χάσει το λεωφορείο** ή **προλάβει το λεωφορείο**.
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
-Εάν θέλεις τη γάτα του Scratch να **χάσει το λεωφορείο**, αφαίρεσε το μπλοκ `εξαφανίσου`{:class="block3looks"} από τον κώδικά σου, έτσι ώστε η γάτα του Scratch να παραμείνει στο Σκηνικό:
+If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![Σύρε το μπλοκ «εξαφανίσου» από το script στην περιοχή του Κώδικα στο μενού των Μπλοκ για να αφαιρέσεις το μπλοκ από το script.](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
-![Το αντικείμενο της γάτας του Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,30 +81,30 @@ end
 
 --- task ---
 
-Εάν θέλεις την γάτα του Scratch να **προλάβει το λεωφορείο**, κάνε το λεωφορείο να περιμένει περισσότερο πριν φύγει:
+If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
-![Το αντικείμενο του αστικού λεωφορείου.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // change from 4 to 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Θα χρειαστεί να επαναφέρεις το μπλοκ `εξαφανίσου`{:class="block3looks"} στον κώδικα του αντικειμένου **Γάτα του Scratch Cat**, εάν το έχεις αφαιρέσει και θέλεις την γάτα του Scratch να προλάβει το λεωφορείο.
+You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
 
 --- /task ---
 
 --- task ---
 
-Κάνε αλλαγές έως ότου η κινούμενη εικόνα λειτουργεί όπως θέλεις.
+Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Όταν εργάζεσαι σε ένα έργο, συχνά επιστρέφεις και αλλάζεις ή βελτιώνεις τον κώδικά σου καθώς σου έρχονται νέες ιδέες. 
+When working on a project, you often go back and change or improve your code as you get new ideas. 
 </p>
 
---- save ---
 
 
