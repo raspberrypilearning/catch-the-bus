@@ -1,29 +1,29 @@
-try numbers up to 200
+200 . तक की संख्या का प्रयास करें
 
-bottom right-hand side
+नीचे दाहिनी ओर
 
-try different numbers
+विभिन्न नंबरों का प्रयास करें
 
-5 is a good walking speed
+5 चलने की अच्छी गति है
 
-top left-hand side
+ऊपरी बाएँ हाथ की ओर
 
-change from mouse-pointer
+माउस-पॉइंटर से बदलें
 
-change 10 to 4
+10 को 4 मे बदलें
 
-right-hand side of the Stage
+Stage के दाहिने हाथ की ओर
 
-try 0.1, 0.5, 0.05
+प्रयोग करें 0.1, 0.5, 0.05
 
-change from 4 to 6
+4 को 6 मे बदलें
 
-drag the sprite to choose x and y
+x और y को चुनने के लिए स्प्राइट को खीचें
 
-bottom middle of the Stage
+Stage के नीचे मध्य में
 
-point down
+नीचे की ओर करना
 
-short delay
+थोड़े समय के लिए विलंबित
 
-up to 200
+200 तक
