@@ -1,6 +1,6 @@
-## Introdução
+## You will make
 
-Neste projeto, você irá criar uma animação com atores que correm ou voam para alcançar um ônibus.
+Create an animation with sprites that run or fly to catch a bus 🚌.
 
 Você vai:
 + Fazer com que os atores façam coisas diferentes `quando a bandeira verde for clicada`{:class="block3events"}
@@ -9,23 +9,23 @@ Você vai:
 
 --- no-print --- --- task ---
 
-### Agora é a sua vez de tentar
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Clique na bandeira verde para assistir a animação. 
 
-Quais atores mudam suas fantasias para criar um efeito de animação?
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![O projeto concluído.](images/showcase_static.png)
+![O projeto concluído.](images/hippo-flies.png)
 
 --- /print-only ---
 
