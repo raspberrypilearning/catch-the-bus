@@ -1,26 +1,25 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Beantwoord de drie onderstaande vragen om na te denken over wat je hebt geleerd.
+When you have answered each question, click on **Check my answer**.
 
-Wanneer je elke vraag hebt beantwoord, klik je op **Verzenden**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-In jouw project glijdt de bus weg met deze code:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Wanneer glijdt de bus weg?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ Wanneer glijdt de bus weg?
 
   --- feedback ---
 
-De code heeft een klokblok voordat de bus wegglijdt.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ De code heeft een klokblok voordat de bus wegglijdt.
 
   --- feedback ---
 
-Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze wegglijdt.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze
 
   --- feedback ---
 
-De bus heeft geen code die `wanneer op deze sprite wordt geklikt`{:class="block3events"} uitvoert.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ De bus heeft geen code die `wanneer op deze sprite wordt geklikt`{:class="block3
 
   --- feedback ---
 
-  De bus doet er twee seconden over om weg te glijden, maar zo lang wacht hij niet voordat hij in beweging komt.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
