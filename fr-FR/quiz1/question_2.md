@@ -3,41 +3,39 @@
 legend : Question 2 sur 3
 ---
 
-Les propriétés d'un sprite apparaissent dans le volet Sprite sous la scène.
-
-Si tu fais glisser un sprite vers une nouvelle position sur la scène, quelles propriétés seront mises à jour ?
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- ( ) La direction du sprite ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-Pour changer la direction du sprite, tu dois accéder à la **Direction** et la modifier.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) Les coordonnées x et y du sprite ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Lorsque tu fais glisser un sprite vers une nouvelle position, les coordonnées **x** et **y** sont automatiquement mises à jour.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- ( ) Si le sprite s'affichera ou se cachera ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-L'utilisation des **œil** et **œil barré** fera apparaître ou masquer le sprite.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- ( ) La taille du sprite ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-Pour modifier la taille du sprite, tu dois accéder à la **taille** et y modifier le nombre.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
