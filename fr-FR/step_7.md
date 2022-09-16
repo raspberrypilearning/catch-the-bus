@@ -11,6 +11,8 @@ L'inscription sur le bus dit « Scratch Tours », mais tu peux changer la destin
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Sélectionne le **City Bus** et clique sur l'onglet **Costumes**:
@@ -23,11 +25,11 @@ Sélectionne le **City Bus** et clique sur l'onglet **Costumes**:
 
 Clique sur le texte blanc « Scratch Tours » pour le sélectionner, puis clique sur **Supprimer** pour le supprimer.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Astuce :** Tu peux utiliser l'icone **Supprimer** dans l'éditeur de peinture ou la touche <kbd>Delete</kbd> de ton clavier.
 
 --- task ---
 
@@ -45,8 +47,7 @@ Pour changer la police (style d'écriture), tu peux cliquer sur le menu déroula
 
 Clique sur l'outil **Sélectionner** (Flèche), puis faites glisser le texte pour le positionner sur le bus.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
