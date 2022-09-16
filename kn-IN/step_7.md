@@ -1,8 +1,8 @@
-## Change the destination
+## ತಲುಪುವ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. ನಿಮ್ಮ ಬಸ್ ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕೆಂದು ನೀವು ಬಯಸುತ್ತೀರಿ?  
 </div>
 <div>
 
@@ -11,11 +11,13 @@ The writing on the bus says "Scratch Tours", but you can change the destination 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Select the **City Bus** sprite and click on the **Costumes** tab:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![ಪೇಂಟ್ ಸಂಪಾದಕದಲ್ಲಿ ವೇಷಭೂಷಣ.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
@@ -23,21 +25,21 @@ Select the **City Bus** sprite and click on the **Costumes** tab:
 
 Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
-
 --- task ---
 
-Select the **Text** (writing) tool.
+**ಪಠ್ಯ** (ಬರವಣಿಗೆ) ಉಪಕರಣವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.
 
-Click on the bus where you want your text to start, and type the destination of your choice.
+ನಿಮ್ಮ ಪಠ್ಯವನ್ನು ಪ್ರಾರಂಭಿಸಲು ನೀವು ಬಯಸುವ ಬಸ್ಸಿನ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಗಮ್ಯಸ್ಥಾನವನ್ನು ಟೈಪ್ ಮಾಡಿ.
 
-To change the font (writing style), you can click on the **Font** drop-down menu:
+ಫಾಂಟ್ (ಬರವಣಿಗೆ ಶೈಲಿ) ಬದಲಿಸಲು, ನೀವು **ಫಾಂಟ್** ಡ್ರಾಪ್-ಡೌನ್ ಮೆನು ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಬಹುದು:
 
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![ಪೇಂಟ್ ಎಡಿಟರ್ ನ ಮೇಲ್ಭಾಗದಲ್ಲಿ 'ಫಾಂಟ್' ಮೆನುವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ.](images/bus-text-font.png)
 
 --- /task ---
 
@@ -45,8 +47,7 @@ To change the font (writing style), you can click on the **Font** drop-down menu
 
 Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
