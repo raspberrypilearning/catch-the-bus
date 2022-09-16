@@ -3,41 +3,39 @@
 legend: Vraag 2 van 3
 ---
 
-De eigenschappen van een sprite verschijnen in het Sprite-paneel onder het speelveld.
-
-Als je een sprite naar een nieuwe positie in het speelveld sleept, welke eigenschappen worden dan bijgewerkt?
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- ( ) De richting van de sprite ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-Om de richting van de sprite te veranderen, moet je naar **Richting** en deze wijzigen.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) De x- en y-coördinaten van de sprite ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Wanneer je een sprite naar een nieuwe positie sleept, worden de **x** en **y** coördinaten automatisch bijgewerkt.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- ( ) Of de sprite verschijnt of verdwijnt ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-Het gebruik van de **oog** en **doorgekruiste oog** iconen zal de sprite laten zien of verbergen.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- ( ) De grootte van de sprite ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-Om de grootte van de sprite te wijzigen, moet je naar **Grootte** en daar het getal wijzigen.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
