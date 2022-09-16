@@ -1,26 +1,25 @@
-## انعكاس
+## Quick quiz
 
-أحسنت ، لقد تعلمت الكثير! الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-أجب عن الأسئلة الثلاثة أدناه للتفكر فيما تعلمته.
+When you have answered each question, click on **Check my answer**.
 
-عندما تجيب على كل سؤال ، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-إستمتع!
+Have fun!
 
 --- question ---
 ---
 القائمة: السؤال 1 من 3
 ---
 
-في مشروعك ، تنزلق الحافلة بعيدًا باستخدام هذا الرمز:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-متى تنزلق الحافلة بعيدًا؟
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-يحتوي الرمز على كتلة مؤقت قبل أن تنزلق الحافلة بعيدًا.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-بعد النقر فوق العلم الأخضر ، هناك انتظار لمدة أربع ثوان قبل انزلاق الحافلة بعيدًا.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-لا يحتوي الناقل على أية تعليمات برمجية يتم تشغيلها` عند نقر هذا الكائن على`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-  تستغرق الحافلة ثانيتين لتنزلق بعيدًا ، لكن هذه ليست المدة التي تنتظرها قبل أن تتحرك.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
