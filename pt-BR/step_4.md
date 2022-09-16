@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Você vai adicionar um ator hipopótamo que voa até o ônibus.
+Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
@@ -11,46 +11,44 @@ Você vai adicionar um ator hipopótamo que voa até o ônibus.
 </div>
 </div>
 
-O ator**Hippo1** tem duas fantasias com asas em posições diferentes, para que uma animação possa ser feita do ator voando até o ônibus.
+### Give the Hippo a starting position
 
 --- task ---
 
-Adicione o ator**Hippo1** ao seu projeto.
+Add the **Hippo1** sprite to your project.
 
-Mude o **Tamanho** do ator**Hippo1**:
+Change the **Size** of the **Hippo1** sprite:
 
-![O painel Ator para o ator Hippo1, com o tamanho 50.](images/hippo-sprite-size.png)
+![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Arraste o hipopótamo para o lado esquerdo superior do Palco.
+Drag the hippo to the top left-hand side of the Stage.
 
-![O ator Hippo1 no lado superior esquerdo do Palco.](images/hippo-sprite-stage.png)
+![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Adicione o código para fazer o hipopótamo voltar à posição inicial:
+Add code to get the hippo to their starting position:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Dica:** As coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} no bloco `go to x: y:`{:class="block3motion"} vão ser a posição atual do hipopótamo, assim você não precisa digitar elas.
+**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
 
 --- /task ---
 
-O hipopótamo voará em direção ao ônibus, batendo as asas.
-
-Antes de começar a se mexer, o hipopótamo vai `apontar para`{: class = "block3motion"} o ônibus.
+### Make the Hippo flap its wings and fly
 
 --- task ---
 
-Adicione código para fazer a hipopótamo voar até o **Ônibus Cidade**:
+Add code to make the hippo fly towards the **City Bus**:
 
 ```blocks3
 when flag clicked
@@ -66,15 +64,15 @@ next costume
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e veja se o hipopótamo voa em direção ao ônibus. Você pode alterar o número que está no bloco `repeat`{:class="block3control"} para fazer o hipopótamo parar no lugar certo.
+**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
 
 --- /task ---
 
-Agora, o hipopótamo vai entrar no ônibus.
+### Show and hide the bus
 
 --- task ---
 
-Adicione os blocos `show`{:class="block3looks"} e `hide`{:class="block3looks"}:
+Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ```blocks3
 when flag clicked
@@ -92,8 +90,6 @@ end
 
 --- task ---
 
-**Teste:** Clique na bandeira verde. O hipopótamo vai voar e entrar no ônibus.
+**Test:** Click on the green flag. The hippo will fly and enter the bus.
 
 --- /task ---
-
---- save ---
