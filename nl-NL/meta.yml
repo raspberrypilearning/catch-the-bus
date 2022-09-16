@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Inleiding
+    title: You will make
   - 
     title: Creëer je busscène
   - 
     title: De Scratch kat haalt de bus
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Het nijlpaard vliegt naar de bus
   - 
@@ -22,15 +23,17 @@ steps:
     title: De bus missen
   - 
     title: Wijzig de bestemming
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflectie
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Verbeter je project
   - 
