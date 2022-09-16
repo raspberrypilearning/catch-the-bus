@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Créer ta scène de bus
   - 
     title: Le chat Scratch attrape le bus
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: L'hippopotame vole vers le bus
   - 
@@ -22,15 +23,17 @@ steps:
     title: Rater le bus
   - 
     title: Changer de destination
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Réflexion
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Améliorer ton projet
   - 
