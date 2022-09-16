@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Make Scratch Cat miss the bus
+
 --- task ---
 
 **スクラッチキャット**のスプライトを選択し `待つ`{:class="block3control"}ブロックを追加します。
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-1秒未満の待つ時間が必要になります。 0.5は0.5秒、0.25は1/4秒、0.1は10分の1秒です。
+### Make Scratch Cat catch the Bus
 
 --- task ---
+
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
 `〇秒待つ`{:class="block3control"}ブロックの時間を変えます。
 
@@ -52,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-**選択：** **バスに乗り遅れる** または **バスに間に合う**を選択します。
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
-スクラッチキャットを **バスに乗り遅れる**ようにしたい場合、 `隠す`{:class="block3looks"}ブロックを削除して、スクラッチキャットがステージ上にとどまるようにします。
+If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-!['隠す'ブロックをコードエリアのスクリプトからブロックメニューの方にドラッグして、スクリプトからブロックを削除します。](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
-![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,30 +81,30 @@ end
 
 --- task ---
 
-スクラッチキャットを **バスに間に合う**ようにしたい場合は、バスが出発するまでの待ち時間を長くします。
+If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
-![シティバスのスプライト。](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // change from 4 to 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-スクラッチキャットをバスに間に合うようにするために、もし削除してしまっていた場合は`隠す`{:class="block3looks"}ブロックを**スクラッチキャット**のスプライトのコードに追加しましょう。
+You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
 
 --- /task ---
 
 --- task ---
 
-アニメーションが希望通りに動くまで変更を加えます。
+Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-プロジェクトに取り組んでいるときには、新しいアイデアを得たときに、前に戻ってコードを変更して改善することがよくあります。 
+When working on a project, you often go back and change or improve your code as you get new ideas. 
 </p>
 
---- save ---
 
 
