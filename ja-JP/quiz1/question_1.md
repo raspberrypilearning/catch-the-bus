@@ -1,26 +1,25 @@
-## ふりかえり
+## Quick quiz
 
-お疲れさまでした。たくさんのことを学びましたね！ 次はふりかえりの時間です。ふりかえりを行うことで、脳に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
+Answer the three questions. There are hints to guide you to the correct answer.
 
-以下の3つの質問に答えて、学んだことをふりかえってみましょう。
+When you have answered each question, click on **Check my answer**.
 
-それぞれの質問に回答したら、[**送信**] をクリックします。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
-
-お楽しみください!
+Have fun!
 
 --- question ---
 ---
 legend: 質問1/3
 ---
 
-次のコードをプロジェクトに追加するとバスは滑走します。
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-バスはいつ滑走しますか？
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-このコードにはバスが滑走する前にタイマーブロックがあります。
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-緑のフラグを押した後、バスは滑走するまで4秒間待ちます。
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-`スプライトをクリックしたときに`{:class="block3events"}というコードがバスにありません。
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-  バスは2秒間滑走しますが、それはバスが移動するまで待つ時間ではありません。
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
