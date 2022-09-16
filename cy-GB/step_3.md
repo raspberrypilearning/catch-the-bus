@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Byddi di'n animeiddio'r Gath Scratch i ymddangos ar **ochr dde** y Llwyfan a cherdded i'r bws trwy ailadrodd symudiad bach sawl gwaith mewn **dolen**. 
+Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 </div>
 <div>
 
@@ -21,20 +21,21 @@ Clicia'r briodwedd **Cyfeiriad** yn y cwarel Corluniau. Tro'r saeth i bwyntio i 
 
 --- /task ---
 
-
 --- task ---
 
 Llusga'r Gath Scratch i ochr dde y Llwyfan.
 
-**Awgrym:** Os wyt ti'n trio gosod corlun oddi ar y Llwyfan, bydd yn symud yn ôl i'w safle olaf ar y Llwyfan.
+![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+
+**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
 
 --- /task ---
 
 --- task ---
 
-Ychwanega god i roi'r Gath Scratch yn ei safle dechreuol:
+Add code to get the Scratch Cat to their starting position:
 
-![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -45,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Prawf:** Llusga'r Gath Scratch i safle newydd, yna clicia dy floc `mynd i x: y:`{: class = "block3motion"}. Dylai'r Gath Scratch symud yn ôl i'r ochr dde isaf bob tro.
+**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
 
 --- /task ---
 
 ### Animeiddio'r Gath Scratch
 
-Byddi di'n ychwanegu cod mewn bloc `ailadrodd`{: class = "block3control"} i wneud i'r Gath Scratch ailadrodd nifer fach o gamau lawer gwaith. Bydd hyn yn gwneud i'r Gath Scratch ymddangos yn animeiddiedig.
+You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
 
 --- task ---
 
-Ychwanega floc `ailadrodd`{: class = "block3control"} `10`, wedyn llusgo bloc `symud`{: class = "block3motion"} `10` `cam`{: class = "block3motion"} y tu mewn iddo:
+Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
 
-![Newidia nifer y camau yn y bloc 'symud' o 10 i 5, wedyn mewnosod y bloc yn y ddolen 'ailadrodd'.](images/block-into-loop.gif)
+![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
 
-![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -73,23 +74,23 @@ end
 
 --- task ---
 
-**Prawf:** Clicia ar y faner werdd. Rho gynnig ar newid y rhifau fel bod y Gath Scratch yn stopio wrth y bws.
+**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
 
 --- /task ---
 
-Mae gan rai corluniaid fwy nag un wisg. Byddi di'n defnyddio corlun y **Gath Scratch** i greu animeiddiad o'r Gath Scratch yn cerdded.
+Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
 
 --- task ---
 
-Clicia'r tab **Gwisgoedd**. Mae gan y **Gath Scratch** ddwy wisg, a gyda'i gilydd, gellir eu defnyddio i wneud symudiad cerdded.
+Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
 
 --- /task ---
 
 --- task ---
 
-Clicia'r tab **Cod**. Ychwanega floc `gwisg nesaf`{:class="block3looks"}:
+Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
 
-![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -103,11 +104,11 @@ end
 
 --- task ---
 
-**Prawf:** Clicia ar y faner werdd, a bydd y Gath Scratch yn cerdded i'r bws.
+**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
 
 --- /task ---
 
-Nawr, byddi di'n gwneud i'r Gath Scratch ymddangos fel petai'n mynd i mewn i'r bws.
+### Hide the Scratch Cat
 
 --- task ---
 
@@ -133,13 +134,13 @@ end
 
 --- /task ---
 
-Mae angen i'r Gath Scratch ailymddangos pan fyddi di'n rhedeg yr animeiddiad eto.
+### Show the Scratch Cat
 
 --- task ---
 
-Ychwanega bloc `dangos`{:class="block3looks"} fel bod y Gath Scratch yn ymddangos cyn cerdded i'r gws:
+Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
 
-![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -152,14 +153,13 @@ end
 hide
 ```
 
-**Awgrym:** Pan fyddi di'n defnyddio bloc `cuddio`{:class="block3looks"}, bydd angen i ti ychwanegu bloc `dangos`{:class="block3looks"} i wneud yn siŵr bod corlun yn weladwy pan fydd angen.
+**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
 
 --- /task ---
 
 --- task ---
 
-**Prawf:** Clicia ar y faner werdd i brofi dy brosiect, a gwneud yn siŵr bod y Gath Scratch yn ymddangos.
+**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
 
 --- /task ---
 
---- save ---
