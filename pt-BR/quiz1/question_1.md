@@ -1,26 +1,25 @@
-## Reflexão
+## Quick quiz
 
-Muito bem, você aprendeu muito! Agora, é hora de refletir - refletir é uma parte importante do aprendizado, porque ajuda a fazer novas conexões no em seu cérebro.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Responda às três perguntas abaixo para refletir sobre o que você aprendeu.
+When you have answered each question, click on **Check my answer**.
 
-Depois de responder a cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta. Você pode repetir quantas vezes quiser.
-
-Divirta-se!
+Have fun!
 
 --- question ---
 ---
 legenda: Pergunta 1 de 3
 ---
 
-No projeto, o ônibus sempre vai se afastar com este código:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Em que momento o ônibus se afasta?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ Em que momento o ônibus se afasta?
 
   --- feedback ---
 
-O código tem um bloco de tempo antes do ônibus se afastar.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ O código tem um bloco de tempo antes do ônibus se afastar.
 
   --- feedback ---
 
-Depois que você clica na bandeira verde, tem um intervalo de quatro segundo antes que o ônibus se afaste.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Depois que você clica na bandeira verde, tem um intervalo de quatro segundo ant
 
   --- feedback ---
 
-O ônibus não tem qualquer código que execute `quando este ator é clicado`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ O ônibus não tem qualquer código que execute `quando este ator é clicado`{:c
 
   --- feedback ---
 
-  O ônibus leva dois segundos para se afastar, mas não é a mesma quantidade de tempo que ele espera antes de começar a se mover.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
