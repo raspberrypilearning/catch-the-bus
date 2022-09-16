@@ -1,26 +1,25 @@
-## Reflexión
+## Quick quiz
 
-¡Bien hecho, has aprendido mucho! Ahora es momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Responde las tres preguntas siguientes para reflexionar sobre lo que has aprendido.
+When you have answered each question, click on **Check my answer**.
 
-Cuando hayas respondido a cada pregunta, haz clic en **Enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Qué te diviertas!
+Have fun!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-En tu proyecto, el autobús se desplaza usando este código:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-¿Cuándo se aleja el autobús?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-El código tiene un bloque cronómetro antes de que el autobús se aleje.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ El código tiene un bloque cronómetro antes de que el autobús se aleje.
 
   --- feedback ---
 
-Después de hacer clic en la bandera verde, hay una espera de cuatro segundos antes de que el autobús se aleje.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Después de hacer clic en la bandera verde, hay una espera de cuatro segundos an
 
   --- feedback ---
 
-El autobús no tiene ningún código que se ejecute en `cuando haces clic en este objeto`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ El autobús no tiene ningún código que se ejecute en `cuando haces clic en est
 
   --- feedback ---
 
-  El autobús tarda dos segundos en desplazarse, pero ese no es el tiempo que espera antes de moverse.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
