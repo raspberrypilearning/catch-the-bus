@@ -1,26 +1,25 @@
-## Que faire ensuite?
+## Quick quiz
 
-Bravo, tu as beaucoup appris ! Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
+When you have answered each question, click on **Check my answer**.
 
-Lorsque tu as répondu à chaque question, tapes sur **Soumettre**. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien!
+Have fun!
 
 --- question ---
 ---
 legend : Question 1 sur 3
 ---
 
-Dans ton projet, le bus s'éloigne en utilisant ce code :
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Quand le bus s'éloigne-t-il ?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ Quand le bus s'éloigne-t-il ?
 
   --- feedback ---
 
-Le code a un bloc chronomètre avant que le bus ne s'éloigne.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ Le code a un bloc chronomètre avant que le bus ne s'éloigne.
 
   --- feedback ---
 
-Après avoir cliqué sur le drapeau vert, il y a une attente de quatre secondes avant que le bus ne s'éloigne.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Après avoir cliqué sur le drapeau vert, il y a une attente de quatre secondes 
 
   --- feedback ---
 
-Le bus n'a aucun code qui exécute `quand ce sprite est cliqué`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ Le bus n'a aucun code qui exécute `quand ce sprite est cliqué`{:class="block3e
 
   --- feedback ---
 
-  Le bus met deux secondes à planer, mais ce n'est pas le temps qu'il attend avant de bouger.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
