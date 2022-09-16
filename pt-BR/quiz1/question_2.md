@@ -3,41 +3,39 @@
 legenda: Pergunta 2 de 3
 ---
 
-As propriedades de um ator aparecem no painel Ator logo abaixo do Palco.
-
-Se você arrastar um ator para uma nova posição no Palco, quais propriedades vão mudar?
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- ( ) A direção do ator ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-Para alterar a direção do ator, você precisa ir na propriedade **Direção** e alterá-la.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) As coordenadas x e y do ator ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Quando você arrasta um ator para uma nova posição, as coordenadas **x** e **y** são alteradas automaticamente.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- ( ) Se o ator vai aparecer ou ficar escondido ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-Usar os ícones de **olho** e **olho riscado** vai fazer com que o ator seja exibido ou ocultado.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- ( ) O tamanho do ator ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-Para alterar o tamanho do ator, você precisa ir até a propriedade **Tamanho** e alterá-la.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
