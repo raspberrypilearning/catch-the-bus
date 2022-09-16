@@ -11,6 +11,8 @@ La autobús tiene escrito "Scratch Tours", pero puedes cambiar el destino a uno 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Selecciona el objeto **City Bus** (Autobús) y haz clic en la pestaña **Disfraces**:
@@ -23,11 +25,11 @@ Selecciona el objeto **City Bus** (Autobús) y haz clic en la pestaña **Disfrac
 
 Haz clic en el texto blanco "Scratch Tours" para seleccionarlo y luego haz clic en **Eliminar** para quitarlo.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Sugerencia:** Puedes usar el ícono **Eliminar** en el editor de dibujo o la tecla <kbd>Supr</kbd> en tu teclado.
 
 --- task ---
 
@@ -45,8 +47,7 @@ Para cambiar la fuente (estilo de escritura), puedes hacer clic en el menú desp
 
 Haz clic en la herramienta **Seleccionar** (flecha), luego arrastra el texto para colocarlo en el autobús.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
