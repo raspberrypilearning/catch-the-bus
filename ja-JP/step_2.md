@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-背景を選択し、バスのスプライトを追加します。
+Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
@@ -10,6 +10,8 @@
 
 </div>
 </div>
+
+### Open the starter project
 
 --- task ---
 
@@ -19,11 +21,13 @@
 
 --- /task ---
 
+### Choose a Backdrop
+
 --- task ---
 
 ステージペイン(画面の右下隅) で**背景を選ぶ**をクリック(またはタブレットではタップ) します。:
 
-![](images/choose-a-backdrop.png)
+![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -35,11 +39,13 @@
 
 --- /task ---
 
+### Choose a Sprite
+
 --- task ---
 
 **スプライトを選ぶ**をクリックします。
 
-![](images/choose-sprite-menu.png)
+![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,15 +59,15 @@
 
 --- /task ---
 
- スクラッチでは、ステージの上にある緑色のフラグを押してプロジェクトを実行します。 `緑のフラグが押されたとき`{:class="block3events"} バスは出発地点にいる必要があります。
+### Give your bus a starting position
 
 --- task ---
 
-ステージの下にあるスプライトリストで**City Bus**スプライトが選択されていることを確認します。
+Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-`イベント`{:class="block3events"}ブロックメニューから`緑のフラグが押されたとき`{:class="block3events"}ブロックをコードエリアにドラッグします。
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
 
-![シティバスのスプライト。](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,45 +77,46 @@ when flag clicked
 
 --- task ---
 
-バスをステージ上の適当な位置にドラッグします。
+Drag the bus to a good position on the Stage:
 
-![ステージ中央下のバス。](images/bus-bottom-middle.png)
+![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
 
-**X** と **Y** のバスの座標（位置を表す数字）がステージの下のスプライトペインにあります。:
+The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
-![](images/coords-sprite-pane.png)
-
+![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-`x座標を〇〇、y座標を〇〇にする`{:class="block3motion"} ブロックを追加します。:
+Add a `go to x: y:`{:class="block3motion"} block:
 
-![シティバスのスプライト。](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-`x座標を〇〇、y座標を〇〇にする`{:class="block3motion"} ブロックの中の数字はバスの現在のx座標とy座標です。: あなたのプロジェクトでは違う数値になっているかもしれません。
+The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
 
 --- /task ---
 
 --- task ---
 
-**テスト：** バスをステージ上の好きな場所にドラッグして動かしてから、緑色のフラグを押します。 バスは出発地点に戻っていますか。
+**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+
+![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
 
 --- /task ---
 
-バスをドラッグすると、スクラッチキャットの前に移動します。
+### Move the bus behind the character sprites
 
 --- task ---
 
-**City Bus** スプライトがいつもすべてのキャラクタースプライトの後ろにあることを確かめるには `最前面に移動する`{:class="block3looks"}ブロックを `最前面`{:class="block3looks"}をクリックして、 `最背面`{:class="block3looks"}に変えます。:
+To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
-![シティバスのスプライト。](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**ヒント：** `最前面に移動`{:class="block3looks"}ブロックが見つからないときには、ブロックメニューの `見た目`{:class="block3looks"}の下の方にスクロールして探してみてください。
+**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
 
 --- /task ---
 
+### Change the bus colour
+
 --- task ---
 
-バスの色も変えられます。
+You can change the colour of the bus:
 
-![シティバスのスプライト。](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -136,24 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
---- task ---
-
-スクラッチキャットは **Sprite1**としてすべての新しいスクラッチ・プロジェクトに表示されます 。 スプライトリストの**Sprite1**をクリックして、スクラッチキャットのアニメーションの準備をします:
-
-![スプライトリストで選択されたSprite1のスプライト。](images/sprite1-selected.png)
-
-**ヒント:** 間違えて **Sprite1** (スクラッチキャット)を削除した場合は、 **スプライトを選ぶ** アイコンをクリックして `cat`で検索します。
-
---- /task ---
-
-現時点では、スクラッチキャットは大きすぎてバスに乗れません。
+### Resize the Scratch Cat
 
 --- task ---
 
-スプライトペインで **大きさ** の値の場所をクリックして、スクラッチキャットの大きさを `50` に変えます:
+The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
 
-![](images/sprite-pane-size.png)
+![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+
+**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
 
 --- /task ---
 
---- save ---
+--- task ---
+
+In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+
+![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+
+--- /task --- 
