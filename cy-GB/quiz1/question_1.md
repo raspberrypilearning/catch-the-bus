@@ -1,26 +1,25 @@
-## Myfyrio
+## Quick quiz
 
-Da iawn! Rwyt ti wedi dysgu cryn dipyn! Nawr, mae'n bryd myfyrio ar y dysgu - mae hyn yn elfen bwysig o ddysgu, oherwydd mae'n helpu i wneud cysylltiadau newydd yn dy ymennydd.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Ateba'r tri chwestiwn isod i fyfyrio ar yr hyn rwyt ti wedi'i ddysgu.
+When you have answered each question, click on **Check my answer**.
 
-Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Galli di wneud hyn gymaint ag y mynni.
-
-Mwynha!
+Have fun!
 
 --- question ---
 ---
 legend: Cwestiwn 1 o 3
 ---
 
-Yn dy brosiect, mae'r bws yn gyrru i ffwrdd gan ddefnyddio'r cod hwn:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Pryd mae'r bws yn gyrru i ffwrdd?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ Pryd mae'r bws yn gyrru i ffwrdd?
 
   --- feedback ---
 
-Mae gan y cod floc amser cyn bod y bws yn gyrru i ffwrdd.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ Mae gan y cod floc amser cyn bod y bws yn gyrru i ffwrdd.
 
   --- feedback ---
 
-Ar ôl i ti glicio ar y faner werdd, mae pedair eiliad o aros cyn i’r bws lithro i ffwrdd.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Ar ôl i ti glicio ar y faner werdd, mae pedair eiliad o aros cyn i’r bws lith
 
   --- feedback ---
 
-Does gan y bws ddim cod sy'n rhedeg `pan fydd y corlun yn cael ei glicio`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ Does gan y bws ddim cod sy'n rhedeg `pan fydd y corlun yn cael ei glicio`{:class
 
   --- feedback ---
 
-  Mae'r bws yn cymryd dwy eiliad i lithro i ffwrdd, ond nid dyna pa mor hir mae'n aros cyn iddo symud.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
