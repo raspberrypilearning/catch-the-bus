@@ -1,8 +1,8 @@
-## The hippo flies to the bus
+## ಹಿಪ್ಪೋ ಬಸ್ಸಿಗೆ ಹಾರುತ್ತದೆ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a hippo sprite that flies to the bus.
+Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ You will add a hippo sprite that flies to the bus.
 </div>
 </div>
 
-The **Hippo1** sprite has two costumes with wings in different positions, so the sprite can be animated to fly to the bus.
+### Give the Hippo a starting position
 
 --- task ---
 
@@ -44,9 +44,7 @@ go to x: [-200] y: [150] // top left-hand side
 
 --- /task ---
 
-The hippo will fly towards the bus, flapping their wings.
-
-The hippo will `point towards`{:class="block3motion"} the bus before moving.
+### Make the Hippo flap its wings and fly
 
 --- task ---
 
@@ -70,7 +68,7 @@ next costume
 
 --- /task ---
 
-Now, the hippo will enter the bus.
+### Show and hide the bus
 
 --- task ---
 
@@ -95,5 +93,3 @@ end
 **Test:** Click on the green flag. The hippo will fly and enter the bus.
 
 --- /task ---
-
---- save ---
