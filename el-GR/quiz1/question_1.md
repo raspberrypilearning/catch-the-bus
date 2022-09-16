@@ -1,26 +1,25 @@
-## Αναστοχασμός
+## Quick quiz
 
-Μπράβο, έμαθες πολλά! Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις - ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
+When you have answered each question, click on **Check my answer**.
 
-Όταν απαντήσεις σε κάθε ερώτηση, κάνε κλικ στην**Υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 ---
 legend: Ερώτηση 1 από 3
 ---
 
-Στο έργο σου, το λεωφορείο προχωράει χρησιμοποιώντας αυτόν τον κώδικα:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Πότε φεύγει το λεωφορείο;
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-Ο κώδικας έχει ένα μπλοκ χρονοδιακόπτη πριν το λεωφορείο απομακρυνθεί.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-Αφού κάνεις κλικ στην πράσινη σημαία, υπάρχει μια καθυστέρηση τεσσάρων δευτερολέπτων πριν φύγει το λεωφορείο.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-Το λεωφορείο δεν έχει κώδικα που τρέχει`όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-  Η μετακίνηση του λεωφορείου διαρκεί δύο δευτερόλεπτα, αλλά αυτό δεν είναι το ίδιο χρονικό διάστημα με το πόσο περιμένει για να κινηθεί.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
