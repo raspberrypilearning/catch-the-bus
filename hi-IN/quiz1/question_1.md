@@ -1,22 +1,21 @@
-## Reflection
+## Quick quiz
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to reflect on what you have learned.
-
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 3 में से पहला प्रश्न
 ---
 
 In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -24,23 +23,23 @@ When does the bus glide away?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) तुरंत जब आप हरे झंडे पर क्लिक करते हैं
 
   --- feedback ---
 
-The code has a timer block before the bus glides away.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) हरी झंडी पर क्लिक करने के चार सेकंड बाद
 
   --- feedback ---
 
-After you click on the green flag, there is a four-second wait before the bus glides away.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () जब आप बस पर क्लिक करते हैं
 
   --- feedback ---
 
@@ -48,11 +47,11 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) हरी झंडी पर क्लिक करने के दो सेकंड बाद
 
   --- feedback ---
 
-  The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
