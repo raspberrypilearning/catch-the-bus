@@ -1,29 +1,29 @@
-try numbers up to 200
+200 पर्यंत संख्या वापरून पहा
 
-bottom right-hand side
+तळापासून उजवीकडे
 
-try different numbers
+भिन्न संख्या वापरून पहा
 
-5 is a good walking speed
+पाच (5) चा चालण्याचा वेग चांगला आहे
 
-top left-hand side
+वरून डाव्या बाजूला
 
-change from mouse-pointer
+माउस-पॉइंटर पासून बदला
 
-change 10 to 4
+10 ला 4 मध्ये बदला
 
-right-hand side of the Stage
+स्टेजच्या उजव्या बाजूला
 
-try 0.1, 0.5, 0.05
+0.1, 0.5, 0.05 वापरून पहा
 
-change from 4 to 6
+4 ला 6 मध्ये बदला
 
-drag the sprite to choose x and y
+x आणि y निवडण्यासाठी स्प्राइट ड्रॅग करा
 
-bottom middle of the Stage
+स्टेजच्या तळाशी मध्यभागी
 
-point down
+खाली निर्देशित करा
 
-short delay
+थोडा उशीर
 
-up to 200
+200 पर्यंत
