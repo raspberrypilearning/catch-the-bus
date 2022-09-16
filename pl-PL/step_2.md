@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Wybierzesz tło i dodasz duszka autobusu.
+Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
@@ -10,6 +10,8 @@ Wybierzesz tło i dodasz duszka autobusu.
 
 </div>
 </div>
+
+### Open the starter project
 
 --- task ---
 
@@ -19,11 +21,13 @@ Otwórz [projekt startowy Złap autobus](https://scratch.mit.edu/projects/582214
 
 --- /task ---
 
+### Choose a Backdrop
+
 --- task ---
 
 Kliknij (lub naciśnij na tablecie) **Wybierz tło** w okienku Sceny (w prawym dolnym rogu ekranu):
 
-![](images/choose-a-backdrop.png)
+![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -35,11 +39,13 @@ Kliknij kategorię **Na zewnątrz**. Dodaj tło, które będzie dobrym punktem w
 
 --- /task ---
 
+### Choose a Sprite
+
 --- task ---
 
 Kliknij **Wybierz duszka**:
 
-![](images/choose-sprite-menu.png)
+![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,15 +59,15 @@ Dodaj duszka **City Bus** do swojego projektu.
 
 --- /task ---
 
- W Scratchu uruchamiasz projekty, klikając zieloną flagę nad sceną. Autobus musi znajdować się w pozycji początkowej `gdy zielona flaga została kliknięta`{:class="block3events"}.
+### Give your bus a starting position
 
 --- task ---
 
-Upewnij się, że **Autobus** jest wybrany na liście duszków pod sceną.
+Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-Przeciągnij `kiedy kliknięto zieloną flagę`{: class = "block3events"} blok z `Wydarzeń`{class = "block3events"} blokuje menu do obszaru kodu:
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
 
-![Duszek autobusu.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,45 +77,46 @@ when flag clicked
 
 --- task ---
 
-Przeciągnij autobus w dobrą pozycję na scenie:
+Drag the bus to a good position on the Stage:
 
-![Autobus na środku spodu sceny.](images/bus-bottom-middle.png)
+![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
 
-Koordynaty **x** i **y** (liczby używane do opisania pozycji) autobusu są pokazane w panelu Sprite poniżej sceny:
+The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
-![](images/coords-sprite-pane.png)
-
+![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Dodaj blok `idź do x: y:`{:class="block3motion"}:
+Add a `go to x: y:`{:class="block3motion"} block:
 
-![Duszek autobusu.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-Liczby w bloku `idź do x:y:`{:class="block3motion"} są bieżącymi współrzędnymi x i y autobusu. Liczby w twoim projekcie mogą się nieco różnić.
+The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Przeciągnij autobus w dowolne miejsce na scenie, a następnie kliknij zieloną flagę. Autobus powinien zawsze jechać do swojej pozycji początkowej.
+**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+
+![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
 
 --- /task ---
 
-Kiedy przeciągasz autobus, jedzie on przed kota Scratch.
+### Move the bus behind the character sprites
 
 --- task ---
 
-Aby upewnić się, że duszek **Autobus** jest zawsze za wszystkimi duszkami postaci, dodaj `przejdź do przedniej warstwy`{:class="block3looks"}, a następnie kliknij `przód`{:class="block3looks"} i zmień go na `tył`{:class="block3looks"}:
+To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
-![Duszek autobusu.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Wskazówka:** Jeśli nie widzisz bloku`przejdź do pierwszej warstwy`{:class="block3looks"}, musisz przewinąć w dół w menu bloku`Wyglądy`{:class="block3looks"}.
+**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
 
 --- /task ---
 
+### Change the bus colour
+
 --- task ---
 
-Możesz zmienić kolor autobusu:
+You can change the colour of the bus:
 
-![Duszek autobusu.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -136,24 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
---- task ---
-
-Kot Scratch pojawia się we wszystkich nowych projektach Scratch jako **Sprite1** na liście Duszków. Kliknij na **Sprite1** na liście Duszków, aby przygotować się do animowania kota Scratch:
-
-![Duszek Sprite1 wybrany z listy Duszków.](images/sprite1-selected.png)
-
-**Wskazówka:** Jeśli przypadkowo usunąłeś duszka **Sprite1** (Scratch Cat), możesz kliknąć ikonę **Wybierz Duszka** i wyszukać `cat`.
-
---- /task ---
-
-W tej chwili kot Scratch jest zbyt duży, aby zmieścić się w autobusie.
+### Resize the Scratch Cat
 
 --- task ---
 
-W panelu Duszek kliknij właściwość **Rozmiar** i zmień rozmiar kota Scratch na `50`:
+The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
 
-![](images/sprite-pane-size.png)
+![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+
+**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
 
 --- /task ---
 
---- save ---
+--- task ---
+
+In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+
+![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+
+--- /task --- 
