@@ -3,41 +3,39 @@
 legend: Ερώτηση 2 από 3
 ---
 
-Οι ιδιότητες ενός Αντικειμένου εμφανίζονται στο παράθυρο Αντικείμενο κάτω από το Σκηνικό.
-
-Εάν σύρετε ένα αντικείμενο σε μια νέα θέση στο Υπόβαθρο, ποιες ιδιότητες του Αντικειμένου θα ενημερωθούν;
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- () Η κατεύθυνση του αντικειμένου ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-Για να αλλάξεις την κατεύθυνση του αντικειμένου, πρέπει να μεταβείς στην **Κατεύθυνση** και να την αλλάξεις.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) Οι συντεταγμένες x και y του αντικειμένου ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Όταν σύρεις ένα αντικείμενο σε μια νέα θέση, οι συντεταγμένες **x** και **y** ενημερώνονται αυτόματα.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- () Αν το αντικείμενο εμφανιστεί ή κρυφτεί ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-Χρησιμοποιώντας τα **μάτι** και **διασταυρωμένο μάτι** θα κάνεις το αντικείμενο να εμφανιστεί ή να κρυφτεί.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- () Το μέγεθος του αντικειμένου ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-Για να αλλάξετε το μέγεθος του αντικειμένου, πρέπει να μεταβείς στην ιδιότητα του **Μεγέθους** και να αλλάξεις τον αριθμό εκεί.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
