@@ -11,6 +11,8 @@ Beth os nad oedd y Gath Scratch wedi rhedeg yn ddigon cyflym i ddal y bws?
 </div>
 </div>
 
+### Make Scratch Cat miss the bus
+
 --- task ---
 
 Dewisa gorlun y **Gath Scratch** ac ychwanegu bloc `aros`{:class="block3control"}:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Bydd angen amser oedi o lai nag un eiliad. Mae 0.5 yn hanner eiliad, 0.25 yn chwarter eiliad, a 0.1 yn ddegfed ran o eiliad.
+### Make Scratch Cat catch the Bus
 
 --- task ---
+
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
 Newidia yr amser oedi yn y bloc `aros`{:class="block3control"}:
 
@@ -52,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Dewis:** Dewisa os wyt ti am i'r Gath Scratch **fethu'r bws** neu **ddal y bws**.
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
-Os wyt ti am i'r Gath Scratch **fethu'r bws**, tynna'r bloc `cuddio`{:class="block3looks"} o dy god fel bod y Gath Scratch yn aros ar y Llwyfan:
+If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![Llusgo'r bloc 'cuddio' o'r sgript yn ardal y Cod i'r ddewislen Blocisu i dynnu'r bloc o'r sgript.](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
-![Corlun y Gath Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,30 +81,30 @@ end
 
 --- task ---
 
-Os wyt ti am i'r Gath Scratch **ddal y bws**, gwna i'r bws aros yn hirach cyn iddo adael:
+If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
-![Corlun Bws y Ddinas.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // change from 4 to 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Bydd angen i ti roi'r bloc `cuddio`{:class="block3looks"} yn ôl yng nghod corlun y **Gath Scratch** os wyt ti wedi ei dynnu ac os wyt ti am i'r Gath Scratch ddal y bws.
+You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
 
 --- /task ---
 
 --- task ---
 
-Gwna newidiadau nes i ti gael yr animeiddiad i weithio yn y ffordd rwyt ti am iddo wneud.
+Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Wrth weithio ar brosiect, byddi di'n aml yn mynd yn ôl ac yn gwella dy god wrth gael syniadau newydd. 
+When working on a project, you often go back and change or improve your code as you get new ideas. 
 </p>
 
---- save ---
 
 
