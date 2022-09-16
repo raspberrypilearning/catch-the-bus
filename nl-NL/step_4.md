@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je voegt een nijlpaard sprite toe die naar de bus vliegt.
+Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
@@ -11,46 +11,44 @@ Je voegt een nijlpaard sprite toe die naar de bus vliegt.
 </div>
 </div>
 
-De **Hippo1** sprite heeft twee uiterlijken met vleugels in verschillende posities, zodat de sprite kan worden geanimeerd om naar de bus te vliegen.
+### Give the Hippo a starting position
 
 --- task ---
 
-Voeg de **Hippo1** sprite toe aan je project.
+Add the **Hippo1** sprite to your project.
 
-Verander de **Grootte** van de **Hippo1** sprite:
+Change the **Size** of the **Hippo1** sprite:
 
-![Het Sprite-venster voor de Hippo1-sprite, met de grootte ingesteld op 50.](images/hippo-sprite-size.png)
+![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Sleep het nijlpaard naar de linkerbovenhoek van het speelveld.
+Drag the hippo to the top left-hand side of the Stage.
 
-![De Hippo1-sprite in de linkerbovenhoek van het speelveld.](images/hippo-sprite-stage.png)
+![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Voeg code toe om het nijlpaard naar de startpositie te krijgen:
+Add code to get the hippo to their starting position:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** De `x`{:class="block3motion"} en `y`{:class="block3motion"} coördinaten in het `ga naar x: y:`{:class="block3motion"} blok zijn de huidige positie van het nijlpaard, zodat je deze niet hoeft in te voeren.
+**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
 
 --- /task ---
 
-Het nijlpaard vliegt naar de bus en klappert met de vleugels.
-
-Het nijlpaard zal zich `richten naar`{:class="block3motion"} de bus voordat het beweegt.
+### Make the Hippo flap its wings and fly
 
 --- task ---
 
-Voeg code toe om het nijlpaard naar de **City Bus** te laten vliegen:
+Add code to make the hippo fly towards the **City Bus**:
 
 ```blocks3
 when flag clicked
@@ -66,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Klik op de groene vlag en controleer of het nijlpaard naar de bus vliegt. Je kunt het getal in het `herhaal`{:class="block3control"}-blok wijzigen om het nijlpaard op de juiste plaats te laten stoppen.
+**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
 
 --- /task ---
 
-Nu gaat het nijlpaard de bus in.
+### Show and hide the bus
 
 --- task ---
 
-Voeg `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} blokken toe:
+Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ```blocks3
 when flag clicked
@@ -92,8 +90,6 @@ end
 
 --- task ---
 
-**Test:** Klik op de groene vlag. Het nijlpaard vliegt en gaat de bus in.
+**Test:** Click on the green flag. The hippo will fly and enter the bus.
 
 --- /task ---
-
---- save ---
