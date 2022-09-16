@@ -1,6 +1,6 @@
-## Inleiding
+## You will make
 
-In dit project maak je een animatie met sprites die rennen of vliegen om een bus te halen.
+Create an animation with sprites that run or fly to catch a bus 🚌.
 
 Je gaat:
 + Sprites verschillende dingen laten doen `wanneer op groene vlag wordt geklikt`{:class="block3events"}
@@ -9,23 +9,23 @@ Je gaat:
 
 --- no-print --- --- task ---
 
-### Probeer het uit
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Klik op de groene vlag om de animatie te zien. 
 
-Welke sprites veranderen hun uiterlijk om een animatie-effect te creëren?
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Het voltooide project.](images/showcase_static.png)
+![Het voltooide project.](images/hippo-flies.png)
 
 --- /print-only ---
 
