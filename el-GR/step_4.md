@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Θα προσθέσεις έναν ιπποπόταμο που πετάει προς το λεωφορείο.
+Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
@@ -11,46 +11,44 @@
 </div>
 </div>
 
-Το αντικείμενο **Hippo1** έχει δύο ενδυμασίες με φτερά σε διαφορετικές θέσεις, έτσι ώστε το αντικείμενο να μπορεί να εμφανίζεται ότι κινείται όπως πετάει προς το λεωφορείο.
+### Give the Hippo a starting position
 
 --- task ---
 
-Πρόσθεσε το αντικείμενο **Hippo1** στο έργο σου.
+Add the **Hippo1** sprite to your project.
 
-Άλλαξε το **Μέγεθος** του αντικειμένου **Hippo1**:
+Change the **Size** of the **Hippo1** sprite:
 
-![Το παράθυρο αντικείμενων για το αντικείμενο Hippo1, με το μέγεθος που έχει οριστεί στο 50.](images/hippo-sprite-size.png)
+![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Σύρε τον ιπποπόταμο στην επάνω αριστερή πλευρά της Σκηνής.
+Drag the hippo to the top left-hand side of the Stage.
 
-![Το αντικείμενο Hippo1 στην επάνω αριστερή πλευρά της Σκηνής.](images/hippo-sprite-stage.png)
+![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Πρόσθεσε κώδικα για να φέρεις τον ιπποπόταμο στην αρχική του θέση:
+Add code to get the hippo to their starting position:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Συμβουλή:** Οι συντεταγμένες `x`{:class="block3motion"} και `y`{:class="block3motion"} στο μπλοκ `πήγαινε σε θέση x: y:`{:class="block3motion"} θα αφορούν την τρέχουσα θέση του ιπποπόταμου, επομένως δεν χρειάζεται να τις πληκτρολογήσεις.
+**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
 
 --- /task ---
 
-Ο ιπποπόταμος θα πετάξει προς το λεωφορείο, χτυπώντας τα φτερά του.
-
-Ο ιπποπόταμος θα `δείξει προς`{:class="block3motion"} το λεωφορείο πριν μετακινηθεί.
+### Make the Hippo flap its wings and fly
 
 --- task ---
 
-Πρόσθεσε κώδικα για να κάνεις τον ιπποπόταμο να πετάξει προς το **Αστικό λεωφορείο**:
+Add code to make the hippo fly towards the **City Bus**:
 
 ```blocks3
 when flag clicked
@@ -66,15 +64,15 @@ next costume
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και έλεγξε ότι ο ιπποπόταμος πετάει προς το λεωφορείο. Μπορείς να αλλάξεις τον αριθμό στο μπλοκ `επανάλαβε`{:class="block3control"} για να κάνεις τον ιπποπόταμο να σταματήσει στο σωστό σημείο.
+**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
 
 --- /task ---
 
-Τώρα, ο ιπποπόταμος θα μπει στο λεωφορείο.
+### Show and hide the bus
 
 --- task ---
 
-Πρόσθεσε ένα μπλοκ `εμφάνισου`{:class="block3looks"} και ένα μπλοκ `εξαφανίσου`{:class="block3looks"}:
+Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ```blocks3
 when flag clicked
@@ -92,8 +90,6 @@ end
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία. Ο ιπποπόταμος θα πετάξει και θα μπει στο λεωφορείο.
+**Test:** Click on the green flag. The hippo will fly and enter the bus.
 
 --- /task ---
-
---- save ---
