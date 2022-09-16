@@ -11,6 +11,8 @@ O texto no ônibus diz "Excursão Scratch", mas você pode mudar o destino para 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Selecione o **Ônibus da Cidade** e clique na aba**Fantasias**:
@@ -23,11 +25,11 @@ Selecione o **Ônibus da Cidade** e clique na aba**Fantasias**:
 
 Clique no texto branco "Excursão Scratch" para selecioná-lo, e depois em **Deletar** para removê-lo.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Dica:** Você pode usar o **Deletar** no editor Paint ou a tecla <kbd>Delete</kbd> no teclado.
 
 --- task ---
 
@@ -45,8 +47,7 @@ Para mudar a fonte (estilo de escrita), você pode clicar no menu**Fonte**:
 
 Clique na ferramenta **Selecionar**(Seta), e arraste o texto para colocá-lo no ônibus.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
