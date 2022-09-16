@@ -1,6 +1,6 @@
-## Introduction
+## You will make
 
-Dans ce projet, tu vas créer une animation avec des sprites qui courent ou volent pour attraper un bus.
+Create an animation with sprites that run or fly to catch a bus 🚌.
 
 Tu vas devoir :
 + Faire en sorte que les sprites fassent des choses différentes `quand le drapeau vert est cliqué`{:class="block3events"}
@@ -9,23 +9,23 @@ Tu vas devoir :
 
 --- no-print --- --- task ---
 
-### Essaie-le
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Clique sur le drapeau vert pour regarder l'animation. 
 
-Quels sprites changent de costume pour créer un effet d'animation ?
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Le projet achevé.](images/showcase_static.png)
+![Le projet achevé.](images/hippo-flies.png)
 
 --- /print-only ---
 
