@@ -3,11 +3,9 @@
 legend: Cwestiwn 3 o 3
 ---
 
-Yn dy brosiect, fe wnes di wneud i'r hipo hedfan a'r Gath Scratch gerdded i'r bws.
+Which of these scripts uses a **loop** to animate the dog?
 
 ![Animeiddiad o gi yn rhedeg o chwith y Llwyfan i'r dde.](images/dog-run.gif)
-
-Pa un o'r sgriptiau hyn sy'n defnyddio **dolen** i wneud i'r ci redeg?
 
 --- choices ---
 
@@ -21,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Cywir! Mae'r bloc cod `ailadrodd`{:class="block3control"} yn defnyddio dolen i wneud i'r ci redeg.
+Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
 
   --- /feedback ---
 
@@ -34,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-Mae'r cod hwn yn gwneud i'r ci symud, ond dim ond unwaith. Does dim dolen yma, felly dydy'r cod ddim yn ailadrodd.
+This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
 
   --- /feedback ---
 
@@ -55,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-Mae'r cod hwn yn gwneud i'r ci redeg, ond nid yw'n defnyddio dolen. Yn aml gall defnyddio dolen wneud dy god yn fyrrach.
+This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
 
   --- /feedback ---
 
@@ -68,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-Does dim dolen yma, felly dim ond unwaith byddai'r ci yn symud. I wneud i'r ci redeg, byddai'n rhaid i ti ychwanegu dolen.
+There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
 
   --- /feedback ---
 
