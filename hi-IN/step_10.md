@@ -1,10 +1,10 @@
-## What next?
+## आगे क्या?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+अगर आप स्क्रैच [Scratch का परिचय ](https://projects.raspberrypi.org/en/pathways/scratch-intro)को फॉलो कर रहे हैं, तो आप [बग को ढूंढे](https://projects.raspberrypi.org/en/projects/find-the-bug) प्रोजेक्ट पर जा सकते हैं। इस प्रोजेक्ट में, आप एक गेम बनाएंगे जिसमें आपको प्रत्येक स्तर पर छिपे बग को ढूंढना होगा।
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+!['बग खोजें' प्रोजेक्ट।](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+यदि आप Scratch को एक्सप्लोर करने में और अधिक मज़ा लेना चाहते हैं, तो आप [इन प्रोजेक्टस ](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) को आज़मा सकते हैं।
