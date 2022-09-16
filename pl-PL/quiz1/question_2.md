@@ -3,41 +3,39 @@
 legend: Pytanie 2 z 3
 ---
 
-Właściwości duszka pojawiają się w panelu Duszka poniżej okna Sceny.
-
-Jeśli przeciągniesz duszka w nowe miejsce na scenie, to które właściwości zostaną zaktualizowane?
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- ( ) Kierunek duszka ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-Aby zmienić kierunek duszka, musisz przejść do właściwości **Kierunek** i zmienić ją.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) Współrzędne x i y duszka ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Kiedy przeciągasz duszka w nowe miejsce, współrzędne **x** i **y** są automatycznie aktualizowane.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- ( ) Czy duszek się pokaże, czy ukryje ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-Użycie **oka** i **przekreślonego oka** spowoduje, że duszek będzie się wyświetlał lub ukrywał.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- ( ) Wielkość duszka ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-Aby zmienić wielkość duszka, musisz przejść do właściwości **Wielkość** i zmienić ją.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
