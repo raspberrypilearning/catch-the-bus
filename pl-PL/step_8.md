@@ -1,1 +1,1 @@
-## Powtórka
+## Quick quiz
