@@ -1,17 +1,15 @@
 ## Upgrade your project
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+ಈಗ, ನಿಮ್ಮ ಅನಿಮೇಷನ್‌ಗೆ ನಿಮ್ಮ ಆಯ್ಕೆಯ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ನೀವು ಸೇರಿಸಬಹುದು. ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್ ಮಾಡಲು ಈ ಕೋಡ್ ಬ್ಲಾಕ್ ಗಳನ್ನು ಸೇರಿಸಿ: `go to `{: ವರ್ಗ = "block3motion"} ಒಂದು ಆರಂಭಿಕ ಸ್ಥಾನವನ್ನು, ` point `: {ವರ್ಗ = "block3motion"} ಸರಿಯಾದ ದಿಕ್ಕಿನಲ್ಲಿ, `repeat`{: ವರ್ಗ = "block3control"} ಪುನರಾವರ್ತೆನೆಗೆ, `move`{: class = "block3motion"} ಚಲನೆಗೆ ಮತ್ತು `next costume`{: class = "block3looks"} ಮುಂದಿನ ಉಡುಪು,.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**ಸಲಹೆ:** **Choose a Sprite**ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ, ಅದರ ವೇಷಭೂಷಣಗಳನ್ನು ನೋಡಲು ನೀವು ಸ್ಪ್ರೈಟ್ ಮೇಲೆ ನಿಮ್ಮ ಮೌಸ್ ಕರ್ಸರ್ ಅನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳಬಹುದು, ಅಥವಾ ಕೆಲವು ಮೊಬೈಲ್ ಸಾಧನಗಳಲ್ಲಿ, ಅದರ ವಸ್ತ್ರಗಳನ್ನು ನೋಡಲು ನೀವು ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳಬಹುದು (ಒಂದು ವೇಳೆ ವಿಂಡೋ ನೀವು ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಒತ್ತಿ ಮತ್ತು ಹಿಡಿದಾಗ ಪಾಪ್ ಅಪ್ ಆಗುತ್ತದೆ, ವಿಂಡೋವನ್ನು ಮುಚ್ಚಲು ಮತ್ತು ವೇಷಭೂಷಣಗಳನ್ನು ನೋಡಲು ಪರದೆಯ ಬದಿಯಲ್ಲಿ ಟ್ಯಾಪ್ ಮಾಡಿ). ಸ್ಪ್ರೈಟ್‌ಗಳ ವೇಷಭೂಷಣಗಳನ್ನು ನೋಡುವುದರಿಂದ ಆನಿಮೇಷನ್‌ಗೆ ಉತ್ತಮವಾಗಿ ಕೆಲಸ ಮಾಡುವ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಕಂಡುಹಿಡಿಯಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಬಹುದು.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+!["ಮೇಕರ್ ಫೆಸ್ಟಿವಲ್" ಪಠ್ಯದೊಂದಿಗೆ ಬಸ್ಸಿನ ಕಡೆಗೆ ಚಲಿಸುವ ಇತರ ಸ್ಪ್ರೈಟ್‌ಗಳು.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+ಈ ಯೋಜನೆಯಲ್ಲಿ ನೀವು ಕಲಿತ ಯಾವುದೇ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಹಾಗೂ ನಿಮಗೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುವ ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೀವು ಬಳಸಬಹುದು:
 
 ```blocks3
 when flag clicked
-
-when [timer v] > [5]
 
 go to x: [0] y: [0] // drag the sprite to choose x and y
 
@@ -43,17 +41,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು ನೀವು ಯೋಜನೆಯನ್ನು 'ರೀಮಿಕ್ಸ್' ಮಾಡಬಹುದು. ನೀವು ಬಸ್ ಅಥವಾ ಇತರ ಸ್ಪ್ರೈಟ್‌ಗಳಿಗೆ ಧ್ವನಿ ಪರಿಣಾಮಗಳನ್ನು ಸೇರಿಸಬಹುದು ಅಥವಾ ಬಸ್ಸಿನ ಬಣ್ಣದ ಪರಿಣಾಮವನ್ನು ಹೊಂದಿಸಬಹುದು. One of the sprites could miss the bus and not hide.
 
 Thanks to digital maker Lyla for sending this fantastic upgrade!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![ಮಿನುಗುವ ಬಣ್ಣಗಳನ್ನು ಹೊಂದಿರುವ ಬಸ್ ಹೊಂದಿರುವ ಯೋಜನೆ.](images/Lyla-bus.gif)
 
 --- save ---
