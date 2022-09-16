@@ -1,5 +1,5 @@
 ---
-title: Catch the bus
+title: ಬಸ್ ಹಿಡಿಯಿರಿ
 hero_image: images/banner.png
 description: Code sprites to walk or fly to the bus before it drives off
 version: 4
@@ -8,30 +8,33 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Create your bus scene
+    title: ನಿಮ್ಮ ಬಸ್ ದೃಶ್ಯವನ್ನು ರಚಿಸಿ
   - 
-    title: The Scratch Cat catches the bus
-    completion: engaged
+    title: ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಬಸ್ ಹಿಡಿಯುತ್ತದೆ
+    completion:
+      - engaged
   - 
-    title: The hippo flies to the bus
+    title: ಹಿಪ್ಪೋ ಬಸ್ಸಿಗೆ ಹಾರುತ್ತದೆ
   - 
-    title: The bus leaves
+    title: ಬಸ್ ಹೊರಡುತ್ತದೆ
   - 
-    title: Missing the bus
+    title: ಬಸ್ ತಪ್ಪುವುದು
   - 
-    title: Change the destination
-    completion: internal
+    title: ತಲುಪುವ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಿ
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
