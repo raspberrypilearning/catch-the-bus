@@ -1,52 +1,53 @@
-## Change the destination
+## डेस्टिनेशन को बदलें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+बस पर लिखा हुआ है "Scratch Tours", लेकिन आप डेस्टिनेशन को अपनी पसंद में बदल सकते हैं। आप अपनी बस को कहाँ ले जाना चाहते हैं?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+!["Maker Festival" टेक्स्ट वाली बस।](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
+
+### Edit the City Bus sprite
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+**City Bus** स्प्राइट का चयन करें औरं **Costumes** टैब पर क्लिक करें:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![पेंट एडिटर में पोशाक।](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
-
-![](images/bus-delete-text.png)
-
---- /task ---
+इसे चुनने के लिए सफेद "Scratch Tours" टेक्स्ट पर क्लिक करें, और फिर इसे हटाने के लिए **Delete** टैब पर क्लिक करें।
 
 **Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
 
---- task ---
-
-Select the **Text** (writing) tool.
-
-Click on the bus where you want your text to start, and type the destination of your choice.
-
-To change the font (writing style), you can click on the **Font** drop-down menu:
-
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+**Text** (लेखन) टूल चुनें।
 
-![](images/bus-destination-centered.png)
+उस बस पर क्लिक करें जहाँ आप अपना टेक्स्ट शुरू करना चाहते हैं, और अपनी पसंद का डेस्टिनेशन टाइप करें।
+
+font (लेखन शैली) बदलने के लिए, आप **Font** ड्रॉप-डाउन मेनू पर क्लिक कर सकते हैं:
+
+![पेंट संपादक के उपर मध्य में सेलेक्ट किया गया 'Font' मेनू।](images/bus-text-font.png)
 
 --- /task ---
 
---- save ---
+--- task ---
+
+**Select** (एरो) टूल पर क्लिक करें, फिर टेक्स्ट को बस पर रखने के लिए उसे ड्रैग करें।
+
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+
+--- /task ---
+
