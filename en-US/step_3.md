@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
 </div>
 <div>
 
@@ -21,10 +21,11 @@ Click in the **Direction** property in the Sprite pane. Rotate the arrow to poin
 
 --- /task ---
 
-
 --- task ---
 
 Drag the Scratch Cat to the bottom right-hand side of the Stage.
+
+![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
 
 **Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
 
@@ -73,7 +74,7 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers so that the Scratch Cat stops at the bus.
+**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
 
 --- /task ---
 
@@ -107,7 +108,7 @@ end
 
 --- /task ---
 
-Now, you will make the Scratch Cat seem to enter the bus.
+### Hide the Scratch Cat
 
 --- task ---
 
@@ -133,7 +134,7 @@ end
 
 --- /task ---
 
-The Scratch Cat needs to reappear when you run the animation again.
+### Show the Scratch Cat
 
 --- task ---
 
@@ -162,4 +163,3 @@ hide
 
 --- /task ---
 
---- save ---
