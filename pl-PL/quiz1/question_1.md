@@ -1,26 +1,25 @@
-## Powtórka
+## Quick quiz
 
-Dobra robota, dużo materiału już za Tobą! Teraz nadszedł czas na przemyślenia — powtarzanie jest ważną częścią uczenia się, ponieważ pomaga tworzyć nowe połączenia w mózgu.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Odpowiedz na trzy poniższe pytania, aby przypomnieć sobie o tym, czego się nauczyłeś.
+When you have answered each question, click on **Check my answer**.
 
-Po udzieleniu odpowiedzi na każde pytanie kliknij **Prześlij**. Zostaniesz poprowadzony w kierunku prawidłowej odpowiedzi. Możesz powtarzać to ćwiczenie wielokrotnie.
-
-Miłej zabawy!
+Have fun!
 
 --- question ---
 ---
 legend: Pytanie 1 z 3
 ---
 
-W Twoim projekcie autobus odjeżdża za pomocą tego kodu:
+In your project, the bus glides away using this code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-Kiedy autobus odjeżdża?
+When does the bus glide away?
 
 --- choices ---
 
@@ -28,7 +27,7 @@ Kiedy autobus odjeżdża?
 
   --- feedback ---
 
-Kod ma licznik, zanim autobus odjedzie.
+The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ Kod ma licznik, zanim autobus odjedzie.
 
   --- feedback ---
 
-Po kliknięciu na zieloną flagę trzeba odczekać cztery sekundy, zanim autobus odjedzie.
+Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Po kliknięciu na zieloną flagę trzeba odczekać cztery sekundy, zanim autobus
 
   --- feedback ---
 
-Autobus nie ma żadnego kodu, który uruchamia `kiedy ten duszek kliknięty`{:class="block3events"}.
+The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ Autobus nie ma żadnego kodu, który uruchamia `kiedy ten duszek kliknięty`{:cl
 
   --- feedback ---
 
-  Autobus potrzebuje dwóch sekund, aby odjechać, ale nie jest to czas jaki czeka zanim się ruszy.
+The bus takes two seconds to glide away, but that is not how long it waits before it moves.
 
   --- /feedback ---
 
