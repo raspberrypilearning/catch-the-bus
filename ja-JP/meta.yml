@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: はじめに
+    title: You will make
   - 
     title: バスの場面を作る
   - 
     title: スクラッチキャットがバスに乗る
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: カバはバスに向かって飛ぶ
   - 
@@ -22,15 +23,17 @@ steps:
     title: バスに乗り遅れる
   - 
     title: 目的地を変更する
-    completion: internal
+    completion:
+      - internal
   - 
-    title: ふりかえり
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: プロジェクトをアップグレードする
   - 
