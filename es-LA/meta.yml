@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introducción
+    title: You will make
   - 
     title: Crea tu escena de autobús
   - 
     title: El gato de Scratch toma el autobús
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: El hipopótamo vuela hacia el autobús
   - 
@@ -22,15 +23,17 @@ steps:
     title: Perder el autobús
   - 
     title: Cambia el destino
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflexión
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Mejora tu proyecto
   - 
