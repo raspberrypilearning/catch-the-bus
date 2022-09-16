@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introdução
+    title: You will make
   - 
     title: Crie o cenário do teu ônibus
   - 
     title: O Gato Scratch alcança o ônibus
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: O hipopótamo alcança o ônibus voando
   - 
@@ -22,15 +23,17 @@ steps:
     title: Perdendo o ônibus
   - 
     title: Mudando o destino
-    completion: internal
+    completion:
+      - internal
   - 
-    title: Reflexão
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Melhore o seu projeto
   - 
