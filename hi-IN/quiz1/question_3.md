@@ -1,13 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: ३ का प्रश्न ३
 ---
 
-In your project, you made the hippo fly and the Scratch Cat walk to the bus.
+Which of these scripts uses a **loop** to animate the dog?
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
-
-Which of these scripts uses a **loop** to make the dog run?
+![Stage के बाईं ओर से दाईं ओर दौड़ते हुए एक कुत्ते का एनीमेशन।](images/dog-run.gif)
 
 --- choices ---
 
