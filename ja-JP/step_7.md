@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 **シティバス** のスプライトを選択し、 **コスチューム**タブをクリックします。
@@ -23,11 +25,11 @@
 
 白い「Scratch Tours」の文字をクリックして選択し、 **削除** をクリックして削除します。
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**ヒント:** ペイントエディタの**削除**アイコンでも、キーボードの<kbd>削除</kbd> キーでもよいです。
 
 --- task ---
 
@@ -45,8 +47,7 @@
 
 **選択** （矢印）ツールをクリックし、テキストをドラッグしてバスの上に配置します。
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
