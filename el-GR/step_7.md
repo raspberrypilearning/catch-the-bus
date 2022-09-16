@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Επίλεξε το αντικείμενο **Αστικό Λεωφορείο** και κάνε κλικ στην καρτέλα **Ενδυμασίες**:
@@ -23,11 +25,11 @@
 
 Κάνε κλικ στο λευκό κείμενο "Scratch Tours" για να το επιλέξεις και, στη συνέχεια, κάνε κλικ στο **Διαγραφή** για να το αφαιρέσεις.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Συμβουλή:** Μπορείς να χρησιμοποιήσεις το κουμπί **Διαγραφή** στο πρόγραμμα ζωγραφικής ή το <kbd>Delete</kbd> στο πληκτρολόγιό σου.
 
 --- task ---
 
@@ -45,8 +47,7 @@
 
 Κάνε κλικ στο **Επιλογή** (βέλος) και, στη συνέχεια, σύρε το κείμενο για να το τοποθετήσεις στο λεωφορείο.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
