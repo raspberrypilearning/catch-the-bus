@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je kiest een achtergrond en voegt een bus-sprite toe.
+Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
@@ -10,6 +10,8 @@ Je kiest een achtergrond en voegt een bus-sprite toe.
 
 </div>
 </div>
+
+### Open the starter project
 
 --- task ---
 
@@ -19,11 +21,13 @@ Open het [Neem de bus startproject](https://scratch.mit.edu/projects/582214330/e
 
 --- /task ---
 
+### Choose a Backdrop
+
 --- task ---
 
 Klik (of tik op een tablet) op **Kies een achtergrond** in het speelveld-paneel (in de rechterbenedenhoek van het scherm):
 
-![](images/choose-a-backdrop.png)
+![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -35,11 +39,13 @@ Klik op de categorie **Buiten**. Voeg een achtergrond toe die een goed startpunt
 
 --- /task ---
 
+### Choose a Sprite
+
 --- task ---
 
 Klik op **Kies een Sprite**:
 
-![](images/choose-sprite-menu.png)
+![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,15 +59,15 @@ Voeg de **City Bus** sprite toe aan je project.
 
 --- /task ---
 
- In Scratch voer je projecten uit door op de groene vlag boven het speelveld te klikken. De bus moet in de startpositie staan als er `op de groene vlag wordt geklikt`{:class="block3events"}.
+### Give your bus a starting position
 
 --- task ---
 
-Zorg ervoor dat de **City Bus** is geselecteerd in de Sprite lijst onder het speelveld.
+Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} blokkenmenu naar het huidige sprite paneel:
+Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
 
-![De stadsbus-sprite.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,45 +77,46 @@ when flag clicked
 
 --- task ---
 
-Sleep de bus naar een goede positie op het speelveld:
+Drag the bus to a good position on the Stage:
 
-![De bus onderaan in het midden van het speelveld.](images/bus-bottom-middle.png)
+![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
 
-De **x** en **y** coördinaten (de getallen die worden gebruikt om de positie te beschrijven) van de bus worden weergegeven in het Sprite-venster onder het podium:
+The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
-![](images/coords-sprite-pane.png)
-
+![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Voeg een `ga naar x: y:`{:class="block3motion"} blok toe:
+Add a `go to x: y:`{:class="block3motion"} block:
 
-![De stadsbus-sprite.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-De getallen in het `ga naar x: y:`{:class="block3motion"} blok zijn de huidige x- en y-coördinaten van de bus. De getallen in jouw project kunnen een beetje anders zijn.
+The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Sleep de bus naar een willekeurige plek in het speelveld en klik vervolgens op de groene vlag. De bus zou altijd naar de startpositie moeten gaan.
+**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+
+![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
 
 --- /task ---
 
-Als je de bus sleept, staat deze voor de Scratch kat.
+### Move the bus behind the character sprites
 
 --- task ---
 
-Om ervoor te zorgen dat de **City Bus** altijd achter alle karakter sprites staat, voeg je een `ga naar laag voorgrond`{:class="block3looks"}-blok toe en klik je vervolgens op `voorgrond`{:class="block3looks"} en verander het in `achtergrond`{:class="block3looks"}:
+To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
 
-![De stadsbus-sprite.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -117,15 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** Als je het `ga naar laag voorgrond`{:class="block3looks"} blok niet kunt zien, moet je naar beneden scrollen in het `Uiterlijken`{:class="block3looks"} blokkenmenu.
+**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
 
 --- /task ---
 
+### Change the bus colour
+
 --- task ---
 
-Je kunt de kleur van de bus wijzigen:
+You can change the colour of the bus:
 
-![De stadsbus-sprite.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -136,24 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
---- task ---
-
-De Scratch kat verschijnt in alle nieuwe Scratch-projecten als **Sprite1** in de Sprite-lijst. Klik op de **Sprite1** sprite in de Sprite-lijst om de Scratch kat te kunnen animeren:
-
-![De Sprite1-sprite die is geselecteerd in de Sprite-lijst.](images/sprite1-selected.png)
-
-**Tip:** Als je per ongeluk de **Sprite1** (Scratch kat) hebt verwijderd, kun je op **Kies een Sprite** klikken en zoeken naar `cat`.
-
---- /task ---
-
-Op dit moment is de Scratch kat te groot om in de bus te passen.
+### Resize the Scratch Cat
 
 --- task ---
 
-Klik in het Sprite-venster op de **Grootte** en wijzig de grootte van de Scratch kat in `50`:
+The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
 
-![](images/sprite-pane-size.png)
+![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+
+**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
 
 --- /task ---
 
---- save ---
+--- task ---
+
+In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+
+![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+
+--- /task --- 
