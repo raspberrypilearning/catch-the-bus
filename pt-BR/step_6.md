@@ -11,6 +11,8 @@ E se o Gato Scratch não for rápido o suficiente para pegar o ônibus?
 </div>
 </div>
 
+### Make Scratch Cat miss the bus
+
 --- task ---
 
 Selecione o **Gato Scratch** e adicione um bloco `aguarde`{:class="block3control"}:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Você vai querer ter um atraso de menos de um segundo. 0,5 é meio segundo, 0,25 é um quarto de segundo e 0,1 é um décimo de segundo.
+### Make Scratch Cat catch the Bus
 
 --- task ---
+
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
 Altere o atraso no bloco `aguarde`{:class="block3control"}:
 
@@ -52,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Escolha:** Escolha se o Gato Scratch vai **perder o ônibus** ou **entrar no ônibus**.
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
-Se você quiser que o Gato Scratch **perca o ônibus**, remova o bloco `ocultar`{:class="block3looks"} do código, assim o Gato Scratch vai permanecer no Palco:
+If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
 
-![Arrastando o bloco 'ocultar' do script na área Código para o menu Blocos para remover o bloco do script.](images/removing-blocks-at-script-ends.gif)
+![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
-![O ator do Gato Scratch.](images/scratch-cat-sprite.png)
+![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,30 +81,30 @@ end
 
 --- task ---
 
-Se você quiser que o Gato Scratch **pegue o ônibus**, faça o ônibus esperar um pouco mais antes de partir:
+If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
 
-![O ator do Ônibus Cidade.](images/bus-sprite.png)
+![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // change from 4 to 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Você vai precisar colocar o bloco `hide`{:class="block3looks"} de volta no ator do código do **Gato Scratch** se você o tiver removido e quiser que o Gato Scratch alcance o ônibus com sucesso.
+You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
 
 --- /task ---
 
 --- task ---
 
-Faça alterações até que você consiga que a animação funcione do jeito que você quer.
+Make changes until you get the animation to work the way that you want it to.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Quando você estiver em um projeto, frequentemente você vai voltar a seu código e alterá-lo conforme você tem ideias novas. 
+When working on a project, you often go back and change or improve your code as you get new ideas. 
 </p>
 
---- save ---
 
 
