@@ -1,6 +1,6 @@
-## Cyflwyniad
+## You will make
 
-Yn y prosiect hwn, byddi di'n creu animeiddiad gyda chorluniau sy'n rhedeg neu'n hedfan i ddal bws.
+Create an animation with sprites that run or fly to catch a bus 🚌.
 
 Byddi di'n:
 + Gwneud i gorluniau wneud pethau gwahanol `pan fydd y faner werdd wedi'i chlicio`{: class = "block3events"}
@@ -9,23 +9,23 @@ Byddi di'n:
 
 --- no-print --- --- task ---
 
-### Rho gynnig arni
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Clicia'r faner werdd i wylio'r animeiddiad. 
 
-Pa gorluniau sy'n newid eu gwisgoedd i greu effaith animeiddio?
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Y prosiect gorffenedig.](images/showcase_static.png)
+![Y prosiect gorffenedig.](images/hippo-flies.png)
 
 --- /print-only ---
 
