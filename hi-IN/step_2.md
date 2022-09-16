@@ -1,59 +1,65 @@
-## Create your bus scene
+## अपना बस दृश्य बनाएं
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop and add a bus sprite.
+Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![स्कूल बैकड्रॉप पर सिटी बस।](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
+
+### Open the starter project
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+[बस को पकड़ें स्टार्टर प्रोजेक्ट](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"} खोलें।  Scratch दूसरे ब्राउज़र टैब में खुलेगा।
 
 [[[working-offline]]]
 
 --- /task ---
 
+### Choose a Backdrop
+
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Stage वाले हिस्सा ( जो स्क्रीन के निचले दाएं कोने में हैं) पर  **Choose a Backdrop** पर क्लिक करें (या टैबलेट हो तो, टैप करें):
 
-![](images/choose-a-backdrop.png)
+![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+**Outdoors** श्रेणी पर क्लिक करें। एक बैकड्रॉप को जोड़ें जो आपकी बस के लिए एक अच्छा स्टार्टिंग पॉइंट हो सकता हो:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
+![Stage के साथ School  बैकड्रॉप।](images/outdoor-backdrop.png)
+
+--- /task ---
+
+### Choose a Sprite
+
+--- task ---
+
+**Choose a Sprite** पर क्लिक करें :
+
+![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite**:
+उपर​ की तरफ सर्च बॉक्स में `bus` टाइप करें:
 
-![](images/choose-sprite-menu.png)
+![Sprite लाइब्रेरी में हाइलाइट किया गया सर्च बॉक्स।](images/bus-search.png)
 
---- /task ---
-
---- task ---
-
-Type `bus` in the search box at the top:
-
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+अपने प्रोजेक्ट में **City Bus** स्प्राइट को जोड़े।
 
 --- /task ---
 
- In Scratch, you run projects by clicking on the green flag above the Stage. The bus needs to be in its starting position `when green flag clicked`{:class="block3events"}.
+### Give your bus a starting position
 
 --- task ---
 
@@ -77,8 +83,7 @@ Drag the bus to a good position on the Stage:
 
 The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
 
-![](images/coords-sprite-pane.png)
-
+![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
 
 --- /task ---
 
@@ -101,9 +106,11 @@ The numbers in the `go to x: y:`{:class="block3motion"} block are the current x 
 
 **Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
 
+![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+
 --- /task ---
 
-When you drag the bus, it goes in front of the Scratch Cat.
+### Move the bus behind the character sprites
 
 --- task ---
 
@@ -121,6 +128,8 @@ go to x: (0) y: (-100)
 
 --- /task ---
 
+### Change the bus colour
+
 --- task ---
 
 You can change the colour of the bus:
@@ -136,6 +145,8 @@ go to [back v] layer
 
 --- /task ---
 
+### Resize the Scratch Cat
+
 --- task ---
 
 The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
@@ -146,14 +157,10 @@ The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite
 
 --- /task ---
 
-At the moment, the Scratch Cat is too big to fit on the bus.
-
 --- task ---
 
 In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
 
-![](images/sprite-pane-size.png)
+![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
 
---- /task ---
-
---- save ---
+--- /task --- 
