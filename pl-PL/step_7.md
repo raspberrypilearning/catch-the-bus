@@ -11,6 +11,8 @@ Napis na autobusie mówi "Maker Festival”, ale możesz zmienić cel podróży 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Wybierz **Autobus ** i kliknij zakładkę **Kostiumy**:
@@ -23,11 +25,11 @@ Wybierz **Autobus ** i kliknij zakładkę **Kostiumy**:
 
 Kliknij biały tekst "Scratch Tours”, aby go zaznaczyć, a następnie kliknij **Usuń** aby go usunąć.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Wskazówka:** Możesz użyć **Usuń** w edytorze Paint lub <kbd>Delete</kbd> na klawiaturze.
 
 --- task ---
 
@@ -45,8 +47,7 @@ Aby zmienić czcionkę (styl pisania), możesz kliknąć menu rozwijane **Czcion
 
 Kliknij narzędzie **Wybierz** (strzałka), a następnie przeciągnij tekst, aby umieścić go na autobusie.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
