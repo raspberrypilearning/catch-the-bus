@@ -1,21 +1,23 @@
-## Missing the bus
+## ಬಸ್ ತಪ್ಪುವುದು
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಬಸ್ ಹಿಡಿಯುವಷ್ಟು ವೇಗವಾಗಿ ಓಡದಿದ್ದರೆ ಹೇಗೆ?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+! [ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಬಸ್ ಅನ್ನು ಕಳೆದುಕೊಂಡಿದೆ.] (images/cat-misses-bus.png) {: ಅಗಲ = "300px"}
 
 </div>
 </div>
+
+### Make Scratch Cat miss the bus
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+**ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್** ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ` wait `{: class = "block3control"} ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಸ್ಪ್ರೈಟ್.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -32,27 +34,29 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. The Scratch Cat will walk too slowly and miss the bus!
 
 --- /task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+### Make Scratch Cat catch the Bus
 
 --- task ---
 
-Change the delay in the `wait`{:class="block3control"} block:
+You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+` wait `{: class = "block3control"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ ವಿಳಂಬವನ್ನು ಬದಲಾಯಿಸಿ:
+
+![ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಸ್ಪ್ರೈಟ್.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ವೇಗವಾಗಿ ನಡೆಯುತ್ತದೆ. ನೀವು ಹೆಚ್ಚು ಇಷ್ಟಪಡುವ ವಿಳಂಬವನ್ನು ಆರಿಸಿ.
 
 --- /task ---
 
-**Choose:** Choose if you want the Scratch Cat to **miss the bus** or **catch the bus**.
+### Choose if Scratch Cat catches or misses the bus
 
 --- task ---
 
@@ -82,7 +86,8 @@ If you want the Scratch Cat to **catch the bus**, make the bus wait longer befor
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // change from 4 to 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
@@ -101,6 +106,5 @@ Make changes until you get the animation to work the way that you want it to.
 When working on a project, you often go back and change or improve your code as you get new ideas. 
 </p>
 
---- save ---
 
 
