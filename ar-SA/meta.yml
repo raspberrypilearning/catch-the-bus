@@ -8,12 +8,13 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: المقدمة
+    title: You will make
   - 
     title: إنشاء مشهد الحافلة الخاص بك
   - 
     title: قط سكراتش يلحق بالحافلة
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: فرس النهر يطير إلى الحافلة
   - 
@@ -22,15 +23,17 @@ steps:
     title: التأخر عن الحافلة
   - 
     title: قم بتغيير الوجهة
-    completion: internal
+    completion:
+      - internal
   - 
-    title: تفكير
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: قم بترقية مشروعك
   - 
