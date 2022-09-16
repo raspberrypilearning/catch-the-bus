@@ -11,6 +11,8 @@ The writing on the bus says "Scratch Tours", but you can change the destination 
 </div>
 </div>
 
+### Edit the City Bus sprite
+
 --- task ---
 
 Select the **City Bus** sprite and click on the **Costumes** tab:
@@ -23,11 +25,11 @@ Select the **City Bus** sprite and click on the **Costumes** tab:
 
 Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
 
-![](images/bus-delete-text.png)
+**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+
+![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
 
 --- task ---
 
@@ -45,8 +47,7 @@ To change the font (writing style), you can click on the **Font** drop-down menu
 
 Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
 
-![](images/bus-destination-centered.png)
+![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---
