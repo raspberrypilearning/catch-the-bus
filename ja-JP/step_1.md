@@ -1,6 +1,6 @@
-## はじめに
+## You will make
 
-このプロジェクトではスプライトが走ったり飛んだりしてバスに乗るアニメーションをつくります。
+Create an animation with sprites that run or fly to catch a bus 🚌.
 
 あなたは次のことを行います。
 + `緑のフラグを押したとき`{:class="block3events"}スプライトにいろいろなことをさせます。
@@ -9,23 +9,23 @@
 
 --- no-print --- --- task ---
 
-### 試してみる
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 緑色のフラグを押して、アニメーションを表示します。 
 
-アニメーション効果を作るためにコスチュームを変えるスプライトはどれですか？
+Which sprites change their costumes to create an animation 🎥 effect?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![完了済みのプロジェクト。](images/showcase_static.png)
+![完了済みのプロジェクト。](images/hippo-flies.png)
 
 --- /print-only ---
 
