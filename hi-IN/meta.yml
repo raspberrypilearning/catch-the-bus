@@ -1,37 +1,40 @@
 ---
-title: Catch the bus
+title: बस को पकड़ो
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: बस चलने से पहले चलने या उड़ान भरने के लिए स्प्राइट कोड करें
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Create your bus scene
+    title: अपना बस दृश्य बनाएं
   - 
-    title: The Scratch Cat catches the bus
-    completion: engaged
+    title: Scratch Cat बस पकड़ती है
+    completion:
+      - engaged
   - 
-    title: The hippo flies to the bus
+    title: हिप्पो बस के लिए उड़ान भरता है
   - 
-    title: The bus leaves
+    title: बस निकलती है
   - 
-    title: Missing the bus
+    title: बस छुटना
   - 
-    title: Change the destination
-    completion: internal
+    title: डेस्टिनेशन बदलें
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: अपना प्रोजेक्ट अपग्रेड करें
   - 
-    title: What next?
+    title: आगे क्या?
