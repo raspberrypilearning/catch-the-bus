@@ -3,41 +3,39 @@
 legend: Cwestiwn 2 o 3
 ---
 
-Mae priodweddau corlun yn ymddangos yn y cwarel Corlun o dan y Llwyfan.
-
-Os byddi di'n llusgo corlun i safle newydd ar y Llwyfan, pa briodweddau fydd yn cael eu diweddaru?
+When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
 
 --- choices ---
 
-- () Cyfeiriad y corlun ![](images/direction.png)
+- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
 
   --- feedback ---
 
-I newid cyfeiriad y corlun, mae angen i ti fynd i'r briodwedd**Cyfeiriad** a'i newid.
+To change the direction of the sprite, you need to go to the **Direction** property and change it.
 
   --- /feedback ---
 
-- (x) Cyfesurynnau y ac x y corlun ![](images/coordinates.png)
+- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
-Wrth i ti lusgo corlun i safle newydd, bydd y cyfesurynnau **y** ac **x** yn cael eu diweddaru'n awtomatig.
+When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
 
   --- /feedback ---
 
-- () A fydd y corlun yn ymddangos neu'n cuddio ![](images/visibility.png)
+- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
 
   --- feedback ---
 
-Bydd defnyddio'r eiconau **llygad** a **llygad wedi'i chroesi** yn dangos neu guddio'r corlun.
+Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
 
   --- /feedback ---
 
-- () Maint y corlun ![](images/size.png)
+- ( ) The **size** of the sprite ![The size property.](images/size.png)
 
   --- feedback ---
 
-I newid maint y corlun, mae angen i ti fynd i'r briodwedd **Maint** a newid y rhif yno.
+To change the size of the sprite, you need to go to the **Size** property and change the number there.
 
   --- /feedback ---
 
