@@ -3,11 +3,9 @@
 legend: Pytanie 3 z 3
 ---
 
-W swoim projekcie zmusiłeś hipopotama do lotu, a kot Scratch podszedł do autobusu.
+Which of these scripts uses a **loop** to animate the dog?
 
 ![Animacja psa biegnącego z lewej strony Sceny na prawą.](images/dog-run.gif)
-
-Który z tych skryptów wykorzystuje **pętlę** do uruchomienia psa?
 
 --- choices ---
 
@@ -21,7 +19,7 @@ następny kostium
 
   --- feedback ---
 
-Tak! Kod `Powtórz`{:class="block3control"} używa pętli, aby pies biegł.
+Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
 
   --- /feedback ---
 
@@ -34,7 +32,7 @@ przesuń o (5) kroków
 
   --- feedback ---
 
-Ten kod sprawia, że pies się porusza, ale tylko raz. Nie ma tu pętli, więc kod się nie powtarza.
+This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
 
   --- /feedback ---
 
@@ -55,7 +53,7 @@ przesuń o (5) kroków
 
   --- feedback ---
 
-Ten kod sprawia, że pies biegnie, ale nie używa pętli. Przez użycie pętli możesz często skrócić wielkość swojego kodu.
+This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
 
   --- /feedback ---
 
@@ -68,7 +66,7 @@ przesuń o (5) kroków
 
   --- feedback ---
 
-Tu nie ma pętli, więc pies poruszy się tylko raz. Aby pies biegł, musiałbyś dodać pętlę.
+There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
 
   --- /feedback ---
 
