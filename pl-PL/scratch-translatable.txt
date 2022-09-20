@@ -10,7 +10,7 @@ górna lewa część
 
 zmiana ze wskaźnika myszy
 
-zmień 10 na 4
+change 1 to 4
 
 prawa strona sceny
 
