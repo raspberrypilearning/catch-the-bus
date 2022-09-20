@@ -10,7 +10,7 @@ top left-hand side
 
 change from mouse-pointer
 
-change 10 to 4
+change 1 to 4
 
 right-hand side of the Stage
 
