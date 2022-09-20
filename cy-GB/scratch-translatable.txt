@@ -10,7 +10,7 @@ ochr chwith uchaf
 
 newid o bwyntydd llygoden
 
-newid 10 i 4
+change 1 to 4
 
 ochr dde'r Llwyfan
 
