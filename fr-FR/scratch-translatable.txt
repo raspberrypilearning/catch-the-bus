@@ -10,7 +10,7 @@ en haut à gauche
 
 changement du pointeur de la souris
 
-changer 10 à 4
+change 1 to 4
 
 côté droit de la scène
 
