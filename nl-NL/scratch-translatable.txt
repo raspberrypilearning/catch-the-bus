@@ -10,7 +10,7 @@ linksboven
 
 wijzigen van muisaanwijzer
 
-change 1 to 4
+verander 1 naar 4
 
 rechterkant van het speelveld
 
