@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Tu choisiras un arrière-plan et ajouteras un sprite de bus.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Choose a backdrop and add a bus sprite.
 </div>
 </div>
 
-### Open the starter project
+### Ouvrir le projet de démarrage
 
 --- task ---
 
@@ -21,13 +21,13 @@ Ouvre le [Prendre le bus projet de démarrage](https://scratch.mit.edu/projects/
 
 --- /task ---
 
-### Choose a Backdrop
+### Choisir un arrière-plan
 
 --- task ---
 
 Clique (ou sur une tablette, appuie) sur **Choisir un arrière-plan** dans le volet Scène (en bas à droite de l'écran) :
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Une capture d'écran de l'icône Choisir un arrière-plan.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -39,13 +39,13 @@ Clique sur la catégorie **Plein air**. Ajoute un arrière-plan qui constitue un
 
 --- /task ---
 
-### Choose a Sprite
+### Choisir un sprite
 
 --- task ---
 
 Clique sur **Choisir un Sprite**:
 
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![Une capture d'écran du menu Choisir un sprite.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -59,15 +59,15 @@ Ajoute le sprite **City Bus** à ton projet.
 
 --- /task ---
 
-### Give your bus a starting position
+### Définir une position de départ à ton bus
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Assure-toi que le sprite**City Bus** est sélectionné dans la liste Sprite sous la scène.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Fais glisser un bloc `quand le drapeau vert est cliqué`{:class="block3events"} du menu bloc `Événements`{:class="block3events"} vers la zone Code :
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Le sprite City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Fais glisser le bus vers une bonne position sur la scène :
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Le bus en bas au milieu de la scène.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Les coordonnées **x** et **y** (les nombres utilisés pour décrire la position) du bus sont affichées dans le panneau Sprite sous la scène :
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Une capture d'écran mettant en évidence l'emplacement des coordonnées dans le panneau sprite.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Ajoute un bloc `aller à x: y:`{:class="block3motion"} :
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Le sprite City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Les nombres dans le bloc `aller à x : y :`{:class="block3motion"} sont les coordonnées x et y actuelles du bus. Les chiffres de ton projet peuvent être un peu différents.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Test :** Fais glisser le bus n'importe où sur la scène, puis clique sur le drapeau vert. Le bus doit toujours aller à sa position de départ.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![Animation montrant le bus glissé sur l'écran et revenant au centre lorsque le drapeau vert est cliqué.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Déplacer le bus derrière les sprites des personnages
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Pour t'assurer que le sprite **City Bus** est toujours derrière tous les sprites des personnages, ajoute un bloc `aller à l'avant plan`{:class="block3looks"}, puis clique sur `avant`{:class="block3looks"} et change-le en `arrière`{:class="block3looks"} :
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Le sprite City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Astuce :** Si tu ne peux pas voir le bloc `aller à l'avant plan`{:class="block3looks"}, tu dois faire défiler les blocs du menu `Apparence`{:class="block3looks"}.
 
 --- /task ---
 
-### Change the bus colour
+### Modifier la couleur du bus
 
 --- task ---
 
-You can change the colour of the bus:
+Tu peux modifier la couleur du bus :
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Le sprite City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### Redimensionner le chat Scratch
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Le chat Scratch apparaît dans tous les nouveaux projets Scratch en tant que **Sprite1** dans la liste des Sprites. Clique sur le sprite **Sprite1** dans la liste Sprite pour te préparer à animer le chat Scratch :
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Le sprite Sprite1 sélectionné dans la liste Sprite.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Astuce :** Si tu as accidentellement supprimé le sprite **Sprite1** (le chat Scratch), tu peux cliquer sur l'icône **Choisir un Sprite** et rechercher `cat`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Dans le panneau Sprite, clique sur la propriété **taille** et modifie la taille du chat Scratch à `50` :
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![Une capture d'écran mettant en évidence l'emplacement de la propriété taille dans le panneau Sprite.](images/sprite-pane-size.png)
 
 --- /task --- 
