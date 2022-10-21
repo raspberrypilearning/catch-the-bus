@@ -1,73 +1,73 @@
-## Create your bus scene
+## Створити автобусну сцену
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Вибери тло та додай спрайт автобуса.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![Громадський автобус на фоні школи.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Відкрий початковий проєкт
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Відкрий [Стартовий проєкт Встигнути на автобус](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch відкриється в іншій вкладці браузера.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### Обери тло
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Натисни (якщо на планшеті - торкнись) на **Обрати тло** на панелі Сцени (у правому нижньому куті екрана):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Скріншот іконки вибору тла.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Клацни на категорію **Поза приміщеннями**. Додай тло, яке стане гарною стартовою точкою для твого автобуса:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![Сцена з фоном Школи.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Обери спрайт
+
 --- task ---
 
-Type `bus` in the search box at the top:
+Клацни на **Обрати спрайт**:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+![Скріншот меню вибору спрайта.](images/choose-sprite-menu.png)
 
 --- /task ---
 
-### Give your bus a starting position
+--- task ---
+
+Введи `bus` у полі пошуку вгорі:
+
+![Поле пошуку виділено в бібліотеці спрайтів.](images/bus-search.png)
+
+Додай спрайт **City Bus** до твого проєкту.
+
+--- /task ---
+
+### Дай твоєму автобусу стартову позицію
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Переконайся, що спрайт **City Bus** вибрано у списку Спрайтів під Сценою.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Перетягни блок `коли зелений прапорець натиснуто`{:class="block3events"} з меню блоків `Події`{:class="block3events"} до Області коду:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Перетягни автобус у правильне місце на Сцені:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Автобус у нижній частині сцени посередині.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Координати (цифри, які використовуються для позначення позиції) **x** та **y** автобуса показані на панелі Спрайтів під Сценою:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Скріншот, на якому видно, де знаходяться координати на панелі спрайтів.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Додай блок `перемістити в x: y:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Цифри у блоці `перемістити в x: y:`{:class="block3motion"} - це поточні координати автобуса по x та y. Цифри у твоєму проєкті можуть бути трохи іншими.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Тест:** Перетягни автобус в будь-яке місце на сцені, а потім натисни на зелений прапорець. Автобус завжди повинен повертатися у початкову позицію.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![Анімація, яка показує, як автобус перетягується по екрану і повертається назад до центру при натисканні на зелений прапорець.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Переміщай автобус позаду спрайтів персонажів
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Аби переконатися в тому, що спрайт **City Bus** буде завжди знаходитися позаду всіх спрайтів персонажів, додай `помістити на передній план`{:class="block3looks"}, потім натисни на `передній`{:class="block3looks"} та зміни його на `задній`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Порада:** Якщо ти не бачиш блок `помістити на передній план`{:class="block3looks"}, необхідно прокрутити вниз у блоці меню `Вигляд`{:class="block3looks"}.
 
 --- /task ---
 
-### Change the bus colour
+### Зміна кольору автобуса
 
 --- task ---
 
-You can change the colour of the bus:
+Ти можеш змінити колір автобуса:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### Зміна розміру кота Scratch
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Котик Scratch з'являється у всіх нових проєктах Scratch у вигляді **Спрайт1** у списку Спрайтів. Натисни на спрайт **Спрайт1** у списку Спрайтів, щоб почати анімувати кота Scratch:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Спрайт1 вибраний у списку Спрайтів.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Порада:** Якщо випадково був видалений **Спрайт1** (Кіт Scratch) ти можеш натиснути на іконку**Обрати спрайт** та ввести у пошук `cat`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+На панелі Спрайтів, натисни на властивість **Розмір** та зміни розмір кота Scratch на `50`:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![Скріншот, який демонструє розташування властивості розміру на панелі Спрайтів.](images/sprite-pane-size.png)
 
 --- /task --- 
