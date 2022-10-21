@@ -1,54 +1,54 @@
-## The hippo flies to the bus
+## Бегемот летить до автобуса
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+Додай спрайт бегемотика, який підлітає до автобуса.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![Бегемотик летить до автобуса.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-### Give the Hippo a starting position
+### Задай Бегемоту стартову позицію
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Додай спрайт **Hippo1** до твого проєкту.
 
-Change the **Size** of the **Hippo1** sprite:
+Зміни **Розмір** спрайта **Hippo1**:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Панель Спрайтів, де знаходиться спрайт Hippo1, з розміром, встановленим на 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Перетягни бегемотика у верхній лівий кут сцени.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![Спрайт Hippo1 у верхній лівій частині сцени.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Додай код, щоб бегемотик повертався у вихідну позицію:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Порада:** Координати `x`{:class="block3motion"} та `y`{:class="block3motion"} у блоці `перемістити в x: y`{:class="block3motion"} будуть відповідати поточним координатам бегемотика, тому вводити їх вручну не потрібно.
 
 --- /task ---
 
-### Make the Hippo flap its wings and fly
+### Зроби так, щоб Бегемотик змахнув крилами й полетів
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Додай код, щоб бегемотик полетів у бік **Громадського автобуса**:
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Тест:** Клацни на зелений прапорець та перевір, що бегемотик летить до автобуса. Ти можеш змінити номер у блоці `повторити`{:class="block3control"}, щоб бегемотик зупинився у потрібному тобі місці.
 
 --- /task ---
 
-### Show and hide the bus
+### Показати та приховати автобус
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Додай блоки `показати`{:class="block3looks"} та `приховати`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Тест:** Натисни на зелений прапорець. Бегемотик полетить та зайде в автобус.
 
 --- /task ---
