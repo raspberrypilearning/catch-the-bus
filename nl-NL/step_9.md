@@ -44,7 +44,7 @@ set [color v] effect to [50] // up to 200
 title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/724160134/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
