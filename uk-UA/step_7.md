@@ -1,53 +1,53 @@
-## Change the destination
+## Зміна пункту призначення
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+На автобусі написано "Scratch Tours", але ти можеш це змінити, на твій вибір. Куди ти хочеш, щоб твій автобус поїхав?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![Автобус з написом "Maker Festival".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Edit the City Bus sprite
+### Редагування спрайта автобуса
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Вибери спрайт**City Bus** та натисни на вкладку **Образи**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![Образи у редакторі Малювання.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Натисни на білий текст "Scratch Tours", щоб вибрати його, та натисни на **Вилучити**, щоб видалити його.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Порада:** Ти можеш скористатися іконкою **Вилучити** у редакторі Малювання або клавішею <kbd>Delete</kbd> на клавіатурі.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
-
---- /task ---
-
---- task ---
-
-Select the **Text** (writing) tool.
-
-Click on the bus where you want your text to start, and type the destination of your choice.
-
-To change the font (writing style), you can click on the **Font** drop-down menu:
-
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![Виділений текст на автобусі та іконка "Вилучити".](images/bus-delete-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Вибери інструмент**Текст** (написати).
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+Натисни на місце автобуса, де ти хочеш, щоб починався твій текст, і введи назву обраного тобою пункту призначення.
+
+Щоб змінити шрифт (стиль написання), можна натиснути на спливаюче меню **Шрифт**:
+
+![Меню 'Шрифт', вибране у верхній центральній частині редактора Малювання.](images/bus-text-font.png)
+
+--- /task ---
+
+--- task ---
+
+Натисни на інструмент **Обрати** (Стрілка), а потім перетягни текст, щоб розташувати його на автобусі.
+
+![Виділений текст на автобусі та інструмент Обрати.](images/bus-destination-centered.png)
 
 --- /task ---
 
