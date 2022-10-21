@@ -1,10 +1,10 @@
-## What next?
+## Challenge: створіть власну групу?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+Якщо ти йдеш по проєктах [Знайомство зі Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), ти можеш перейти до проєкту [Знайди жучка](https://projects.raspberrypi.org/en/projects/find-the-bug) project. У цьому проєкті ти будеш робити гру, в якій тобі доведеться знайти жучка, який ховається на кожному рівні.
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![Проєкт 'Знайди жучка'.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Якщо ти хочеш більш цікаво вивчати Scratch, можеш спробувати будь-який з [ цих проєктів ](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
