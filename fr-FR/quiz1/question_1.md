@@ -1,17 +1,17 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, tapes sur **Soumettre**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 ---
-legend : Question 1 sur 3
+legend: Question 1 sur 3
 ---
 
-In your project, the bus glides away using this code:
+Dans ton projet, le bus s'éloigne en utilisant ce code :
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Quand le bus s'éloigne-t-il ?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Les blocs de code s'exécutent dans l'ordre, regarde les blocs avant le bloc `glisser`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Oui. Après avoir cliqué sur le drapeau vert, il y a une attente de quatre secondes avant que le bus ne s'éloigne.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Le bus n'a aucun code qui exécute `quand ce sprite est cliqué`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Le bus met deux secondes à s'éloigner en glissant, mais ce n'est pas le temps qu'il attend avant de se déplacer.
 
   --- /feedback ---
 
