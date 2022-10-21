@@ -1,32 +1,32 @@
 ---
-title: Catch the bus
+title: Встигнути на автобус
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
+description: Додай код спрайтам, щоб їм вдалося дійти або долетіти до автобуса до того, як він рушить
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Ти зробиш
   - 
-    title: Create your bus scene
+    title: Створити автобусну сцену
   - 
-    title: The Scratch Cat catches the bus
+    title: Кіт Scratch ловить автобус
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: Бегемот летить до автобуса
   - 
-    title: The bus leaves
+    title: Автобус відправляється
   - 
-    title: Missing the bus
+    title: Запізнення на автобус
   - 
-    title: Change the destination
+    title: Зміна пункту призначення
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Вдосконалення твого проєкту
   - 
-    title: What next?
+    title: Що далі?
