@@ -1,31 +1,31 @@
-## The bus leaves
+## Автобус відправляється
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Додай більше блоків, щоб змусити автобус поїхати.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![Сцена, яка показує, що автобус зрушив вправо.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-### Animate the Bus
+### Анімація автобуса
 
 --- task ---
 
-Select the **City Bus** sprite.
+Вибери спрайт **City Bus**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Додай код, щоб автобус поїхав вправо через чотири секунди після натискання на зелений прапорець.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Перетягни автобус до правого краю сцени. Це позиції по осях `x`{:class="block3motion"} та `y`{:class="block3motion"}, до яких автобус буде `ковзати`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Порада:** Якщо ти перемістиш автобус занадто далеко вправо, він відскочить назад. Спробуй ще раз, але не відсувай його так далеко.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Додай блок `ковзати`{:class="block3motion"} `2` `сек до x: y:`{:class="block3motion"} від блока `чекати`{:class="block3control"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Координати `x`{:class="block3motion"} та `y`{:class="block3motion"} у твоєму проєкті можуть трохи відрізнятися та будуть саме тією позицією, до якої ти затягнув автобус.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Тест:** Натисни на зелений прапорець. Кіт Scratch та Бегемотик перемістяться до автобуса, і через чотири секунди автобус поїде направо.
 
 --- /task ---
 
-### Hide and show the Bus
+### Приховати та показати автобус
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Додай блок `приховати `{:class="block3looks"}, щоб автобус начебто виїхав зі Сцени:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Тест:** Натисни на зелений прапорець. Тепер автобус, від'їхавши зі Сцени, буде ховатися. Ти пам'ятаєш, як зробити так, щоб спрайт знову з'являвся при натисканні на зелений прапорець?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Додай блок `показати `{:class="block3looks"} до твого скрипта `коли зелений прапорець натиснуто`{:class="block3events"}, щоб автобус з'являвся під час запуску проєкту:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Тест:** Натисни на зелений прапорець та дивись на свою анімацію. Автобус повинен з'явитися в центрі сцени, потім від'їхати вправо та зникнути.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Чи всі знаходяться в автобусі, коли він від'їжджає? Ти можеш змінити час очікування автобуса, якщо хочеш.
 
 --- /task ---
