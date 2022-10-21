@@ -11,7 +11,7 @@ Wat als de Scratch kat niet snel genoeg rende om de bus te halen?
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Zorg dat Scratch kat de bus mist
 
 --- task ---
 
@@ -38,11 +38,11 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Zorg dat Scratch kat de bus haalt
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Je wilt vertragingen van minder dan één seconde. 0,5 is een halve seconde, 0,25 is een kwart seconde en 0,1 is een tiende van een seconde.
 
 Wijzig de vertraging in het `wacht sec.`{:class="block3control"} blok:
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Kies of Scratch kat de bus haalt of mist
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Als wilt dat de Scratch kat **de bus mist**, verwijder het `verdwijn`{:class="block3looks"} blok van de code, zodat de Scratch kat op het speelveld blijft:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Het 'verdwijn'-blok van het script in het werkgebied naar het venster Blokken slepen om het blok uit het script te verwijderen.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![De Scratch kat-sprite.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Als je wilt dat de Scratch kat **de bus haalt**, moet je de bus langer laten wachten voordat hij vertrekt:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De stadsbus-sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Je moet het `verdwijn`{:class="block3looks"} blok terugplaatsen in de **Scratch kat** als je het hebt verwijderd en wilt dat de Scratch kat de bus haalt.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Breng wijzigingen aan totdat de animatie werkt zoals jij dat wilt.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Wanneer je aan een project werkt, ga je vaak terug en verander of verbeter je je code als je nieuwe ideeën krijgt. 
 </p>
 
 
