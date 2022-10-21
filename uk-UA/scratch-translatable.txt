@@ -1,29 +1,29 @@
-try numbers up to 200
+спробуй числа до 200
 
-bottom right-hand side
+нижній правий кут
 
-try different numbers
+спробуй різні числа
 
-5 is a good walking speed
+5 - це хороша швидкість ходьби
 
-top left-hand side
+верхній лівий кут
 
-change from mouse-pointer
+зміна від вказівника
 
-change 1 to 4
+зміна 1 на 4
 
-right-hand side of the Stage
+з правого боку Сцени
 
-try 0.1, 0.5, 0.05
+спробуй 0.1, 0.5, 0.05
 
-change from 4 to 6
+зміна з 4 на 6
 
-drag the sprite to choose x and y
+перетягни спрайт, щоб вибрати x та y
 
-bottom middle of the Stage
+нижня середня частина Сцени
 
-point down
+донизу
 
-short delay
+невелика затримка
 
-up to 200
+до 200
