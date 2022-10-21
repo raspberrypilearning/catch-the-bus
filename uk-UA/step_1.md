@@ -1,21 +1,21 @@
-## You will make
+## Ти зробиш
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+Створиш анімацію зі спрайтами, які йдуть або летять, щоб встигнути на автобус 🚌.
 
-You will:
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
-+ Position sprites on the **Stage**
-+ Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
+Зможеш:
++ Щоб спрайти виконували різні дії `коли зелений прапорець натиснуто`{:class="block3events"}
++ Розташування спрайтів на **Сцені**
++ Використовуй цикл `повторити`{:class="block3control"}, щоб спрайти`перемістились`{:class="block3motion"} та `змінювали образ`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Грати ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-Click on the green flag to watch the animation. 
+Клацни на зелений прапорець, щоб переглянути анімацію. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+Які спрайти змінюють свої образи та створюють анімаційний 🎥 ефект?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
@@ -25,10 +25,10 @@ Which sprites change their costumes to create an animation 🎥 effect?
 
 --- print-only ---
 
-![The completed project.](images/hippo-flies.png)
+![Завершений проєкт.](images/hippo-flies.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+<span style="color: #0faeb0">**Анімація**</span> створює ефект руху внаслідок швидкої зміни картинок. Перші аніматори вирізали картинки з дерев'яних брусків та використовували їх як штампи. Набагато швидше кодувати анімацію за допомогою Scratch!
 </p>
