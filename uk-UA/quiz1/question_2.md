@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Коли ти **перетягуєш спрайт** на нову позицію на Сцені, які **властивості** будуть оновлені на панелі Спрайтів під Сценою?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) **Напрям** спрайта ![Властивість напрямку.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Щоб змінити напрямок спрайта, необхідно зайти у властивість **Напрям** та змінити його.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) **Координати x та y** спрайта ![Властивості координат x та y.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Коли ти перетягуєш спрайт на нову позицію, координати **x** та **y** автоматично оновлюються.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) Чи буде спрайт **показаний або прихований** ![Властивість відображення.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Використовуй іконки **око** та **перекреслене око**, щоб змусити спрайт показатись або приховатись.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) **Розмір** спрайта ![Властивість розміру.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Щоб змінити розмір спрайта, потрібно зайти у властивість **Розміру** та змінити там число.
 
   --- /feedback ---
 
