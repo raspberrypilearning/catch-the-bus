@@ -1,12 +1,12 @@
-## Upgrade your project
+## Вдосконалення твого проєкту
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Тепер ти можеш додати до своєї анімації спрайт за власним вибором. Тобі необхідно буде додати код, щоб твій спрайт `перемістився на`{:class="block3motion"} початкову позицію, `точку`{:class="block3motion"} у правильному напрямку, а потім додати блоки `повторити`{:class="block3control"} `перемістити на`{:class="block3motion"} та `наступний образ`{:class="block3looks"}, щоб дістатися до автобуса.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Порада:** Коли ти натиснеш на **Обрати спрайт**, ти можеш навести курсор миші на спрайт, щоб побачити його образи, або на деяких мобільних пристроях ти можеш натиснути на спрайт та утримувати, щоб побачити його образи (якщо при натисканні та утриманні спрайта з'являється вікно, натисни збоку екрану, щоб закрити вікно і побачити образи). Перегляд образів спрайтів допоможе тобі знайти спрайт, який добре підійде для анімації.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Інші спрайти рухаються до автобуса з написом "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Ти можеш скористатися будь-якими блоками, які використовувались у цьому проєкті, а також тими, які тобі вже відомі:
 
 ```blocks3
 when flag clicked
@@ -41,17 +41,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: Завершений проєкт
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Ти можеш ознайомитися з завершеним проєктом [завершеним проєктом тут](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Ти також можеш 'реміксувати' проєкт, вносячи в нього будь-які зміни на свій розсуд. Ти можеш додати до автобуса звукові ефекти або інші спрайти, а також змінити колір автобуса. Можливо, один зі спрайтів не встигне на автобус і буде відображатися.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Дякуємо цифровому творцю Lyla за те, що надіслала це фантастичне вдосконалення!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Проєкт з автобусом з кольорами, які блимають.](images/Lyla-bus.gif)
 
 --- save ---
