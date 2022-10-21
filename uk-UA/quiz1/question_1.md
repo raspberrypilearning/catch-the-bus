@@ -1,17 +1,17 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Розважайся!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-In your project, the bus glides away using this code:
+У твоєму проєкті, автобус їде за допомогою цього коду:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Коли автобус почне їхати?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Відразу при натисканні на зелений прапорець
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Блоки коду йдуть послідовно, подивись на блоки перед блоком `ковзати`{:class="block3motion"}.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Через чотири секунди після натискання на зелений прапорець
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Так. Після натискання на зелений прапорець необхідно почекати чотири секунди, щоб автобус рушив з місця.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () При натисканні на автобус
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Автобус не має жодного коду, який би виконувався, `коли спрайт натиснуто`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) Через дві секунди після натискання на зелений прапорець
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Автобус від'їжджає за дві секунди, але він не чекає стільки часу, перш ніж рушити з місця.
 
   --- /feedback ---
 
