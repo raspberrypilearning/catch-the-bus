@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Який з цих скриптів використовує **цикл**, щоб анімувати собаку?
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Анімація собаки, що біжить ліворуч від Сцени праворуч.](images/dog-run.gif)
 
 --- choices ---
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Так! Код блока `повторити`{:class="block3control"} використовує цикл, щоб змусити собаку бігти.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Цей код змусить собаку рухатися, але тільки один раз. Тут немає циклу, тому код не повторюється.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Цей код змусить собаку бігти, але він не використовує цикл. Використання циклу часто може зробити твій код коротшим.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Тут немає циклу, тому собака буде рухатися тільки один раз. Щоб змусити собаку бігти, потрібно було б додати петлю.
 
   --- /feedback ---
 
