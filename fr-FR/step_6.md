@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Et si le chat Scratch ne courait pas assez vite pour attraper le bus ?
+Et si le chat Scratch ne courait pas assez vite pour prendre le bus ?
 </div>
 <div>
 
@@ -11,13 +11,13 @@ Et si le chat Scratch ne courait pas assez vite pour attraper le bus ?
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Faire rater le bus au chat Scratch
 
 --- task ---
 
 Sélectionne le sprite **chat Scratch ** et ajoute un bloc `attendre`{:class="block3control"} :
 
-![Le sprite chat Scratch .](images/scratch-cat-sprite.png)
+![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -38,15 +38,15 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Faire en sorte que le chat Scratch prenne le bus
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Il te faudra des délais de moins d'une seconde. 0,5 correspond à une demi-seconde, 0,25 à un quart de seconde et 0,1 à un dixième de seconde.
 
 Modifie le délai dans le bloc`attendre`{:class="block3control"} :
 
-![Le sprite chat Scratch .](images/scratch-cat-sprite.png)
+![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Choisir si le chat Scratch prend ou rate le bus
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Si tu veux que le chat Scratch **rate le bus**, supprime le bloc `cacher`{:class="block3looks"} de ton code afin que le chat Scratch reste sur la scène :
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Fais glisser le bloc "masquer" du script dans la zone Code vers le menu Blocs pour supprimer le bloc du script.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Si tu veux que le chat Scratch **prenne le bus**, fais attendre le bus plus longtemps avant qu'il ne parte :
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Le sprite City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Tu devras remettre le bloc `cacher`{:class="block3looks"} dans le sprite **chat Scratch** si tu l'as supprimé et que tu souhaites que le chat Scratch réussi à prendre le bus.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Apporte des modifications jusqu'à ce que l'animation fonctionne comme tu le souhaites.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Lorsque tu travailles sur un projet, tu reviens souvent en arrière pour modifier ou améliorer ton code à mesure que tu as de nouvelles idées. 
 </p>
 
 
