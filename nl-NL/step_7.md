@@ -11,7 +11,7 @@ Het opschrift op de bus zegt "Scratch Tours", maar je kunt de bestemming wijzige
 </div>
 </div>
 
-### Edit the City Bus sprite
+### Bewerk de City Bus-sprite
 
 --- task ---
 
@@ -25,9 +25,9 @@ Selecteer de **City Bus** sprite en klik op het tabblad **Uiterlijken**:
 
 Klik op de witte tekst "Scratch Tours" om deze te selecteren en klik vervolgens op **Verwijder** om deze te verwijderen.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Tip:** Je kunt het **Verwijder** icoon in de Paint-editor of de <kbd>Delete</kbd> toets op je toetsenbord gebruiken.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
+![De tekst op de bus en het pictogram Verwijderen zijn gemarkeerd.](images/bus-delete-text.png)
 
 --- /task ---
 
@@ -47,7 +47,7 @@ Om het lettertype (schrijfstijl) te wijzigen, kun je op het vervolgkeuzemenu **L
 
 Klik op het **Selecteren** (pijl) gereedschap en sleep de tekst om deze op de bus te plaatsen.
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+![De tekst op de bus en het gereedschap Selecteren is gemarkeerd.](images/bus-destination-centered.png)
 
 --- /task ---
 
