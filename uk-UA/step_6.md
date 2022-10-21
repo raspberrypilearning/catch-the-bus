@@ -1,23 +1,23 @@
-## Missing the bus
+## Запізнення на автобус
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+Але якщо Кіт Scratch не встиг добігти до автобуса?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![Кіт Scratch запізнився на автобус.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Зроби так, щоб кік Scratch запізнився на автобус
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+Вибери спрайт**Scratch Cat** та додай блок `чекати`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,37 +34,37 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**Тест:** Натисни на зелений прапорець. Кіт Scratch буде йти занадто повільно та запізниться на автобус!
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Зроби так, щоб Кіт Scratch встиг на автобус
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Тут потрібні затримки менше однієї секунди. 0,5 - пів секунди, 0,25 - чверть секунди, 0,1 - десята частина секунди.
 
-Change the delay in the `wait`{:class="block3control"} block:
+Зміни затримку в блоці `чекати`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**Тест:** Натисни на зелений прапорець і Кіт Scratch буде крокувати швидше. Вибирай затримку, яка тобі найбільше до вподоби.
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Вибирай - встигне Кіт Scratch на автобус, чи запізниться на нього
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Якщо ти хочеш, щоб Кіт Scratch **запізнився на автобус**, видали блок `приховати`{:class="block3looks"} з твого коду так, щоб Кіт Scratch залишився на Сцені:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Перетягування блоку 'приховати' зі скрипта в Області Коду в меню Блоків для того, щоб видалити блок зі скрипта.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Якщо ти хочеш, щоб Кіт Scratch **встигнув на автобус**, зроби так, щоб автобус чекав довше, перш ніж він поїде:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Спрайт Громадський автобус.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Тобі потрібно буде встановити назад блок `приховати`{:class="block3looks"} до коду спрайта **Scratch Cat**, якщо ти видаляв, але хочеш, щоб Кіт Scratch встигнув на автобус.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Внеси зміни до тих пір, поки не отримаєш анімацію, яка буде працювати так, як ти хочеш.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Працюючи над проєктом, ти часто повертаєшся назад і змінюєш або вдосконалюєш свій код, оскільки у тебе з'являються нові ідеї. 
 </p>
 
 
