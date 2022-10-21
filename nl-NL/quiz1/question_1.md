@@ -1,17 +1,17 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Wanneer je een vraag hebt beantwoord, klik je op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-In your project, the bus glides away using this code:
+In jouw project glijdt de bus weg met deze code:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Wanneer glijdt de bus weg?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+De codeblokken lopen in volgorde, kijk naar de blokken voor het `schuif in`{:class="block3motion"} blok.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Ja. Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze wegschuift.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+De bus heeft geen code die `wanneer op deze sprite wordt geklikt`{:class="block3events"} uitvoert.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+De bus doet er twee seconden over om weg te glijden, maar zo lang wacht hij niet voordat hij in beweging komt.
 
   --- /feedback ---
 
