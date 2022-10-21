@@ -41,10 +41,10 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Le projet achevé
+title: Le projet terminé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
