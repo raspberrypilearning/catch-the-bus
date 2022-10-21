@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend : Question 2 sur 3
+legend: Question 2 sur 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Lorsque tu fais **glisser un sprite** vers une nouvelle position sur la scène, quelles **propriétés** sont mises à jour dans le panneau Sprite sous la scène ?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) La **direction** du sprite ![La propriété de direction.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Pour changer la direction du sprite, tu dois accéder à la propriété **Direction** et la modifier.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) Les **coordonnées x et y** du sprite ![Les propriétés des coordonnées x et y.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Lorsque tu fais glisser un sprite vers une nouvelle position, les coordonnées **x** et **y** sont automatiquement mises à jour.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) Si le sprite sera **affiché ou caché** ![La propriété de montrer.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+L'utilisation des icônes **œil** et **œil barré** permet d'afficher ou de cacher le sprite.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) La **taille** du sprite ![La propriété de taille.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Pour modifier la taille du sprite, tu dois accéder à la propriété **taille** et y modifier le nombre.
 
   --- /feedback ---
 
