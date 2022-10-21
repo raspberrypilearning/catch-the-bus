@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Voeg meer blokken toe om de bus weg te laten rijden.
 </div>
 <div>
 
@@ -11,21 +11,21 @@ Add more blocks to make the bus drive off.
 </div>
 </div>
 
-### Animate the Bus
+### Animeer de bus
 
 --- task ---
 
-Select the **City Bus** sprite.
+Selecteer de **City Bus** sprite.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De City Bus sprite.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Voeg code toe om de bus vier seconden nadat op de groene vlag is geklikt naar rechts te laten rijden.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Sleep je bus naar de rechterkant van het speelveld. Dit wordt de `x`{:class="block3motion"} en `y`{:class="block3motion"} positie van de bus waarnaar deze moet `schuiven`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Tip:** Als je de bus te ver naar rechts beweegt, springt hij terug. Probeer het opnieuw, maar verplaats hem niet te ver.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Voeg een `schuif in`{:class="block3motion"} `2` `sec. naar x: y:`{:class="block3motion"} blok toe onder het `wacht`{:class="block3events"} blok.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+De `x`{:class="block3motion"} en `y`{:class="block3motion"} in jouw project kunnen een beetje anders zijn dan exacte positie waar je de bus naar toe hebt gesleept.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Test:** Klik op de groene vlag. De Scratch kat en het nijlpaard gaan naar de bus, en de bus rijdt na vier seconden naar rechts.
 
 --- /task ---
 
-### Hide and show the Bus
+### Laat de bus verdwijnen en verschijnen
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Voeg een `verdwijn`{:class="block3looks"} blok toe om de bus van het speelveld te laten verdwijnen:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Test:** Klik op de groene vlag. De bus zal zich nu na het wegrijden verbergen. Weet je nog hoe je ervoor kunt zorgen dat een sprite weer verschijnt als je op de groene vlag klikt?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Voeg een `verschijn`{:class="block3looks"}-blok toe aan je `wanneer op de groen vlag wordt geklikt`{:class="block3events"} script om de bus te laten verschijnen wanneer je jouw project uitvoert:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Test:** Klik op de groene vlag en bekijk je animatie. De bus moet in het midden van het speelveld verschijnen en dan naar rechts rijden en verdwijnen.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Zit iedereen in de bus als deze vertrekt? Indien nodig kun je de tijd dat de bus wacht wijzigen.
 
 --- /task ---
