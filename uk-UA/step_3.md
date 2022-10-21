@@ -1,41 +1,41 @@
-## The Scratch Cat catches the bus
+## Кіт Scratch ловить автобус
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Додай анімацію коту Scratch, щоб він з'явився на **правій стороні** Сцени та йшов до автобуса, повторюючи невеликі рухи багато разів по **циклу**. 
 </div>
 <div>
 
-![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+![Кіт Scratch йде до автобуса.](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Get the Scratch Cat into their starting position
+### Встанови коту Scratch Cat початкову позицію
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
+Натисни на властивість**Напрям** на панелі Спрайтів. Поверни стрілку, щоб вказати на `-90`. Далі, натисни на іконку **Зліва-направо** посередині, щоб змінити стиль обертання на `вліво-вправо`, аби Кіт Scratch не перевертався догори ногами:
 
-![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
+![Стрілка вказує на -90 та обрано іконку "Вліво/Вправо".](images/sprite-pane-direction.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the Scratch Cat to the bottom right-hand side of the Stage.
+Перетягни кота Scratch'а в нижню праву частину Сцени.
 
-![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+![Сцена з котом розміщена в правому нижньому куті.](images/bottom-right-cat.png)
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**Порада:**Якщо ти спробуєш розмістити спрайт за межами Сцени, він повернеться на свою останню позицію.
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+Додай код, щоб повернути кота у його початкову точку:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**Тест:** Перетягни Кота Scratch на нову позицію, а потім клацни на блок `перемістити в x: y:`{:class="block3motion"}. Кіт Scratch повинен кожного разу повертатися в нижню праву сторону.
 
 --- /task ---
 
-### Animate the Scratch Cat
+### Анімація кота Scratch
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+Ти будеш додавати код в цикл `повторити`{:class="block3control"}, щоб змусити кота Scratch повторювати невелику кількість кроків багато разів. Це зробить кота Scratch анімованим.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+Додай блок `повторити`{:class="block3control"} `10`, потім перетягни всередині нього блок `перемістити на`{:class="block3motion"} `10` `steps`{:class="block3motion"}:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+![Зміна кількості кроків у блоці 'переміщення' з 10 до 5, після чого вставка цього блоку в цикл 'повторення'.](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,23 +74,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
+**Тест:** Натисни на зелений прапорець. Пробуй змінювати цифри у блоці `повторити`{:class="block3control"} `10`, щоб Кіт Scratch зупинився біля автобуса.
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+Деякі спрайти мають більше одного образа. Ти будеш використовувати образ спрайта **Scratch Cat**, щоб створити анімацію прогулянки кота Scratch.
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+Натисни на вкладку **Образи**. Спрайт **Scratch Cat** має два образи, і разом, вони можуть бути використані для створення анімації ходьби.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
+Натисни на вкладку **Код**. Натисни на блок `наступний образ`{:class="block3looks"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,17 +104,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**Тест:** Натисни на зелений прапорець та Кіт Scratch буде йти до автобуса.
 
 --- /task ---
 
-### Hide the Scratch Cat
+### Сховай кота Scratch
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+Додай блок, щоб `приховати`{:class="block3looks"} кота Scratch Cat, коли він дійде до автобуса:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -130,17 +130,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag again, and you will see that the Scratch Cat has now disappeared.
+**Тест:**Клацни на зелений прапорець ще раз, і ти побачиш, що Кіт Scratch зник.
 
 --- /task ---
 
-### Show the Scratch Cat
+### Покажи кота Scratch
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+Додай блок `показати`{:class="block3looks"}, щоб Кіт Scratch з'явився до того, як він почне йти до автобуса:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -153,13 +153,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**Порада:** Коли ти використовуєш блок `сховати`{:class="block3looks"}, потрібно також додати блок `показати`{:class="block3looks"}, щоб спрайт відображався тоді, коли це необхідно.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**Тест:** Клацни на зелений прапорець, щоб протестувати свій проєкт та переконатися, що Кіт Scratch показався.
 
 --- /task ---
 
