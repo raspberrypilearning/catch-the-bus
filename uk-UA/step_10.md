@@ -1,4 +1,4 @@
-## Challenge: створіть власну групу?
+## Що далі?
 
 Якщо ти йдеш по проєктах [Знайомство зі Scratch](https://projects.raspberrypi.org/uk-UA/pathways/scratch-intro), ти можеш перейти до проєкту [Знайди жучка](https://projects.raspberrypi.org/uk-UA/projects/find-the-bug) project. У цьому проєкті ти будеш робити гру, в якій тобі доведеться знайти жучка, який ховається на кожному рівні.
 
