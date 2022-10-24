@@ -56,7 +56,7 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-Додай блок `повторити`{:class="block3control"} `10`, потім перетягни всередині нього блок `перемістити на`{:class="block3motion"} `10` `steps`{:class="block3motion"}:
+Додай блок `повторити`{:class="block3control"} `10`, потім перетягни всередині нього блок `перемістити на`{:class="block3motion"} `10` `кроків`{:class="block3motion"}:
 
 ![Зміна кількості кроків у блоці 'переміщення' з 10 до 5, після чого вставка цього блоку в цикл 'повторення'.](images/block-into-loop.gif)
 
