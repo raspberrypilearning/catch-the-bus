@@ -140,7 +140,7 @@ go to x: (0) y: (-100)
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-+set [color v] effect to (50) // try numbers up to 200
++set [color v] effect to (50) // спробуй числа до 200
 ```
 
 --- /task ---
