@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Haz que el Gato Scratch pierda el autobús
 
 --- task ---
 
@@ -38,11 +38,11 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Haz que el Gato Scratch tome el Autobús
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Vas a querer un tiempo de retraso de menos de un segundo. 0.5 es medio segundo, 0.25 es un cuarto de segundo y 0.1 es una décima de segundo.
 
 Cambia el tiempo de retraso en el bloque `esperar`{: class = "block3control"}:
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Elige si el Gato Scratch toma o pierde el autobús
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Si quieres que el gato de Scratch **pierda el autobús**, quita el bloque `esconder`{:class="block3looks"} de tu código para que el gato de Scratch permanezca en el escenario:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Arrastra el bloque 'esconder' del script en el área de Código al menú de Bloques para eliminar el bloque del script.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![El objeto gato de Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Si quieres que el gato de Scratch **tome el autobús**, haz que el autobús espere más antes de partir:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Necesitarás volver a colocar el bloque `esconder`{:class="block3looks"} en el código del objeto **Gato de Scratch** si lo has eliminado y quieres que el gato de Scratch tome el autobús con éxito.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Haz cambios hasta que la animación funcione como quieras.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Cuando trabajes en un proyecto, a menudo tendrás que retroceder y cambiar o mejorar tu código a medida que obtengas nuevas ideas. 
 </p>
 
 
