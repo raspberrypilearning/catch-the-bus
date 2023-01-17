@@ -3,7 +3,7 @@
 Create an animation with sprites that run or fly to catch a bus 🚌.
 
 あなたは次のことを行います。
-+ `緑のフラグを押したとき`{:class="block3events"}スプライトにいろいろなことをさせます。
++ Make sprites do different things `when green flag clicked`{:class="block3events"}
 + スプライトを**ステージ**に配置します。
 + `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} そして `コスチュームを変えます`{:class="block3looks"}。
 
