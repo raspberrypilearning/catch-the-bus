@@ -15,7 +15,7 @@
 
 --- task ---
 
-**シティバス** のスプライトを選択し、 **コスチューム**タブをクリックします。
+Select the **City Bus** sprite and click on the **Costumes** tab:
 
 ![ペイントエディタ上のコスチューム。](images/costumes-bus-sprite-highlighted.png)
 
