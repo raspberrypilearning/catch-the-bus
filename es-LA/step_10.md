@@ -1,10 +1,10 @@
 ## ¿Qué sigue?
 
-Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el insecto](https://projects.raspberrypi.org/en/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el insecto que se esconde en cada nivel.
+Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el error](https://projects.raspberrypi.org/en/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el error que se esconde en cada nivel.
 
 --- print-only ---
 
-![El proyecto "Encuentra el insecto".](images/find-the-bug.png)
+![El proyecto 'Encuentra el error'.](images/find-the-bug.png)
 
 --- /print-only ---
 
