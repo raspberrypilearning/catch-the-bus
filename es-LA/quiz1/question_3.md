@@ -3,7 +3,7 @@
 legend: Pregunta 3 de 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+¿Cuál de estos scripts usa un **bucle** para hacer que el perro corra?
 
 ![Una animación de un perro corriendo de la izquierda a la derecha del escenario.](images/dog-run.gif)
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+¡Sí! El bloque `repetir`{:class="block3control"} usa un bucle para hacer que el perro corra.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Este código hace que el perro se mueva, pero solo una vez. No hay ningún bucle aquí, por lo que el código no se repite.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Este código hace que el perro corra, pero no usa un bucle. Usar un bucle a menudo puede hacer que tu código sea más corto.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Aquí no hay bucle, por lo que el perro solo se movería una vez. Para hacer que el perro corra, tendrías que agregar un bucle.
 
   --- /feedback ---
 
