@@ -112,7 +112,7 @@ end
 
 --- task ---
 
-バスに到着したときにスクラッチキャットを`非表示`{:class="block3looks"}にするためにブロックを追加します。
+Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
 
 ![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
