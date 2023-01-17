@@ -6,7 +6,7 @@ Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
-![バスに向かって歩いているスクラッチキャット。](images/hippo-flies.png){:width="300px"}
+![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
