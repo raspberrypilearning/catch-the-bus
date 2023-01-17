@@ -1,17 +1,17 @@
-## Quick quiz
+## Examen rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Contesta las siguientes tres preguntas para reflexionar sobre lo que has aprendido. Hay pistas para guiarte hacia la respuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido a cada pregunta, haz clic en **Enviar**.
 
-Have fun!
+¡Que te diviertas!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-In your project, the bus glides away using this code:
+En tu proyecto, el autobús se desplaza usando este código:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+¿Cuándo se aleja el autobús?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Los bloques de código se ejecutan en orden, observa los bloques antes del bloque `glide`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Sí. Después de hacer clic en la bandera verde, hay una espera de cuatro segundos antes de que el autobús se aleje.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+El autobús no tiene ningún código que se ejecute `cuando haces clic en este objeto`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+El autobús tarda dos segundos en desplazarse, pero ese no es el tiempo que espera antes de moverse.
 
   --- /feedback ---
 
