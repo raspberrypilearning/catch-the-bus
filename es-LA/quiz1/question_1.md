@@ -1,12 +1,10 @@
-## Reflexión
+## Examen rápido
 
-¡Bien hecho, has aprendido mucho! Ahora es momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
+Contesta las siguientes tres preguntas para reflexionar sobre lo que has aprendido. Hay pistas para guiarte hacia la respuesta correcta.
 
-Responde las tres preguntas siguientes para reflexionar sobre lo que has aprendido.
+Cuando hayas respondido a cada pregunta, haz clic en **Enviar**.
 
-Cuando hayas respondido a cada pregunta, haz clic en **Enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Qué te diviertas!
+¡Que te diviertas!
 
 --- question ---
 ---
@@ -16,7 +14,8 @@ legend: Pregunta 1 de 3
 En tu proyecto, el autobús se desplaza usando este código:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -28,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-El código tiene un bloque cronómetro antes de que el autobús se aleje.
+Los bloques de código se ejecutan en orden, observa los bloques antes del bloque `desplazar`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ El código tiene un bloque cronómetro antes de que el autobús se aleje.
 
   --- feedback ---
 
-Después de hacer clic en la bandera verde, hay una espera de cuatro segundos antes de que el autobús se aleje.
+Sí. Después de hacer clic en la bandera verde, hay una espera de cuatro segundos antes de que el autobús se aleje.
 
   --- /feedback ---
 
@@ -44,7 +43,7 @@ Después de hacer clic en la bandera verde, hay una espera de cuatro segundos an
 
   --- feedback ---
 
-El autobús no tiene ningún código que se ejecute en `cuando haces clic en este objeto`{:class="block3events"}.
+El autobús no tiene ningún código que se ejecute `cuando haces clic en este objeto`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ El autobús no tiene ningún código que se ejecute en `cuando haces clic en est
 
   --- feedback ---
 
-  El autobús tarda dos segundos en desplazarse, pero ese no es el tiempo que espera antes de moverse.
+El autobús tarda dos segundos en desplazarse, pero ese no es el tiempo que espera antes de moverse.
 
   --- /feedback ---
 

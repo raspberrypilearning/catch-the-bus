@@ -1,4 +1,4 @@
-## Introducción
+## Lo que harás
 
 En este proyecto, crearás una animación con objetos que corren y vuelan para tomar el autobús.
 
@@ -7,9 +7,10 @@ Vas a:
 + Colocar los objetos en el **Escenario**
 + Utilizar un bucle de `repetición`{:class="block3control"} para `mover`{:class="block3motion"} los objetos y `cambiar sus disfraces`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
+--- task ---
 
-### Pruébalo
+### Reproducir ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
@@ -21,11 +22,12 @@ Haz clic en la bandera verde para ver la animación.
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/595269881/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+--- /task ---
+--- /no-print ---
 
 --- print-only ---
 
-![El proyecto terminado.](images/showcase_static.png)
+![El proyecto terminado.](images/hippo-flies.png)
 
 --- /print-only ---
 

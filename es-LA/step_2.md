@@ -11,19 +11,23 @@ Elegirás un fondo y agregarás el objeto Autobús.
 </div>
 </div>
 
+### Abre el proyecto inicial
+
 --- task ---
 
-Abre el [proyecto de inicio de Toma el autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial de Toma el autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
+### Elige un fondo
+
 --- task ---
 
 Haz clic (o en una tableta, toca la pantalla) en **Elige un Fondo** en el panel Escenario (en la esquina inferior derecha de la pantalla):
 
-![](images/choose-a-backdrop.png)
+![Captura de pantalla del ícono elige un fondo.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -35,11 +39,13 @@ Haz clic en la categoría **Exteriores**. Agrega un fondo que sea un buen punto 
 
 --- /task ---
 
+### Elige un Objeto
+
 --- task ---
 
 Haz clic en **Elegir un objeto**:
 
-![](images/choose-sprite-menu.png)
+![Una captura de pantalla del menú elegir un objeto.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,7 +59,7 @@ Agrega el objeto **City Bus** (Autobús) a tu proyecto.
 
 --- /task ---
 
- En Scratch, ejecutas proyectos haciendo clic en la bandera verde sobre el escenario. El autobús tendrá que estar en su posición inicial `al presionar bandera verde ⚑`{:class="block3events"}.
+### Dale a tu autobús una posición de partida
 
 --- task ---
 
@@ -75,10 +81,9 @@ Arrastra el autobús a una buena posición en el escenario:
 
 ![El autobús en la parte inferior central del escenario.](images/bus-bottom-middle.png)
 
-Las coordinadas (números utilizados para describir la posición) **x** e **y** del autobús se muestran en el panel Objetos debajo del escenario:
+Las coordenadas (números utilizados para describir la posición) **x** e **y** del autobús se muestran en el panel Objetos debajo del escenario:
 
-![](images/coords-sprite-pane.png)
-
+![Una captura de pantalla que destaca dónde se encuentran las coordenadas en el panel de objetos.](images/coords-sprite-pane.png)
 
 --- /task ---
 
@@ -101,9 +106,11 @@ Los números en el bloque `ir a x: y:`{:class="block3motion"} son las coordenada
 
 **Prueba:** Arrastra el bus a cualquier lugar del escenario y luego haz clic en la bandera verde. El bus debería regresar siempre a su posición inicial.
 
+![Animación que muestra el autobús arrastrado por la pantalla y saltando hacia el centro cuando se hace clic en la bandera verde.](images/drag-bus.gif)
+
 --- /task ---
 
-Cuando arrastras el autobús, este se pone en frente del Gato de Scratch.
+### Mueve el autobús detrás de los objetos de los personajes
 
 --- task ---
 
@@ -117,9 +124,11 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Sugerencia:** Si no puedes ver el bloque `ir a la capa de adelante`{:class="block3looks"}, desplázate hacia abajo en el Menú `Apariencia`{:class="block3looks"}.
+**Consejo:** Si no puedes ver el bloque `ir a la capa de adelante`{:class="block3looks"}, desplázate hacia abajo en el Menú `Apariencia`{:class="block3looks"}.
 
 --- /task ---
+
+### Cambiar el color del autobús
 
 --- task ---
 
@@ -136,24 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
+### Cambia el tamaño del Gato Scratch
+
 --- task ---
 
 El gato de Scratch aparece en todos los nuevos proyectos de Scratch como **Objeto 1** en la lista de Objetos. Haz clic en el objeto **Objeto 1** en la lista de objetos para prepararte para animar el gato de Scratch:
 
-![El objeto Objeto 1 seleccionado en la lista de Objetos.](images/sprite1-selected.png)
+![El objeto Objeto1 seleccionado en la lista de Objetos.](images/sprite1-selected.png)
 
-**Sugerencia:** Si has eliminado accidentalmente el objeto **Objeto 1** (Gato de Scratch), puedes hacer clic en el ícono **Elegir un objeto** y buscar `cat`.
+**Consejo:** Si has eliminado accidentalmente el objeto **Objeto 1** (Gato de Scratch), puedes hacer clic en el ícono **Elegir un objeto** y buscar `cat`.
 
 --- /task ---
-
-Por el momento, el gato de Scratch es demasiado grande para caber en el autobús.
 
 --- task ---
 
 En el panel de objetos, haz clic en **Tamaño** y cambia el tamaño del gato de Scratch a `50`:
 
-![](images/sprite-pane-size.png)
+![Una captura de pantalla que destaca la ubicación de la propiedad de tamaño en el panel de Objetos.](images/sprite-pane-size.png)
 
---- /task ---
-
---- save ---
+--- /task --- 

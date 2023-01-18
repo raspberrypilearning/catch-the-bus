@@ -21,10 +21,11 @@ Clique sur la propriété **Direction** dans le volet Sprite. Tourne la flèche 
 
 --- /task ---
 
-
 --- task ---
 
 Fais glisser le chat Scratch en bas à droite de la scène.
+
+![La scène avec le chat positionné dans le coin inférieur droit.](images/bottom-right-cat.png)
 
 **Astuce :** Si tu essayes de positionner un sprite en dehors de la scène, il reviendra à sa dernière position sur la scène.
 
@@ -34,7 +35,7 @@ Fais glisser le chat Scratch en bas à droite de la scène.
 
 Ajoute du code pour amener le chat Scratch à sa position de départ :
 
-![Le sprite chat Scratch .](images/scratch-cat-sprite.png)
+![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -57,7 +58,7 @@ Tu ajouteras du code dans une boucle `répéter`{:class="block3control"} pour qu
 
 Ajoute un bloc `répéter`{:class="block3control"} `10`, puis fais glisser un bloc `avancer de`{:class="block3motion"} `10` `pas`{:class="block3motion"} à l'intérieur :
 
-![Changer le nombre de pas dans le bloc 'aller' de 10 à 5, puis insérer le bloc dans la boucle 'répéter'.](images/block-into-loop.gif)
+![Modifier le nombre de pas dans le bloc "aller" de 10 à 5, puis insérer le bloc dans la boucle "répéter".](images/block-into-loop.gif)
 
 ![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
@@ -73,11 +74,11 @@ end
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert. Essaye de changer les nombres pour que le chat Scratch s'arrête au bus.
+**Test :** Clique sur le drapeau vert. Essaie de modifier les chiffres dans le bloc `répéter`{:class="block3control"}. `10` pour que le chat Scratch s'arrête au bus.
 
 --- /task ---
 
-Certains sprites ont plus d'un costume. Tu utiliseras les costumes du sprite **chat Scratch** pour créer une animation de la marche du chat Scratch .
+Certains sprites ont plus d'un costume. Tu utiliseras les costumes du sprite **chat Scratch** pour créer une animation de marche du chat Scratch.
 
 --- task ---
 
@@ -107,13 +108,13 @@ end
 
 --- /task ---
 
-Maintenant, tu vas faire en sorte que le chat Scratch semble entrer dans le bus.
+### Cacher le chat Scratch
 
 --- task ---
 
 Ajoute un bloc `cacher`{:class="block3looks"} le chat Scratch lorsqu'il atteint le bus :
 
-![Le sprite chat Scratch .](images/scratch-cat-sprite.png)
+![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -133,7 +134,7 @@ end
 
 --- /task ---
 
-Le chat Scratch doit réapparaître lorsque tu exécutes à nouveau l'animation.
+### Montrer le chat Scratch
 
 --- task ---
 
@@ -162,4 +163,3 @@ hide
 
 --- /task ---
 
---- save ---

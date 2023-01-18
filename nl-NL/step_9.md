@@ -11,8 +11,6 @@ Je kunt elk van de blokken gebruiken die je in dit project hebt geleerd, evenals
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // sleep de sprite om x en y te kiezen
 
 show
@@ -46,7 +44,7 @@ set [color v] effect to [50] // tot 200
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/486719199/){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/589764379/){:target="_blank"} bekijken.
 
 --- /collapse ---
 

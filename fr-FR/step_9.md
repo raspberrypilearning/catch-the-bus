@@ -11,8 +11,6 @@ Tu peux utiliser n'importe lequel des blocs que tu as appris dans ce projet, ain
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // fais glisser le sprite pour choisir x et y
 
 show
@@ -43,7 +41,7 @@ set [color v] effect to [50] // jusqu'à 200
 
 --- collapse ---
 ---
-title: Le projet achevé
+title: Le projet terminé
 ---
 
 Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/589903506/){:target="_blank"}.

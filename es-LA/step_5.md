@@ -2,16 +2,16 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-En Scratch, un grupo de bloques conectados se llama **script**. Agregarás una nuevo script para hacer que el autobús se ponga en marcha.
+Agrega más bloques para hacer que el autobús se vaya.
 </div>
 <div>
 
-![El escenario mostrando que el autobús se ha movido hacia la derecha.](images/bus-leaving.png){:width="300px"}
+![El escenario mostrando que el autobús se ha movido hacia la derecha.](Images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-El autobús se pondrá en marcha hacia la derecha cuatro segundos después de hacer clic en la bandera verde. El bloque `cuando cronómetro`{:class="block3events"} ejecutará los bloques que tenga debajo después de este tiempo de retraso.
+### Anima al Autobús
 
 --- task ---
 
@@ -23,12 +23,13 @@ Selecciona el objeto **City Bus** (Autobús).
 
 --- task ---
 
-Desde el menú `Eventos`{:class="block3events"}, arrastra un bloque `cuando volumen del sonido >`{:class="block3events"} `10` al área de Código. Cambia `volumen del sonido`{:class="block3events"} por `cronómetro`{:class="block3events"}. Esto iniciará un nuevo script:
+El autobús se pondrá en marcha hacia la derecha cuatro segundos después de hacer clic en la bandera verde.
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] // cambia de 10 a 4
+when flag clicked 
+wait [4] seconds // cambia de 1 a 4
 ```
 
 --- /task ---
@@ -45,14 +46,15 @@ Arrastra tu autobús al lado derecho del escenario. Esta serán las coordenadas 
 
 --- task ---
 
-Agrega un bloque `desplazar en`{:class="block3motion"} `2` `segs a x: y:`{:class="block3motion"} debajo del bloque `cuando cronómetro`{:class="block3events"}.
+Agrega un bloque `desplazar en`{:class="block3motion"} `2` `segs a x: y:`{:class="block3motion"} debajo del bloque `esperar`{:class="block3events"}.
 
-Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en tu proyecto pueden ser un poco diferentes.
+Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en tu proyecto pueden ser un poco diferentes y van a ser la posición exacta a donde arrastraste el autobús.
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // cambia de 1 a 4
 +glide [2] secs to x: [320] y: [-100] // lado derecho del Escenario
 ```
 
@@ -64,6 +66,8 @@ when [timer v] > [4]
 
 --- /task ---
 
+### Oculta y muestra el Autobús
+
 --- task ---
 
 Agrega un bloque `esconder`{:class="block3looks"} para que el autobús parezca salir del escenario:
@@ -71,7 +75,8 @@ Agrega un bloque `esconder`{:class="block3looks"} para que el autobús parezca s
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // cambia de 1 a 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -79,7 +84,7 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Prueba:** Haz clic en la bandera verde. El autobús ahora se esconderá después de ponerse en marcha. ¿Recuerdas cómo asegurarte de que un objeto vuelva a aparecer cuando haces clic en la bandera verde?
+**Prueba:** Haz clic en la bandera verde. El autobús ahora se esconderá después de irse. ¿Recuerdas cómo asegurarte de que un objeto vuelva a aparecer cuando haces clic en la bandera verde?
 
 --- /task ---
 
@@ -93,7 +98,7 @@ Agrega un bloque `mostrar`{:class="block3looks"} a tu script `al presionar bande
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // prueba con un número hasta 200
+set [color v] effect to (85) // prueba con un número hasta 200
 +show
 ```
 
@@ -103,8 +108,6 @@ set [color v] effect to (50) // prueba con un número hasta 200
 
 **Prueba:** Haz clic en la bandera verde y observa tu animación. El autobús debería aparecer en el centro del escenario y luego dirigirse hacia la derecha y desaparecer.
 
-¿Están todos en el autobús cuando parte? Puede cambiar la cantidad de tiempo que espera el autobús, si lo necesitaras.
+¿Están todos en el autobús cuando parte? Puedew cambiar el tiempo que espera el autobús, si lo necesitas.
 
 --- /task ---
-
---- save ---

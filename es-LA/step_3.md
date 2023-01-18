@@ -21,12 +21,13 @@ Haz clic en **Dirección** en el panel de objetos. Gira la flecha hasta que apun
 
 --- /task ---
 
-
 --- task ---
 
 Arrastra al gato de Scratch a la parte inferior derecha del escenario.
 
-**Sugerencia:** Si intentas colocar un objeto fuera del escenario, este volverá a su última posición en el escenario.
+![El Escenario con el gato ubicado en la esquina inferior derecha.](images/bottom-right-cat.png)
+
+**Consejo:** Si pruebas colocar un objeto fuera del escenario, este volverá a su última posición en el escenario.
 
 --- /task ---
 
@@ -107,7 +108,7 @@ end
 
 --- /task ---
 
-Ahora, harás que parezca que el gato de Scratch está entrando al autobús.
+### El gato de Scratch debe reaparecer cuando vuelvas a ejecutar la animación.
 
 --- task ---
 
@@ -133,7 +134,7 @@ end
 
 --- /task ---
 
-El gato de Scratch debe reaparecer cuando vuelvas a ejecutar la animación.
+### Ahora, harás que parezca que el gato de Scratch está entrando al autobús.
 
 --- task ---
 
@@ -152,7 +153,7 @@ end
 hide
 ```
 
-**Sugerencia:** Cuando usas un bloque `esconder`{:class="block3looks"}, también necesitas agregar un bloque `mostrar`{:class="block3looks"} para asegurarte de que un objeto sea visible cuando lo necesites.
+**Consejo:** Cuando usas un bloque `esconder`{:class="block3looks"}, también necesitas agregar un bloque `mostrar`{:class="block3looks"} para asegurarte de que un objeto sea visible cuando lo necesites.
 
 --- /task ---
 
@@ -162,4 +163,3 @@ hide
 
 --- /task ---
 
---- save ---

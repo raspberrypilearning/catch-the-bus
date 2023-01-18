@@ -11,6 +11,8 @@ Wat als de Scratch kat niet snel genoeg rende om de bus te halen?
 </div>
 </div>
 
+### Zorg dat Scratch kat de bus mist
+
 --- task ---
 
 Selecteer de **Scratch kat** sprite en voeg een `wacht sec.`{:class="block3control"} blok toe:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Je wilt vertragingen van minder dan één seconde. 0,5 is een halve seconde, 0,25 is een kwart seconde en 0,1 is een tiende van een seconde.
+### Zorg dat Scratch kat de bus haalt
 
 --- task ---
+
+Je wilt vertragingen van minder dan één seconde. 0,5 is een halve seconde, 0,25 is een kwart seconde en 0,1 is een tiende van een seconde.
 
 Wijzig de vertraging in het `wacht sec.`{:class="block3control"} blok:
 
@@ -52,7 +56,7 @@ wait (0.2) seconds // probeer 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Kies:** Kies of je wilt dat de Scratch kat **de bus mist** of **de bus haalt**.
+### Kies of Scratch kat de bus haalt of mist
 
 --- task ---
 
@@ -82,7 +86,8 @@ Als je wilt dat de Scratch kat **de bus haalt**, moet je de bus langer laten wac
 ![De stadsbus-sprite.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // veranderen van 4 naar 6
+when flag clicked 
++wait [4] seconds // veranderen van 4 naar 6
 glide [2] secs to x: [320] y: [-100] // rechterkant van het speelveld
 hide
 ```
@@ -101,6 +106,5 @@ Breng wijzigingen aan totdat de animatie werkt zoals jij dat wilt.
 Wanneer je aan een project werkt, ga je vaak terug en verander of verbeter je je code als je nieuwe ideeën krijgt. 
 </p>
 
---- save ---
 
 

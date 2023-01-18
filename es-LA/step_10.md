@@ -1,10 +1,10 @@
 ## ¿Qué sigue?
 
-Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/es-LA/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el insecto](https://projects.raspberrypi.org/es-LA/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el insecto que se esconde en cada nivel.
+Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/es-LA/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el error](https://projects.raspberrypi.org/es-LA/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el error que se esconde en cada nivel.
 
 --- print-only ---
 
-![El proyecto "Encuentra el insecto".](images/find-the-bug.png)
+![El proyecto 'Encuentra el error'.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -23,5 +23,6 @@ Este proyecto fue traducido por voluntarios:
 
 Verónica VL
 Laura Lurati
+Karen Gonzalez
 
 Gracias a los voluntarios, podemos dar a las personas de todo el mundo la oportunidad de aprender en su propio idioma. Puedes ayudarnos a llegar a más personas ofreciéndote como voluntario para traducir. Más información en [rpf.io/translate](https://rpf.io/translate).

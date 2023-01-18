@@ -1,22 +1,21 @@
-## Que faire ensuite?
+## Questionnaire rapide
 
-Bravo, tu as beaucoup appris ! Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
+Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris. Il y a des indices pour te guider vers la bonne réponse.
 
-Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
+Lorsque tu as répondu à chaque question, tapes sur **Soumettre**.
 
-Lorsque tu as répondu à chaque question, tapes sur **Soumettre**. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien!
+Amuse-toi bien !
 
 --- question ---
 ---
-legend : Question 1 sur 3
+legend: Question 1 sur 3
 ---
 
 Dans ton projet, le bus s'éloigne en utilisant ce code :
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -28,7 +27,7 @@ Quand le bus s'éloigne-t-il ?
 
   --- feedback ---
 
-Le code a un bloc chronomètre avant que le bus ne s'éloigne.
+Les blocs de code s'exécutent dans l'ordre, regarde les blocs avant le bloc `glisser`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ Le code a un bloc chronomètre avant que le bus ne s'éloigne.
 
   --- feedback ---
 
-Après avoir cliqué sur le drapeau vert, il y a une attente de quatre secondes avant que le bus ne s'éloigne.
+Oui. Après avoir cliqué sur le drapeau vert, il y a une attente de quatre secondes avant que le bus ne s'éloigne.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ Le bus n'a aucun code qui exécute `quand ce sprite est cliqué`{:class="block3e
 
   --- feedback ---
 
-  Le bus met deux secondes à planer, mais ce n'est pas le temps qu'il attend avant de bouger.
+Le bus met deux secondes à s'éloigner en glissant, mais ce n'est pas le temps qu'il attend avant de se déplacer.
 
   --- /feedback ---
 

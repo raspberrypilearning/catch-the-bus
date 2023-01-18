@@ -11,7 +11,7 @@ Je voegt een nijlpaard sprite toe die naar de bus vliegt.
 </div>
 </div>
 
-De **Hippo1** sprite heeft twee uiterlijken met vleugels in verschillende posities, zodat de sprite kan worden geanimeerd om naar de bus te vliegen.
+### Geef het nijlpaard een startpositie
 
 --- task ---
 
@@ -40,13 +40,11 @@ when flag clicked
 go to x: [-200] y: [150] // linksboven
 ```
 
-**Tip:** De `x`{:class="block3motion"} en `y`{:class="block3motion"} coördinaten in het `ga naar x: y:`{:class="block3motion"} blok zijn de huidige positie van het nijlpaard, zodat je deze niet hoeft in te voeren.
+**Tip:** De `x`{:class="block3motion"} en `y`{:class="block3motion"} coördinaten in het `ga naar x: y:`{:class="block3motion"} blok zijn de huidige positie van het nijlpaard, deze hoef je dus niet in te typen.
 
 --- /task ---
 
-Het nijlpaard vliegt naar de bus en klappert met de vleugels.
-
-Het nijlpaard zal zich `richten naar`{:class="block3motion"} de bus voordat het beweegt.
+### Laat het nijlpaard met zijn vleugels klapperen en vliegen
 
 --- task ---
 
@@ -70,7 +68,7 @@ next costume
 
 --- /task ---
 
-Nu gaat het nijlpaard de bus in.
+### Laat de bus verschijnen en verdwijnen
 
 --- task ---
 
@@ -92,8 +90,6 @@ end
 
 --- task ---
 
-**Test:** Klik op de groene vlag. Het nijlpaard vliegt en gaat de bus in.
+**Test:** Klik op de groene vlag. Het nijlpaard vliegt naar de bus en gaat de bus in.
 
 --- /task ---
-
---- save ---
