@@ -20,7 +20,7 @@ cambia de 4 a 6
 
 arrastra el objeto para elegir x e y
 
-mitad inferior del escenario
+mitad inferior del Escenario
 
 apuntar hacia abajo
 
