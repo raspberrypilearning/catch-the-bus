@@ -1,13 +1,11 @@
 --- question ---
 ---
-legend : Question 3 sur 3
+legend: Question 3 sur 3
 ---
 
-Dans ton projet, tu as fait voler l'hippopotame et marcher le chat Scratch jusqu'au bus.
+Lequel de ces scripts utilise une **boucle** pour faire courir le chien ?
 
 ![Une animation d'un chien courant de la gauche de la scène vers la droite.](images/dog-run.gif)
-
-Lequel de ces scripts utilise une **boucle** pour faire courir le chien ?
 
 --- choices ---
 
@@ -21,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Oui! Le bloc `répéter`{:class="block3control"} utilise une boucle pour faire courir le chien.
+Oui ! Le bloc `répéter`{:class="block3control"} utilise une boucle pour faire courir le chien.
 
   --- /feedback ---
 

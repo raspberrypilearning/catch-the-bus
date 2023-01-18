@@ -6,18 +6,18 @@ Agregarás un objeto de hipopótamo que vuela hacia el autobús.
 </div>
 <div>
 
-![El hipopótamo volando hacia el autobús.](images/hippo-flies.png){:width="300px"}
+! [El hipopótamo volando hacia el autobús.](Images / hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-El objeto **Hippo1**(Hipopótamo) tiene dos disfraces con las alas en diferentes posiciones, por lo que puedes animar el objeto para que vuele hacia el autobús.
+### Dale al Hipopótamo una posición inicial
 
 --- task ---
 
-Agrega el objeto **Hippo1** (Hipopótamo) a tu proyecto.
-
 Cambia el **Tamaño** del objeto **Hippo1** (Hipopótamo):
+
+Agrega el objeto **Hippo1** (Hipopótamo) a tu proyecto.
 
 ![El panel de Objetos para el objeto Hippo1, con el tamaño establecido en 50.](images/hippo-sprite-size.png)
 
@@ -40,13 +40,11 @@ when flag clicked
 go to x: [-200] y: [150] // parte superior izquierda
 ```
 
-**Sugerencia:** Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en el bloque `ir a x: y:`{:class="block3motion"} serán la posición actual del hipopótamo, por lo que no es necesario que los cambies.
+**Consejo:** Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en el bloque `ir a x: y:`{:class="block3motion"} serán la posición actual del hipopótamo, por lo que no es necesario que los cambies.
 
 --- /task ---
 
-El hipopótamo volará hacia el autobús, batiendo sus alas.
-
-El hipopótamo `apuntará hacia`{:class="block3motion"} el autobús antes de moverse.
+### Haz que el Hipopótamo agite sus alas y vuele
 
 --- task ---
 
@@ -70,7 +68,7 @@ next costume
 
 --- /task ---
 
-Ahora, el hipopótamo entrará en el autobús.
+### Muestra y oculta el autobús
 
 --- task ---
 
@@ -95,5 +93,3 @@ end
 **Prueba:** Haz clic en la bandera verde. El hipopótamo volará y entrará en el autobús.
 
 --- /task ---
-
---- save ---

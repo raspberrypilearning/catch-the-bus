@@ -10,7 +10,7 @@ parte superior izquierda
 
 cambiar desde el puntero del mouse
 
-cambia de 10 a 4
+cambia de 1 a 4
 
 lado derecho del Escenario
 

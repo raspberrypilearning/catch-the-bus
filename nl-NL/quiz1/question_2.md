@@ -3,13 +3,11 @@
 legend: Vraag 2 van 3
 ---
 
-De eigenschappen van een sprite verschijnen in het Sprite-paneel onder het speelveld.
-
 Als je een sprite naar een nieuwe positie in het speelveld sleept, welke eigenschappen worden dan bijgewerkt?
 
 --- choices ---
 
-- ( ) De richting van de sprite ![](images/direction.png)
+- ( ) De **richting** van de sprite ![De richting eigenschap.](images/direction.png)
 
   --- feedback ---
 
@@ -17,7 +15,7 @@ Om de richting van de sprite te veranderen, moet je naar **Richting** en deze wi
 
   --- /feedback ---
 
-- (x) De x- en y-coördinaten van de sprite ![](images/coordinates.png)
+- (x) De **x- en y-coördinaten** van de sprite ![De x- en y-coördinaateigenschappen.](images/coordinates.png)
 
   --- feedback ---
 
@@ -25,7 +23,7 @@ Wanneer je een sprite naar een nieuwe positie sleept, worden de **x** en **y** c
 
   --- /feedback ---
 
-- ( ) Of de sprite verschijnt of verdwijnt ![](images/visibility.png)
+- ( ) Of de sprite **verschijnt of verdwijnt** ![De verschijn eigenschap.](images/visibility.png)
 
   --- feedback ---
 
@@ -33,7 +31,7 @@ Het gebruik van de **oog** en **doorgekruiste oog** iconen zal de sprite laten z
 
   --- /feedback ---
 
-- ( ) De grootte van de sprite ![](images/size.png)
+- ( ) De **grootte** van de sprite ![De grootte eigenschap.](images/size.png)
 
   --- feedback ---
 

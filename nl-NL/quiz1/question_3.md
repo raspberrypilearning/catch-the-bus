@@ -3,11 +3,9 @@
 legend: Vraag 3 van 3
 ---
 
-In je project liet je het nijlpaard vliegen en de Scratch kat naar de bus lopen.
+Welke van deze scripts gebruikt een **lus** om de hond te laten rennen?
 
 ![Een animatie van een hond die van links van het speelveld naar rechts rent.](images/dog-run.gif)
-
-Welke van deze scripts gebruikt een **lus** om de hond te laten rennen?
 
 --- choices ---
 

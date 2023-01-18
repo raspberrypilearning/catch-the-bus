@@ -11,15 +11,15 @@ Tu ajouteras un sprite hippopotame qui vole jusqu'au bus.
 </div>
 </div>
 
-Le **Hippo1** a deux costumes avec des ailes dans des positions différentes, donc le sprite peut être animé pour voler vers le bus.
+### Donner à l'hippopotame une position de départ
 
 --- task ---
 
-Ajoute le **Hippo1** à ton projet.
+Modifie le sprite **Hippo1** dans ton projet.
 
-Change le **Taille** du **Sprite Hippo1**:
+Modifie la **Taille** du sprite **Hippo1** :
 
-![Le volet Sprite pour le sprite Hippo1, avec une taille définie sur 50.](images/hippo-sprite-size.png)
+![Le panneau Sprite pour le sprite Hippo1, avec une taille définie sur 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
@@ -44,13 +44,11 @@ go to x: [-200] y: [150] // en haut à gauche
 
 --- /task ---
 
-L'hippopotame volera vers le bus en battant des ailes.
-
-L'hippopotame `pointera vers`{:class="block3motion"} le bus avant de se déplacer.
+### Faire en sorte que l'hippopotame batte des ailes et vole
 
 --- task ---
 
-Ajoute du code pour faire voler l'hippopotame vers le **City Bus**:
+Ajoute du code pour faire voler l'hippopotame vers le **City Bus** :
 
 ```blocks3
 when flag clicked
@@ -70,7 +68,7 @@ next costume
 
 --- /task ---
 
-Maintenant, l'hippopotame entrera dans le bus.
+### Montrer et cacher le bus
 
 --- task ---
 
@@ -95,5 +93,3 @@ end
 **Test :** Clique sur le drapeau vert. L'hippopotame va voler et entrer dans le bus.
 
 --- /task ---
-
---- save ---

@@ -1,6 +1,6 @@
-## Inleiding
+## Je gaat maken
 
-In dit project maak je een animatie met sprites die rennen of vliegen om een bus te halen.
+In dit project maak je een animatie met sprites die rennen of vliegen om een bus 🚌 te halen.
 
 Je gaat:
 + Sprites verschillende dingen laten doen `wanneer op groene vlag wordt geklikt`{:class="block3events"}
@@ -10,7 +10,7 @@ Je gaat:
 --- no-print ---
 --- task ---
 
-### Probeer het uit
+### Afspelen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
@@ -27,7 +27,7 @@ Welke sprites veranderen hun uiterlijk om een animatie-effect te creëren?
 
 --- print-only ---
 
-![Het voltooide project.](images/showcase_static.png)
+![Het voltooide project.](images/hippo-flies.png)
 
 --- /print-only ---
 

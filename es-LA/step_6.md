@@ -6,10 +6,12 @@
 </div>
 <div>
 
-![El gato de Scratch pierde el autobús.](images/cat-misses-bus.png){:width="300px"}
+! [El gato de Scratch pierde el autobús.](Images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
+
+### Haz que el Gato Scratch pierda el autobús
 
 --- task ---
 
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Vas a querer un tiempo de retraso de menos de un segundo. 0.5 es medio segundo, 0.25 es un cuarto de segundo y 0.1 es una décima de segundo.
+### Haz que el Gato Scratch tome el Autobús
 
 --- task ---
+
+Vas a querer un tiempo de retraso de menos de un segundo. 0.5 es medio segundo, 0.25 es un cuarto de segundo y 0.1 es una décima de segundo.
 
 Cambia el tiempo de retraso en el bloque `esperar`{:class="block3control"}:
 
@@ -52,7 +56,7 @@ wait (0.2) seconds // prueba 0.1, 0.5, 0.05
 
 --- /task ---
 
-**Elige:** Elige si deseas que el gato de Scratch **pierda el autobús** o que **tome el autobús**.
+### Elige si el Gato Scratch toma o pierde el autobús
 
 --- task ---
 
@@ -82,12 +86,13 @@ Si quieres que el gato de Scratch **tome el autobús**, haz que el autobús espe
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // cambia de 4 a 6
+when flag clicked 
++wait [4] seconds // cambia de 4 a 6
 glide [2] secs to x: [320] y: [-100] // lado derecho del Escenario
 hide
 ```
 
-Necesitarás volver a colocar el bloque `esconder`{:class="block3looks"} en el código del objeto **Gato de Scratch** si lo hubieras eliminado y quieres que el gato de Scratch tome el autobús con éxito.
+Necesitarás volver a colocar el bloque `esconder`{:class="block3looks"} en el código del objeto **Gato de Scratch** si lo has eliminado y quieres que el gato de Scratch tome el autobús con éxito.
 
 --- /task ---
 
@@ -98,9 +103,8 @@ Haz cambios hasta que la animación funcione como quieras.
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Cuando trabajes en un proyecto, a menudo tendrás que retroceder y cambiar o mejorar tu código a medida que tengas nuevas ideas. 
+Cuando trabajes en un proyecto, a menudo tendrás que retroceder y cambiar o mejorar tu código a medida que obtengas nuevas ideas. 
 </p>
 
---- save ---
 
 

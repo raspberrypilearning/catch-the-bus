@@ -1,10 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-Beantwoord de drie onderstaande vragen om na te denken over wat je hebt geleerd.
-
-Wanneer je elke vraag hebt beantwoord, klik je op **Verzenden**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Wanneer je een vraag hebt beantwoord, klik je op **Controleer mijn antwoord**.
 
 Veel plezier!
 
@@ -16,7 +14,8 @@ legend: Vraag 1 van 3
 In jouw project glijdt de bus weg met deze code:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -28,7 +27,7 @@ Wanneer glijdt de bus weg?
 
   --- feedback ---
 
-De code heeft een klokblok voordat de bus wegglijdt.
+De codeblokken lopen in volgorde, kijk naar de blokken voor het `schuif in`{:class="block3motion"} blok.
 
   --- /feedback ---
 
@@ -36,7 +35,7 @@ De code heeft een klokblok voordat de bus wegglijdt.
 
   --- feedback ---
 
-Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze wegglijdt.
+Ja. Nadat je op de groene vlag hebt geklikt, wacht de bus vier seconden voordat deze wegschuift.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ De bus heeft geen code die `wanneer op deze sprite wordt geklikt`{:class="block3
 
   --- feedback ---
 
-  De bus doet er twee seconden over om weg te glijden, maar zo lang wacht hij niet voordat hij in beweging komt.
+De bus doet er twee seconden over om weg te glijden, maar zo lang wacht hij niet voordat hij in beweging komt.
 
   --- /feedback ---
 

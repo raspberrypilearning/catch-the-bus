@@ -6,10 +6,12 @@ La autobús tiene escrito "Scratch Tours", pero puedes cambiar el destino a uno 
 </div>
 <div>
 
-![El autobús con el texto "Festival de creadores".](images/maker-bus.png){:width="300px"}
+![El autobús con el texto "Festival de creadores".](Images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
+
+### Edita el objeto Autobús
 
 --- task ---
 
@@ -23,11 +25,11 @@ Selecciona el objeto **City Bus** (Autobús) y haz clic en la pestaña **Disfrac
 
 Haz clic en el texto blanco "Scratch Tours" para seleccionarlo y luego haz clic en **Eliminar** para quitarlo.
 
-![](images/bus-delete-text.png)
+**Consejo:** Puedes usar el ícono **Eliminar** en el editor de dibujo o la tecla <kbd>Supr</kbd> en tu teclado.
+
+![El texto del Autboús y el ícono Eliminar resaltados.](images/bus-delete-text.png)
 
 --- /task ---
-
-**Sugerencia:** Puedes usar el ícono **Eliminar** en el editor de dibujo o la tecla <kbd>Supr</kbd> en tu teclado.
 
 --- task ---
 
@@ -45,8 +47,7 @@ Para cambiar la fuente (estilo de escritura), puedes hacer clic en el menú desp
 
 Haz clic en la herramienta **Seleccionar** (flecha), luego arrastra el texto para colocarlo en el autobús.
 
-![](images/bus-destination-centered.png)
+![El texto en el Autobús y la herramienta Seleccionar resaltados.](images/bus-destination-centered.png)
 
 --- /task ---
 
---- save ---

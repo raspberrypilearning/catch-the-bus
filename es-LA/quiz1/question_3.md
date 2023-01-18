@@ -3,11 +3,9 @@
 legend: Pregunta 3 de 3
 ---
 
-En tu proyecto, hiciste volar al hipopótamo y al gato de Scratch caminar hacia el autobús.
+¿Cuál de estos scripts usa un **bucle** para hacer que el perro corra?
 
 ![Una animación de un perro corriendo de la izquierda a la derecha del escenario.](images/dog-run.gif)
-
-¿Cuál de estos scripts usa un **bucle** para hacer que el perro corra?
 
 --- choices ---
 

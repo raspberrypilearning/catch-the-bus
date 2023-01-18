@@ -21,10 +21,11 @@ Klik op de **Richting** in het Sprite-venster. Draai de pijl naar `-90`. Klik ve
 
 --- /task ---
 
-
 --- task ---
 
 Sleep de Scratch kat naar de rechterbenedenhoek van het speelveld.
+
+![Het speelveld met de kat in de rechterbenedenhoek.](images/bottom-right-cat.png)
 
 **Tip:** Als je een sprite buiten het speelveld probeert te plaatsen, zal deze teruggaan naar de laatste positie op het speelveld.
 
@@ -73,11 +74,11 @@ end
 
 --- task ---
 
-**Test:** Klik op de groene vlag. Probeer de getallen te veranderen zodat de Scratch kat bij de bus stopt.
+**Test:** Klik op de groene vlag. Probeer de getallen het `herhaal`{:class="block3control"} `10` blok te veranderen zodat de Scratch kat bij de bus stopt.
 
 --- /task ---
 
-Sommige sprites hebben meer dan één uiterlijk. Je gebruikt de **Scratch kat** sprite om een animatie te maken van de wandelende Scratch kat.
+Sommige sprites hebben meer dan één uiterlijk. Je gebruikt de uiterlijkheden van de **Scratch kat** sprite om een animatie te maken van een wandelende Scratch kat.
 
 --- task ---
 
@@ -107,7 +108,7 @@ end
 
 --- /task ---
 
-Nu laat je het lijken of de Scratch kat de bus ingaat.
+### De Scratch kat laten verdwijnen
 
 --- task ---
 
@@ -133,7 +134,7 @@ end
 
 --- /task ---
 
-De Scratch kat moet opnieuw verschijnen wanneer je de animatie opnieuw uitvoert.
+### De Scratch kat laten verschijnen
 
 --- task ---
 
@@ -162,4 +163,3 @@ hide
 
 --- /task ---
 
---- save ---
