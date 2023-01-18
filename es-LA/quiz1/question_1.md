@@ -27,7 +27,7 @@ glide [2] secs to x: [320] y: [-100]
 
   --- feedback ---
 
-Los bloques de código se ejecutan en orden, observa los bloques antes del bloque `glide`{:class="block3motion"}.
+Los bloques de código se ejecutan en orden, observa los bloques antes del bloque `desplazar`{:class="block3motion"}.
 
   --- /feedback ---
 
