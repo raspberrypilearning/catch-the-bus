@@ -44,7 +44,7 @@ set [color v] effect to [50] // up to 200
 title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Μπορείς να δεις το [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
