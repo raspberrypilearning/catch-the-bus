@@ -3,7 +3,7 @@
 legend: Pregunta 2 de 3
 ---
 
-Cuando **arrastras un objeto** a una nueva posición en el Escenario, ¿qué **propiedades** se actualizarán en el panel de Objetos debajo del Escenario?
+Cuando **arrastras un objeto** a una nueva posición en el escenario, ¿qué **propiedades** se actualizarán en el panel de objetos debajo de él?
 
 --- choices ---
 
