@@ -1,21 +1,21 @@
-## You will make
+## はじめに
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+スプライトが走ったり飛んだりしてバス🚌に乗るアニメーションを作成します。
 
 あなたは次のことを行います。
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
++ `緑色の旗が押されたとき`{:class="block3events"}、スプライトにいろいろなことをさせます。
 + スプライトを**ステージ**に配置します。
 + `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} そして `コスチュームを変えます`{:class="block3looks"}。
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### プレイ ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 緑色のフラグを押して、アニメーションを表示します。 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+アニメーション🎥効果を作るためにコスチュームを変えるスプライトはどれですか？
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
