@@ -1,4 +1,4 @@
-prueba con un número hasta 200
+prueba con un número hasta el 200
 
 parte inferior derecha
 
@@ -10,20 +10,20 @@ parte superior izquierda
 
 cambiar desde el puntero del mouse
 
-cambia de 1 a 4
+cambia del 1 al 4
 
-lado derecho del Escenario
+lado derecho del escenario
 
-prueba 0.1, 0.5, 0.05
+prueba 0,1, 0,5, 0,05
 
-cambia de 4 a 6
+cambia del 4 al 6
 
 arrastra el objeto para elegir x e y
 
-mitad inferior del Escenario
+mitad inferior del escenario
 
 apuntar hacia abajo
 
 breve retraso
 
-hasta 200
+hasta el 200
