@@ -1,17 +1,17 @@
-## Quick quiz
+## ふりかえり
 
-Answer the three questions. There are hints to guide you to the correct answer.
+3つの質問に答えてください。 あなたを正解に導くヒントがあります。
 
-When you have answered each question, click on **Check my answer**.
+各質問に回答したら、**答えを確認する**をクリックしてください。
 
-Have fun!
+お楽しみください！
 
 --- question ---
 ---
 legend: 質問1/3
 ---
 
-In your project, the bus glides away using this code:
+次のコードをプロジェクトに追加するとバスが動きます。
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+バスが動くのはいつですか？
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+コードブロックは順番に実行されます。`〇へ行く`{:class="block3motion"}ブロックの前にあるブロックを見てください。
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+正解！ 緑色の旗を押した後、バスが走り去るまで4秒間待ちます。
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+バスには`このスプライトが押されたとき`{:class="block3events"}に実行されるコードはありません。
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+バスは2秒間で走り去りますが、それはバスが移動する前に待つ時間ではありません。
 
   --- /feedback ---
 
