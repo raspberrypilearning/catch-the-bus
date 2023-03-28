@@ -3,39 +3,39 @@
 legend: 質問2/3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+**スプライトをドラッグ**してステージの新しい位置へ移動するとき、ステージの下のスプライトペインにあるどの**プロパティ**が更新されるでしょう？
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) スプライトの**向き** ![向きプロパティ。](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+スプライトの向きを変えるには**向き**プロパティを変更します。
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) スプライトの**xおよびy座標** ![x座標とy座標のプロパティ。](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+新しい場所にスプライトをドラッグすると、**x**座標と**y**座標が自動的に更新されます。
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) スプライトの**表示または非表示** ![表示プロパティ。](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+**眼**および**眼に斜め線**のアイコンを使ってスプライトを表示または非表示にできます。
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) スプライトの**大きさ** ![大きさプロパティ。](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+スプライトの大きさを変えるには**大きさ**プロパティの数字を変更する必要があります。
 
   --- /feedback ---
 
