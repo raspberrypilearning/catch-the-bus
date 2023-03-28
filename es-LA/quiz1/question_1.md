@@ -1,6 +1,6 @@
 ## Examen rápido
 
-Contesta las siguientes tres preguntas para reflexionar sobre lo que has aprendido. Hay pistas para guiarte hacia la respuesta correcta.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
 Cuando hayas respondido a cada pregunta, haz clic en **Enviar**.
 
