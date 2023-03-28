@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Agregarás un objeto de hipopótamo que vuela hacia el autobús.
+Agrega un objeto de hipopótamo que vuele hacia el autobús.
 </div>
 <div>
 
-! [El hipopótamo volando hacia el autobús.](Images / hippo-flies.png){: width = "300px"}
+![El hipopótamo volando hacia el autobús.](Images / hippo-flies.png){: width = "300px"}
 
 </div>
 </div>
@@ -15,11 +15,11 @@ Agregarás un objeto de hipopótamo que vuela hacia el autobús.
 
 --- task ---
 
-Cambia el **Tamaño** del objeto **Hippo1** (Hipopótamo):
+Agrega el objeto**Hippo1** a tu proyecto.
 
-Agrega el objeto **Hippo1** (Hipopótamo) a tu proyecto.
+Cambia el **Tamaño** del objeto **Hippo1**(Hipopótamo):
 
-![El panel de Objetos para el objeto Hippo1, con el tamaño establecido en 50.](images/hippo-sprite-size.png)
+![El panel para el objeto Hippo1, con el tamaño establecido en 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
@@ -33,14 +33,14 @@ Arrastra al hipopótamo a la parte superior izquierda del escenario.
 
 --- task ---
 
-Agrega código para llevar al hipopótamo a su posición inicial:
+Agrega código para llevarlo a su posición inicial:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Consejo:** Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en el bloque `ir a x: y:`{:class="block3motion"} serán la posición actual del hipopótamo, por lo que no es necesario que los cambies.
+**Consejo:** Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en el bloque `ir a x: y:`{:class="block3motion"} serán la posición actual del hipopótamo, por lo que no es necesario que las cambies.
 
 --- /task ---
 
@@ -48,7 +48,7 @@ go to x: [-200] y: [150] // top left-hand side
 
 --- task ---
 
-Agrega código para hacer que el hipopótamo vuele hacia el **City Bus** (Autobús):
+Agrega código para hacer que el hipopótamo vuele hacia el **Autobús**:
 
 ```blocks3
 when flag clicked
