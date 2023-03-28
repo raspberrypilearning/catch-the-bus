@@ -45,7 +45,7 @@ Pour changer la police (style d'écriture), tu peux cliquer sur le menu déroula
 
 --- task ---
 
-Clique sur l'outil **Sélectionner** (Flèche), puis faites glisser le texte pour le positionner sur le bus.
+Clique sur l'outil **Sélectionner** (Flèche), puis fais glisser le texte pour le positionner sur le bus.
 
 ![Le texte sur le bus et l'outil de sélection sont mis en surbrillance.](images/bus-destination-centered.png)
 
