@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Elegirás un fondo y agregarás el objeto Autobús.
+Elegirás un fondo y agregarás el objeto del autobús.
 </div>
 <div>
 
-![El autobús con un fondo de Escuela.](images/bus-scene.png){:width="300px"}
+![El autobús con un fondo de escuela.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
@@ -15,7 +15,7 @@ Elegirás un fondo y agregarás el objeto Autobús.
 
 --- task ---
 
-Abre el [proyecto inicial de Toma el autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial de toma el autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -25,7 +25,7 @@ Abre el [proyecto inicial de Toma el autobús](https://scratch.mit.edu/projects/
 
 --- task ---
 
-Haz clic (o en una tableta, toca la pantalla) en **Elige un Fondo** en el panel Escenario (en la esquina inferior derecha de la pantalla):
+Haz clic (o en una tableta, toca la pantalla) en **Elige un Fondo** en el panel escenario (en la esquina inferior derecha de la pantalla):
 
 ![Captura de pantalla del ícono elige un fondo.](images/choose-a-backdrop.png)
 
@@ -39,11 +39,11 @@ Haz clic en la categoría **Exteriores**. Agrega un fondo que sea un buen punto 
 
 --- /task ---
 
-### Elige un Objeto
+### Elige un objeto
 
 --- task ---
 
-Haz clic en **Elegir un objeto**:
+Haz clic en **elegir un objeto**:
 
 ![Una captura de pantalla del menú elegir un objeto.](images/choose-sprite-menu.png)
 
@@ -53,21 +53,21 @@ Haz clic en **Elegir un objeto**:
 
 Escribe `bus` en el cuadro de búsqueda en la parte superior:
 
-![El cuadro de búsqueda resaltado en la biblioteca de Objetos.](images/bus-search.png)
+![El cuadro de búsqueda resaltado en la biblioteca de objetos.](images/bus-search.png)
 
-Agrega el objeto **City Bus** (Autobús) a tu proyecto.
+Agrega el objeto **Autobús** a tu proyecto.
 
 --- /task ---
 
-### Dale a tu autobús una posición de partida
+### Dale una posición de partida
 
 --- task ---
 
-Asegúrate de que el objeto **City Bus** (Autobús) esté seleccionado en la lista de objetos debajo del escenario.
+Asegúrate de que el objeto **Autobús** esté seleccionado en la lista de objetos debajo del escenario.
 
-Arrastra un bloque `al presionar bandera verde ⚑`{:class="block3events"} desde el menú `eventos`{:class="block3events"} hacia el área de Código:
+Arrastra un bloque `al presionar la bandera verde `{:class="block3events"} desde el menú `eventos`{:class="block3events"} hacia el área de Código:
 
-![El objeto Autobús.](images/bus-sprite.png)
+![El objeto autobús.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,9 +104,9 @@ Los números en el bloque `ir a x: y:`{:class="block3motion"} son las coordenada
 
 --- task ---
 
-**Prueba:** Arrastra el bus a cualquier lugar del escenario y luego haz clic en la bandera verde. El bus debería regresar siempre a su posición inicial.
+**Prueba:** Arrastra el autobús a cualquier lugar del escenario y luego haz clic en la bandera verde. Debería regresar siempre a su posición inicial.
 
-![Animación que muestra el autobús arrastrado por la pantalla y saltando hacia el centro cuando se hace clic en la bandera verde.](images/drag-bus.gif)
+![Animación que muestra el autobús arrastrado por la pantalla y saltando hacia el centro al hacer clic en la bandera verde.](images/drag-bus.gif)
 
 --- /task ---
 
@@ -114,7 +114,7 @@ Los números en el bloque `ir a x: y:`{:class="block3motion"} son las coordenada
 
 --- task ---
 
-Para asegurarte de que el objeto **City Bus**(autobús) esté siempre detrás de todos los objetos de personajes, agrega un bloque `ir a la capa de adelante`{:class="block3looks"}, luego haz clic en `adelante`{:class="block3looks"} y cámbialo a `atrás`{:class="block3looks"}:
+Para asegurarte de que el objeto **Autobús** esté siempre detrás de todos los objetos de personajes, agrega un bloque `ir a la capa de adelante`{:class="block3looks"}, luego haz clic en `adelante`{:class="block3looks"} y cámbialo a `atrás`{:class="block3looks"}:
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -124,7 +124,7 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Consejo:** Si no puedes ver el bloque `ir a la capa de adelante`{:class="block3looks"}, desplázate hacia abajo en el Menú `Apariencia`{:class="block3looks"}.
+**Consejo:** Si no puedes ver el bloque `ir a la capa de adelante`{:class="block3looks"}, desplázate hacia abajo en el menú `Apariencia`{:class="block3looks"}.
 
 --- /task ---
 
@@ -132,7 +132,7 @@ go to x: (0) y: (-100)
 
 --- task ---
 
-También puedes cambiar el color del autobús:
+También puedes cambiarle el color:
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -149,17 +149,17 @@ go to [back v] layer
 
 --- task ---
 
-El gato de Scratch aparece en todos los nuevos proyectos de Scratch como **Objeto 1** en la lista de Objetos. Haz clic en el objeto **Objeto 1** en la lista de objetos para prepararte para animar el gato de Scratch:
+El gato de Scratch aparece en todos los nuevos proyectos de Scratch como **Objeto 1** en la lista de Objetos. Haz clic en el objeto **Objeto 1** en la lista para prepararte para animar al gato de Scratch:
 
-![El objeto Objeto1 seleccionado en la lista de Objetos.](images/sprite1-selected.png)
+![El Objeto1 seleccionado en la lista de Objetos.](images/sprite1-selected.png)
 
-**Consejo:** Si has eliminado accidentalmente el objeto **Objeto 1** (Gato de Scratch), puedes hacer clic en el ícono **Elegir un objeto** y buscar `cat`.
+**Consejo:** Si has eliminado accidentalmente el **Objeto 1** (Gato de Scratch), puedes hacer clic en el ícono **Elegir un objeto** y buscar `cat`.
 
 --- /task ---
 
 --- task ---
 
-En el panel de objetos, haz clic en **Tamaño** y cambia el tamaño del gato de Scratch a `50`:
+En el panel de objetos, haz clic en **tamaño** y cambia el tamaño del gato a `50`:
 
 ![Una captura de pantalla que destaca la ubicación de la propiedad de tamaño en el panel de Objetos.](images/sprite-pane-size.png)
 
