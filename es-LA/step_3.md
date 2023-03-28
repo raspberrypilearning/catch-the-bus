@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animarás el gato de Scratch para que aparezca en el **lado derecho** del escenario y camine hacia el autobús repitiendo un pequeño movimiento muchas veces en un **bucle**. 
+Animarás al gato para que aparezca en el **lado derecho** del escenario y camine hacia el autobús repitiendo un pequeño movimiento muchas veces en un **bucle**. 
 </div>
 <div>
 
@@ -15,7 +15,7 @@ Animarás el gato de Scratch para que aparezca en el **lado derecho** del escena
 
 --- task ---
 
-Haz clic en **Dirección** en el panel de objetos. Gira la flecha hasta que apunte a `-90`. Luego, haz clic en el ícono que está al medio **Izquierda / Derecha** para cambiar el estilo de rotación a `izquierda-derecha` para evitar que el gato de Scratch se dé la vuelta:
+Haz clic en **Dirección** en el panel de objetos. Gira la flecha hasta que apunte a `-90`. Luego, haz clic en el ícono que está al medio **Izquierda / Derecha** para cambiar el estilo de rotación a `izquierda-derecha` y evitar que el gato se dé la vuelta:
 
 ![La flecha apuntando a -90 y el icono 'Izquierda / Derecha' seleccionado.](images/sprite-pane-direction.png)
 
@@ -23,17 +23,17 @@ Haz clic en **Dirección** en el panel de objetos. Gira la flecha hasta que apun
 
 --- task ---
 
-Arrastra al gato de Scratch a la parte inferior derecha del escenario.
+Arrastra al gato a la parte inferior derecha del escenario.
 
 ![El Escenario con el gato ubicado en la esquina inferior derecha.](images/bottom-right-cat.png)
 
-**Consejo:** Si pruebas colocar un objeto fuera del escenario, este volverá a su última posición en el escenario.
+**Consejo:** Si pruebas colocar un objeto fuera del escenario, este volverá a su última posición.
 
 --- /task ---
 
 --- task ---
 
-Agrega código para llevar al gato de Scratch a su posición inicial:
+Agrega código para llevar al gato a su posición inicial:
 
 ![El objeto gato de Scratch.](images/scratch-cat-sprite.png)
 
@@ -46,13 +46,13 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Prueba:** Arrastra al gato de Scratch a una nueva posición, luego haz clic en el bloque `ir a x: y:`{:class="block3motion"}. El gato Scratch debería volver a la parte inferior derecha cada vez.
+**Prueba:** Arrastra al gato a una nueva posición, luego haz clic en el bloque `ir a x: y:`{:class="block3motion"}. Debería volver a la parte inferior derecha cada vez.
 
 --- /task ---
 
 ### Anima al gato de Scratch
 
-Agregarás código en un bucle `repetir`{:class="block3control"} para hacer que el gato de Scratch repita una pequeña cantidad de pasos muchas veces. Esto hará que el gato de Scratch parezca estar animado.
+Agregarás código en un bucle `repetir`{:class="block3control"} para hacer que el gato de Scratch repita una pequeña cantidad de pasos muchas veces. Esto hará que el gato parezca estar animado.
 
 --- task ---
 
@@ -74,11 +74,11 @@ end
 
 --- task ---
 
-**Prueba:** Haz clic en la bandera verde. Intenta cambiar los números hasta que el gato de Scratch se detenga en el autobús.
+**Prueba:** Haz clic en la bandera verde. Intenta cambiar los números en el bloque `repetir`{:class="block3control"} `10` hasta que el gato se detenga en el autobús.
 
 --- /task ---
 
-Algunos objetos tienen más de un disfraz. Utilizarás el objeto **Gato de Scratch** para crear una animación del gato de Scratch caminando.
+Algunos objetos tienen más de un disfraz. Utilizarás el objeto **Gato de Scratch** para crear una animación del gato caminando.
 
 --- task ---
 
@@ -108,7 +108,7 @@ end
 
 --- /task ---
 
-### El gato de Scratch debe reaparecer cuando vuelvas a ejecutar la animación.
+### Oculta al gato
 
 --- task ---
 
@@ -130,11 +130,11 @@ end
 
 --- task ---
 
-**Prueba:** Vuelve a hacer clic en la bandera verde y verás que el gato de Scratch ha desaparecido.
+**Prueba:** Vuelve a hacer clic en la bandera verde y verás que el gato ha desaparecido.
 
 --- /task ---
 
-### Ahora, harás que parezca que el gato de Scratch está entrando al autobús.
+### Muestra al gato
 
 --- task ---
 
