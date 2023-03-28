@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-¿Qué pasa si el gato de Scratch no corre lo suficientemente rápido para tomar el autobús?
+¿Qué pasa si el gato no corre lo suficientemente rápido para tomar el autobús?
 </div>
 <div>
 
@@ -11,11 +11,11 @@
 </div>
 </div>
 
-### Haz que el Gato Scratch pierda el autobús
+### Haz que pierda el autobús
 
 --- task ---
 
-Selecciona el **Gato de Scratch** y agrega un bloque `esperar`{:class="block3control"}:
+Selecciona al **Gato de Scratch** y agrega un bloque `esperar`{:class="block3control"}:
 
 ![El objeto gato de Scratch.](images/scratch-cat-sprite.png)
 
@@ -42,7 +42,7 @@ hide
 
 --- task ---
 
-Vas a querer un tiempo de retraso de menos de un segundo. 0.5 es medio segundo, 0.25 es un cuarto de segundo y 0.1 es una décima de segundo.
+Vas a querer un tiempo de retraso de menos de un segundo. 0,5 es medio segundo, 0,25 es un cuarto de segundo y 0,1 es una décima de segundo.
 
 Cambia el tiempo de retraso en el bloque `esperar`{: class = "block3control"}:
 
@@ -56,13 +56,13 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Elige si el Gato Scratch toma o pierde el autobús
+### Elige si el Gato Scratch toma el autobús o lo pierde
 
 --- task ---
 
-Si quieres que el gato de Scratch **pierda el autobús**, quita el bloque `esconder`{:class="block3looks"} de tu código para que el gato de Scratch permanezca en el escenario:
+Si quieres que el gato **pierda el autobús**, quita el bloque `esconder`{:class="block3looks"} de tu código para que permanezca en el escenario:
 
-![Arrastra el bloque 'esconder' del script en el área de Código al menú de Bloques para eliminar el bloque del script.](images/removing-blocks-at-script-ends.gif)
+![Arrastra el bloque 'esconder' del script en el área de Código al menú de Bloques para eliminarlo.](images/removing-blocks-at-script-ends.gif)
 
 ![El objeto gato de Scratch.](images/scratch-cat-sprite.png)
 
@@ -81,7 +81,7 @@ end
 
 --- task ---
 
-Si quieres que el gato de Scratch **tome el autobús**, haz que el autobús espere más antes de partir:
+Si quieres que **tome el autobús**, haz que el autobús espere más antes de partir:
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -92,7 +92,7 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Necesitarás volver a colocar el bloque `esconder`{:class="block3looks"} en el código del objeto **Gato de Scratch** si lo has eliminado y quieres que el gato de Scratch tome el autobús con éxito.
+Necesitarás volver a colocar el bloque `esconder`{:class="block3looks"} en el código del objeto **Gato de Scratch** si lo has eliminado y quieres que tome el autobús con éxito.
 
 --- /task ---
 
