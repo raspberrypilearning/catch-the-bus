@@ -15,7 +15,7 @@ Agrega más bloques para hacer que el autobús se vaya.
 
 --- task ---
 
-Selecciona el objeto **City Bus** (Autobús).
+Selecciona el objeto **Autobús**.
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -23,7 +23,7 @@ Selecciona el objeto **City Bus** (Autobús).
 
 --- task ---
 
-El autobús se pondrá en marcha hacia la derecha cuatro segundos después de hacer clic en la bandera verde.
+Agrega código para que el autobús se ponga en marcha hacia la derecha cuatro segundos después de hacer clic en la bandera verde.
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -36,11 +36,11 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Arrastra tu autobús al lado derecho del escenario. Esta serán las coordenadas de `x`{:class="block3motion"} e `y`{:class="block3motion"} a la que el autobús se `desplazará`{:class="block3motion"}.
+Arrastra tu autobús al lado derecho del escenario. Estas serán las coordenadas de `x`{:class="block3motion"} e `y`{:class="block3motion"} a la que el autobús se `desplazará`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Consejo:** Si mueves el autobús demasiado a la derecha, saltará hacia atrás. Vuelve a intentarlo, pero no lo muevas tan lejos.
+**Consejo:** Si lo mueves demasiado a la derecha, saltará hacia atrás. Vuelve a intentarlo, pero no lo muevas tan lejos.
 
 --- /task ---
 
@@ -90,7 +90,7 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-Agrega un bloque `mostrar`{:class="block3looks"} a tu script `al presionar bandera verde ⚑`{:class="block3events"} para que el bus aparezca cuando ejecutes tu proyecto:
+Agrega un bloque `mostrar`{:class="block3looks"} a tu script `al presionar bandera verde ⚑`{:class="block3events"} para que el autobús aparezca cuando ejecutes tu proyecto:
 
 ![El objeto Autobús.](images/bus-sprite.png)
 
@@ -108,6 +108,6 @@ set [color v] effect to (85) // try numbers up to 200
 
 **Prueba:** Haz clic en la bandera verde y observa tu animación. El autobús debería aparecer en el centro del escenario y luego dirigirse hacia la derecha y desaparecer.
 
-¿Están todos en el autobús cuando parte? Puedew cambiar el tiempo que espera el autobús, si lo necesitas.
+¿Están todos en el autobús cuando parte? Puedes cambiar el tiempo que espera, si lo necesitas.
 
 --- /task ---
