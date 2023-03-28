@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### スクラッチキャットがバスに乗り遅れるようにする
 
 --- task ---
 
@@ -38,11 +38,11 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### スクラッチキャットがバスに乗るようにする
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+1秒未満の待つ時間が必要になります。 0.5は0.5秒、0.25は1/4秒、0.1は10分の1秒です。
 
 `〇秒待つ`{:class="block3control"}ブロックの時間を変えます。
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### スクラッチキャットがバスに乗るか乗り遅れるかを選択する
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+スクラッチキャットを **バスに乗り遅れる**ようにしたい場合、 `隠す`{:class="block3looks"}ブロックを削除して、スクラッチキャットがステージ上にとどまるようにします。
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+!['隠す'ブロックをコードエリアのスクリプトからブロックメニューの方にドラッグして、スクリプトからブロックを削除します。](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+スクラッチキャットを **バスに間に合う**ようにしたい場合は、バスが出発するまでの待ち時間を長くします。
 
-![The City Bus sprite.](images/bus-sprite.png)
+![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+スクラッチキャットをバスに間に合うようにするために、もし削除してしまっていた場合は`隠す`{:class="block3looks"}ブロックを**スクラッチキャット**のスプライトのコードに追加しましょう。
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+アニメーションが希望通りに動くまで変更を加えます。
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+プロジェクトに取り組んでいるときには、新しいアイデアを得たときに、前に戻ってコードを変更して改善することがよくあります。 
 </p>
 
 
