@@ -3,7 +3,7 @@
 legend: 質問3/3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+犬を走らせるために**繰り返す**を使っているスクリプトはどれですか？
 
 ![犬がステージの左から右に走るアニメーション。](images/dog-run.gif)
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+そうです！ `繰り返す`{:class="block3control"}コードブロックはループを使って犬を走らせます。
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+このコードは犬を動かしますが、動くのは一度だけです。 ここにループがないのでコードは繰り返されません。
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+このコードは犬を走らせますが、ループを使っていません。 ループを使うと多くの場合コードが短くなります。
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+ここにはループがないので犬が動くのは一度だけです。 犬を走らせるにはループを追加する必要があります。
 
   --- /feedback ---
 
