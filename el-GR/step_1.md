@@ -1,6 +1,6 @@
-## You will make
+## Θα φτιάξεις
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+Δημιούργησε ένα κινούμενο σχέδιο με αντικείμενα που τρέχουν ή πετούν για να προλάβουν ένα λεωφορείο 🚌.
 
 Θα χρειαστεί να:
 + Προγραμματίσεις τα sprites να κάνουν διαφορετικά πράγματα `όταν η πράσινη σημαία πατηθεί`{:class="block3events"}
@@ -9,13 +9,13 @@ Create an animation with sprites that run or fly to catch a bus 🚌.
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Παίξε ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Κάνε κλικ στην πράσινη σημαία για να δεις την κινούμενη εικόνα. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+Ποια αντικείμενα αλλάζουν τις ενδυμασίες τους για να δημιουργήσουν ένα εφέ κινουμένων σχεδίων;
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
