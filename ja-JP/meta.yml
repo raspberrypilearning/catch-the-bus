@@ -8,7 +8,7 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: はじめに
   - 
     title: バスの場面を作る
   - 
@@ -26,7 +26,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
