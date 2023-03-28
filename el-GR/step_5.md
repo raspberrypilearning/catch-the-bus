@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Πρόσθεσε περισσότερα μπλοκ για να ξεκινήσει το λεωφορείο.
 </div>
 <div>
 
@@ -11,21 +11,21 @@ Add more blocks to make the bus drive off.
 </div>
 </div>
 
-### Animate the Bus
+### Κίνησε το λεωφορείο
 
 --- task ---
 
-Select the **City Bus** sprite.
+Επίλεξε το αντικείμενο **City Bus**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο City Bus.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Πρόσθεσε κώδικα για να μετακινήσεις το λεωφορείο προς τα δεξιά, τέσσερα δευτερόλεπτα αφού κάνεις κλικ στην πράσινη σημαία.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Σύρε το λεωφορείο σου στη δεξιά πλευρά της Σκηνής. Αυτή θα είναι η θέση `x`{:class="block3motion"} και `y`{:class="block3motion"} προς την οποία θα `ολισθήσει`{:class="block3motion"} το λεωφορείο.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Συμβουλή:** Εάν μετακινήσεις το λεωφορείο πολύ μακριά προς τα δεξιά, θα πηδήξει προς τα πίσω. Προσπάθησε ξανά, αλλά μην το μετακινήσεις τόσο μακριά.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Πρόσθεσε ένα μπλοκ `ολίσθησε για`{:class="block3motion"} `2` `δευτ. στη θέση x: y:`{:class="block3motion"} κάτω από το μπλοκ `περίμενε`{:class="block3events"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Οι συντεταγμένες `x`{:class="block3motion"} και `y`{:class="block3motion"} στο έργο σου μπορεί να είναι λίγο διαφορετικές και θα είναι η ακριβής θέση στην οποία έσυρες το λεωφορείο.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία. Η γάτα του Scratch και ο ιπποπόταμος θα μετακινηθούν προς το λεωφορείο και το λεωφορείο θα φύγει προς τα δεξιά μετά από τέσσερα δευτερόλεπτα.
 
 --- /task ---
 
-### Hide and show the Bus
+### Εξαφάνισε και εμφάνισε το λεωφορείο
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Πρόσθεσε ένα `εξαφανίσου`{:class="block3looks"} για να κάνεις το λεωφορείο να φαίνεται ότι απομακρύνεται από τη Σκηνή:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,21 +84,21 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία. Το λεωφορείο θα εξαφανιστεί τώρα μετά το ξεκίνημα. Θυμάσαι πώς να βεβαιωθείς ότι ένα αντικείμενο θα εμφανιστεί ξανά όταν κάνεις κλικ στην πράσινη σημαία;
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Πρόσθεσε ένα `εμφανίσου`{:class="block3looks"} στο script `όταν γίνει κλικ στην πράσινη σημαία` {:class="block3events"} για να εμφανιστεί το λεωφορείο όταν εκτελείς το έργο σου:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Το αντικείμενο City Bus.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // try numbers up to 200
+set [color v] effect to (50) // δοκίμασε αριθμούς έως 200
 +show
 ```
 
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και παρακολούθησε το κινούμενο σχέδιο. Το λεωφορείο θα πρέπει να εμφανιστεί στο κέντρο της Σκηνής και στη συνέχεια να φύγει προς τα δεξιά και να εξαφανιστεί.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Είναι όλοι στο λεωφορείο όταν φεύγει; Μπορείς να αλλάξεις το χρόνο αναμονής του λεωφορείου, εάν χρειάζεται.
 
 --- /task ---
