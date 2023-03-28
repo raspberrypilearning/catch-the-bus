@@ -15,7 +15,7 @@ Tu choisiras un arrière-plan et ajouteras un sprite de bus.
 
 --- task ---
 
-Ouvre le [Prendre le bus projet de démarrage](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage Prendre le bus ](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
@@ -33,7 +33,7 @@ Clique (ou sur une tablette, appuie) sur **Choisir un arrière-plan** dans le vo
 
 --- task ---
 
-Clique sur la catégorie **Plein air**. Ajoute un arrière-plan qui constitue un bon point de départ pour ton bus :
+Clique sur la catégorie **Outdoors**. Ajoute un arrière-plan qui constitue un bon point de départ pour ton bus :
 
 ![La scène avec l'arrière plan de l'école.](images/outdoor-backdrop.png)
 
@@ -63,7 +63,7 @@ Ajoute le sprite **City Bus** à ton projet.
 
 --- task ---
 
-Assure-toi que le sprite**City Bus** est sélectionné dans la liste Sprite sous la scène.
+Assure-toi que le sprite **City Bus** est sélectionné dans la liste Sprite sous la scène.
 
 Fais glisser un bloc `quand le drapeau vert est cliqué`{:class="block3events"} du menu bloc `Événements`{:class="block3events"} vers la zone Code :
 
