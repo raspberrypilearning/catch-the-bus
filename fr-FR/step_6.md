@@ -92,7 +92,7 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Tu devras remettre le bloc `cacher`{:class="block3looks"} dans le sprite **chat Scratch** si tu l'as supprimé et que tu souhaites que le chat Scratch réussi à prendre le bus.
+Tu devras remettre le bloc `cacher`{:class="block3looks"} dans le sprite **chat Scratch** si tu l'as supprimé et que tu souhaites que le chat Scratch réussisse à prendre le bus.
 
 --- /task ---
 
