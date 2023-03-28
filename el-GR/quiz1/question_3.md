@@ -3,7 +3,7 @@
 legend: Ερώτηση 3 από 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Ποιο από αυτά τα scripts χρησιμοποιεί **βρόχο** για να θέσει σε κίνηση τον σκύλο;
 
 ![Μια κινούμενη εικόνα ενός σκύλου που τρέχει από τα αριστερά της Σκηνής προς τα δεξιά.](images/dog-run.gif)
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Ναι! Το μπλοκ κώδικα `επανάλαβε`{:class="block3control"} χρησιμοποιεί έναν βρόχο για να κάνει το σκυλί να τρέξει.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Αυτός ο κώδικας κάνει το σκυλί να κινηθεί, αλλά μόνο μία φορά. Δεν υπάρχει βρόχος εδώ, επομένως ο κώδικας δεν επαναλαμβάνεται.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Αυτός ο κώδικας κάνει τον σκύλο να τρέχει, αλλά δεν χρησιμοποιεί βρόχο. Η χρήση ενός βρόχου μπορεί συχνά να κάνει τον κώδικά σου πιο σύντομο.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Δεν υπάρχει βρόχος εδώ, οπότε ο σκύλος θα μετακινηθεί μόνο μία φορά. Για να κάνεις τον σκύλο να τρέξει, θα πρέπει να προσθέσεις έναν βρόχο.
 
   --- /feedback ---
 
