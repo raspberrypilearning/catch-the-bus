@@ -2,7 +2,7 @@
 
 Maintenant, tu peux ajouter un sprite de ton choix à ton animation. Tu devras ajouter du code pour que ton sprite `aller à`{:class="block3motion"} une position de départ, `pointe`{:class="block3motion"} dans la bonne direction, puis `répéter`{:class ="block3control"} des blocs `avancer`{:class="block3motion"} et `costume suivant`{:class="block3looks"} pour atteindre le bus.
 
-**Astuce :** Lorsque tu cliques sur **Choisir un**, tu peux maintenir le curseur de ton souris sur un sprite pour voir ses costumes, ou sur certains appareils mobiles, tu peux appuyer longuement sur un sprite pour voir ses costumes (si une fenêtre apparaît lorsque tu appuyes et maintenes sur un sprite, appuyes sur le côté de l'écran pour fermer la fenêtre et voir les costumes). Regarder les costumes des sprites peut t'aider à trouver un sprite qui fonctionne bien pour l'animation.
+**Astuce :** Lorsque tu cliques sur **Choisir un Sprite**, tu peux maintenir le curseur de ta souris sur un sprite pour voir ses costumes, ou sur certains appareils mobiles, tu peux appuyer longuement sur un sprite pour voir ses costumes (si une fenêtre apparaît lorsque tu appuies et maintiens sur un sprite, appuies sur le côté de l'écran pour fermer la fenêtre et voir les costumes). Regarder les costumes des sprites peut t'aider à trouver un sprite qui fonctionne bien pour l'animation.
 
 ![Autres sprites se dirigeant vers un bus avec le texte "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
