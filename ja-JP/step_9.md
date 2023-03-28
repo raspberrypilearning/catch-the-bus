@@ -44,7 +44,7 @@ set [color v] effect to [50] // up to 200
 title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/724160134/){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
