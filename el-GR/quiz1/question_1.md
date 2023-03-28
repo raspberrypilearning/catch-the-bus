@@ -1,17 +1,17 @@
-## Quick quiz
+## Γρήγορο κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν συμβουλές που θα σε καθοδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, κάνε κλικ στο **Έλεγξε την απάντησή μου**.
 
-Have fun!
+Διασκέδασέ το!
 
 --- question ---
 ---
 legend: Ερώτηση 1 από 3
 ---
 
-In your project, the bus glides away using this code:
+Στο έργο σου, το λεωφορείο ολισθαίνει χρησιμοποιώντας αυτόν τον κώδικα:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Πότε το λεωφορείο ολισθαίνει;
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Τα μπλοκ κώδικα τρέχουν με τη σειρά, δες τα μπλοκ πριν από το μπλοκ `ολίσθησε`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Ναι. Αφού κάνεις κλικ στην πράσινη σημαία, υπάρχει μια καθυστέρηση τεσσάρων δευτερολέπτων πριν ολισθήσει το λεωφορείο.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Το λεωφορείο δεν έχει κώδικα που εκετελείται `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Η ολίσθηση του λεωφορείου διαρκεί δύο δευτερόλεπτα, αλλά αυτό δεν είναι το πόσο περιμένει μέχρι να κινηθεί.
 
   --- /feedback ---
 
