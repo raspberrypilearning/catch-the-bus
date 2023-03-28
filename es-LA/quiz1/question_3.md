@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-¡Sí! El bloque `repetir`{:class="block3control"} usa un bucle para hacer que el perro corra.
+¡Sí! El bloque de código `repetir`{:class="block3control"} usa un bucle para hacer que el perro corra.
 
   --- /feedback ---
 
