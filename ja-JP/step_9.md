@@ -11,8 +11,6 @@
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // x座標とy座標を変えてスプライトを動かします
 
 show
