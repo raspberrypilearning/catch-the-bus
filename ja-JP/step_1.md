@@ -1,21 +1,21 @@
 ## はじめに
 
-このプロジェクトではスプライトが走ったり飛んだりしてバスに乗るアニメーションをつくります。
+スプライトが走ったり飛んだりしてバス🚌に乗るアニメーションを作成します。
 
 あなたは次のことを行います。
-+ `緑のフラグを押したとき`{:class="block3events"}スプライトにいろいろなことをさせます。
++ `緑色の旗が押されたとき`{:class="block3events"}、スプライトにいろいろなことをさせます。
 + スプライトを**ステージ**に配置します。
 + `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} そして `コスチュームを変えます`{:class="block3looks"}。
 
 --- no-print --- --- task ---
 
-### 試してみる
+### プレイ ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 緑色のフラグを押して、アニメーションを表示します。 
 
-アニメーション効果を作るためにコスチュームを変えるスプライトはどれですか？
+アニメーション🎥効果を作るためにコスチュームを変えるスプライトはどれですか？
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/602807225/?autostart=false" frameborder="0"></iframe>
@@ -25,7 +25,7 @@
 
 --- print-only ---
 
-![完了済みのプロジェクト。](images/showcase_static.png)
+![完了済みのプロジェクト。](images/hippo-flies.png)
 
 --- /print-only ---
 
