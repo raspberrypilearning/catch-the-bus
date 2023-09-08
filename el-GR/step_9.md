@@ -11,8 +11,6 @@
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // σύρε το αντικείμενο για να επιλέξεις x και y
 
 show
@@ -46,7 +44,7 @@ set [color v] effect to [50] // έως 200
 title: Ολοκληρωμένο έργο
 ---
 
-Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/602796029/){:target="_blank"}.
+Μπορείς να δεις το [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/602796029/){:target="_blank"}.
 
 --- /collapse ---
 

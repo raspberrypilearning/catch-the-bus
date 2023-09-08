@@ -8,7 +8,7 @@ listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-- title: Εισαγωγή
+- title: Θα φτιάξεις
 - title: Δημιούργησε την σκηνή σου
 - title: Η γάτα του Scratch προλαβαίνει το λεωφορείο
   completion:
@@ -19,7 +19,7 @@ steps:
 - title: Άλλαξε τον προορισμό
   completion:
   - internal
-- title: Αναστοχασμός
+- title: Γρήγορο κουίζ
   knowledge_quiz:
     path: quiz1
     version: 1
