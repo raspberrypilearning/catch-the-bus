@@ -1,16 +1,16 @@
-## المقدمة
+## ستقوم بصنع
 
 في هذا المشروع ، ستنشئ رسمًا متحركًا به كائنات متحركة تعمل أو تطير للحاق بالحافلة.
 
 سوف تقوم بما يلي:
 + اجعل الكائنات تقوم بأشياء مختلفة `عند النقر على العلم الأخضر`{:class="block3events"}
 + ضع الكائنات المتحركة على **المنصة**
-+ استخدم حلقة `كرِّر مرة`{:class="block3control"} لغرض `تحريك`{:class="block3motion"} الكائنات و `تبديل الأزياء`{:class="block3looks"}
++ استخدم حلقة `repeat`{:class="block3control"} لغرض `تحريك`{:class="block3motion"} الكائنات و `تبديل الأزياء`{:class="block3looks"}
 
 --- no-print ---
 --- task ---
 
-### جربها
+### تشغيل ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 

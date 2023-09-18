@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-تسمى مجموعة الكتل المتصلة في Scratch بالنصية . ستضيف نصًا جديدًا لإيقاف تشغيل الحافلة.
+أضف المزيد من الكتل لجعل الحافلة تنطلق.
 </div>
 <div>
 
@@ -11,31 +11,32 @@
 </div>
 </div>
 
-ستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ من النقر فوق العلم الأخضر. `عندما يقوم المؤقت`{:class="block3events"} بتشغيل الكتل الموجودة تحتها بعد هذا التأخير الزمني.
+### تحريك الحافلة
 
 --- task ---
 
 حدد الكائن **باص المدينة**.
 
-![كائن باص المدينة.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-من `الأحداث`{:class="block3events"} ، اسحب `عند ارتفاع الصوت >`{:class="block3events"} `10` إلى منطقة الرمز. غيّر `ارتفاع الصوت`{:class="block3events"} إلى `مؤقت`{:class="block3events"} . سيبدأ هذا نصًا جديدًا:
+ستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ من النقر فوق العلم الأخضر.
 
-![كائن باص المدينة.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] // غيّر من 10 إلى 4
+when flag clicked 
+wait [4] seconds // غيّر من 1 إلى 4
 ```
 
 --- /task ---
 
 --- task ---
 
-اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `×`{:class="block3motion"} و `y`{:class="block3motion"} الذي `سينزلق`{:class="block3motion"} الحافلة إليه.
+اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `س`{:class="block3motion"} و `ص`{:class="block3motion"} الذي `سينزلق`{:class="block3motion"} الحافلة إليه.
 
 ![](images/bus-right.png)
 
@@ -45,14 +46,15 @@ when [timer v] > [4] // غيّر من 10 إلى 4
 
 --- task ---
 
-أضف `انزلق `{:class="block3motion"} `2` `ثوانٍ إلى كتلة x: y:`{:class="block3motion"} ضمن الكتلة `عندما المؤقت`{:class="block3events"}.
+أضف `انزلق `{:class="block3motion"} `2` `ثوانٍ إلى كتلة س: ص:`{:class="block3motion"} اسفل الكتلة `انتظر`{:class="block3events"}.
 
-`×`{:class="block3motion"} و `y`{:class="block3motion"} في مشروعك مختلفة بعض الشيء.
+الإحداثيات `س`{:class="block3motion"} و `ص`{:class="block3motion"} في مشروعك مختلفة بعض الشيء وستكون هي الموقع الدقيق الذي قمت بسحب الحافلة إليه.
 
-![كائن باص المدينة.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // غيّر من 1 إلى 4
 +glide [2] secs to x: [320] y: [-100] // الجانب الأيمن من المنصة
 ```
 
@@ -68,10 +70,11 @@ when [timer v] > [4]
 
 أضف `إخفاء`{:class="block3looks"} لجعل الحافلة تبدو وكأنها تنطلق من المنصة:
 
-![كائن باص المدينة.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // غيّر من 1 إلى 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -87,13 +90,13 @@ glide [2] secs to x: [320] y: [-100]
 
 أضف `اظهر`{:class="block3looks"} إلى `عند النقر على العلم الأخضر`{:class="block3events"}نص برمجي لجعل الحافلة تظهر عند تشغيل مشروعك:
 
-![كائن باص المدينة.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // جرب الأرقام حتى 200
+set [color v] effect to (85) // جرب الأرقام حتى 200
 +show
 ```
 
@@ -106,5 +109,3 @@ set [color v] effect to (50) // جرب الأرقام حتى 200
 هل الجميع في الحافلة عندما تغادر؟ يمكنك تغيير مقدار الوقت الذي تنتظره الحافلة ، إذا كنت بحاجة إلى ذلك.
 
 --- /task ---
-
---- save ---
