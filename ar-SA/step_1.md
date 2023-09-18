@@ -1,6 +1,6 @@
-## You will make
+## ستقوم بصنع
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+في هذا المشروع ، ستنشئ رسمًا متحركًا به كائنات متحركة تعمل أو تطير للحاق بالحافلة.
 
 سوف تقوم بما يلي:
 + اجعل الكائنات تقوم بأشياء مختلفة `عند النقر على العلم الأخضر`{: class = "block3events"}
@@ -9,13 +9,13 @@ Create an animation with sprites that run or fly to catch a bus 🚌.
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### تشغيل ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 انقر على العلم الأخضر لمشاهدة الرسوم المتحركة. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+ما هي الكائنات المتحركة التي تغير أزياءها لإنشاء تأثير الرسوم المتحركة؟
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
