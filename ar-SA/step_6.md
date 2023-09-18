@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### اجعل القط يتأخر عن الحافلة
 
 --- task ---
 
@@ -38,11 +38,11 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### اجعل القط يلحق الحافلة
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+سوف تحتاج إلى تأخير أقل من ثانية واحدة. 0.5 نصف ثانية ، و 0.25 ربع ثانية ، و 0.1 جزء من الثانية.
 
 تغيير التأخير في `الانتظار`{:class="block3control"} block:
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### اختر ما إذا كان القط قد لحق بالحافلة أو فاتها
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+إذا كنت تريد أن يفوت كائن القط **الحافلة** ، فقم بإزالة كتلة `إخفاء`{:class="block3looks"} من التعليمات البرمجية الخاصة بك حتى يظل الكائن في المنصة:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![سحب كتلة "إخفاء" من البرنامج النصي في منطقة Code إلى قائمة Blocks لإزالة الكتلة من البرنامج النصي.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,29 +81,28 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+إذا كنت تريد أن يستقل كائن القط **الحافلة** ، فاجعل الحافلة تنتظر وقتًا أطول قبل مغادرتها:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-+wait [4] seconds // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
++when [timer v] > [6] // غيّر من 4 إلى 6
+glide [2] secs to x: [320] y: [-100] // الجانب الأيمن من المنصة
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+سوف تحتاج إلى اضافة كتلة `اختف`{:class="block3looks"} مرة أخرى في التعليمات البرمجية الخاصة بكائن **القطة** إذا كنت قد قمت بإزالتها وتريد أن تستقل القطة الحافلة بنجاح.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+قم بإجراء التغييرات حتى تحصل على الرسوم المتحركة تعمل بالطريقة التي تريدها.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+عند العمل في مشروع ما ، غالبًا ما تعود وتغير أو تُحسِّن التعليمات البرمجية عندما تحصل على أفكار جديدة. 
 </p>
 
 
