@@ -15,7 +15,7 @@
 
 --- task ---
 
-حدد **كائن القط** وأضف كتلة انتظار ``{:class="block3control"}:
+حدد **كائن القط** وأضف كتلة `انتظار`{:class="block3control"}:
 
 ![كائن القط.](images/scratch-cat-sprite.png)
 
@@ -44,7 +44,7 @@ hide
 
 سوف تحتاج إلى تأخير أقل من ثانية واحدة. 0.5 نصف ثانية ، و 0.25 ربع ثانية ، و 0.1 جزء من الثانية.
 
-تغيير التأخير في `الانتظار`{:class="block3control"} block:
+تغيير التأخير في `الانتظار`{:class="block3control"}:
 
 ![كائن القط.](images/scratch-cat-sprite.png)
 
