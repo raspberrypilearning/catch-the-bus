@@ -2,20 +2,20 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Napis na autobusie mówi "Maker Festival”, ale możesz zmienić cel podróży na wybrany przez siebie. Dokąd chcesz aby twój autobus pojechał?  
+Na autobusie napisano „Scratch Tours” (ang. wycieczki po Scratchu), ale możesz zmienić cel podróży na wybrany przez siebie. Dokąd chcesz, aby Twój autobus pojechał?  
 </div>
 <div>
 
-![Autobus z tekstem "Scratch Tours".](images/maker-bus.png){:width="300px"}
+![Autobus z tekstem "Festyn Twórców".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Edit the City Bus sprite
+### Edytuj duszka autobusu
 
 --- task ---
 
-Wybierz **Autobus ** i kliknij zakładkę **Kostiumy**:
+Wybierz duszka **City Bus** i kliknij zakładkę **Kostiumy**:
 
 ![Kostium w edytorze Paint.](images/costumes-bus-sprite-highlighted.png)
 
@@ -23,11 +23,11 @@ Wybierz **Autobus ** i kliknij zakładkę **Kostiumy**:
 
 --- task ---
 
-Kliknij biały tekst "Scratch Tours”, aby go zaznaczyć, a następnie kliknij **Usuń** aby go usunąć.
+Kliknij biały tekst „Scratch Tours”, aby go zaznaczyć, a następnie kliknij **Usuń** aby go usunąć.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Wskazówka:** Możesz użyć przycisku **Usuń** w edytorze Paint lub nacisnąć klawisz <kbd>Delete</kbd> na klawiaturze.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
+![Tekst na autobusie i ikona Usuń są podświetlone.](images/bus-delete-text.png)
 
 --- /task ---
 
@@ -35,9 +35,9 @@ Kliknij biały tekst "Scratch Tours”, aby go zaznaczyć, a następnie kliknij 
 
 Wybierz narzędzie **Tekst** (pisanie).
 
-Kliknij autobus, od którego ma się zaczynać Twój tekst, i wpisz wybrane przez siebie miejsce docelowe.
+Kliknij autobus w miejscu, od którego ma się zaczynać się Twój tekst i wpisz wybrane przez siebie miejsce docelowe.
 
-Aby zmienić czcionkę (styl pisania), możesz kliknąć menu rozwijane **Czcionka**:
+Aby zmienić czcionkę (styl pisania), możesz kliknąć rozwijane menu **Czcionka**:
 
 ![Menu „Czcionka” wybrane w górnej środkowej części edytora Paint.](images/bus-text-font.png)
 
@@ -47,7 +47,7 @@ Aby zmienić czcionkę (styl pisania), możesz kliknąć menu rozwijane **Czcion
 
 Kliknij narzędzie **Wybierz** (strzałka), a następnie przeciągnij tekst, aby umieścić go na autobusie.
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+![Tekst na autobusie i narzędzie Wybierz są podświetlone.](images/bus-destination-centered.png)
 
 --- /task ---
 
