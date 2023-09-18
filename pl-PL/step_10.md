@@ -1,10 +1,10 @@
-## Co następne?
+## Co dalej?
 
-Jeśli podążasz ścieżką [Wprowadzenie do Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), możesz przejść do projektu [Znajdź owada](https://projects.raspberrypi.org/en/projects/find-the-bug). W tym projekcie stworzysz grę, w której będziesz musiał znaleźć owada, który kryje się na każdym poziomie.
+Jeśli podążasz ścieżką [Wprowadzenie do Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), możesz przejść do projektu [Znajdź robaka](https://projects.raspberrypi.org/en/projects/find-the-bug). W tym projekcie stworzysz grę, w której trzeba będzie znaleźć robaka kryjącego się na każdym poziomie.
 
 --- print-only ---
 
-![Projekt „Znajdź owada”.](images/find-the-bug.png)
+![Projekt „Znajdź robaka”.](images/find-the-bug.png)
 
 --- /print-only ---
 
