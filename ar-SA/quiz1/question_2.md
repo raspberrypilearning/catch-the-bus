@@ -1,41 +1,41 @@
 --- question ---
 ---
-القائمة: السؤال 2 من 3
+legend: السؤال 2 من 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+إذا قمت **بسحب كائن** إلى موضع جديد في المنصة، فما **الخصائص** التي سيتم تحديثها في منصة الكائنات اسفل المنصة؟
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- () **اتجاه** الكائن ![خاصية الاتجاه.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+لتغيير اتجاه الكائن ، عليك الانتقال إلى **الاتجاه** وتغييرها.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- **الإحداثيات س و ص** للكائن (x) ![خصائص الإحداثيات س و ص للكائن.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+عندما تسحب كائنًا إلى موضع جديد ، يتم تحديث إحداثيات **س** و **ص** تلقائيًا.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- () ما إذا كان الكائن سيظهر أو يختبئ  ![خاصية العرض.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+سيؤدي استخدام **العين** و**العين المشطوبة** إلى إظهار الكائن أو إخفاؤه.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- **الحجم** للكائن () ![خاصية الحجم.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+لتغيير حجم الكائن ، تحتاج إلى الانتقال إلى **الحجم** وتغيير الرقم هناك.
 
   --- /feedback ---
 
