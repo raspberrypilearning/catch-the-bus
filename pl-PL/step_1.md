@@ -1,21 +1,21 @@
-## You will make
+## Co będziesz robić
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+W tym projekcie stworzysz animację z duszkami, które biegną lub lecą, aby złapać autobus 🚌.
 
 Co zrobisz:
-+ Spraw, aby duszki `kiedy kliknięto zieloną flagę`{:class="block3events"}
-+ Ustaw duszki na **Scenie**
-+ Użyj `powtórz`{:class="block3control"} do `przesunięcia`{:class="block3motion"} duszków i `zmiany kostiumów`{:class="block3looks"}
++ Sprawisz, aby duszki robiły różne rzeczy `kiedy kliknięto zieloną flagę`{:class="block3events"}
++ Ustawisz duszki na **Scenie**
++ Użyjesz pętli `powtórz`{:class="block3control"} do `przesunięcia`{:class="block3motion"} duszków i `zmiany kostiumów`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Zagraj ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 Kliknij zieloną flagę, aby obejrzeć animację. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+Które duszki zmieniają kostiumy, aby uzyskać efekt animacji 🎥?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
