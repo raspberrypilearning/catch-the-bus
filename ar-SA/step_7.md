@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Edit the City Bus sprite
+### قم بتحرير الكائن باص المدينة
 
 --- task ---
 
@@ -25,9 +25,9 @@
 
 انقر على النص الأبيض "Scratch Tours" لتحديده ، ثم انقر على **حذف** لإزالته.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**نصيحة:** يمكنك استخدام **حذف** في محرر الرسام أو <kbd>حذف</kbd> على لوحة المفاتيح.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
+![تم تمييز النص الموجود على الحافلة وآيقونة الحذف.](images/bus-delete-text.png)
 
 --- /task ---
 
@@ -47,7 +47,7 @@
 
 انقر فوق أداة **Select** (Arrow) ، ثم اسحب النص لوضعه في الحافلة.
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+![تم تمييز النص الموجود على الحافلة وأداة التحديد.](images/bus-destination-centered.png)
 
 --- /task ---
 
