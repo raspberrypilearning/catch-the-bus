@@ -1,25 +1,24 @@
-## Quick quiz
+## اختبار سريع
 
-Answer the three questions. There are hints to guide you to the correct answer.
+أجب على الاسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+عندما تجيب على كل سؤال ، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة.
 
-Have fun!
+إستمتع!
 
 --- question ---
 ---
-القائمة: السؤال 1 من 3
+legend: السؤال 1 من 3
 ---
 
-In your project, the bus glides away using this code:
+في مشروعك ، تنزلق الحافلة بعيدًا باستخدام هذه التعليمات البرمجية:
 
 ```blocks3
-when flag clicked 
-wait [4] seconds
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+متى تنزلق الحافلة بعيدًا؟
 
 --- choices ---
 
@@ -27,7 +26,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+تعمل كتل التعليمات البرمجية بالترتيب ، انظر إلى الكتل قبل الكتلة `انزلق`{: class = "block3motion"}.
 
   --- /feedback ---
 
@@ -35,7 +34,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+نعم. بعد النقر فوق العلم الأخضر ، هناك انتظار لمدة أربع ثوان قبل انزلاق الحافلة بعيدًا.
 
   --- /feedback ---
 
@@ -43,7 +42,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+لا يحتوي الناقل على أية تعليمات برمجية يتم تشغيلها`عند نقر هذا الكائن`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +50,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+تستغرق الحافلة ثانيتين لتنزلق بعيدًا ، لكن هذه ليست المدة التي تنتظرها قبل أن تتحرك.
 
   --- /feedback ---
 
