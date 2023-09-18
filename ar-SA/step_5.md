@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+أضف المزيد من الكتل لجعل الحافلة تنطلق.
 </div>
 <div>
 
@@ -11,21 +11,21 @@ Add more blocks to make the bus drive off.
 </div>
 </div>
 
-### Animate the Bus
+### تحريك الحافلة
 
 --- task ---
 
-Select the **City Bus** sprite.
+حدد الكائن **باص المدينة**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+ستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ من النقر فوق العلم الأخضر.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+اسحب الحافلة إلى الجانب الأيمن من المنصة. سيكون هذا هو الوضع `س`{:class="block3motion"} و `ص`{:class="block3motion"} الذي `سينزلق`{:class="block3motion"} الحافلة إليه.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**نصيحة:** إذا حركت الحافلة بعيدًا جدًا إلى اليمين ، فسوف تقفز للخلف. حاول مرة أخرى ، لكن لا تحركها حتى الآن.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+أضف `انزلق`{: class = "block3motion"} `2` `ثوانٍ إلى كتلة س: ص:`{: class = "block3motion"} اسفل الكتلة `انتظر`{: class = "block3events"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+الإحداثيات `س`{:class="block3motion"} و `ص`{:class="block3motion"} في مشروعك مختلفة بعض الشيء وستكون هي الموقع الدقيق الذي قمت بسحب الحافلة إليه.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**اختبار:** انقر فوق العلم الأخضر. سينتقل كائن القط و فرس النهر إلى الحافلة ، وستنطلق الحافلة إلى اليمين بعد أربع ثوانٍ.
 
 --- /task ---
 
-### Hide and show the Bus
+### إخفاء وإظهار الحافلة
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+أضف `إخفاء`{:class="block3looks"} لجعل الحافلة تبدو وكأنها تنطلق من المنصة:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**اختبار:** انقر فوق العلم الأخضر. سوف تختبئ الحافلة الآن بعد القيادة. هل تتذكر كيف تتأكد من ظهور كائن ما مرة أخرى عند النقر فوق العلم الأخضر؟
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+أضف `اظهر`{:class="block3looks"} إلى `عند النقر على العلم الأخضر`{:class="block3events"}نص برمجي لجعل الحافلة تظهر عند تشغيل مشروعك:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**اختبار:** انقر فوق العلم الأخضر وشاهد الرسوم المتحركة الخاصة بك. يجب أن تظهر الحافلة في وسط المنصة ثم تنطلق إلى اليمين وتختفي.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+هل الجميع في الحافلة عندما تغادر؟ يمكنك تغيير مقدار الوقت الذي تنتظره الحافلة ، إذا كنت بحاجة إلى ذلك.
 
 --- /task ---
