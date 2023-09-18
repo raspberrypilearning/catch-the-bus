@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+ستختار خلفية وتضيف كائن حافلة.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Choose a backdrop and add a bus sprite.
 </div>
 </div>
 
-### Open the starter project
+### افتح مشروع البداية
 
 --- task ---
 
@@ -21,13 +21,13 @@ Choose a backdrop and add a bus sprite.
 
 --- /task ---
 
-### Choose a Backdrop
+### اختر خلفية
 
 --- task ---
 
 انقر (أو على جهاز لوحي ، اضغط) على **اختر خلفية** في جزء المنصة (في الركن الأيمن السفلي من الشاشة):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![لقطة شاشة لاختيار أيقونة الخلفية.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -39,13 +39,13 @@ Choose a backdrop and add a bus sprite.
 
 --- /task ---
 
-### Choose a Sprite
+### اختر كائن
 
 --- task ---
 
 انقر فوق **اختر كائن**:
 
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![لقطة شاشة لاختيار كائن من القائمة.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -59,15 +59,15 @@ Choose a backdrop and add a bus sprite.
 
 --- /task ---
 
-### Give your bus a starting position
+### عندما تسحب الحافلة ، تذهب أمام كائن القطة.
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+تأكد من تحديد **حافلة مدينة** في قائمة كائن أسفل المنصة.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+اسحب كتلة `عند نقر العلم الأخضر`{:class="block3events"} من قائمة كتلة `الاحداث`{:class="block3motion"} الى مساحة التعليمات البرمجية:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+اسحب الحافلة إلى موضع جيد على المنصة:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![الحافلة في منتصف الجزء السفلي من المنصة.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+يتم عرض احداثيات **س** و **ص** (الأرقام المستخدمة لوصف الموضع) للحافلة في جزء الرموز أسفل المنصة:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![لقطة شاشة توضح مكان وجود الإحداثيات في جزء الكائن.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+أضف كتلة `اذهب إلى س: ص:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+الأرقام الموجودة في كتلة `اذهب إلى س: ص:`{:class="block3motion"} هي إحداثيات س و ص الحالية للحافلة. قد تكون الأرقام في مشروعك مختلفة بعض الشيء.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**اختبار:** اسحب الحافلة إلى أي مكان على المنصة ، ثم انقر فوق العلم الأخضر. يجب أن تذهب الحافلة دائمًا إلى موضع البداية.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![رسم متحرك يظهر الحافلة وهي تسحب حول الشاشة وتقفز مرة أخرى إلى المركز عند النقر فوق العلم الأخضر.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### حرك الحافلة خلف الكائنات
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+للتأكد من أن كائن **City Bus** دائمًا ما يكون خلف جميع الكائنات`انتقل إلى الطبقة الأمامية`{:class="block3looks"} ، ثم انقر على `الأولى`{:class="block3looks"} وقم بتغييره إلى `رجوع`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**نصيحة:** إذا لم تتمكن من رؤية `انتقل إلى`{:class="block3looks"} ، فأنت بحاجة إلى التمرير لأسفل في `الھیئة`{:class="block3looks"}.
 
 --- /task ---
 
-### Change the bus colour
+### تغيير لون الحافلة
 
 --- task ---
 
-You can change the colour of the bus:
+يمكنك تغيير لون الحافلة:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### تغيير حجم قطة Scratch
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+يظهر كائن القطة في جميع مشاريع Scratch الجديدة كـ **Sprite1** في قائمة الكائن. انقر فوق **Sprite1** في قائمة الكائن للاستعداد لتحريك القطة:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![تم تحديد كائن Sprite1 في قائمة Sprite.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**نصيحة:** إذا قمت بحذف **Sprite1** (كائن القطة)، بامكانك الضغط على **اختر كائن** والبحث عن `cat`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+في جزء كائن ، انقر فوق **الحجم** وقم بتغيير حجم القطة إلى `50`:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![لقطة شاشة توضح موقع خاصية الحجم في جزء Sprite.](images/sprite-pane-size.png)
 
 --- /task --- 
