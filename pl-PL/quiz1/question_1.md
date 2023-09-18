@@ -1,17 +1,17 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Do pytań dołączone są wskazówki, które naprowadzą Cię na poprawną odpowiedź.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij przycisk **Sprawdź moją odpowiedź**.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 ---
 legend: Pytanie 1 z 3
 ---
 
-In your project, the bus glides away using this code:
+W Twoim projekcie autobus odjeżdża za pomocą tego kodu:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Kiedy autobus odjeżdża?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Bloki kodu działają w określonej kolejności, spójrz na bloki przed blokiem `leć przez`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -35,15 +35,15 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Tak. Po kliknięciu zielonej flagi trzeba odczekać cztery sekundy, zanim autobus odjedzie.
 
   --- /feedback ---
 
-- () Kiedy klikniesz na autobus
+- () Kiedy klikniesz autobus
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Autobus nie ma żadnego kodu, który uruchamia się `kiedy ten duszek kliknięty`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Autobus potrzebuje dwóch sekund, aby odjechać, ale nie jest to czas, jaki trzeba odczekać, zanim autobus się poruszy.
 
   --- /feedback ---
 
