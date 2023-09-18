@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+سوف تقوم بتحريك القطة لتظهر على **الجانب الأيمن** من المنصة والمشي إلى الحافلة بتكرار حركة صغيرة عدة مرات في **حلقة**. 
 </div>
 <div>
 
@@ -25,17 +25,17 @@ Animate the Scratch Cat to appear on the **right-hand side** of the Stage and wa
 
 اسحب القط إلى أسفل الجانب الأيمن من المنصة.
 
-![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+![المنصة مع وضع القطة في الركن الأيمن السفلي.](images/bottom-right-cat.png)
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**نصيحة:** إذا حاولت وضع كائن بعيدًا عن المنصة ، فسوف يعود إلى آخر موضع له على المنصة.
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+أضف تعليمة برمجية لإحضار القط إلى موضع البداية:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**اختبار:** اسحب القط إلى موضع جديد ، ثم انقر فوق `انتقل إلى الموضع س: ص:`{:class="block3motion"}. يجب أن يعود القط إلى الجانب الأيمن السفلي في كل مرة.
 
 --- /task ---
 
 ### تحريك القط
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+ستضيف تعليمة برمجية في حلقة `كرِّر مرة`{:class="block3control"} لتجعل القط يكرر عددًا صغيرًا من الخطوات عدة مرات. هذا سيجعل القط يظهر متحركًا.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+أضف `كرِّر مرة`{:class="block3control"} `10` ، ثم اسحب كتلة `حركة`{:class="block3motion"} كتلة `10` `خطوات`{:class="block3motion"} بداخلها:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+![تغيير عدد الخطوات في كتلة "النقل" من 10 إلى 5 ، ثم إدخال الكتلة في حلقة "التكرار".](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,23 +74,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
+**اختبار:** انقر فوق العلم الأخضر. حاول تغيير الأرقام بحيث يتوقف القط في الحافلة.
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+تحتوي بعض الكائنات على أكثر من زي واحد. سوف تستخدم كائن **Scratch Cat** لإنشاء رسم متحرك لمشي القطة.
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+انقر فوق علامة التبويب **المظاهر**. **كائن القط** له زيان ، ويمكن استخدامهما معًا للقيام بحركة المشي.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
+انقر فوق علامة التبويب **المقاطع البرمجیة**. أضف `الزي التالي`{:class="block3looks"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,11 +104,11 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**اختبار:** انقر فوق العلم الأخضر ، وسيقوم القط بالسير إلى الحافلة.
 
 --- /task ---
 
-### Hide the Scratch Cat
+### إخفاء القط
 
 --- task ---
 
@@ -134,13 +134,13 @@ end
 
 --- /task ---
 
-### Show the Scratch Cat
+### أظهار القط
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+أضف `اظهر`{:class="block3looks"} بحيث تظهر القطة قبل أن يمشوا إلى الحافلة:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![كائن القط.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -153,13 +153,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**نصيحة:** عند استخدام `إخفاء`{:class="block3looks"} ، تحتاج أيضًا إلى إضافة كتلة `اظهر`{:class="block3looks"} للتأكد من أن الكائن مرئي عند الحاجة أن تكون.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك ، وتأكد من ظهور القط.
 
 --- /task ---
 
