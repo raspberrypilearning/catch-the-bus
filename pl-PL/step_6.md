@@ -11,11 +11,11 @@ Co jeśli kot Scratch nie pobiegł wystarczająco szybko, aby zdążyć na autob
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Spraw, by kot Scratch spóźnił się na autobus
 
 --- task ---
 
-Wybierz duszka **kot Scratch** i dodaj `czekaj`{:class="block3control"}:
+Wybierz duszka **Sprite1** (kot Scratch) i dodaj blok `czekaj`{:class="block3control"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -38,13 +38,13 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Spraw, by kot Scratch zdążył złapać autobus
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Potrzebne nam będą opóźnienia krótsze niż jedna sekunda. 0,5 to pół sekundy, 0,25 to ćwierć sekundy, a 0,1 to dziesiąta część sekundy.
 
-Zmień opóźnienie w `czekaj`{:class="block3control"}:
+Zmień opóźnienie w bloku `czekaj`{:class="block3control"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Zdecyduj, czy kot Scratch złapie lub przegapi autobus
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Jeśli chcesz, aby kot Scratch **spóźnił się na autobus**, usuń blok `ukryj`{:class="block3looks"} z kodu, dzięki czemu kot Scratch pozostanie na scenie:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Przeciągnięcie bloku 'ukryj' ze skryptu w obszarze Skrypt do menu bloków, aby usunąć blok ze skryptu.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Jeśli chcesz aby kot Scratch **złapał autobus** ustaw dłuższy czas oczekiwania autobusu:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+W przypadku gdy blok `ukryj`{:class="block3looks"} został wcześniej usunięty ze skryptu **kota Scratch**, trzeba będzie go tam umieścić z powrotem, dzięki czemu kot Scratch pomyślnie złapie autobus.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Dokonuj zmian, aż animacja będzie działała tak, jak chcesz.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Podczas pracy nad projektem często wraca się do poprzednich pomysłów, jak również zmienia lub ulepsza swój kod w miarę pojawiania się nowych pomysłów. 
 </p>
 
 
