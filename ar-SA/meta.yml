@@ -2,12 +2,14 @@
 title: الالتحاق بالحافلة
 hero_image: images/banner.png
 description: رمز كائنات متحركة للسير أو المشي إلى الحافلة قبل انطلاقها
+meta_title: مشاريع البرمجة باستخدام منصة سكراتش للأطفال والمراهقين | اللحاق بالباص
+meta_description: تعلم البرمجة في سكراتش باستخدام مشاريع البرمجة الخاصة بمؤسسة Raspberry Pi Foundation للأطفال والمراهقين. أنشئ رسومًا متحركة وألعابًا وتطبيقات من سكراتش والمزيد.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-- title: المقدمة
+- title: سوف تصنع
 - title: إنشاء مشهد الحافلة الخاص بك
 - title: قط سكراتش يلحق بالحافلة
   completion:
@@ -18,7 +20,7 @@ steps:
 - title: قم بتغيير الوجهة
   completion:
   - internal
-- title: انعكاس
+- title: اختبار سريع
   knowledge_quiz:
     path: quiz1
     version: 1

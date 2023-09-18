@@ -11,8 +11,6 @@
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // اسحب الكائن لاختيار x و y
 
 show
