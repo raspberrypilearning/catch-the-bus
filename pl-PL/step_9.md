@@ -1,12 +1,12 @@
 ## Ulepsz swój projekt
 
-Teraz możesz dodać wybranego duszka do swojej animacji. Będziesz musiał dodać kod, aby twój duszek `przeszedł do`{:class="block3motion"} pozycji startowej, `ustawił się`{:class="block3motion"} we właściwym kierunku, a następnie `powtórz`{:class ="block3control"} `przesuń`{:class="block3motion"} i `następny kostium`{:class="block3looks"} aby dotrzeć do autobusu.
+Teraz możesz dodać wybranego duszka do swojej animacji. Twój nowy duszek będzie musiał `przejść do`{:class="block3motion"} pozycji startowej, `ustawić się`{:class="block3motion"} we właściwym kierunku, a następnie `powtórzyć`{:class ="block3control"} polecenia: `przesuń o`{:class="block3motion"} i `następny kostium`{:class="block3looks"}, dzięki czemu dotrze do autobusu.
 
-**Wskazówka:** Kiedy klikasz **Wybierz Duszka**, możesz przytrzymać kursor myszy nad duszkiem, aby zobaczyć jego kostiumy, lub na niektórych urządzeniach mobilnych możesz dotknąć i przytrzymać duszka, aby zobaczyć jego kostiumy (jeśli okno wyskakuje po dotknięciu i przytrzymaniu duszka, dotknij boku ekranu, aby zamknąć okno i zobaczyć kostiumy). Przeszukiwanie kostiumów duszków może pomóc ci znaleźć duszka, który dobrze sprawdza się w animacji.
+**Wskazówka:** Kiedy przeglądasz bibliotekę duszków po wcześniejszym kliknięciu ikony **Wybierz Duszka**, możesz przytrzymać kursor myszy nad duszkiem, aby zobaczyć jego kostiumy, lub na niektórych urządzeniach mobilnych możesz dotknąć i przytrzymać duszka, aby zobaczyć jego kostiumy (jeśli okno wyskakuje Ci po dotknięciu i przytrzymaniu duszka, dotknij boku ekranu, aby je zamknąć i zobaczyć kostiumy). Przeglądanie kostiumów duszków może pomóc Ci znaleźć duszka, który dobrze sprawdzi się w animacji.
 
-![Inne duszki zmierzają w stronę autobusu z tekstem "Maker Festival".](images/bus-upgrade.png){:width="300px"}
+![Inne duszki zmierzają w stronę autobusu z napisem "Festyn Twórców".](images/bus-upgrade.png){:width="300px"}
 
-Możesz użyć dowolnych bloków, których nauczyłeś się w tym projekcie, a także tych, które już znasz:
+Możesz użyć dowolnych bloków, z których korzystaliśmy w tym projekcie, jak również tych, które już znasz:
 
 ```blocks3
 when flag clicked
@@ -44,13 +44,13 @@ set [color v] effect to [50] // up to 200
 title: Ukończony projekt
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Tutaj możesz zobaczyć [ukończony projekt](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
-Możesz także „zremiksować” projekt, aby wprowadzić dowolne zmiany. Możesz dodać efekty dźwiękowe do autobusu lub innych duszków lub ustawić efekt kolorystyczny autobusu. Jeden z duszków mógł przegapić autobus i nie schować się.
+Możesz także „zremiksować” projekt, aby wprowadzić dowolne zmiany. Możesz dodać efekty dźwiękowe do autobusu lub innych duszków albo zmienić kolor autobusu poprzez zmianę efektu kolor. Możesz również sprawić, aby jeden z duszków przegapił autobus i nie zniknął ze sceny.
 
-Podziękowania dla projektantki cyfrowej Lyli za wysłanie tej fantastycznej aktualizacji!
+Podziękowania dla cyfrowej twórczyni Lyli za wysłanie tej fantastycznej aktualizacji!
 
 ![Projekt z autobusem z migającymi kolorami.](images/Lyla-bus.gif)
 
