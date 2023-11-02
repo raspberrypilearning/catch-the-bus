@@ -1,10 +1,8 @@
-## Powtórka
+## Szybki quiz
 
-Dobra robota, dużo materiału już za Tobą! Teraz nadszedł czas na przemyślenia — powtarzanie jest ważną częścią uczenia się, ponieważ pomaga tworzyć nowe połączenia w mózgu.
+Odpowiedz na trzy pytania. Do pytań dołączone są wskazówki, które naprowadzą Cię na poprawną odpowiedź.
 
-Odpowiedz na trzy poniższe pytania, aby przypomnieć sobie o tym, czego się nauczyłeś.
-
-Po udzieleniu odpowiedzi na każde pytanie kliknij **Prześlij**. Zostaniesz poprowadzony w kierunku prawidłowej odpowiedzi. Możesz powtarzać to ćwiczenie wielokrotnie.
+Po udzieleniu odpowiedzi na każde pytanie kliknij przycisk **Sprawdź moją odpowiedź**.
 
 Miłej zabawy!
 
@@ -16,7 +14,8 @@ legend: Pytanie 1 z 3
 W Twoim projekcie autobus odjeżdża za pomocą tego kodu:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
@@ -28,7 +27,7 @@ Kiedy autobus odjeżdża?
 
   --- feedback ---
 
-Kod ma licznik, zanim autobus odjedzie.
+Bloki kodu działają w określonej kolejności, spójrz na bloki przed blokiem `leć przez`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -36,15 +35,15 @@ Kod ma licznik, zanim autobus odjedzie.
 
   --- feedback ---
 
-Po kliknięciu na zieloną flagę trzeba odczekać cztery sekundy, zanim autobus odjedzie.
+Tak. Po kliknięciu zielonej flagi trzeba odczekać cztery sekundy, zanim autobus odjedzie.
 
   --- /feedback ---
 
-- () Kiedy klikniesz na autobus
+- () Kiedy klikniesz autobus
 
   --- feedback ---
 
-Autobus nie ma żadnego kodu, który uruchamia `kiedy ten duszek kliknięty`{:class="block3events"}.
+Autobus nie ma żadnego kodu, który uruchamia się `kiedy ten duszek kliknięty`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -52,7 +51,7 @@ Autobus nie ma żadnego kodu, który uruchamia `kiedy ten duszek kliknięty`{:cl
 
   --- feedback ---
 
-  Autobus potrzebuje dwóch sekund, aby odjechać, ale nie jest to czas jaki czeka zanim się ruszy.
+Autobus potrzebuje dwóch sekund, aby odjechać, ale nie jest to czas, jaki trzeba odczekać, zanim autobus się poruszy.
 
   --- /feedback ---
 

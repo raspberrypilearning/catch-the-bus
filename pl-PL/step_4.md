@@ -11,7 +11,7 @@ Dodasz duszka hipopotama, który leci do autobusu.
 </div>
 </div>
 
-Duszkel **Hippo1** ma dwa kostiumy ze skrzydłami w różnych pozycjach, dzięki czemu można go animować, aby leciał do autobusu.
+### Daj Hipciowi pozycję startową
 
 --- task ---
 
@@ -19,13 +19,13 @@ Dodaj duszka **Hippo1** do swojego projektu.
 
 Zmień **Rozmiar** duszka **Hippo1**:
 
-![Okienko Sprite dla duszka Hippo1 z rozmiarem ustawionym na 50.](images/hippo-sprite-size.png)
+![Panel duszka dla duszka Hippo1 z rozmiarem ustawionym na 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Przeciągnij hipcia do lewej dolnej części sceny.
+Przeciągnij Hipcia do lewej górnej części sceny.
 
 ![Duszek Hippo1 w lewym górnym rogu sceny.](images/hippo-sprite-stage.png)
 
@@ -33,30 +33,28 @@ Przeciągnij hipcia do lewej dolnej części sceny.
 
 --- task ---
 
-Dodaj kod aby ustawić hipcia w pozycji wyjściowej:
+Dodaj kod, aby ustawić Hipcia w pozycji startowej:
 
 ```blocks3
 when flag clicked
-go to x: [-200] y: [150] // górna lewa część
+go to x: [-200] y: [150] // lewa górna część sceny
 ```
 
-**Wskazówka:** `x`{:class="block3motion"} i `y`{:class="block3motion"} w bloku `idź do x: y:`{:class="block3motion"} będą aktualna pozycja hipopotama, więc nie musisz ich wpisywać.
+**Wskazówka:** Współrzędne `x`{:class="block3motion"} i `y`{:class="block3motion"} w bloku `idź do x: y:`{:class="block3motion"} będą wskazywały aktualną pozycję hipopotama, więc nie musisz ich wpisywać.
 
 --- /task ---
 
-Hipcio poleci w stronę autobusu, trzepocząc skrzydłami.
-
-Hipcio będzie `ustawiony w kierunku`{:class="block3motion"} autobus przed ruszeniem się.
+### Spraw, aby Hipcio trzepotał skrzydłami i latał
 
 --- task ---
 
-Dodaj kod, aby hipopotam leciał w kierunku **autobusu**:
+Dodaj kod, aby hipopotam leciał w kierunku duszka **City Bus**:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] 
 +repeat [100] 
-point towards (City Bus v) // zmiana ze wskaźnika myszy
+point towards (City Bus v) // zmienione ze "wskaźnik myszy"
 move [3] steps
 next costume
 +end
@@ -66,11 +64,11 @@ next costume
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę i sprawdź, czy hipopotam leci do autobusu. Możesz zmienić liczbę w bloku `powtórz`{:class="block3control"}, aby hipopotam zatrzymał się we właściwym miejscu.
+**Test:** Kliknij zieloną flagę i sprawdź, czy hipopotam leci do autobusu. Możesz zmienić liczbę w pętli `powtórz`{:class="block3control"}, aby hipopotam zatrzymał się we właściwym miejscu.
 
 --- /task ---
 
-Teraz hipopotam wejdzie do autobusu.
+### Pokaż i ukryj Hipcia
 
 --- task ---
 
@@ -92,8 +90,6 @@ end
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę. Hipopotam poleci i wejdzie do autobusu.
+**Test:** Kliknij zieloną flagę. Hipopotam powinien polecieć do autobusu i wsiąść do niego.
 
 --- /task ---
-
---- save ---

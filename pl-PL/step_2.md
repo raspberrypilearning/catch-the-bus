@@ -11,6 +11,8 @@ Wybierzesz tło i dodasz duszka autobusu.
 </div>
 </div>
 
+### Otwórz projekt startowy
+
 --- task ---
 
 Otwórz [projekt startowy Złap autobus](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
@@ -19,27 +21,31 @@ Otwórz [projekt startowy Złap autobus](https://scratch.mit.edu/projects/582214
 
 --- /task ---
 
+### Wybierz tło
+
 --- task ---
 
-Kliknij (lub naciśnij na tablecie) **Wybierz tło** w okienku Sceny (w prawym dolnym rogu ekranu):
+Kliknij (lub naciśnij na tablecie) **Wybierz tło** w okienku sceny (w prawym dolnym rogu ekranu):
 
-![](images/choose-a-backdrop.png)
+![Zrzut ekranu przedstawiający ikonę wyboru tła.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Kliknij kategorię **Na zewnątrz**. Dodaj tło, które będzie dobrym punktem wyjścia dla Twojego autobusu:
+Kliknij kategorię **Na zewnątrz**. Dodaj tło, które będzie dobrym punktem startowym dla Twojego autobusu:
 
 ![Scena ze szkołą w tle.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Wybierz duszka
+
 --- task ---
 
 Kliknij **Wybierz duszka**:
 
-![](images/choose-sprite-menu.png)
+![Zrzut ekranu przedstawiający menu wyboru duszka.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,13 +59,13 @@ Dodaj duszka **City Bus** do swojego projektu.
 
 --- /task ---
 
- W Scratchu uruchamiasz projekty, klikając zieloną flagę nad sceną. Autobus musi znajdować się w pozycji początkowej `gdy zielona flaga została kliknięta`{:class="block3events"}.
+### Daj autobusowi pozycję startową
 
 --- task ---
 
-Upewnij się, że **Autobus** jest wybrany na liście duszków pod sceną.
+Upewnij się, że duszek **City Bus** jest zaznaczony na liście duszków pod sceną.
 
-Przeciągnij `kiedy kliknięto zieloną flagę`{:class="block3events"} blok z `Wydarzeń`{:class="block3events"} blokuje menu do obszaru kodu:
+Przeciągnij blok `kiedy kliknięto zieloną flagę`{:class="block3events"} z menu `Zdarzenia`{:class="block3events"} do obszaru kodu:
 
 ![Duszek autobusu.](images/bus-sprite.png)
 
@@ -71,14 +77,13 @@ when flag clicked
 
 --- task ---
 
-Przeciągnij autobus w dobrą pozycję na scenie:
+Przeciągnij autobus na wybraną pozycję na scenie:
 
-![Autobus na środku spodu sceny.](images/bus-bottom-middle.png)
+![Autobus u dołu środkowej części sceny.](images/bus-bottom-middle.png)
 
-Koordynaty **x** i **y** (liczby używane do opisania pozycji) autobusu są pokazane w panelu Sprite poniżej sceny:
+Koordynaty **x** i **y** (liczby używane do opisania pozycji) autobusu są pokazane w panelu duszka pod sceną:
 
-![](images/coords-sprite-pane.png)
-
+![Zrzut ekranu przedstawiający umiejscowienie współrzędnych w panelu duszka.](images/coords-sprite-pane.png)
 
 --- /task ---
 
@@ -93,33 +98,37 @@ when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-Liczby w bloku `idź do x:y:`{:class="block3motion"} są bieżącymi współrzędnymi x i y autobusu. Liczby w twoim projekcie mogą się nieco różnić.
+Liczby w bloku `idź do x: y:`{:class="block3motion"} są bieżącymi współrzędnymi x i y autobusu. Liczby te w twoim projekcie mogą się nieco różnić.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Przeciągnij autobus w dowolne miejsce na scenie, a następnie kliknij zieloną flagę. Autobus powinien zawsze jechać do swojej pozycji początkowej.
+**Test:** Przeciągnij autobus w dowolne miejsce na scenie, a następnie kliknij zieloną flagę. Autobus powinien zawsze znaleźć się w swojej pozycji początkowej.
+
+![Animacja przedstawiająca przeciąganie autobusu po ekranie i jego przeskakiwanie z powrotem na środek po kliknięciu zielonej flagi.](images/drag-bus.gif)
 
 --- /task ---
 
-Kiedy przeciągasz autobus, jedzie on przed kota Scratch.
+### Przesuń autobus za duszki postaci
 
 --- task ---
 
-Aby upewnić się, że duszek **Autobus** jest zawsze za wszystkimi duszkami postaci, dodaj `przejdź do przedniej warstwy`{:class="block3looks"}, a następnie kliknij `przód`{:class="block3looks"} i zmień go na `tył`{:class="block3looks"}:
+Aby upewnić się, że duszek **City Bus** jest zawsze za wszystkimi duszkami postaci, dodaj blok `przesuń na wierzch`{:class="block3looks"}, a następnie kliknij `wierzch`{:class="block3looks"} i zmień go na `spód`{:class="block3looks"}:
 
 ![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
-+ go to [back v] layer
++ go to [tył v] layer
 ```
 
-**Wskazówka:** Jeśli nie widzisz bloku`przejdź do pierwszej warstwy`{:class="block3looks"}, musisz przewinąć w dół w menu bloku`Wyglądy`{:class="block3looks"}.
+**Wskazówka:** Jeśli nie widzisz bloku `przesuń na wierzch`{:class="block3looks"}, przewiń w dół w menu bloków `Wygląd`{:class="block3looks"}.
 
 --- /task ---
+
+### Zmień kolor autobusu
 
 --- task ---
 
@@ -130,30 +139,28 @@ Możesz zmienić kolor autobusu:
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
-go to [back v] layer
-+set [color v] effect to (50) // spróbuj liczb do 200
+go to [tył v] layer
++set [kolor v] effect to (50) // spróbuj liczb do 200
 ```
 
 --- /task ---
 
---- task ---
-
-Kot Scratch pojawia się we wszystkich nowych projektach Scratch jako **Sprite1** na liście Duszków. Kliknij na **Sprite1** na liście Duszków, aby przygotować się do animowania kota Scratch:
-
-![Duszek Sprite1 wybrany z listy Duszków.](images/sprite1-selected.png)
-
-**Wskazówka:** Jeśli przypadkowo usunąłeś duszka **Sprite1** (Scratch Cat), możesz kliknąć ikonę **Wybierz Duszka** i wyszukać `cat`.
-
---- /task ---
-
-W tej chwili kot Scratch jest zbyt duży, aby zmieścić się w autobusie.
+### Zmień rozmiar kota Scratch
 
 --- task ---
 
-W panelu Duszek kliknij właściwość **Rozmiar** i zmień rozmiar kota Scratch na `50`:
+Kot Scratch pojawia się we wszystkich nowych projektach Scratch jako **Sprite1** na liście duszków. Kliknij duszka **Sprite1** na liście duszków, aby przygotować się do animowania kota Scratch:
 
-![](images/sprite-pane-size.png)
+![Duszek Sprite1 wybrany z listy duszków.](images/sprite1-selected.png)
+
+**Wskazówka:** Jeśli duszek **Sprite1** (kot Scratch) został przypadkowo usunięty, możesz kliknąć ikonę **Wybierz duszka** i wyszukać `cat`.
 
 --- /task ---
 
---- save ---
+--- task ---
+
+W panelu duszka kliknij właściwość **Rozmiar** i zmień rozmiar kota Scratch na `50`:
+
+![Zrzut ekranu przedstawiający położenie właściwości Rozmiar w panelu duszka.](images/sprite-pane-size.png)
+
+--- /task --- 

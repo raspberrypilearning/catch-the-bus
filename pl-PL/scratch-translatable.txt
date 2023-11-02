@@ -6,23 +6,23 @@ wypróbuj różne liczby
 
 5 to dobra prędkość chodzenia
 
-górna lewa część
+lewa górna część sceny
 
-zmiana ze wskaźnika myszy
+zmienione ze "wskaźnik myszy"
 
-zmień 10 na 4
+zmień 1 na 4
 
 prawa strona sceny
 
 spróbuj 0,1, 0,5, 0,05
 
-zmiana z 4 na 6
+zmień z 4 na 6
 
 przeciągnij duszka, aby wybrać x i y
 
 środek dolnej części sceny
 
-wskazać dół
+ustaw się w dół
 
 krótkie opóźnienie
 
