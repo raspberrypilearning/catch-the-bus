@@ -11,20 +11,21 @@ Będziesz animować kota Scratch, aby pojawił się po **prawej stronie** sceny 
 </div>
 </div>
 
-### Ustaw kota Scratch w pozycji wyjściowej
+### Ustaw kota Scratch w pozycji startowej
 
 --- task ---
 
-Kliknij właściwość **Kierunek** w panelu duszka. Obróć strzałkę, aby wskazać `-90`. Następnie kliknij ikonę **Lewo/Prawo** pośrodku, aby zmienić styl obracania na `lewy- prawy` aby zatrzymać odwracanie się do góry nogami kota Scratch:
+Kliknij właściwość **Kierunek** w panelu duszka. Obróć strzałkę tak, aby wskazywała `-90`. Następnie kliknij ikonę **lewo/prawo** pośrodku, aby zmienić styl obracania duszka na `lewy-prawy`, dzięki czemu kot Scratch przestanie odwracać się do góry nogami:
 
-![Strzałka wskazująca na -90 i wybrana jest ikona „Lewo/Prawo”.](images/sprite-pane-direction.png)
+![Strzałka wskazuje na -90 i wybrana jest ikona „lewo/prawo”.](images/sprite-pane-direction.png)
 
 --- /task ---
-
 
 --- task ---
 
 Przeciągnij kota Scratch do prawej dolnej części sceny.
+
+![Scena z kotem umieszczonym w prawym dolnym rogu.](images/bottom-right-cat.png)
 
 **Wskazówka:** Jeśli spróbujesz umieścić duszka poza sceną, wróci on do swojej ostatniej pozycji na scenie.
 
@@ -32,7 +33,7 @@ Przeciągnij kota Scratch do prawej dolnej części sceny.
 
 --- task ---
 
-Dodaj kod aby ustawić kota Scratch w pozycji wyjściowej:
+Dodaj kod, aby ustawić kota Scratch w pozycji startowej:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -45,19 +46,19 @@ go to x:(200) y:(-150) // dolna prawa część
 
 --- task ---
 
-**Test:** Przeciągnij kota Scratch do nowej pozycji, a następnie kliknij `przejdź do bloku x: y:`{:class="block3motion"}. Kot Scratch powinien za każdym razem cofać się do prawego dolnego rogu.
+**Test:** Przeciągnij kota Scratch do nowej pozycji, a następnie kliknij blok `przejdź do x: y:`{:class="block3motion"}. Kot Scratch powinien za każdym razem wrócić do prawego dolnego rogu.
 
 --- /task ---
 
 ### Animuj kota Scratch
 
-Dodasz kod w pętli `powtórzeń`{:class="block3control"}, aby kot Scratch powtórzył małą liczbę kroków wiele razy. Spowoduje to, że kot Scratch będzie wyglądał na animowanego.
+Dodasz kod w pętli `powtórz`{:class="block3control"}, aby kot Scratch powtórzył małą liczbę kroków wiele razy. Dzięki temu uzyskamy animację kota Scratch.
 
 --- task ---
 
-Dodaj blok `powtórz`{:class="block3control"} `10`, a następnie przeciągnij `przesuń`{:class="block3motion"} `10` `kroków`{:class="block3motion"} do środka:
+Dodaj blok `powtórz`{:class="block3control"} `10` `razy`{:class="block3control"}, a następnie przeciągnij blok `przesuń o`{:class="block3motion"} `10` `kroków`{:class="block3motion"} do środka pętli:
 
-![Zmiana liczby kroków w bloku 'przenieś' z 10 na 5, a następnie wstawienie bloku do pętli 'powtórz'.](images/block-into-loop.gif)
+![Zmiana liczby kroków w bloku 'przesuń o' z 10 na 5, a następnie wstawienie bloku do pętli 'powtórz'.](images/block-into-loop.gif)
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -73,21 +74,21 @@ end
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę. Spróbuj zmienić numery, aby kot Scratch zatrzymał się przy autobusie.
+**Test:** Kliknij zieloną flagę. Spróbuj zmienić liczbę w bloku `powtórz`{:class="block3control"} `10 razy`{:class="block3control"} tak, aby kot Scratch zatrzymał się przy autobusie.
 
 --- /task ---
 
-Niektóre duszki mają więcej niż jeden kostium. Użyjesz kostiumy **kota Scratch**, aby stworzyć animację poruszającego się kota Scratch.
+Niektóre duszki mają więcej niż jeden kostium. Wykorzystamy kostiumy **kota Scratch**, aby stworzyć animację jego ruchu.
 
 --- task ---
 
-Naciśnij na zakładkę **Kostiumy**. Duszek kota **Scratch** ma dwa kostiumy i razem mogą być użyte do wykonania efektu poruszania się.
+Kliknij zakładkę **Kostiumy**. Duszek **kota Scratch** ma dwa kostiumy, które mogą być użyte do stworzenia animacji chodzenia duszka.
 
 --- /task ---
 
 --- task ---
 
-Kliknij na zakładkę **Kod**. Dodaj blok `następny kostium`{:class="block3motion"}:
+Kliknij zakładkę **Skrypt**. Dodaj blok `następny kostium`{:class="block3looks"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -107,11 +108,11 @@ end
 
 --- /task ---
 
-Teraz sprawisz, że kot Scratch będzie wydawał się wchodzić do autobusu.
+### Ukryj kota Scratch
 
 --- task ---
 
-Dodaj blok do `ukryj`{:class="block3looks"} kot Scratch, gdy dotrze do autobusu:
+Dodaj blok `ukryj`{:class="block3looks"}, dzięki czemu kot Scratch zniknie, gdy dotrze do autobusu:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -133,11 +134,11 @@ end
 
 --- /task ---
 
-Kot Scratch musi pojawić się ponownie, gdy ponownie uruchomisz animację.
+### Pokaż kota Scratch
 
 --- task ---
 
-Dodaj blok `pokaż`{:class="block3looks"}, aby kot Scratch pojawił się, zanim podejdzie do autobusu:
+Dodaj blok `pokaż`{:class="block3looks"}, aby kot Scratch pojawił się, zanim zacznie iść do autobusu:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -152,7 +153,7 @@ end
 hide
 ```
 
-**Wskazówka:** Kiedy używasz `ukryj`{:class="block3looks"}, musisz również dodać blok `pokaż`{:class="block3looks"}, aby upewnić się, że duszek jest widoczny, gdy powinien być.
+**Wskazówka:** Kiedy używasz `ukryj`{:class="block3looks"}, musisz również dodać blok `pokaż`{:class="block3looks"}, aby upewnić się, że duszek jest widoczny w tych momentach, kiedy jest to konieczne.
 
 --- /task ---
 
@@ -162,4 +163,3 @@ hide
 
 --- /task ---
 
---- save ---

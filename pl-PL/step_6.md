@@ -11,9 +11,11 @@ Co jeśli kot Scratch nie pobiegł wystarczająco szybko, aby zdążyć na autob
 </div>
 </div>
 
+### Spraw, by kot Scratch spóźnił się na autobus
+
 --- task ---
 
-Wybierz duszka **kot Scratch** i dodaj `czekaj`{:class="block3control"}:
+Wybierz duszka **Sprite1** (kot Scratch) i dodaj blok `czekaj`{:class="block3control"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -36,11 +38,13 @@ hide
 
 --- /task ---
 
-Będziesz potrzebować opóźnień krótszych niż jedna sekunda. 0,5 to pół sekundy, 0,25 to ćwierć sekundy, a 0,1 to dziesiąta część sekundy.
+### Spraw, by kot Scratch zdążył złapać autobus
 
 --- task ---
 
-Zmień opóźnienie w `czekaj`{:class="block3control"}:
+Potrzebne nam będą opóźnienia krótsze niż jedna sekunda. 0,5 to pół sekundy, 0,25 to ćwierć sekundy, a 0,1 to dziesiąta część sekundy.
+
+Zmień opóźnienie w bloku `czekaj`{:class="block3control"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -52,13 +56,13 @@ wait (0.2) seconds // spróbuj 0,1, 0,5, 0,05
 
 --- /task ---
 
-**Wybierz:** Wybierz, czy chcesz, aby kot Scratch**spóźnił się na autobus** lub **zdąży złapać autobus**.
+### Zdecyduj, czy kot Scratch złapie lub przegapi autobus
 
 --- task ---
 
-Jeśli chcesz, aby kot Scratch**spóźnij się na autobus**, usuń `ukryj`{:class="block3looks"} z kodu, aby kot Scratch pozostał na scenie:
+Jeśli chcesz, aby kot Scratch **spóźnił się na autobus**, usuń blok `ukryj`{:class="block3looks"} z kodu, dzięki czemu kot Scratch pozostanie na scenie:
 
-![Przeciągnięcie bloku 'ukryj' ukryj ze skryptu w obszarze Kodu do menu Bloków, aby usunąć blok ze skryptu.](images/removing-blocks-at-script-ends.gif)
+![Przeciągnięcie bloku 'ukryj' ze skryptu w obszarze Skrypt do menu bloków, aby usunąć blok ze skryptu.](images/removing-blocks-at-script-ends.gif)
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
@@ -82,12 +86,13 @@ Jeśli chcesz aby kot Scratch **złapał autobus** ustaw dłuższy czas oczekiwa
 ![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // zmiana z 4 na 6
+when flag clicked 
++wait [4] seconds // zmień z 4 na 6
 glide [2] secs to x: [320] y: [-100] // prawa strona sceny
 hide
 ```
 
-Będziesz musiał umieścić kod `ukryj`{:class="block3looks"} z powrotem w **kot Scratch**, jeśli go usunąłeś i chcesz, aby kot Scratch z powodzeniem złapał autobus.
+W przypadku gdy blok `ukryj`{:class="block3looks"} został wcześniej usunięty ze skryptu **kota Scratch**, trzeba będzie go tam umieścić z powrotem, dzięki czemu kot Scratch pomyślnie złapie autobus.
 
 --- /task ---
 
@@ -98,9 +103,8 @@ Dokonuj zmian, aż animacja będzie działała tak, jak chcesz.
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Podczas pracy nad projektem często wracasz i zmieniasz lub ulepszasz swój kod w miarę pojawiania się nowych pomysłów. 
+Podczas pracy nad projektem często wraca się do poprzednich pomysłów, jak również zmienia lub ulepsza swój kod w miarę pojawiania się nowych pomysłów. 
 </p>
 
---- save ---
 
 

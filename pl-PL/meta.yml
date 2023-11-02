@@ -1,30 +1,32 @@
 ---
 title: Złap autobus
 hero_image: images/banner.png
-description: Kod duszka do dojścia lub przelotu do autobusu zanim odjedzie
+description: Zaprogramuj duszka, aby doszedł lub przeleciał do autobusu, zanim ten odjedzie
+meta_title: Projekty Scratch dla dzieci i młodzieży | Złap autobus
+meta_description: Naucz się programować w języku Scratch dzięki projektom programistycznym Fundacji Raspberry Pi dla dzieci i nastolatków. Zaprogramuj duszka Scratcha, aby doszedł lub przeleciał do autobusu.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-- title: Wprowadzenie
-- title: Stwórz swoją scenę z autobusem
-- title: Scratch Kot łapie autobus
-  completion:
-  - engaged
-- title: Hipcio leci do autobusu
-- title: Autobus odjeżdża
-- title: Spóźnienie się na autobus
-- title: Zmień miejsce docelowe
-  completion:
-  - internal
-- title: Powtórka
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Ulepsz swój projekt
-- title: Co dalej?
+  - title: Co będziesz robić
+  - title: Stwórz swoją scenę z autobusem
+  - title: Kot Scratch łapie autobus
+    completion:
+      - engaged
+  - title: Hipcio leci do autobusu
+  - title: Autobus odjeżdża
+  - title: Spóźnienie się na autobus
+  - title: Zmień miejsce docelowe
+    completion:
+      - internal
+  - title: Szybki quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Ulepsz swój projekt
+  - title: Co dalej?

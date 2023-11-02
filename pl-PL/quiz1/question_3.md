@@ -3,11 +3,9 @@
 legend: Pytanie 3 z 3
 ---
 
-W swoim projekcie zmusiłeś hipopotama do lotu, a kot Scratch podszedł do autobusu.
+Który z tych skryptów wykorzystuje **pętlę** do animowania psa?
 
-![Animacja psa biegnącego z lewej strony Sceny na prawą.](images/dog-run.gif)
-
-Który z tych skryptów wykorzystuje **pętlę** do uruchomienia psa?
+![Animacja psa biegnącego z lewej strony sceny na prawą.](images/dog-run.gif)
 
 --- choices ---
 
@@ -21,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Tak! Kod `Powtórz`{:class="block3control"} używa pętli, aby pies biegł.
+Tak! Blok `powtórz`{:class="block3control"} używa pętli, aby pies biegł.
 
   --- /feedback ---
 
@@ -34,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-Ten kod sprawia, że pies się porusza, ale tylko raz. Nie ma tu pętli, więc kod się nie powtarza.
+Ten kod sprawia, że pies się przesunie, ale tylko raz. Nie ma tu pętli, więc kod się nie powtarza.
 
   --- /feedback ---
 
@@ -68,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-Tu nie ma pętli, więc pies poruszy się tylko raz. Aby pies biegł, musiałbyś dodać pętlę.
+Tu nie ma pętli, więc pies przesunie się tylko raz. Aby pies biegł, trzeba dodać pętlę.
 
   --- /feedback ---
 
