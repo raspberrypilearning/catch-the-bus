@@ -1,73 +1,73 @@
-## Create your bus scene
+## Crea la tua scena dell'autobus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Scegli uno sfondo e aggiungi uno sprite dell'autobus.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![L'autobus cittadino sullo sfondo School.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Apri il progetto iniziale
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Apri il progetto [Prendi l'autobus iniziale](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch si aprirà in una nuova scheda del browser.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### Scegli uno sfondo
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Clicca (o su un tablet, tocca) su **Scegli uno Sfondo** nel pannello degli Stage (nell'angolo in basso a destra dello schermo):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Uno screenshot dell'icona Scegli uno Sfondo.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Clicca sulla categoria **Esterni**. Aggiungi uno sfondo che sia un buon punto di partenza per il tuo autobus:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![Lo stage con lo sfondo della Scuola.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Scegli uno Sprite
+
 --- task ---
 
-Type `bus` in the search box at the top:
+Clicca su **Scegli uno Sprite**:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+![Uno screenshot del menu Scegli uno Sprite.](images/choose-sprite-menu.png)
 
 --- /task ---
 
-### Give your bus a starting position
+--- task ---
+
+Scrivi `bus` nella barra di ricerca in alto:
+
+![La casella di ricerca evidenziata nella Libreria Sprite.](images/bus-search.png)
+
+Aggiungi lo sprite **City Bus** al tuo progetto.
+
+--- /task ---
+
+### Dai al tuo autobus una posizione iniziale
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Assicurati che lo sprite **City Bus** sia selezionato nella lista degli Sprite sotto lo Stage.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Trascina un blocco `quando si clicca sulla bandierina verde`{:class="block3events"} dal menu dei blocchi `Situazioni`{:class="block3events"} nella tua area del Codice:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Trascina l'autobus in una buona posizione dello Stage:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![L'autobus in basso al centro dello Stage.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Le coordinate **x** e **y** (i numeri utilizzati per descrivere la posizione) dell'autobus sono mostrate nel pannello degli Sprite sotto lo Stage:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Uno screenshot che evidenzia dove si trovano le coordinate nel riquadro degli sprite.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Aggiungi un blocco `vai a x: y:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+I numeri nel blocco `vai a x: y:`{:class="block3motion"} sono le coordinate x e y correnti dell'autobus. I numeri nel tuo progetto potrebbero essere leggermente diversi.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Prova:** Trascina l'autobus in un punto qualsiasi dello Stage, e fai clic sulla bandiera verde. L'autobus dovrebbe sempre tornare alla sua posizione di partenza.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![Animazione che mostra l'autobus che viene trascinato sullo schermo e torna al centro quando si fa clic sulla bandierina verde.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Muovi l'autobus dietro gli sprite dei personaggi
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Per assicurarti che lo sprite **City Bus** sia sempre dietro tutti gli sprite dei personaggi, aggiungi un blocco `vai in primo piano`{:class="block3looks"}, quindi fai clic su `primo`{:class="block3looks"} e cambialo in `secondo`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Suggerimento:** Se non riesci a vedere il blocco `vai in primo piano`{:class="block3looks"}, devi scorrere verso il basso nel menu dei blocchi `Aspetto`{:class="block3looks"}.
 
 --- /task ---
 
-### Change the bus colour
+### Cambia il colore dell'autobus
 
 --- task ---
 
-You can change the colour of the bus:
+Puoi cambiare il colore dell'autobus:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### Ridimensiona lo Scratch Cat
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Lo Scratch Cat appare in tutti i nuovi progetti Scratch come **Sprite1** nell'elenco degli Sprite. Fai clic sullo sprite **Sprite1** nell'elenco degli Sprite per prepararti ad animare lo Scratch Cat:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Lo sprite Sprite1 selezionato nell'elenco degli Sprite.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Suggerimento:** Se hai eliminato accidentalmente lo sprite **Sprite1** (Scratch Cat), puoi fare clic sull'icona **Scegli uno Sprite** e cercare `cat`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Nel pannello degli Sprite, fai clic sulla proprietà **Dimensione** e modifica la dimensione di Scratch Cat in `50`:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![Uno screenshot che evidenzia la posizione della proprietà dimensione nel pannello degli Sprite.](images/sprite-pane-size.png)
 
 --- /task --- 
