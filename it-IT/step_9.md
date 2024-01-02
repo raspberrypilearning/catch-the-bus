@@ -1,12 +1,12 @@
-## Upgrade your project
+## Migliora il tuo progetto
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Ora puoi aggiungere uno sprite a tua scelta alla tua animazione. Dovrai aggiungere il codice per far sì che il tuo sprite `vada a`{:class="block3motion"} una posizione iniziale, `punti`{:class="block3motion"} nella giusta direzione, quindi `ripeta`{:class ="block3control"} `faccia passi`{:class="block3motion"} e `passi al costume seguente`{:class="block3looks"} per raggiungere l'autobus.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Suggerimento:** Quando fai clic su **Scegli uno Sprite**, puoi tenere il cursore del mouse su uno sprite per vedere i suoi costumi, o su alcuni dispositivi mobili, puoi toccare e tenere premuto su uno sprite per vedere i suoi costumi (se una finestra appare quando tocchi e tieni premuto su uno sprite, tocca sul lato dello schermo per chiudere la finestra e vedere i costumi). Guardare i costumi degli sprite ti può aiutare a trovare lo sprite che funziona meglio per l'animazione.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Altri sprite che si muovono verso un autobus con il testo "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Puoi utilizzare uno qualsiasi dei blocchi che hai imparato in questo progetto, oltre a quelli che già conosci:
 
 ```blocks3
 when flag clicked
@@ -41,17 +41,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+title: Il progetto completo
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Puoi visualizzare i [progetti completati qui](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Puoi anche fare 'remix' del progetto per fare le modifiche che vuoi. Potresti anche aggiungere suoni all'autobus o agli altri sprite, o cambiare i colori dell'autobus. Uno degli sprite potrebbe perdere l'autobus e non nascondersi.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Grazie al creatore digitale Lyla per aver inviato questo fantastico miglioramento!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Un progetto con un autobus dai colori sgargianti.](images/Lyla-bus.gif)
 
 --- save ---
