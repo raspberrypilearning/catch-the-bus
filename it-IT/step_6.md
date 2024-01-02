@@ -1,23 +1,23 @@
-## Missing the bus
+## Perdere l'autobus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+E se lo Scratch Cat non corresse abbastanza veloce da prendere l'autobus?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![Lo Scratch Cat perde l'autobus.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Fai perdere l'autobus allo Scratch Cat
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+Seleziona lo sprite **Scratch Cat** e aggiungi un blocco `attendi`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,37 +34,37 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**Prova:** Clicca sulla bandierina verde. Lo Scratch Cat camminerà troppo lentamente e perderà l'autobus!
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Fai prendere l'autobus allo Scratch Cat
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Ti servirà un ritardo minore di un secondo. 0.5 è mezzo secondo, 0.25 è un quarto di secondo e 0.1 è un decimo di secondo.
 
-Change the delay in the `wait`{:class="block3control"} block:
+Modifica il ritardo nel blocco `attendi`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**Prova:** Clicca sulla bandierina verde e lo Scratch Cat camminerà più velocemente. Scegli il ritardo che più ti piace.
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Scegli se lo Scratch Cat prende o perde l'autobus
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Se vuoi che lo Scratch Cat **perda l'autobus**, rimuovi il blocco `nascondi`{:class="block3looks"} dal tuo codice in modo che lo Scratch Cat rimanga sullo Stage:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Trascinando il blocco 'nascondi' dallo script nell'area Codice al menu Blocchi per rimuovere il blocco dallo script.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Se vuoi che lo Scratch Cat **prenda l'autobus**, fai aspettare l'autobus più a lungo prima di partire:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Dovrai reinserire il blocco `nascondi`{:class="block3looks"} nel codice dello sprite **Scratch Cat** se lo hai rimosso e vuoi che lo Scratch Cat prenda con successo l'autobus.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Fai le modifiche finché ottieni l'animazione che vuoi tu.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Quando lavori su un progetto, spesso torni indietro e modifichi o migliori il tuo codice man mano che hai nuove idee. 
 </p>
 
 
