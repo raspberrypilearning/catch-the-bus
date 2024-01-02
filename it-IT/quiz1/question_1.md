@@ -1,17 +1,17 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Ci sono indizi per aiutarti a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-In your project, the bus glides away using this code:
+Nel tuo progetto, l'autobus scivola via usando questo codice:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Quando l'autobus scivola via?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Immediatamente quando clicchi sulla bandierina verde
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+I blocchi di codice vengono eseguiti in ordine, guarda i blocchi prima del blocco `scivola`{:class="block3motion"}.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Quattro secondi dopo che hai cliccato sulla bandierina verde
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Sì. Dopo che hai cliccato sulla bandierina verde, ci sono quattro secondi di attesa prima che l'autobus scivoli via.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Quando fai clic sull'autobus
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+L'autobus non ha alcun codice che esegue `quando si clicca questo sprite`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- (x) Due secondi dopo che hai cliccato sulla bandierina verde
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+L'autobus impiega due secondi per scivolare via, ma non è il tempo che aspetta prima di muoversi.
 
   --- /feedback ---
 
