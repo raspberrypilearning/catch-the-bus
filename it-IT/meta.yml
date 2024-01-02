@@ -1,0 +1,32 @@
+---
+title: Prendi l'autobus
+hero_image: images/banner.png
+description: Programma gli sprite per farli camminare o volare verso l'autobus prima che parta
+meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Prendi l'autobus
+meta_description: Impara a programmare con Scratch con i progetti di programmazione per bambini e ragazzi offerti dalla Raspberry Pi Foundation. Fai animazioni con gli sprite per farli correre verso l'autobus.
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Quello che farai
+  - title: Crea la tua scena dell'autobus
+  - title: Lo Scratch Cat prende l'autobus
+    completion:
+      - engaged
+  - title: Hippo vola verso l'autobus
+  - title: L'autobus parte
+  - title: Perdere l'autobus
+  - title: Cambia la destinazione
+    completion:
+      - internal
+  - title: Quiz veloce
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Migliora il tuo progetto
+  - title: E adesso?
