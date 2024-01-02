@@ -47,7 +47,7 @@ L'autobus non ha alcun codice che esegue `quando si clicca questo sprite`{:class
 
   --- /feedback ---
 
-- (x) Due secondi dopo che hai cliccato sulla bandierina verde
+- ( ) Due secondi dopo che hai cliccato sulla bandierina verde
 
   --- feedback ---
 
