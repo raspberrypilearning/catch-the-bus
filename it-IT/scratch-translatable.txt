@@ -1,0 +1,29 @@
+prova dei numeri fino a 200
+
+in basso a destra
+
+prova numeri diversi
+
+5 è una buona velocità di camminata
+
+in alto a sinistra
+
+cambia dal puntatore del mouse
+
+cambia da 1 a 4
+
+lato destro dello Stage
+
+prova 0.1, 0.5, 0.05
+
+cambia da 4 a 6
+
+trascina lo sprite per scegli la x e la y
+
+in basso al centro dello Stage
+
+punta verso il basso
+
+breve ritardo
+
+fino a 200
