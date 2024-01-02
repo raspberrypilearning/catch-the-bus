@@ -1,34 +1,34 @@
 ---
-title: Catch the bus
+title: Prendi l'autobus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+description: Programma gli sprite per farli camminare o volare verso l'autobus prima che parta
+meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Prendi l'autobus
+meta_description: Impara a programmare con Scratch con i progetti di programmazione per bambini e ragazzi offerti dalla Raspberry Pi Foundation. Fai animazioni con gli sprite per farli correre verso l'autobus.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Quello che farai
   - 
-    title: Create your bus scene
+    title: Crea la tua scena dell'autobus
   - 
-    title: The Scratch Cat catches the bus
+    title: Lo Scratch Cat prende l'autobus
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: Hippo vola verso l'autobus
   - 
-    title: The bus leaves
+    title: L'autobus parte
   - 
-    title: Missing the bus
+    title: Perdere l'autobus
   - 
-    title: Change the destination
+    title: Cambia la destinazione
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Migliora il tuo progetto
   - 
-    title: What next?
+    title: E adesso?
