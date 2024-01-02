@@ -1,21 +1,21 @@
-## You will make
+## Quello che farai
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+Crea un'animazione con gli sprite che corrono o volano per prendere l'autobus 🚌.
 
-You will:
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
-+ Position sprites on the **Stage**
-+ Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
+Tu:
++ Fai in modo che gli sprite facciano cose diverse `quando si clicca sulla bandierina verde`{:class="block3events"}
++ Posizioni gli sprite sullo **Stage**
++ Usa un ciclo `ripeti`{:class="block3control"} per `muovere`gli sprite {:class="block3motion"} e `cambiare i costumi`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Gioca ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-Click on the green flag to watch the animation. 
+Clicca sulla bandierina verde per vedere l'animazione. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+Quali sprite cambiano i loro costumi per creare un effetto di animazione 🎥?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
@@ -25,10 +25,10 @@ Which sprites change their costumes to create an animation 🎥 effect?
 
 --- print-only ---
 
-![The completed project.](images/hippo-flies.png)
+![Il progetto completo.](images/hippo-flies.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+Un'<span style="color: #0faeb0">**Animazione**</span> crea l'effetto del movimento cambiando rapidamente le immagini. I primi animatori intagliavano figure da blocchi di legno e le usavano come stampi. È molto più veloce usare Scratch per programmare la tua animazione!
 </p>
