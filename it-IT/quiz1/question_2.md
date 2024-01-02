@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Domanda 2 di 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Quando **trascini uno sprite** in una nuova posizione dello Stage, quali **proprietà** vengono aggiornate nel pannello degli Sprite sotto lo Stage?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) La **direzione** dello sprite ![La proprietà direzione.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Per cambiare la direzione dello sprite, devi andare alla proprietà **Direzione** e cambiarla.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) Le **coordinate x e y** dello sprite ![Le coordinate x e y.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Quando trascini uno sprite in una nuova posizione, le coordinate **x** e **y** vengono aggiornate automaticamente.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) Quando lo sprite viene **mostrato o nascosto** ![La proprietà mostra.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Utilizzando le icone **occhio** e **occhio barrato**, lo sprite verrà mostrato o nascosto.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) La **dimensione** dello sprite ![La proprietà dimensione.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Per cambiare la dimensione dello sprite, devi andare alla proprietà **Dimensione** e cambiare un numero lì.
 
   --- /feedback ---
 
