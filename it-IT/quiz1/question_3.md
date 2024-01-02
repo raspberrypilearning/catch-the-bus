@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Domanda 3 di 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Quale di questi script utilizza un **ciclo** per animare il cane?
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Un'animazione del cane che corre da sinistra a destra dello Stage.](images/dog-run.gif)
 
 --- choices ---
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Sì! Il blocco di codice `ripeti`{:class="block3control"} utilizza un ciclo per far correre il cane.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Questo codice fa muovere il cane, ma solamente una volta. Non c'è alcun ciclo qui, quindi il codice non si ripete.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Questo codice fa correre il cane, ma non utilizza un ciclo. Se utilizzi un ciclo il tuo codice spesso diventa più breve.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Non c'è alcun ciclo qui, quindi il cane si muoverà solamente una volta. Per far correre il cane, dovresti aggiungere un ciclo.
 
   --- /feedback ---
 
