@@ -1,53 +1,53 @@
-## Change the destination
+## Cambia la destinazione
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+La scritta sull'autobus dice "Scratch Tours", ma puoi cambiare la destinazione con una a tua scelta. Dove vuoi che vada il tuo autobus?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![L'autobus con il testo "Maker Festival".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Edit the City Bus sprite
+### Modifica lo sprite dell'autobus urbano
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Seleziona lo sprite **City Bus** e fai clic sulla scheda **Costumi**:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![Il costume nell editor di Paint.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Fai clic sul testo bianco "Scratch Tours" per selezionarlo, quindi fare clic su **Cancella** per rimuoverlo.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Suggerimento:** Puoi utilizzare l'icona **Cancella** nell'editor di Paint o il tasto <kbd>Canc</kbd> sulla tastiera.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
-
---- /task ---
-
---- task ---
-
-Select the **Text** (writing) tool.
-
-Click on the bus where you want your text to start, and type the destination of your choice.
-
-To change the font (writing style), you can click on the **Font** drop-down menu:
-
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![Il testo sull'autobus e l'icona Cancella evidenziati.](images/bus-delete-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Selezionare lo strumento **Testo**.
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+Fai clic sull'autobus nel punto in cui vuoi che inizi il testo e scrivi la destinazione che preferisci.
+
+Per cambiare il font (stile di scrittura), puoi cliccare sul menu a tendina **Font**:
+
+![Il menu "Font" selezionato nella parte superiore centrale dell'editor di Paint.](images/bus-text-font.png)
+
+--- /task ---
+
+--- task ---
+
+Fai clic sullo strumento **Seleziona** (Freccia), quindi trascina il testo per posizionarlo sull'autobus.
+
+![Il testo sull'autobus e lo strumento Seleziona evidenziati.](images/bus-destination-centered.png)
 
 --- /task ---
 
