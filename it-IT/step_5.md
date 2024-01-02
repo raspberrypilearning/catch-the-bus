@@ -1,31 +1,31 @@
-## The bus leaves
+## L'autobus parte
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Aggiungi altri blocchi per far partire l'autobus.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![Lo stage mostra che l'autobus si è spostato a destra.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-### Animate the Bus
+### Anima l'autobus
 
 --- task ---
 
-Select the **City Bus** sprite.
+Seleziona lo sprite **City Bus**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Aggiungi il codice per far partire l'autobus verso destra quattro secondi dopo aver cliccato sulla bandierina verde.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Trascina il tuo autobus sul lato destro dello Stage. Questa è la posizione `x`{:class="block3motion"} e `y`{:class="block3motion"} verso la quale l'autobus `scivola`{:class="block3motion"}.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Suggerimento:** Se sposti l'autobus troppo a destra, tornerà indietro. Riprova, ma non spostarlo così lontano.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Aggiungi un blocco `scivola in`{:class="block3motion"} `2` `secondi a x: y:`{:class="block3motion"} sotto il blocco `attendi`{:class="block3control"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Le coordinate `x`{:class="block3motion"} e `y`{:class="block3motion"} nel tuo progetto potrebbero essere leggermente diverse e saranno la posizione esatta in cui hai trascinato il bus.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Prova:** Clicca sulla bandierina verde. Lo Scratch Cat e hippo si sposteranno verso l'autobus e l'autobus partirà a destra dopo quattro secondi.
 
 --- /task ---
 
-### Hide and show the Bus
+### Nascondi e mostra l'autobus
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Aggiungi un blocco `nascondi`{:class="block3looks"} per far sembrare che l'autobus esca dallo Stage:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Prova:** Clicca sulla bandierina verde. L'autobus ora si nasconderà dopo essere partito. Ricordi come fare in modo che uno sprite ricompaia quando clicchi sulla bandierina verde?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Aggiungi un blocco `mostra`{:class="block3looks"} dopo il blocco `quando si clicca sulla bandierina verde`{:class="block3events"} per far apparire il bus quando fai partire il tuo progetto:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Lo sprite dell'autobus cittadino.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Prova:** Clicca sulla bandierina verde e guarda la tua animazione. L'autobus dovrebbe apparire al centro dello stage, poi dirigersi a destra e scomparire.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Sono tutti sull'autobus quando parte? Se serve, puoi modificare il tempo di attesa dell'autobus.
 
 --- /task ---
