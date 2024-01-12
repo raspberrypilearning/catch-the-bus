@@ -40,7 +40,7 @@ Trascina il tuo autobus sul lato destro dello Stage. Questa è la posizione `x`{
 
 ![](images/bus-right.png)
 
-**Suggerimento:** Se sposti l'autobus troppo a destra, tornerà indietro. Riprova, ma non spostarlo così lontano.
+**Suggerimento:** Se sposti l'autobus troppo a destra, tornerà indietro. Riprova, ma non spostarlo troppo lontano.
 
 --- /task ---
 
@@ -62,7 +62,7 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde. Lo Scratch Cat e hippo si sposteranno verso l'autobus e l'autobus partirà a destra dopo quattro secondi.
+**Prova:** Clicca sulla bandierina verde. Il Gatto Scratch e Hippo si sposteranno verso l'autobus e questo partirà a destra dopo quattro secondi.
 
 --- /task ---
 
