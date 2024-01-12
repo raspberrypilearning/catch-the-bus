@@ -1,8 +1,8 @@
 ## Migliora il tuo progetto
 
-Ora puoi aggiungere uno sprite a tua scelta alla tua animazione. Dovrai aggiungere il codice per far sì che il tuo sprite `vada a`{:class="block3motion"} una posizione iniziale, `punti`{:class="block3motion"} nella giusta direzione, quindi `ripeta`{:class ="block3control"} `faccia passi`{:class="block3motion"} e `passi al costume seguente`{:class="block3looks"} per raggiungere l'autobus.
+Ora puoi aggiungere uno sprite a tua scelta alla tua animazione. Dovrai aggiungere il codice per far sì che il tuo sprite utilizzi `vai a`{:class="block3motion"} per raggiungere una posizione iniziale, `punta`{:class="block3motion"} nella giusta direzione, quindi `ripeta`{:class ="block3control"} `fai passi`{:class="block3motion"} e `passa al costume seguente`{:class="block3looks"} per raggiungere l'autobus.
 
-**Suggerimento:** Quando fai clic su **Scegli uno Sprite**, puoi tenere il cursore del mouse su uno sprite per vedere i suoi costumi, o su alcuni dispositivi mobili, puoi toccare e tenere premuto su uno sprite per vedere i suoi costumi (se una finestra appare quando tocchi e tieni premuto su uno sprite, tocca sul lato dello schermo per chiudere la finestra e vedere i costumi). Guardare i costumi degli sprite ti può aiutare a trovare lo sprite che funziona meglio per l'animazione.
+**Suggerimento:** Quando fai clic su **Scegli uno Sprite**, puoi tenere il cursore del mouse su uno sprite per vedere i suoi costumi o, su alcuni dispositivi mobili, puoi toccare e tenere premuto su uno sprite per vedere i suoi costumi (se una finestra appare quando tocchi e tieni premuto su uno sprite, tocca sul lato dello schermo per chiudere la finestra e vedere i costumi). Guardare i costumi degli sprite ti può aiutare a trovare lo sprite che funziona meglio per l'animazione.
 
 ![Altri sprite che si muovono verso un autobus con il testo "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
@@ -44,7 +44,7 @@ set [color v] effect to [50] // up to 200
 title: Il progetto completo
 ---
 
-Puoi visualizzare i [progetti completati qui](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Qui puoi visualizzare i [progetti completati](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
