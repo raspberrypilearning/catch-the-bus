@@ -15,7 +15,7 @@ Scegli uno sfondo e aggiungi uno sprite dell'autobus.
 
 --- task ---
 
-Apri il progetto [Prendi l'autobus iniziale](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch si aprirà in una nuova scheda del browser.
+Apri il progetto iniziale [Prendi l'autobus](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch si aprirà in una nuova scheda del browser.
 
 [[[working-offline]]]
 
@@ -25,7 +25,7 @@ Apri il progetto [Prendi l'autobus iniziale](https://scratch.mit.edu/projects/58
 
 --- task ---
 
-Clicca (o su un tablet, tocca) su **Scegli uno Sfondo** nel pannello degli Stage (nell'angolo in basso a destra dello schermo):
+Clicca (o su un tablet, tocca) su **Scegli uno Sfondo** nel pannello Stage (nell'angolo in basso a destra dello schermo):
 
 ![Uno screenshot dell'icona Scegli uno Sfondo.](images/choose-a-backdrop.png)
 
@@ -59,7 +59,7 @@ Aggiungi lo sprite **City Bus** al tuo progetto.
 
 --- /task ---
 
-### Dai al tuo autobus una posizione iniziale
+### Dai al tuo autobus una punto di partenza
 
 --- task ---
 
@@ -145,11 +145,11 @@ go to [back v] layer
 
 --- /task ---
 
-### Ridimensiona lo Scratch Cat
+### Ridimensiona il Gatto Scratch
 
 --- task ---
 
-Lo Scratch Cat appare in tutti i nuovi progetti Scratch come **Sprite1** nell'elenco degli Sprite. Fai clic sullo sprite **Sprite1** nell'elenco degli Sprite per prepararti ad animare lo Scratch Cat:
+Il Gatto Scratch appare in tutti i nuovi progetti Scratch come **Sprite1** nell'elenco degli Sprite. Fai clic sullo sprite **Sprite1** nell'elenco degli Sprite per prepararti ad animare il Gatto Scratch:
 
 ![Lo sprite Sprite1 selezionato nell'elenco degli Sprite.](images/sprite1-selected.png)
 
@@ -159,7 +159,7 @@ Lo Scratch Cat appare in tutti i nuovi progetti Scratch come **Sprite1** nell'el
 
 --- task ---
 
-Nel pannello degli Sprite, fai clic sulla proprietà **Dimensione** e modifica la dimensione di Scratch Cat in `50`:
+Nel pannello degli Sprite, fai clic sulla proprietà **Dimensione** e modifica la dimensione del Gatto Scratch in `50`:
 
 ![Uno screenshot che evidenzia la posizione della proprietà dimensione nel pannello degli Sprite.](images/sprite-pane-size.png)
 
