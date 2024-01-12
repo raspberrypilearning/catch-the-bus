@@ -1,11 +1,11 @@
 ## Quello che farai
 
-Crea un'animazione con gli sprite che corrono o volano per prendere l'autobus 🚌.
+Creerai un'animazione con sprite che corrono o volano per raggiungere l'autobus 🚌.
 
 Tu:
-+ Fai in modo che gli sprite facciano cose diverse `quando si clicca sulla bandierina verde`{:class="block3events"}
-+ Posizioni gli sprite sullo **Stage**
-+ Usa un ciclo `ripeti`{:class="block3control"} per `muovere`gli sprite {:class="block3motion"} e `cambiare i costumi`{:class="block3looks"}
++ Farai in modo che gli sprite facciano cose diverse `quando si clicca sulla bandierina verde`{:class="block3events"}
++ Posizionerai gli sprite sullo **Stage**
++ Userai un ciclo `ripeti`{:class="block3control"} per `muovere`gli sprite {:class="block3motion"} e `cambiare i costumi`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
@@ -30,5 +30,5 @@ Quali sprite cambiano i loro costumi per creare un effetto di animazione 🎥?
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un'<span style="color: #0faeb0">**Animazione**</span> crea l'effetto del movimento cambiando rapidamente le immagini. I primi animatori intagliavano figure da blocchi di legno e le usavano come stampi. È molto più veloce usare Scratch per programmare la tua animazione!
+Un'<span style="color: #0faeb0">**Animazione**</span> crea l'effetto del movimento cambiando rapidamente le immagini. I primi animatori intagliavano figure da blocchi di legno e le usavano come stampi. Sarà molto più veloce usare Scratch per programmare la tua animazione!
 </p>
