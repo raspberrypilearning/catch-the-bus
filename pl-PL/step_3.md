@@ -46,7 +46,7 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Przeciągnij kota Scratch do nowej pozycji, a następnie kliknij blok `przejdź do x: y:`{:class="block3motion"}. Kot Scratch powinien za każdym razem wrócić do prawego dolnego rogu.
+**Test:** Przeciągnij kota Scratch do nowej pozycji, a następnie kliknij blok `idź do x: y:`{:class="block3motion"}. Kot Scratch powinien za każdym razem wrócić do prawego dolnego rogu.
 
 --- /task ---
 
