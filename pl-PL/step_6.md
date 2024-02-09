@@ -81,7 +81,7 @@ end
 
 --- task ---
 
-Jeśli chcesz aby kot Scratch **złapał autobus** ustaw dłuższy czas oczekiwania autobusu:
+Jeśli chcesz, aby kot Scratch **złapał autobus** ustaw dłuższy czas oczekiwania autobusu:
 
 ![Duszek autobusu.](images/bus-sprite.png)
 
