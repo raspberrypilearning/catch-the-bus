@@ -11,7 +11,7 @@ Aggiungi uno sprite hippo che vola verso l'autobus.
 </div>
 </div>
 
-### Dai a hippo una posizione iniziale
+### Dai a Hippo una posizione iniziale
 
 --- task ---
 
@@ -33,7 +33,7 @@ Trascina hippo nella parte in alto a sinistra dello Stage.
 
 --- task ---
 
-Aggiungi il codice per portare lo hippo alla sua posizione iniziale:
+Aggiungi il codice per portare Hippo alla sua posizione iniziale:
 
 ```blocks3
 when flag clicked
@@ -44,11 +44,11 @@ go to x: [-200] y: [150] // in alto a sinistra
 
 --- /task ---
 
-### Fai sbattere le ali hippo e fallo volare
+### Fai sbattere le ali a Hippo e fallo volare
 
 --- task ---
 
-Aggiungi il codice per far volare hippo verso il **City Bus**:
+Aggiungi il codice per far volare Hippo verso il **City Bus**:
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ next costume
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde e controlla che hippo voli verso l'autobus. Puoi modificare il numero nel blocco `ripeti`{:class="block3control"} per fare in modo che hippo si fermi nel posto giusto.
+**Prova:** Clicca sulla bandierina verde e controlla che hippo voli verso l'autobus. Puoi modificare il numero nel blocco `ripeti`{:class="block3control"} per fare in modo che Hippo si fermi nel posto giusto.
 
 --- /task ---
 

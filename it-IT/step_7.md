@@ -37,7 +37,7 @@ Selezionare lo strumento **Testo**.
 
 Fai clic sull'autobus nel punto in cui vuoi che inizi il testo e scrivi la destinazione che preferisci.
 
-Per cambiare il font (stile di scrittura), puoi cliccare sul menu a tendina **Font**:
+Per cambiare il font (tipo di carattere), puoi cliccare sul menu a tendina **Font**:
 
 ![Il menu "Font" selezionato nella parte superiore centrale dell'editor di Paint.](images/bus-text-font.png)
 
