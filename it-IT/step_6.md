@@ -15,7 +15,7 @@ E se il Gatto Scratch non corresse abbastanza veloce per prendere l'autobus?
 
 --- task ---
 
-Seleziona lo sprite del **Gatto Scratch ** e aggiungi un blocco `attendi`{:class="block3control"}:
+Seleziona lo sprite del **Gatto Scratch** e aggiungi un blocco `attendi`{:class="block3control"}:
 
 ![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
