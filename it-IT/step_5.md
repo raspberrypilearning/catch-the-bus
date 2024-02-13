@@ -62,7 +62,7 @@ wait [4] seconds // cambia da 1 a 4
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde. Lo Scratch Cat e hippo si sposteranno verso l'autobus e l'autobus partirà a destra dopo quattro secondi.
+**Prova:** Clicca sulla bandierina verde. Il Gatto Scratch e Hippo si sposteranno verso l'autobus e questo partirà a destra dopo quattro secondi.
 
 --- /task ---
 

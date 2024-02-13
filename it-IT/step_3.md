@@ -1,4 +1,4 @@
-## Lo Scratch Cat prende l'autobus
+## Il Gatto Scratch prende l'autobus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,11 +11,11 @@ Anima lo Scratch Cat in modo che appaia sul **lato destro** dello Stage e cammin
 </div>
 </div>
 
-### Porta lo Scratch Cat nella posizione iniziale
+### Porta il Gatto Scratch nella posizione di partenza
 
 --- task ---
 
-Fai clic sulla proprietà **Direzione** nel pannello degli Sprite. Ruota la freccia in modo che punti su `-90`. Poi, fai clic sull'icona **Sinistra/Destra** al centro per modificare lo stile di rotazione in `Sinistra-Destra` per impedire allo Scratch Cat di girare sottosopra:
+Fai clic sulla proprietà **Direzione** nel pannello degli Sprite. Ruota la freccia in modo che punti su `-90`. Poi, fai clic sull'icona **Sinistra/Destra** al centro per modificare lo stile di rotazione in `Sinistra-Destra`, per impedire al Gatto Scratch di girarsi sottosopra:
 
 ![La freccia che punta a -90 e l'icona "Sinistra/Destra" selezionata.](images/sprite-pane-direction.png)
 
@@ -33,7 +33,7 @@ Trascina lo sprite Scratch Cat nella parte in basso a destra dello Stage.
 
 --- task ---
 
-Aggiungi il codice per portare lo Scratch Cat alla sua posizione iniziale:
+Aggiungi il codice per portare il Gatto Scratch alla sua posizione iniziale:
 
 ![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
@@ -46,13 +46,13 @@ go to x:(200) y:(-150) // in basso a destra
 
 --- task ---
 
-**Prova:** Trascina lo Scratch Cat in una nuova posizione, poi fai clic sul blocco `vai a x: y:`{:class="block3motion"}. Lo Scratch Cat dovrebbe tornare ogni volta in basso a destra.
+**Prova:** Trascina il Gatto Scratch in una nuova posizione, poi fai clic sul blocco `vai a x: y:`{:class="block3motion"}. Il Gatto Scratch dovrebbe tornare ogni volta nel punto in basso a destra.
 
 --- /task ---
 
-### Anima lo Scratch Cat
+### Anima il Gatto Scratch
 
-Aggiungerai il codice in un ciclo `ripeti`{:class="block3control"} per fare in modo che lo Scratch Cat ripeta pochi passi molte volte. Questo farà sembrare lo Scratch Cat in movimento animato.
+Aggiungerai il codice in un ciclo `ripeti`{:class="block3control"} per fare in modo che lo Scratch Cat ripeta pochi passi molte volte. Questo darà al Gatto Scratch un'apparente animazione.
 
 --- task ---
 
@@ -74,15 +74,15 @@ end
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde. Prova a cambiare i numeri nel blocco `ripeti`{:class="block3control"} `10` `volte`{:class="block3control"} in modo che lo Scratch Cat si fermi all'autobus.
+**Prova:** Clicca sulla bandierina verde. Prova a cambiare i numeri nel blocco `ripeti`{:class="block3control"} `10` `volte`{:class="block3control"} in modo che il Gatto Scratch si fermi all'autobus.
 
 --- /task ---
 
-Alcuni sprite hanno più di un costume. Utilizzerai i costumi dello sprite **Scratch Cat** per creare un'animazione dello Scratch Cat che cammina.
+Alcuni sprite hanno più di un costume. Utilizzerai i costumi dello sprite **Scratch Cat** per creare una camminata.
 
 --- task ---
 
-Fai clic sulla scheda **Costumi**. Lo sprite **Scratch Cat** ha due costumi e insieme possono essere usati per creare un movimento di camminata.
+Fai clic sulla scheda **Costumi**. Lo sprite **Scratch Cat** ha due costumi e insieme possono essere usati per creare un specie di camminata.
 
 --- /task ---
 
@@ -104,11 +104,11 @@ end
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde e lo Scratch Cat camminerà verso l'autobus.
+**Prova:** Clicca sulla bandierina verde e il Gatto Scratch camminerà verso l'autobus.
 
 --- /task ---
 
-### Nascondi lo Scratch Cat
+### Nascondi il Gatto Scratch
 
 --- task ---
 
@@ -134,11 +134,11 @@ end
 
 --- /task ---
 
-### Mostra lo Scratch Cat
+### Mostra il Gatto Scratch
 
 --- task ---
 
-Aggiungi un blocco `mostra`{:class="block3looks"} in modo che lo Scratch Cat appaia prima di camminare verso l'autobus:
+Aggiungi un blocco `mostra`{:class="block3looks"} in modo che il Gatto Scratch appaia prima di camminare verso l'autobus:
 
 ![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
@@ -153,13 +153,13 @@ end
 hide
 ```
 
-**Suggerimento:** Quando usi un blocco `nascondi`{:class="block3looks"}, devi aggiungere anche un blocco `mostra`{:class="block3looks"} per assicurarti che uno sprite sia visibile all'inizio.
+**Suggerimento:** Quando usi un blocco `nascondi`{:class="block3looks"}, devi aggiungere anche un blocco `mostra`{:class="block3looks"} per assicurarti che uno sprite torni visibile all'inizio.
 
 --- /task ---
 
 --- task ---
 
-**Prova:** Clicca sulla bandierina verde per provare il tuo progetto e assicurati che appaia lo Scratch Cat.
+**Prova:** Clicca sulla bandierina verde per provare il tuo progetto e assicurati che il Gatto Scratch appaia.
 
 --- /task ---
 
