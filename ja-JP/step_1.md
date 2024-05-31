@@ -5,7 +5,7 @@
 あなたは次のことを行います。
 + `緑色の旗が押されたとき`{:class="block3events"}、スプライトにいろいろなことをさせます。
 + スプライトを**ステージ**に配置します。
-+ `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} そして `コスチュームを変えます`{:class="block3looks"}。
++ `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} 、そして `コスチュームを変えます`{:class="block3looks"}。
 
 --- no-print --- --- task ---
 
