@@ -15,7 +15,7 @@ Para alterar a direção do ator, você precisa ir na propriedade **Direção** 
 
   --- /feedback ---
 
-- ( ) A direção do ator  ![(x) As coordenadas x e y do ator ](images/coordinates.png)
+- (x) As **coordenadas x e y** do ator ![(x) As coordenadas x e y do ator ](images/coordinates.png)
 
   --- feedback ---
 
