@@ -10,7 +10,7 @@ lado esquerdo superior
 
 mudar com o ponteiro do mouse
 
-mude de 10 para 4
+mude de 1 para 4
 
 lado direito do palco
 
