@@ -3,11 +3,9 @@
 legend: Pergunta 3 de 3
 ---
 
-No seu projeto, você fez o hipopótamo voar e o Gato Scratch caminhar até o ônibus.
+Qual do scripts a seguir usa um **loop** para fazer o cachorro correr?
 
 ![Uma animação de um cachorro correndo da esquerda para a direita do Palco.](images/dog-run.gif)
-
-Qual do scripts a seguir usa um **loop** para fazer o cachorro correr?
 
 --- choices ---
 

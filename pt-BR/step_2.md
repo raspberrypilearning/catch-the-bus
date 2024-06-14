@@ -11,6 +11,8 @@ Você vai escolher um cenário e adicionar um ator de ônibus.
 </div>
 </div>
 
+### Abra o projeto inicial
+
 --- task ---
 
 Abra o [projeto inicial Pegue o ônibus](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
@@ -19,11 +21,13 @@ Abra o [projeto inicial Pegue o ônibus](https://scratch.mit.edu/projects/582214
 
 --- /task ---
 
+### Escolha um Pano de Fundo
+
 --- task ---
 
 Clique (ou se você estiver em um tablet, toque) no **Selecionar Cenário** no painel Palco (no canto inferior direito da tela):
 
-![](images/choose-a-backdrop.png)
+![Uma captura de tela do ícone escolher um cenário.](images/choose-a-backdrop.png)
 
 --- /task ---
 
@@ -35,11 +39,13 @@ Clique na categoria **Exterior**. Adicione um cenário que seja um bom ponto de 
 
 --- /task ---
 
+### Escolha um Ator
+
 --- task ---
 
 Clique em **Selecione um Ator**:
 
-![](images/choose-sprite-menu.png)
+![Uma captura de tela do menu de escolha de um ator.](images/choose-sprite-menu.png)
 
 --- /task ---
 
@@ -53,7 +59,7 @@ Adicione o **City Bus** (Ônibus de Cidade) ao seu projeto.
 
 --- /task ---
 
- No Scratch, você executa os projetos clicando na bandeira verde que fica acima do Palco. O ônibus precisa estar na sua posição inicial `quando bandeira verde for clicada em`{:class="block3events"}.
+### Quando você arrasta o ônibus, ele vai na frente do Gato Scratch.
 
 --- task ---
 
@@ -77,8 +83,7 @@ Arraste o ônibus para uma boa posição no Palco:
 
 As coordenadas **x** e **y** (os números usados para descrever a posição) do ônibus são mostradas no painel Ator abaixo do Palco:
 
-![](images/coords-sprite-pane.png)
-
+![Uma captura de tela destacando onde as coordenadas estão localizadas no painel do ator.](images/coords-sprite-pane.png)
 
 --- /task ---
 
@@ -101,9 +106,11 @@ Os números no bloco `vá para x: y:`{:class="block3motion"} são as coordenadas
 
 **Teste:** Arraste o ônibus para qualquer lugar do Palco e clique na bandeira verde. O ônibus deve parar na sua posição inicial.
 
+![Animação mostrando o ônibus sendo arrastado pela tela e voltando para o centro ao clicar na bandeira verde.](images/drag-bus.gif)
+
 --- /task ---
 
-Quando você arrasta o ônibus, ele vai na frente do Gato Scratch.
+### Mova o ônibus atrás dos atores
 
 --- task ---
 
@@ -121,6 +128,8 @@ go to x: (0) y: (-100)
 
 --- /task ---
 
+### No momento, o Gato Scratch é grande demais para caber no ônibus.
+
 --- task ---
 
 Você pode mudar a cor do ônibus:
@@ -136,6 +145,8 @@ go to [back v] layer
 
 --- /task ---
 
+### Redimensione o Gato Scratch
+
 --- task ---
 
 O Gato Scratch aparece em todos os novos projetos Scratch como **Ator1** na lista Sprite. Clique no ator **Ator1** na lista de Atores para começar a animação do Gato Scratch:
@@ -146,14 +157,10 @@ O Gato Scratch aparece em todos os novos projetos Scratch como **Ator1** na list
 
 --- /task ---
 
-No momento, o Gato Scratch é grande demais para caber no ônibus.
-
 --- task ---
 
 No painel Ator, clique na propriedade **Tamanho** e altere o tamanho do Gato Scratch para `50`:
 
-![](images/sprite-pane-size.png)
+![Uma captura de tela destacando a localização da propriedade tamanho no painel Ator.](images/sprite-pane-size.png)
 
 --- /task ---
-
---- save ---

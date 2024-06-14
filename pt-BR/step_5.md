@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Um grupo de blocos conectados no Scratch é chamado de **script**. Você vai adicionar um novo script para fazer o ônibus andar.
+Adicione mais blocos para fazer o ônibus partir.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Um grupo de blocos conectados no Scratch é chamado de **script**. Você vai adi
 </div>
 </div>
 
-O ônibus vai sair para a direita quatro segundos depois que a bandeira verde for clicada. O bloco `quando cronômetro`{:class="block3events"} vai executar os blocos abaixo dele após o atraso definido.
+### Anime o ônibus
 
 --- task ---
 
@@ -23,12 +23,13 @@ Selecione o ator **Ônibus Cidade**.
 
 --- task ---
 
-Do menu de blocos `Eventos`{:class="block3events"}, arraste um bloco `quando ruído >`{:class="block3events"} `10` para a área de código. Altere `ruído`{:class="block3events"} para `cronômetro`{:class="block3events"}. Isso vai começar um novo script:
+O ônibus vai sair para a direita quatro segundos depois que a bandeira verde for clicada.
 
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] // mude de 10 para 4
+when flag clicked 
+wait [4] seconds // mude de 1 para 4
 ```
 
 --- /task ---
@@ -45,14 +46,15 @@ Arraste seu ônibus para o lado direito do Palco. Este será a `x`{:class="block
 
 --- task ---
 
-Adicione um `deslize por`{:class="block3motion"} `2` `segs. até x: y:`{:class="block3motion"} debaixo do bloco `quando cronômetro`{:class="block3events"}.
+when [timer v] > [4] // mude de 1 para 4
 
 As coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} no seu projeto podem ser um pouco diferentes.
 
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // mude de 1 para 4
 +glide [2] secs to x: [320] y: [-100] // lado direito do palco
 ```
 
@@ -64,6 +66,8 @@ when [timer v] > [4]
 
 --- /task ---
 
+### Esconda e mostre o Ônibus
+
 --- task ---
 
 Adicione um bloco `esconda`{:class="block3looks"} para fazer com que o ônibus pareça sair do palco:
@@ -71,7 +75,8 @@ Adicione um bloco `esconda`{:class="block3looks"} para fazer com que o ônibus p
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // mude de 1 para 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -93,7 +98,7 @@ Adicione um bloco `mostre`{:class="block3looks"} ao seu script `Quando a bandeir
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // tente números até 200
+set [color v] effect to (85) // tente números até 200
 +show
 ```
 
@@ -106,5 +111,3 @@ set [color v] effect to (50) // tente números até 200
 Está todo mundo no ônibus quando ele parte? Você pode alterar a quantidade de tempo que o ônibus espera, se necessário.
 
 --- /task ---
-
---- save ---

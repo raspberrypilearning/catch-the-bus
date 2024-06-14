@@ -3,13 +3,13 @@
 legend: Pergunta 2 de 3
 ---
 
-As propriedades de um ator aparecem no painel Ator logo abaixo do Palco.
-
 Se você arrastar um ator para uma nova posição no Palco, quais propriedades vão mudar?
 
 --- choices ---
 
-- ( ) A direção do ator ![](images/direction.png)
+- ( ) A **direção** do ator
+
+![A propriedade de direção.](images/direction.png)
 
   --- feedback ---
 
@@ -17,7 +17,9 @@ Para alterar a direção do ator, você precisa ir na propriedade **Direção** 
 
   --- /feedback ---
 
-- (x) As coordenadas x e y do ator ![](images/coordinates.png)
+- (x) As **coordenadas x e y** do ator
+
+![(x) As coordenadas x e y do ator ](images/coordinates.png)
 
   --- feedback ---
 
@@ -25,7 +27,9 @@ Quando você arrasta um ator para uma nova posição, as coordenadas **x** e **y
 
   --- /feedback ---
 
-- ( ) Se o ator vai aparecer ou ficar escondido ![](images/visibility.png)
+- ( ) Se o ator vai aparecer ou ficar escondido
+
+![A propriedade do mostrar.](images/visibility.png)
 
   --- feedback ---
 
@@ -33,7 +37,9 @@ Usar os ícones de **olho** e **olho riscado** vai fazer com que o ator seja exi
 
   --- /feedback ---
 
-- ( ) O tamanho do ator ![](images/size.png)
+- ( ) O **tamanho** do ator
+
+![A propriedade de tamanho.](images/size.png)
 
   --- feedback ---
 

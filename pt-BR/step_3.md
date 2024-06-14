@@ -26,6 +26,8 @@ Clique na propriedade **Direção** no painel Ator. Gire a seta até ela apontar
 
 Arraste o Gato Scratch para o lado superior direito do Palco.
 
+![O Palco com o gato posicionado no canto inferior direito.](images/bottom-right-cat.png)
+
 **Dica:** Se você tentar posicionar um sprite fora do Palco, ele voltará para sua última posição no Palco.
 
 --- /task ---
@@ -107,7 +109,7 @@ end
 
 --- /task ---
 
-Agora, você fará com que o Gato Scratch pareça entrar no ônibus.
+### Esconda o Gato Scratch
 
 --- task ---
 
@@ -133,7 +135,7 @@ end
 
 --- /task ---
 
-O Gato Scratch precisa aparecer de novo quando você executar a animação.
+### Mostre o Gato Scratch
 
 --- task ---
 
@@ -162,4 +164,3 @@ hide
 
 --- /task ---
 
---- save ---
