@@ -1,17 +1,17 @@
-## Quick quiz
+## Teste Rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Depois de responder a cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 ---
 legenda: Pergunta 1 de 3
 ---
 
-In your project, the bus glides away using this code:
+No projeto, o ônibus sempre vai deslizar com este código:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Em que momento o ônibus se afasta?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Os blocos de código são executados em ordem, observe os blocos antes do bloco `deslize por`{:class="block3motion"}.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Sim. Depois que você clica na bandeira verde, tem um intervalo de quatro segundo antes que o ônibus se afaste.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+O ônibus não tem qualquer código que execute `quando este ator é clicado`{:class="block3events"}.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+O ônibus leva dois segundos para se afastar, mas não é a mesma quantidade de tempo que ele espera antes de começar a se mover.
 
   --- /feedback ---
 
