@@ -1,4 +1,4 @@
-## Introdução
+## O que você vai fazer
 
 Neste projeto, você irá criar uma animação com atores que correm ou voam para alcançar um ônibus.
 
@@ -9,7 +9,7 @@ Você vai:
 
 --- no-print --- --- task ---
 
-### Agora é a sua vez de tentar
+### Jogar
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 

@@ -11,6 +11,8 @@ E se o Gato Scratch não for rápido o suficiente para pegar o ônibus?
 </div>
 </div>
 
+### Faça o Gato Scratch perder o ônibus
+
 --- task ---
 
 Selecione o **Gato Scratch** e adicione um bloco `espere`{:class="block3control"}:
@@ -36,9 +38,11 @@ hide
 
 --- /task ---
 
-Você vai querer ter um atraso de menos de um segundo. 0,5 é meio segundo, 0,25 é um quarto de segundo e 0,1 é um décimo de segundo.
+### Faça o Gato Scratch pegar o ônibus
 
 --- task ---
+
+Você vai querer ter um atraso de menos de um segundo. 0,5 é meio segundo, 0,25 é um quarto de segundo e 0,1 é um décimo de segundo.
 
 Altere o atraso no bloco `espere`{:class="block3control"}:
 
@@ -52,7 +56,7 @@ wait (0.2) seconds // tente 0,1; 0,5 e 0,05
 
 --- /task ---
 
-**Escolha:** Escolha se o Gato Scratch vai **perder o ônibus** ou **entrar no ônibus**.
+### Escolha se Gato Scratch pega ou perde o ônibus
 
 --- task ---
 
@@ -82,7 +86,8 @@ Se você quiser que o Gato Scratch **pegue o ônibus**, faça o ônibus esperar 
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-+when [timer v] > [6] // mudar de 4 para 6
+when flag clicked 
++wait [4] seconds // change from 4 to 6
 glide [2] secs to x: [320] y: [-100] // lado direito do palco
 hide
 ```
@@ -101,6 +106,5 @@ Faça alterações até que você consiga que a animação funcione do jeito que
 Quando você estiver em um projeto, frequentemente você vai voltar a seu código e alterá-lo conforme você tem ideias novas. 
 </p>
 
---- save ---
 
 

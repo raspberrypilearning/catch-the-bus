@@ -11,13 +11,13 @@ Você vai adicionar um ator hipopótamo que voa até o ônibus.
 </div>
 </div>
 
-O ator **Hippo1** tem duas fantasias com asas em posições diferentes, para que uma animação possa ser feita do ator voando até o ônibus.
+### Dê ao hipopótamo uma posição inicial
 
 --- task ---
 
-Adicione o ator **Hippo1** ao seu projeto.
-
 Mude o **Tamanho** do ator **Hippo1**:
+
+Adicione o ator **Hippo1** ao seu projeto.
 
 ![O painel Ator para o ator Hippo1, com o tamanho 50.](images/hippo-sprite-size.png)
 
@@ -44,9 +44,7 @@ go to x: [-200] y: [150] // lado esquerdo superior
 
 --- /task ---
 
-O hipopótamo voará em direção ao ônibus, batendo as asas.
-
-Antes de começar a se mexer, o hipopótamo vai `apontar para`{:class="block3motion"} o ônibus.
+### Faça o hipopótamo bater as asas e voar
 
 --- task ---
 
@@ -70,7 +68,7 @@ next costume
 
 --- /task ---
 
-Agora, o hipopótamo vai entrar no ônibus.
+### Mostre e esconda o ônibus
 
 --- task ---
 
@@ -95,5 +93,3 @@ end
 **Teste:** Clique na bandeira verde. O hipopótamo vai voar e entrar no ônibus.
 
 --- /task ---
-
---- save ---

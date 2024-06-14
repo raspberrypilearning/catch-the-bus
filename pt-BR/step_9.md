@@ -11,8 +11,6 @@ Você pode usar qualquer um dos blocos que você já aprendeu neste projeto, bem
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
 go to x: [0] y: [0] // arraste o sprite para escolher x e y
 
 show
