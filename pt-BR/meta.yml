@@ -2,15 +2,15 @@
 title: Pegue o ônibus
 hero_image: images/banner.png
 description: Atores de código para caminhar ou voar até o ônibus antes que ele desapareça
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Pegar o ônibus
+meta_description: Aprenda a programar no Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça uma animação do Scratch com atores que correm para pegar um ônibus.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Introdução
   - 
     title: Crie o cenário do teu ônibus
   - 
@@ -28,7 +28,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Quiz rápido
     knowledge_quiz:
       path: quiz1
       version: 1
