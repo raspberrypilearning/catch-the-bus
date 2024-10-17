@@ -1,21 +1,21 @@
-## You will make
+## Das wirst Du machen
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+Erstelle eine Animation mit Figuren, die rennen oder fliegen, um einen Bus 🚌 zu erreichen.
 
-You will:
-+ Make sprites do different things `when green flag clicked`{:class="block3events"}
-+ Position sprites on the **Stage**
-+ Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
+Du wirst:
++ Figuren verschiedene Dinge machen lassen ` wenn die grüne Flagge geklickt wird`{:class="block3events"}
++ Figuren auf der **Bühne** positionieren
++ Eine `wiederhole`{:class="block3control"}-Schleife benutzen, um Figuren zum `gehen`{:class="block3motion"} zu bringen, und `Kostüme zu wechseln`{:class="block3looks"}
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Spielen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
-Click on the green flag to watch the animation. 
+Klicke auf die grüne Flagge, um die Animation anzusehen. 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+Welche Figuren wechseln ihre Kostüme, um einen Animationseffekt 🎥 zu erzeugen?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
@@ -25,10 +25,10 @@ Which sprites change their costumes to create an animation 🎥 effect?
 
 --- print-only ---
 
-![The completed project.](images/hippo-flies.png)
+![Das abgeschlossene Projekt.](images/hippo-flies.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. The first animators carved pictures out of wooden blocks and used them as stamps. It is much faster to use Scratch to code your animation!
+<span style="color: #0faeb0">**Animation**</span> erzeugt den Bewegungseffekt durch schnelle Bildwechsel. Die ersten Animatoren schnitzten Bilder aus Holzblöcken und verwendeten sie als Stempel. Es ist viel schneller, Scratch zum Programmieren deiner Animation zu verwenden!
 </p>
