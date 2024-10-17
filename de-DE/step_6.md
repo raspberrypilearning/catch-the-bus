@@ -1,23 +1,23 @@
-## Missing the bus
+## Den Bus verpasst
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+Was wäre, wenn die Scratch Katze nicht schnell genug rennen würde, um den Bus zu erwischen?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![Die Scratch Katze verpasst den Bus.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Lass Scratch Katze den Bus verpassen
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+Wähle die **Scratch Katze** Figur und füge einen Block `warte`{:class="block3control"} hinzu:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,37 +34,37 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**Test:** Klicke auf die grüne Flagge. Die Scratch Katze läuft zu langsam und verpasst den Bus!
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Lass Scratch Katze den Bus erwischen
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Du brauchst Verzögerungen von weniger als eine Sekunde. 0,5 ist eine halbe Sekunde, 0,25 ist eine Viertelsekunde und 0,1 ist eine Zehntelsekunde.
 
-Change the delay in the `wait`{:class="block3control"} block:
+Ändere die Verzögerung im Block `warte`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**Test:** Klicke auf die grüne Flagge und die Scratch Katze läuft schneller. Wähle die Verzögerung, die dir am besten gefällt.
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Entscheide dich, ob die Scratch Katze den Bus erwischt oder verpasst
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Wenn du möchtest, dass die Scratch Katze **den Bus verpasst**, entferne den Block `verstecke dich`{:class="block3looks"} aus deinem Code, damit die Scratch Katze auf der Bühne bleibt:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Den Block „verstecke dich“ aus dem Skript im Codebereich in das Blöckemenü ziehen, um den Block aus dem Skript zu entfernen.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Wenn du möchtest, dass die Scratch Katze **den Bus erwischt**, lasse den Bus länger warten, bevor er abfährt:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Die Figur "Stadtbus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Wenn du im letzten Schritt den Block `verstecke dich`{:class="block3looks"} entfernt hast, und möchtest, dass die **Scratch Katze** den Bus doch erwischen soll, musst du ihn wieder einfügen.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Nehme Änderungen vor, bis die Animation deinen Wünschen entspricht.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Wenn du an einem Projekt arbeitest, ist es normal, oft zurück an frühere Stellen zu gehen und Veränderungen oder Verbesserungen an deinen Code zu machen, wenn dir neue Ideen kommen. 
 </p>
 
 
