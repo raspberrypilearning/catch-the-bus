@@ -88,7 +88,7 @@ end
 
 --- task ---
 
-Κάνε κλικ στην καρτέλα **Κώδικας**. Πρόσθεσε ένα μπλοκ `επόμενη ενδυμασία`{:class="block3looks"}:
+Κάνε κλικ στην καρτέλα **Κώδικας**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![Το αντικείμενο της γάτας του Scratch.](images/scratch-cat-sprite.png)
 
