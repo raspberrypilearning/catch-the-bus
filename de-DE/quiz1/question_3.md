@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Frage 3 von 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Welches dieser Skripte verwendet eine **Schleife**, um den Hund zu animieren?
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Eine Animation eines Hundes, der von der linken Seite der Bühne nach rechts läuft.](images/dog-run.gif)
 
 --- choices ---
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Ja! Der Codeblock `wiederhole`{:class="block3control"} verwendet eine Schleife, um den Hund laufen zu lassen.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Dieser Code lässt den Hund sich bewegen, aber nur einmal. Hier gibt es keine Schleife, der Code wird also nicht wiederholt.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Dieser Code lässt den Hund laufen, verwendet aber keine Schleife. Durch die Verwendung einer Schleife kann dein Code oft kürzer werden.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Hier gibt es keine Schleife, der Hund würde sich also nur einmal bewegen. Um den Hund laufen zu lassen, müsstest du eine Schleife hinzufügen.
 
   --- /feedback ---
 
