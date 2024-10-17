@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Frage 2 von 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Wenn du **eine Figur ziehst** um sie an eine neue Position auf der Bühne ziehen, welche **Eigenschaften** werden im Figurenbereich unter der Bühne aktualisiert?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) Die **Richtung** der Figur ![Die Richtungseigenschaft.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Um die Richtung der Figur zu ändern, musst du die Eigenschaft **Richtung** anklicken und ändern.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) Die **x- und y-Koordinaten** der Figur ![Die Eigenschaften für x- und y-Koordinaten.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Wenn du eine Figur an eine neue Position ziehst, werden die Koordinaten **x** und **y** automatisch aktualisiert.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) Ob die Figur sich **zeigen oder verstecken** soll ![Die Sichtbarkeiteigenschaft.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Mit den Symbolen **Auge** und **durchgestrichenes Auge** (Sichtbarkeit) kannst du die Figur ein- oder ausblenden.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) Die **Größe** der Figur ![Die Größeneigenschaft.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Um die Größe der Figur zu ändern, musst du die Eigenschaft **Größe** anklicken und dort die Zahl ändern.
 
   --- /feedback ---
 
