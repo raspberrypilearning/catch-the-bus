@@ -98,7 +98,7 @@ Adicione um bloco `mostre`{:class="block3looks"} ao seu script `Quando a bandeir
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // try numbers up to 200
+set [color v] effect to (85) // tente números até 200
 +show
 ```
 
