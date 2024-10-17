@@ -88,7 +88,7 @@ Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and 
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block:
+Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
