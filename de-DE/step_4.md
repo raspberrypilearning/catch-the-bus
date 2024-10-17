@@ -1,54 +1,54 @@
-## The hippo flies to the bus
+## Das Nilpferd fliegt zum Bus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+Füge eine Nilpferd-Figur hinzu, die zum Bus fliegt.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![Das Nilpferd fliegt zum Bus.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-### Give the Hippo a starting position
+### Gib dem Nilpferd eine Ausgangsposition
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Füge die **Hippo1** Figur zu deinem Projekt hinzu.
 
-Change the **Size** of the **Hippo1** sprite:
+Ändere die **Größe** der **Hippo1** Figur:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Der Figurenbereich für die Hippo1 Figur, mit der Größe 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Ziehe das Nilpferd an die obere linke Seite der Bühne.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![Die Hippo1 Figur oben links auf der Bühne.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Füge Code hinzu, um das Nilpferd an seine Startposition zu bringen:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Tipp:** Die `x`{:class="block3motion"} und `y`{:class="block3motion "}-Koordinaten im Block `gehe zu x: y:`{:class="block3motion"} sind die aktuelle Position des Nilpferds. Sie müssen nicht eingeben werden.
 
 --- /task ---
 
-### Make the Hippo flap its wings and fly
+### Lass das Nilpferd mit den Flügeln schlagen und fliegen
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Füge Code hinzu, damit das Nilpferd zum **Stadtbus** fliegt:
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Test:** Klicke auf die grüne Flagge und überprüfe, ob das Nilpferd zum Bus fliegt. Du kannst die Zahl im Block `wiederhole`{:class="block3control"} ändern, damit das Nilpferd genau an der richtigen Stelle anhält.
 
 --- /task ---
 
-### Show and hide the bus
+### Den Bus ein- und ausblenden
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Füge die Blöcke `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} hinzu:
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Test:** Klicke auf die grüne Flagge. Das Nilpferd wird fliegen und in den Bus einsteigen.
 
 --- /task ---
