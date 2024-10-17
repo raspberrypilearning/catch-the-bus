@@ -88,7 +88,7 @@ Klik op het tabblad **Uiterlijken**. De **Scratch kat** sprite heeft twee uiterl
 
 --- task ---
 
-Klik op het tabblad **Code**. Voeg een `volgend uiterlijk`{:class="block3looks"} blok toe:
+Klik op het tabblad **Code**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![De Scratch kat-sprite.](images/scratch-cat-sprite.png)
 
