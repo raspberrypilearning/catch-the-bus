@@ -1,17 +1,17 @@
-## Quick quiz
+## Kurzes Quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantworte die drei Fragen. Hinweise helfen dir beim Finden der richtigen Antwort.
 
-When you have answered each question, click on **Check my answer**.
+Nach dem Beantworten der Fragen wähle **Meine Antwort prüfen**.
 
-Have fun!
+Viel Spaß!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Frage 1 von 3
 ---
 
-In your project, the bus glides away using this code:
+In deinem Projekt fährt der Bus mit diesem Code davon:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Wann fährt der Bus los?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Sofort nach dem Klicken auf die grüne Flagge
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Die Codeblöcke werden der Reihe nach ausgeführt. Schau dir die Blöcke vor dem Block `gleite`{:class="block3motion"} an.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Vier Sekunden nachdem du auf die grüne Flagge geklickt hast
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Ja. Nach dem Klick auf die grüne Fahne beträgt die Wartezeit vier Sekunden, bevor der Bus losfährt.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Wenn du auf den Bus klickst
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Der Bus hat keinen Code, der ausgeführt wird, `wenn diese Figur angeklickt wird`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) Zwei Sekunden nachdem du auf die grüne Flagge geklickt hast
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Der Bus braucht zwei Sekunden, um loszugleiten, aber so lange wartet er nicht, bevor er losfährt.
 
   --- /feedback ---
 
