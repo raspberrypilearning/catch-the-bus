@@ -88,7 +88,7 @@ end
 
 --- task ---
 
-Натисни на вкладку **Код**. Натисни на блок `наступний образ`{:class="block3looks"}:
+Натисни на вкладку **Код**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![Спрайт Кота Scratch.](images/scratch-cat-sprite.png)
 
