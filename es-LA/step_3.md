@@ -88,7 +88,7 @@ Haz clic en la pestaña **Disfraces**. El objeto **Gato de Scratch** tiene dos d
 
 --- task ---
 
-Haz clic en la pestaña **Código**. Agrega un bloque `siguiente disfraz`{:class="block3looks"}:
+Haz clic en la pestaña **Código**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![El objeto gato de Scratch.](images/scratch-cat-sprite.png)
 
