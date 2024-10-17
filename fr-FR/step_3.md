@@ -88,7 +88,7 @@ Clique sur l'onglet **Costumes**. Le sprite **chat Scratch** a deux costumes, et
 
 --- task ---
 
-Clique sur l'onglet **Code**. Ajoute un bloc `costume suivant`{:class="block3looks"} :
+Clique sur l'onglet **Code**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
