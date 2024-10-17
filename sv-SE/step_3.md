@@ -88,7 +88,7 @@ Klicka på fliken **klädslar**. **Scratchkatt**sprajten har två klädslar och 
 
 --- task ---
 
-Klicka på **Kod**fliken. Lägg till ett `nästa klädsel`{:class="block3looks"}block:
+Klicka på **Kod**fliken. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
 ![Scratchkattsprajten.](images/scratch-cat-sprite.png)
 
