@@ -88,7 +88,7 @@ Klicke auf die Registerkarte **Kostüme**. Die **Scratch Katze** Figur hat zwei 
 
 --- task ---
 
-Klicke auf das **Skripte** Register. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Klicke auf das **Skripte** Register. Füge den Block `Wechsle zum nächstes Kostüm`{:class="block3looks"} in die `wiederhole fortlaufend`{:class="block3control"} Schleife ein:
 
 ![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
