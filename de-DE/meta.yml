@@ -1,0 +1,32 @@
+---
+title: Erreiche den Bus
+hero_image: images/banner.png
+description: Programmiere Figuren so, dass sie zum Bus laufen oder fliegen, bevor er losfährt
+meta_title: Scratch Coding Projekte für Kinder und Jugendliche | Erreiche den Bus
+meta_description: Lerne Coding in Scratch mit den Coding Projekten der Raspberry Pi Foundation für Kinder und Jugendliche. Erstelle mit Scratch eine Animation mit Figuren, die sich beeilen, einen Bus zu erreichen.
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Das wirst du machen
+  - title: Erstelle deine Busszene
+  - title: Die Scratch Katze erreicht den Bus
+    completion:
+      - engaged
+  - title: Das Nilpferd fliegt zum Bus
+  - title: Der Bus fährt ab
+  - title: Den Bus verpasst
+  - title: Ändere das Ziel
+    completion:
+      - internal
+  - title: Kurzes Quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbessere dein Projekt
+  - title: Wie geht es weiter?
