@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+Byddi di'n ychwanegu corlun hipo sy'n hedfan i'r bws.
 </div>
 <div>
 
@@ -17,7 +17,7 @@ Add a hippo sprite that flies to the bus.
 
 Add the **Hippo1** sprite to your project.
 
-Change the **Size** of the **Hippo1** sprite:
+Ychwanega'r corlun **City Bus** at dy brosiect.
 
 ![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
 
@@ -40,7 +40,7 @@ when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+Ychwanega god i roi'r hipo yn ei safle dechreuol:
 
 --- /task ---
 
@@ -48,7 +48,7 @@ go to x: [-200] y: [150] // top left-hand side
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Bydd yr hipo yn hedfan tuag at y bws, gan fflapio ei adenydd.
 
 ```blocks3
 when flag clicked
@@ -72,7 +72,7 @@ next costume
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+**Prawf:** Clicia ar y faner werdd a gwirio bod yr hipo yn hedfan i'r bws. Galli di newid y rhif yn y bloc `ailadrodd`{:class="block3control"} i gael yr hipo i stopio yn yr union le cywir.
 
 ```blocks3
 when flag clicked
