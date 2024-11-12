@@ -88,7 +88,7 @@ end
 
 --- task ---
 
-**コード**タブをクリックします。 Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+**コード**タブをクリックします。 `次のコスチューム`{:class="block3looks"}ブロックを追加します。
 
 ![スクラッチキャットのスプライト。](images/scratch-cat-sprite.png)
 
