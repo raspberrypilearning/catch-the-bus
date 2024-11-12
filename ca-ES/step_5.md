@@ -1,31 +1,31 @@
-## The bus leaves
+## L'autobús surt
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Afegeix més blocs per fer que l'autobús s'apagi.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![L'escenari ens mostra que l'autobús s'ha mogut cap a la dreta.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-### Animate the Bus
+### Anima l'autobús
 
 --- task ---
 
-Select the **City Bus** sprite.
+Selecciona el personatge **City Bus** .
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Afegeix codi per fer que l'autobús marxi cap a la dreta quatre segons després de fer clic a la bandera verda.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Arrossega l'autobús cap al costat dret de l'escenari. Aquesta és la posició `x`{:class="block3motion"} i `y`{:class="block3motion"} capa on `llisca`{:class="block3motion"} l'autobús.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Consell:** Si mous l'autobús massa cap a la dreta, tornarà enrere. Torna-ho a provar, però no ho moguis tan lluny.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Afegeix un `llisca`{:class="block3motion"} `2` `segons a x: y:`{: class="block3motion"} sota el bloc `espera`{:class="block3control"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Les coordenades `x`{:class="block3motion"} i `y`{:class="block3motion"} al vostre projecte poden ser una mica diferents i serà la posició exacta a la qual heu arrossegat l'autobús.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Prova:** Feu clic a la bandera verda. El gat Scratch i l'hipopòtam es mouran cap a l'autobús i l'autobús marxarà cap a la dreta al cap de quatre segons.
 
 --- /task ---
 
-### Hide and show the Bus
+### Amaga i mostra l'autobús
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Afegeix un bloc `amaga't`{:class="block3looks"} perquè l'autobús sembli sortir de l'escenari:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Prova:** Feu clic a la bandera verda. L'autobús es mourà i després s'amagarà. Recorda com assegurar-te que un personatge reapareix quan feu clic a la bandera verda?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Afegeix un bloc `mostra't`{:class="block3looks"} a la teva llista d'accions `quan la bandera verda es cliqui`{:class="block3events"} per fer que el bus apareixen quan executeu el vostre projecte:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Prova:** Fes clic a la bandera verda i mira la teva animació. L'autobús hauria d'aparèixer al centre de l'escenari i després marxar cap a la dreta i desaparèixer.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Tothom està a l'autobús quan surt? Pots canviar la quantitat de temps que l'autobús espera, si és necessari.
 
 --- /task ---
