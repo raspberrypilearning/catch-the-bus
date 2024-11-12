@@ -1,0 +1,29 @@
+prova números fins al 200
+
+part inferior dreta
+
+prova diferents números
+
+5 és una bona velocitat de caminar
+
+part superior esquerra
+
+canvi amb el punter del ratolí
+
+canvia de l'1 al 4
+
+costat dret de l'escenari
+
+prova 0,1, 0,5, 0,05
+
+canvia de 4 a 6
+
+arrossegueu el personatge per triar x i y
+
+part del mig de l'escenari
+
+apunta cap avall
+
+petita espera
+
+fins a 200
