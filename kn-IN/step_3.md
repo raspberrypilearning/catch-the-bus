@@ -112,7 +112,7 @@ end
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಬಸ್ ಬಳಿ ತಲುಪಿದಾಗ ಮರೆಮಾಡಲು ` hide `{: class = "block3looks"} ಗೆ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ:
 
 ![ಸ್ಕ್ರಾಚ್ ಕ್ಯಾಟ್ ಸ್ಪ್ರೈಟ್.](images/scratch-cat-sprite.png)
 
