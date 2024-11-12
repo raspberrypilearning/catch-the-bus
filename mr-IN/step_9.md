@@ -1,12 +1,12 @@
-## Upgrade your project
+## तुमचा प्रकल्प श्रेणीसुधारित करा
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+आता, तुम्ही तुमच्या अ‍ॅनिमेशनमध्ये तुमच्या आवडीचे स्प्राइट जोडू शकता. तुमचा स्प्राइट ``{:class="block3motion"} वर जाण्यासाठी तुम्हाला कोड जोडणे आवश्यक आहे, `पॉइंट`{:class="block3motion"} योग्य दिशेने, आणि नंतर `पुनरावृत्ती`{:class ="block3control"} `हलवा`{:class="block3motion"} आणि `पुढील पोशाख`{:class="block3looks"} बसपर्यंत पोहोचण्यासाठी ब्लॉक.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**टीप:** जेव्हा तुम्ही **Sprite**निवडा वर क्लिक करा, तेव्हा तुम्ही तुमचा माउस कर्सर एखाद्या स्प्राईटवर त्याचे पोशाख पाहण्यासाठी धरून ठेवू शकता किंवा काही मोबाईल डिव्हाइसेसवर, तुम्ही स्पराईटचे पोशाख पाहण्यासाठी त्यावर टॅप करून धरून ठेवू शकता (विंडो असल्यास जेव्हा तुम्ही स्प्राइटवर टॅप करून धरून ठेवता तेव्हा पॉप अप होते, विंडो बंद करण्यासाठी स्क्रीनच्या बाजूला टॅप करा आणि पोशाख पहा). स्प्राइट्सचे पोशाख पाहिल्यास हलणारा प्रभाव साठी चांगले काम करणारे स्प्राइट शोधण्यात मदत होऊ शकते.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+!["मेकर फेस्टिव्हल" मजकुरासह बसच्या दिशेने वाटचाल करणारे इतर स्प्राइट.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+तुम्ही या प्रकल्प मध्ये शिकलेल्या कोणत्याही ब्लॉक्सचा वापर करू शकता, तसेच तुम्हाला आधीपासून माहीत असलेल्या ब्लॉक्सचा वापर करू शकता:
 
 ```blocks3
 when flag clicked
@@ -41,17 +41,19 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+शीर्षक: प्रकल्प पूर्ण झाला
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+तुम्ही</a>पूर्ण झालेला प्रकल्प येथे
+
+ पाहू शकता.</p> 
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+तुम्‍हाला आवडणारे कोणतेही बदल करण्‍यासाठी तुम्ही प्रकल्पचे 'रिमिक्स' देखील करू शकता. तुम्ही बस किंवा इतर स्प्राइट्समध्ये ध्वनी प्रभाव जोडू शकता किंवा बसचा रंग प्रभाव सेट करू शकता. स्प्राइट्सपैकी एक बस चुकवू शकतो आणि लपवू शकत नाही.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+हे विलक्षण अपग्रेड पाठवल्याबद्दल अंकात्मक निर्माता Lyla चे आभार!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![चमकले रंगांसह बस असलेला प्रकल्प.](images/Lyla-bus.gif)
 
 --- save ---
