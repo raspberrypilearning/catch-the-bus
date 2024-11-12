@@ -3,39 +3,39 @@
 ವಿಷಯಸೂಚಿ: 3 ರಲ್ಲಿ ಪ್ರಶ್ನೆ 2
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+ನೀವು **ಸ್ಪ್ರೈಟ್** ಸ್ಟೇಜ್‌ನಲ್ಲಿ ಹೊಸ ಸ್ಥಾನಕ್ಕೆ ಎಳೆದಾಗ, ಯಾವ **ಗುಣಲಕ್ಷಣಗಳು** ಸ್ಟೇಜ್‌ನ ಕೆಳಗಿನ ಸ್ಪ್ರೈಟ್ ಪೇನ್‌ನಲ್ಲಿ ನವೀಕರಿಸಲಾಗುತ್ತದೆ?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) ಸ್ಪ್ರೈಟ್‌ನ **ದಿಕ್ಕು** ![ದಿಕ್ಕಿನ ಆಸ್ತಿ.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+ಸ್ಪ್ರೈಟ್‌ನ ದಿಕ್ಕನ್ನು ಬದಲಾಯಿಸಲು, ನೀವು **ಡೈರೆಕ್ಷನ್** ಆಸ್ತಿಗೆ ಹೋಗಿ ಅದನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗುತ್ತದೆ.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) **x ಮತ್ತು y ಸ್ಪ್ರೈಟ್‌ನ** ನಿರ್ದೇಶಾಂಕಗಳು ![x ಮತ್ತು y ನಿರ್ದೇಶಾಂಕ ಗುಣಲಕ್ಷಣಗಳು.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+ನೀವು ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಹೊಸ ಸ್ಥಾನಕ್ಕೆ ಎಳೆದಾಗ, **x** ಮತ್ತು **y** ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಲಾಗುತ್ತದೆ.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) ಸ್ಪ್ರೈಟ್ **ತೋರಿಸುತ್ತದೆ ಅಥವಾ**ಮರೆಮಾಡುತ್ತದೆ ![ಪ್ರದರ್ಶನ ಆಸ್ತಿ.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+**ಐ** ಮತ್ತು **ಕ್ರಾಸ್ಡ್-ಔಟ್ ಐ** ಐಕಾನ್‌ಗಳನ್ನು ಬಳಸುವುದರಿಂದ ಸ್ಪ್ರೈಟ್ ಪ್ರದರ್ಶನ ಅಥವಾ ಮರೆಮಾಡುತ್ತದೆ.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) ಸ್ಪ್ರೈಟ್ನ **ಗಾತ್ರ** ![ಗಾತ್ರದ ಆಸ್ತಿ.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+ಸ್ಪ್ರೈಟ್ನ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಲು, ನೀವು **ಗಾತ್ರ** ಆಸ್ತಿಗೆ ಹೋಗಬೇಕು ಮತ್ತು ಅಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಬೇಕು.
 
   --- /feedback ---
 
