@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Scratch Cat को बस न पकड़ने दो
 
 --- task ---
 
@@ -38,11 +38,11 @@ hide
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Scratch Cat को बस पकड़ने दो
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+आप एक सेकंड से भी कम की देरी चाहते हैं। 0.5 आधा सेकेंड है, 0.25 सेकेंड का एक चौथाई है, और 0.1 सेकेंड का दसवां हिस्सा है।
 
 `wait`{:class="block3control"} ब्लॉक में विलंब को बदलें:
 
@@ -56,15 +56,15 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### चुनें कि क्या Scratch Cat बस पकड़ती है या बस छूट जाती है
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+अगर आप चाहते हैं की Scratch Cat **बस ना पकड़ पाए**, तो `hide`{:class= "block3looks"} ब्लॉक को अपने कोड से हटाए ताकि Stage पर Scratch Cat बनी रहे:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+!['hide' ब्लॉक को Code एरिया में स्क्रिप्ट से Blocks मेनू तक ड्रैग कर रहें हैं जिससे स्क्रिप्ट से ब्लॉक हट जाये।](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Scratch Cat स्प्राइट।](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+यदि आप चाहते हैं कि Scratch Cat **बस को पकड़ ले**, तो बस के निकलने से पहले अधिक प्रतीक्षा करें:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+आपको `hide`{:class="block3looks"} ब्लॉक को **Scratch Cat** स्प्राइट के कोड में वापस रखना होगा, यदि आपने इसे हटा दिया है और Scratch Cat को सफलतापूर्वक बस पकड़ाना चाहते हैं तो ।
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+तब तक बदलाव करें जब तक कि आपको ऐनिमेशन उस तरह से काम करने के लिए न मिल जाए जैसा आप चाहते हैं।
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+किसी प्रोजेक्ट पर काम करते समय, आप अक्सर वापस जाते हैं और नए विचार प्राप्त होने पर अपना कोड बदलते या सुधारते हैं। 
 </p>
 
 
