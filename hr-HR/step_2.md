@@ -11,7 +11,7 @@ Choose a backdrop and add a bus sprite.
 </div>
 </div>
 
-### Open the starter project
+### Otvori početni projekt
 
 --- task ---
 
