@@ -1,17 +1,17 @@
-## Quick quiz
+## Imibuzo ekhawulezayo
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Phendula imibuzo emithathu. Kukho iingcebiso zokukukhokelela kwimpendulo echanekileyo.
 
-When you have answered each question, click on **Check my answer**.
+Xa uphendule umbuzo ngamnye, cofa ku **Jonga impendulo yam**.
 
-Have fun!
+Yonwaba!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Umbuzo 1 wesi-3
 ---
 
-In your project, the bus glides away using this code:
+Kwiprojekthi yakho, ibhasi iyatyibilika imke isebenzisa le khowudi:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Ihamba nini ibhasi?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Ngoko nangoko xa ucofa iflegi eluhlaza
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Iibhloko zekhowudi zibaleka ngolandelelwano, jonga kwiibhloko phambi kwe- `glide`{:class="block3motion"} block.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Imizuzwana emine emva kokuba ucofe iflegi eluhlaza
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Ewe. Emva kokuba ucofe iflegi eluhlaza, kukho ukulinda kwemizuzwana emine ngaphambi kokuba ibhasi ityibilike.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Xa ucofa ebhasini
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Ibhasi ayinayo nayiphi na ikhowudi eqhuba `xa ucofa isprite `{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- (x) Imizuzwana emibini emva kokuba ucofe iflegi eluhlaza
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Ibhasi ithatha imizuzwana emibini ukutyibilika, kodwa ayiloxesha elingakanani elindayo ngaphambi kokuba ihambe.
 
   --- /feedback ---
 
