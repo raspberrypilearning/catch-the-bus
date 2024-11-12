@@ -14,8 +14,7 @@ legend: 質問1/3
 次のコードをプロジェクトに追加するとバスが動きます。
 
 ```blocks3
-when flag clicked 
-wait [4] seconds
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
