@@ -1,6 +1,6 @@
-## You will make
+## Cyflwyniad
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+Yn y prosiect hwn, byddi di'n creu animeiddiad gyda chorluniau sy'n rhedeg neu'n hedfan i ddal bws.
 
 Byddi di'n:
 + Gwneud i gorluniau wneud pethau gwahanol `pan fydd y faner werdd wedi'i chlicio`{: class = "block3events"}
@@ -9,7 +9,7 @@ Byddi di'n:
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### Rho gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
