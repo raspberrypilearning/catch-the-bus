@@ -3,7 +3,7 @@
 legend: Cwestiwn 3 o 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Yn dy brosiect, fe wnes di wneud i'r hipo hedfan a'r Gath Scratch gerdded i'r bws.
 
 ![Animeiddiad o gi yn rhedeg o chwith y Llwyfan i'r dde.](images/dog-run.gif)
 
