@@ -88,7 +88,7 @@ Clique no ícone **Fantasias**. O **Gato Scratch** tem duas fantasias e, juntos,
 
 --- task ---
 
-Clique na guia **Código**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Clique na guia **Código**. Adicione um bloco `próxima fantasia`{:class="block3looks"}:
 
 ![O ator do Gato Scratch.](images/scratch-cat-sprite.png)
 
