@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legenda: Otázka 2 ze 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Když **přetáhneš skřítka** do nové pozice na okně, které **vlastnosti** se aktualizují v podokně Skřítek pod daným oknem?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) **Směr** pohybu skřítka ![Směr.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Pro změnu pohybu skřítka je potřeba jít do vlastnosti **Směr** a změnit ji.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- () **Souřednice x a y** skřítka ![Souřadnice x a y.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Když přetáhneš skřítka na novou pozici, souřadnice **x** a **y** se automaticky aktualizují.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- () Zda bude skřítek **viditelný nebo skrytý** ![Zobrazení.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Použitím ikon **oka** a **přeškrtnutého oka** se skřítek zobrazí nebo skryje.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) **Velikost** skřítka ![Velikost.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Pro změnu pohybu skřítka je potřeba jít do vlastnosti **Velikost** a změnit její hodnotu.
 
   --- /feedback ---
 
