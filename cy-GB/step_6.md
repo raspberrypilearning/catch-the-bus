@@ -64,7 +64,7 @@ If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block
 
 ![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Llusgo'r bloc 'cuddio' o'r sgript yn ardal y Cod i'r ddewislen Blocisu i dynnu'r bloc o'r sgript.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -86,9 +86,8 @@ If you want the Scratch Cat to **catch the bus**, make the bus wait longer befor
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-+wait [4] seconds // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
++when [timer v] > [6] // newid o 4 i 6
+glide [2] secs to x: [320] y: [-100] // ochr dde'r Llwyfan
 hide
 ```
 
