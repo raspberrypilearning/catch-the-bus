@@ -28,8 +28,7 @@ Voeg code toe om de bus vier seconden nadat op de groene vlag is geklikt naar re
 ![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] // verander 10 naar 4
 ```
 
 --- /task ---
@@ -53,9 +52,8 @@ De `x`{:class="block3motion"} en `y`{:class="block3motion"} in jouw project kunn
 ![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
-+glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+when [timer v] > [4] 
++glide [2] secs to x: [320] y: [-100] // rechterkant van het speelveld
 ```
 
 --- /task ---
@@ -75,8 +73,7 @@ Voeg een `verdwijn`{:class="block3looks"} blok toe om de bus van het speelveld t
 ![De City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -98,7 +95,7 @@ Voeg een `verschijn`{:class="block3looks"}-blok toe aan je `wanneer op de groen 
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // try numbers up to 200
+set [color v] effect to (50) // probeer getallen tot 200
 +show
 ```
 
