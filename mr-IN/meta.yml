@@ -2,15 +2,15 @@
 title: बस पकडा
 hero_image: images/banner.png
 description: बस चालवण्याआधी चालण्यासाठी किंवा उड्डाण करण्यासाठी कोड स्प्राइट्स करतो
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+meta_title: मुलांसाठी आणि किशोरांसाठी स्क्रॅच कोडिंग प्रकल्प | बस पकडा
+meta_description: रास्पबेरी पाई फाउंडेशनच्या मुलांसाठी आणि किशोरवयीन मुलांसाठी कोडिंग प्रकल्पांसह स्क्रॅचमध्ये कोड करायला शिका. बस पकडण्यासाठी धावणाऱ्या स्प्राईट्ससह स्क्रॅच अॅनिमेशन बनवा.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: तुम्ही बनवाल
   - 
     title: आपलं बस दृश्य तयार करा
   - 
@@ -18,17 +18,17 @@ steps:
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: पाणघोडा बसकडे उडतो
   - 
-    title: The bus leaves
+    title: बस निघते
   - 
-    title: Missing the bus
+    title: बस चुकत आहे
   - 
-    title: Change the destination
+    title: गंतव्य स्थान बदला
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: जलद प्रश्नमंजुषा
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: तुमचा प्रकल्प अपग्रेड/सुधारित करा
   - 
-    title: What next?
+    title: पुढे काय?
