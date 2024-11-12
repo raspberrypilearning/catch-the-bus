@@ -1,17 +1,17 @@
-## Quick quiz
+## जलद प्रश्नमंजुषा
 
-Answer the three questions. There are hints to guide you to the correct answer.
+तीन प्रश्नांची उत्तरे द्या. तुम्हाला योग्य उत्तरासाठी मार्गदर्शन करण्यासाठी सूचना आहेत.
 
-When you have answered each question, click on **Check my answer**.
+तुम्ही प्रत्येक प्रश्नाचे उत्तर दिल्यावर, **माझे उत्तर तपासा**वर क्लिक करा.
 
-Have fun!
+मजा करा!
 
 --- question ---
 ---
-legend: Question 1 of 3
+दंतकथा: प्रश्न 1 पैकी 3
 ---
 
-In your project, the bus glides away using this code:
+तुमच्या प्रकल्पामध्ये, हा कोड वापरून बस सरकते:
 
 ```blocks3
 when flag clicked 
@@ -19,42 +19,44 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+बस कधी सरकते?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) तुम्ही हिरव्या ध्वजावर क्लिक करताच लगेच
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+कोड ब्लॉक्स क्रमाने चालतात, `ग्लाइड`{:class="block3motion"} ब्लॉकच्या आधीचे ब्लॉक्स पहा.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) तुम्ही हिरव्या ध्वजावर क्लिक केल्यानंतर चार सेकंद
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+होय. तुम्ही हिरव्या ध्वजावर क्लिक केल्यानंतर, बस निघून जाण्यापूर्वी चार-सेकंद प्रतीक्षा करावी लागेल.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () जेव्हा तुम्ही बसवर क्लिक करता
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+जेव्हा या स्प्राईटने</code>{:class="block3events"} वर क्लिक केले तेव्हा बसमध्ये वर चालणारा कोणताही कोड नाही.</p>
 
-  --- /feedback ---
+<p spaces-before="2">--- /feedback ---</p>
 
-- ( ) Two seconds after you click on the green flag
+<ul>
+<li><p spaces-before="0">( ) तुम्ही हिरव्या ध्वजावर क्लिक केल्यानंतर दोन सेकंद</p>
 
-  --- feedback ---
+<p spaces-before="2">--- feedback ---</p></li>
+</ul>
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+<p spaces-before="0">बसला सरकायला दोन सेकंद लागतात, पण ती पुढे जाण्यासाठी किती वेळ थांबते हे नाही.</p>
 
-  --- /feedback ---
+<p spaces-before="2">--- /feedback ---</p>
 
---- /choices ---
+<p spaces-before="0">--- /choices ---</p>
 
---- /question ---
+<p spaces-before="0">--- /question ---</p>
