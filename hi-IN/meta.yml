@@ -2,15 +2,15 @@
 title: बस को पकड़ो
 hero_image: images/banner.png
 description: बस चलने से पहले चलने या उड़ान भरने के लिए स्प्राइट कोड करें
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+meta_title: बच्चों और किशोरों के लिए स्क्रैच कोडिंग प्रोजेक्ट | बस को पकड़ो
+meta_description: बच्चों और किशोरों के लिए रास्पबेरी पाई फाउंडेशन की कोडिंग प्रोजेक्ट से शुरुआत से कोड करना सीखें। बस चलने से पहले चलने या उड़ान भरने के लिए स्प्राइट कोड करें
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: आप बनाएंगे
   - 
     title: अपना बस दृश्य बनाएं
   - 
@@ -28,7 +28,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: प्रश्नोत्तरी
     knowledge_quiz:
       path: quiz1
       version: 1
