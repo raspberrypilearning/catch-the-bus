@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Gelwir grŵp o flociau cysylltiedig yn Scratch yn **script**. Byddi di'n ychwanegu sgript newydd i wneud i'r bws yrru i ffwrdd.
 </div>
 <div>
 
@@ -28,8 +28,7 @@ Add code to make the bus drive off to the right four seconds after the green fla
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] // newid 10 i 4
 ```
 
 --- /task ---
@@ -48,14 +47,13 @@ Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block
 
 Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Ychwanega floc `llithro`{:class="block3motion"} am `2` `eiliad i x: y:`{:class="block3motion"} o dan y bloc `pan amserydd`{:class="block3events"}.
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
-+glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+when [timer v] > [4] 
++glide [2] secs to x: [320] y: [-100] // ochr dde'r Llwyfan
 ```
 
 --- /task ---
@@ -75,8 +73,7 @@ Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the S
 ![The City Bus sprite.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -98,7 +95,7 @@ Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:clas
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // try numbers up to 200
+set [color v] effect to (50) // rho gynnig ar rifau hyd at 200
 +show
 ```
 
