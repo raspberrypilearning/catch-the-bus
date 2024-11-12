@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+बस को चलाने के लिए और ब्लॉक जोड़ें।
 </div>
 <div>
 
@@ -11,21 +11,21 @@ Add more blocks to make the bus drive off.
 </div>
 </div>
 
-### Animate the Bus
+### बस को एनिमेट करें
 
 --- task ---
 
-Select the **City Bus** sprite.
+**City Bus** स्प्राइट चुनें।
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+हरे झंडे पर क्लिक करने के चार सेकंड बाद बस को दाहिनी ओर चलाने के लिए कोड जोड़ें।
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+अपनी बस को Stage के दाईं ओर खींचें। यह `x`{:class="block3motion"} और `y`{:class="block3motion"} निर्देशांक है जहां तक बस `ग्लाइड`{:class="block3motion"} करेगी।
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**टिप:** यदि आप बस को बहुत दूर दाईं ओर ले जाते हैं, तो वह वापस उछल जाएगी। फिर से कोशिश करें, लेकिन इसे इतनी दूर न ले जाएं।
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+`glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} ब्लॉक को `wait`{:class="block3events"} ब्लॉक के नीचे जोड़ें।
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+आपके प्रोजेक्ट में `x`{:class="block3motion"} और `y`{:class="block3motion"} निर्देशांक थोड़े अलग हो सकते हैं और ठीक वही स्थिति होगी जहां आपने बस को खींचा था।
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**परिक्षण:** हरे झंडे पर क्लिक करें। Scratch Cat और हिप्पो बस में चले जाएंगे, और चार सेकंड के बाद बस दाईं ओर चली जाएगी।
 
 --- /task ---
 
-### Hide and show the Bus
+### बस को छुपाएं और दिखाएं
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+एक `hide`{:class="block3looks"} ब्लॉक जोड़ें ताकि ऐसा लगे कि बस स्टेज से बाहर जा रही है:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**परिक्षण:** हरे झंडे पर क्लिक करें। चलने के बाद बस अब छिप जाएगी। क्या आपको याद है कि जब आप हरे झंडे पर क्लिक करते हैं तो यह कैसे सुनिश्चित किया जाता है कि स्प्राइट फिर से दिखाई दे?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+एक `show`{:class="block3looks"} ब्लॉक आपके `when green flag clicked`{:class="block3looks"} स्क्रिप्ट में जोड़ें ताकि जब आप अपना प्रोजेक्ट चलाएं तो बस दिखाई दे:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![City Bus स्प्राइट।](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**परीक्षण:** हरे झंडे पर क्लिक करें और अपना एनीमेशन देखें। बस को Stage के केंद्र में दिखना चाहिए और फिर दाईं ओर चलना चाहिए और फिर गायब हो जाना चाहिए।
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+क्या बस के छूटने पर सभी लोग सवार होते हैं? जरूरत पड़ने पर आप बस के इंतजार में लगने वाले समय को बदल सकते हैं।
 
 --- /task ---
