@@ -3,39 +3,39 @@
 legend: तीन में से दूसरा प्रश्न
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+जब आप **स्प्राइट** को स्टेज पर नई स्थिति में खींचते हैं, तो स्टेज के नीचे स्प्राइट पेन में कौन से **गुण** अपडेट होंगे?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) स्प्राइट की **दिशा** ![दिशा संपत्ति।](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+स्प्राइट की दिशा बदलने के लिए, आपको **दिशा** गुण पर जाकर इसे बदलना होगा।
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) **x और y स्प्राइट के** का समन्वय करते हैं ![x और y निर्देशांक गुण।](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+जब आप स्प्राइट को नई स्थिति में खींचते हैं, तो **x** और **y** निर्देशांक स्वचालित रूप से अपडेट हो जाते हैं।
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) क्या स्प्राइट **दिखाएगा या छिपाएगा** ![शो गुण।](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+**आई** और **क्रॉस-आउट आई** आइकन का उपयोग करने से स्प्राइट दिखेगा या छिप जाएगा।
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) स्प्राइट का **आकार** ![आकार गुण।](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+स्प्राइट का आकार बदलने के लिए, आपको **आकार** गुण पर जाना होगा और वहां संख्या को बदलना होगा।
 
   --- /feedback ---
 
