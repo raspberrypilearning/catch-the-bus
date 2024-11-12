@@ -88,7 +88,7 @@ Kliknij zakładkę **Kostiumy**. Duszek **kota Scratch** ma dwa kostiumy, które
 
 --- task ---
 
-Kliknij zakładkę **Skrypt**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Kliknij zakładkę **Skrypt**. Dodaj blok `następny kostium`{:class="block3looks"}:
 
 ![Duszek kota Scratch.](images/scratch-cat-sprite.png)
 
