@@ -1,53 +1,53 @@
-## Change the destination
+## Canvia la destinació
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+Les lletres de l'autobús diu "Scratch Tours", però podeu canviar la destinació per una de la vostra elecció. On vols que vagi el teu autobús?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+![L'autobús amb el text "Festival de creadors".](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Edit the City Bus sprite
+### Edita el personatge del 'City Bus'
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+Selecciona el personatge **City Bus** i feu clic a la pestanya **Vestits** :
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![El vestit a l'editor gràfic.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+Fes clic al text blanc "Scratch Tours" per seleccionar-lo i, a continuació, fes clic a **Esborrar** per eliminar-lo.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**Consell:** Pots utilitzar la icona **Esborrar** a l'editor gràfic o la tecla <kbd>Suprimir</kbd> del teclat.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
-
---- /task ---
-
---- task ---
-
-Select the **Text** (writing) tool.
-
-Click on the bus where you want your text to start, and type the destination of your choice.
-
-To change the font (writing style), you can click on the **Font** drop-down menu:
-
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![El text de l'autobús i la icona Suprimeix ressaltats.](images/bus-delete-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+Selecciona l'eina **Text** (escriptura).
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+Fes clic a l'autobús on voleu que comenci el text i escriviu la destinació que trieu.
+
+Per canviar l'estil d'escriptura, pots fer clic al menú desplegable **Font** :
+
+![El menú "Font de lletra" seleccionat a la part superior central de l'editor de gràfic.](images/bus-text-font.png)
+
+--- /task ---
+
+--- task ---
+
+Fes clic a l'eina **Seleccioneu** (fletxa) i arrossega el text per col·locar-lo a l'autobús.
+
+![El text de l'autobús i l'eina  de selecció ressaltats.](images/bus-destination-centered.png)
 
 --- /task ---
 
