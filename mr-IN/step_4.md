@@ -1,4 +1,4 @@
-## The hippo flies to the bus
+## पाणघोडा बसकडे उडतो
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -6,7 +6,7 @@ Add a hippo sprite that flies to the bus.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![बसकडे उडणारे पाणघोडे.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
