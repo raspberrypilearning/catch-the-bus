@@ -1,12 +1,12 @@
-## Upgrade your project
+## Actualitza el teu projecte
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Ara, pots afegir un personatge de la vostra elecció a la vostra animació. Et caldrà afegir codi al teu personatge a `ves a`{:class="block3motion"} a starting position, `punt`{:class="block3motion"} en la direcció correcte, y llavors `repeteix`{:class="block3control"} `mou-te`{:class="block3motion"} i `següent vestit`{:class="block3looks"} per arribar al autobús.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Consell:** Quan facis clic a **Trieu un Personatge**, pots mantenir el cursor del ratolí sobre un personatge per veure'n els vestits, o en alguns dispositius mòbils, podeu tocar i mantenir premut un personatge per veure els seus vestits (si apareix una finestra quan toqueu i manteniu premut un personatge, toqueu al costat de la pantalla per tancar la finestra i veure els vestits). Mirar els vestits dels personatges et pot ajudar a trobar un personatge que funcioni bé per a l'animació.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Altres personatges es mouen cap a un autobús amb el rotul "Maker Festival".](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Pots utilitzar qualsevol dels blocs que heu après en aquest projecte, així com els que ja coneixeu:
 
 ```blocks3
 when flag clicked
@@ -41,17 +41,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+títol: Projecte finalitzat
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Pots veure el [projecte completat  aquí](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+També pots "reinventar" el projecte per fer els canvis que vulgueu. Pots afegir efectes de so a l'autobús o altres personatges, o definir l'efecte de color de l'autobús. Un dels personatges podria perdre l'autobús i no amagar-se.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Gràcies al constructora digital Lyla per enviar aquesta fantàstica actualització!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Un projecte amb un autobús amb colors intermitents.](images/Lyla-bus.gif)
 
 --- save ---
