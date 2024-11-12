@@ -86,9 +86,8 @@ Jeśli chcesz, aby kot Scratch **złapał autobus** ustaw dłuższy czas oczekiw
 ![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-+wait [4] seconds // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
++when [timer v] > [6] // zmiana z 4 na 6
+glide [2] secs to x: [320] y: [-100] // prawa strona sceny
 hide
 ```
 
