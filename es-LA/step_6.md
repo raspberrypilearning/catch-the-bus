@@ -86,9 +86,8 @@ Si quieres que **tome el autobús**, haz que el autobús espere más antes de pa
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-+wait [4] seconds // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
++when [timer v] > [6] // cambia de 4 a 6
+glide [2] secs to x: [320] y: [-100] // lado derecho del Escenario
 hide
 ```
 
