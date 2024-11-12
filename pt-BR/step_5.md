@@ -53,9 +53,8 @@ As coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} no seu pr
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
-+glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+when [timer v] > [4] 
++glide [2] secs to x: [320] y: [-100] // lado direito do palco
 ```
 
 --- /task ---
@@ -75,8 +74,7 @@ Adicione um bloco `esconda`{:class="block3looks"} para fazer com que o ônibus p
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
