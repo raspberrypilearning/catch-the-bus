@@ -14,8 +14,7 @@ legend: Vraag 1 van 3
 In jouw project glijdt de bus weg met deze code:
 
 ```blocks3
-when flag clicked 
-wait [4] seconds
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 ```
 
