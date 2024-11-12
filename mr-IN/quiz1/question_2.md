@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+दंतकथा: प्रश्न २ पैकी ३
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+जेव्हा तुम्ही **स्प्राइट** स्टेजवर नवीन स्थानावर ड्रॅग करता, तेव्हा स्टेजच्या खाली असलेल्या स्प्राइट उपखंडात कोणते **गुणधर्म** अपडेट केले जातील?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) स्प्राइटची **दिशा** ![दिशा गुणधर्म.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+स्प्राइटची दिशा बदलण्यासाठी, तुम्हाला **दिशा** गुणधर्मावर जाणे आणि ते बदलणे आवश्यक आहे.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) स्प्राइटचे **x आणि y समन्वय <0> ![X आणि y समन्वय गुणधर्म.](images/coordinates.png)</p>
 
-  --- feedback ---
+  --- feedback ---</li> </ul>
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
-
-  --- /feedback ---
-
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
-
-  --- feedback ---
-
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+जेव्हा तुम्ही स्प्राइटला नवीन स्थानावर ड्रॅग करता, तेव्हा **x** आणि **y** निर्देशांक आपोआप अपडेट होतात.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) स्प्राइट **दर्शवेल की**लपवेल ![दृश्य गुणधर्म.](images/visibility.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+**आय** आणि **क्रॉस-आउट आय** आयकॉन वापरल्याने स्प्राईट दाखवेल किंवा लपवेल.
+
+  --- /feedback ---
+
+- ( ) स्प्राइटचा **आकार** ![आकार गुणधर्म.](images/size.png)
+
+  --- feedback ---
+
+स्प्राइटचा आकार बदलण्यासाठी, तुम्हाला **आकार** गुणधर्मावर जाणे आवश्यक आहे आणि तेथे संख्या बदलणे आवश्यक आहे.
 
   --- /feedback ---
 
