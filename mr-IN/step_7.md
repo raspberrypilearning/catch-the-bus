@@ -1,53 +1,53 @@
-## Change the destination
+## गंतव्य स्थान बदला
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. Where do you want your bus to go?  
+बसवरील लिखाण "स्क्रॅच टूर्स" असे लिहिले आहे, परंतु तुम्ही तुमच्या आवडीचे गंतव्यस्थान बदलू शकता. तुम्हाला तुमची बस कुठे जायची आहे?  
 </div>
 <div>
 
-![The bus with "Maker Festival" text.](images/maker-bus.png){:width="300px"}
+!["मेकर फेस्टिव्हल" मजकूर असलेली बस.](images/maker-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Edit the City Bus sprite
+### सिटी बस स्प्राइट संपादित करा
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+**सिटी बस** स्प्राइट निवडा आणि **पोशाख** टॅबवर क्लिक करा:
 
-![The costume in the Paint editor.](images/costumes-bus-sprite-highlighted.png)
+![पेंट एडिटरमधील पोशाख.](images/costumes-bus-sprite-highlighted.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+ते निवडण्यासाठी पांढऱ्या "स्क्रॅच टूर्स" मजकुरावर क्लिक करा आणि नंतर तो काढण्यासाठी **हटवा** वर क्लिक करा.
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**टीप:** तुम्ही पेंट एडिटरमधील **हटवा** चिन्ह किंवा तुमच्या कीबोर्डवरील <kbd>हटवा</kbd> की वापरू शकता.
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
-
---- /task ---
-
---- task ---
-
-Select the **Text** (writing) tool.
-
-Click on the bus where you want your text to start, and type the destination of your choice.
-
-To change the font (writing style), you can click on the **Font** drop-down menu:
-
-![The 'Font' menu selected at the top middle of the Paint editor.](images/bus-text-font.png)
+![बसवरील मजकूर आणि हटवा चिन्ह अधोरेखित केले.](images/bus-delete-text.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+**मजकूर** (लेखन) साधन निवडा.
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+जिथे तुम्हाला तुमचा मजकूर सुरू करायचा आहे त्या बसवर क्लिक करा आणि तुमच्या आवडीचे गंतव्यस्थान टाइप करा.
+
+फॉन्ट (लेखन शैली) बदलण्यासाठी, तुम्ही **फॉन्ट** ड्रॉप-डाउन मेनूवर क्लिक करू शकता:
+
+![पेंट एडिटरच्या वरच्या मध्यभागी 'फॉन्ट' मेनू निवडला.](images/bus-text-font.png)
+
+--- /task ---
+
+--- task ---
+
+**सिलेक्ट** (एरो) टूलवर क्लिक करा, त्यानंतर मजकूर बसवर ठेवण्यासाठी खेचा.
+
+![बसवरील मजकूर आणि हटवा चिन्ह अधोरेखित केले.](images/bus-destination-centered.png)
 
 --- /task ---
 
