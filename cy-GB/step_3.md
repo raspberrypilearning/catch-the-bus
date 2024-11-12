@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Byddi di'n animeiddio'r Gath Scratch i ymddangos ar **ochr dde** y Llwyfan a cherdded i'r bws trwy ailadrodd symudiad bach sawl gwaith mewn **dolen**. 
 </div>
 <div>
 
@@ -58,7 +58,7 @@ You will add code in a `repeat`{:class="block3control"} loop to make the Scratch
 
 Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+![Corlun y Gath Scratch.](images/block-into-loop.gif)
 
 ![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
 
