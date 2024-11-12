@@ -1,10 +1,10 @@
-## What next?
+## Co dál?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+Pokud následuješ [Úvod do Scratche](https://projects.raspberrypi.org/en/pathways/scratch-intro), můžeš se přesunout na projekt [Najdi chybu](https://projects.raspberrypi.org/en/projects/find-the-bug). V tomto projektu vytvoříš hru, ve které budeš muset najít chybu, která se skrývá na každé úrovni.
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![Projekt „Najdi chybu“.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Pokud tě baví prozkoumávat Scratch, můžeš zkusit kterýkoliv [z těchto projektů](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
