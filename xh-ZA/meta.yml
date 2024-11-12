@@ -1,34 +1,34 @@
 ---
-title: Catch the bus
+title: Leqa ibhasi
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+description: Khowuda isprites ukuze sihambe okanye sibhabhe ukuya ebhasini phambi kokuba ihambe
+meta_title: Iiprojekthi zokubhala iikhowudi zabantwana kunye nabaselula | Fumana ibhasi
+meta_description: Funda ukwenza ikhowudi kwiScratch kunye neeprojekthi zeekhowudi zeRaspberry Pi Foundation zabantwana kunye nolutsha. Yenza umdlalo weScratch upopayi eleqa ibhasi.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Uya kwenza
   - 
-    title: Create your bus scene
+    title: Yenza umboniso wakho weBhasi
   - 
-    title: The Scratch Cat catches the bus
+    title: I-Scratch Cat ileqa ibhasi
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: Imvubu ibhabha isiya ebhasini
   - 
-    title: The bus leaves
+    title: Ibhasi iyahamba
   - 
-    title: Missing the bus
+    title: Ukushiywa yibhasi
   - 
-    title: Change the destination
+    title: Guqula indawo ekuyiwa kuyo
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Imibuzo ekhawulezayo
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Phucula iprojekthi yakho
   - 
-    title: What next?
+    title: Yintoni elandelayo?
