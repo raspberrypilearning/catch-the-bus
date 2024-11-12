@@ -1,34 +1,34 @@
 ---
-title: Catch the bus
+title: Stihni autobus
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+description: Nakóduj skřítky tak, aby došli nebo doletěli k autobusu, než se rozjede
+meta_title: Kódovací projekty ve Scratchi pro děti a náctileté | Stihni autobus
+meta_description: Nauč se kódovat ve Scratchi pomocí kódovacích projektů pro děti a náctileté od nadace Raspberry Pi Foundation. Vytvoř si animaci ve Scratchi se skřítky, kteří se snaží doběhnout autobus.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Co budeš dělat
   - 
-    title: Create your bus scene
+    title: Vytvoř svou autobusovou scénu
   - 
-    title: The Scratch Cat catches the bus
+    title: Kocour Scratch stihne autobus
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: Hroch letí na autobus
   - 
-    title: The bus leaves
+    title: Autobus odjíždí
   - 
-    title: Missing the bus
+    title: Nestíhá autobus
   - 
-    title: Change the destination
+    title: Změň cíl
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Rychlý kvíz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Vylepši svůj projekt
   - 
-    title: What next?
+    title: Co dál?
