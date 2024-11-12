@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The writing on the bus says "Scratch Tours", but you can change the destination to one of your choice. ನಿಮ್ಮ ಬಸ್ ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕೆಂದು ನೀವು ಬಯಸುತ್ತೀರಿ?  
+ಬಸ್ಸಿನಲ್ಲಿ ಬರೆದಿರುವುದು "ಸ್ಕ್ರಾಚ್ ಟೂರ್ಸ್" ಎಂದು ಹೇಳುತ್ತದೆ, ಆದರೆ ನೀವು ನಿಮ್ಮ ಆಯ್ಕೆಗೆ ಗಮ್ಯಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಬಹುದು. ನಿಮ್ಮ ಬಸ್ ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕೆಂದು ನೀವು ಬಯಸುತ್ತೀರಿ?  
 </div>
 <div>
 
@@ -15,7 +15,7 @@ The writing on the bus says "Scratch Tours", but you can change the destination 
 
 --- task ---
 
-Select the **City Bus** sprite and click on the **Costumes** tab:
+**ಸಿಟಿ ಬಸ್** ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ**ಕಾಸ್ಟ್ಯೂಮ್** ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ:
 
 ![ಪೇಂಟ್ ಸಂಪಾದಕದಲ್ಲಿ ವೇಷಭೂಷಣ.](images/costumes-bus-sprite-highlighted.png)
 
@@ -23,7 +23,7 @@ Select the **City Bus** sprite and click on the **Costumes** tab:
 
 --- task ---
 
-Click on the white "Scratch Tours" text to select it, and then click on **Delete** to remove it.
+ಅದನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಬಿಳಿ "ಸ್ಕ್ರಾಚ್ ಟೂರ್ಸ್" ಪಠ್ಯದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ ಅದನ್ನು ತೆಗೆದುಹಾಕಲು **ಡಿಲೀಟ್**ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 **Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
 
@@ -45,7 +45,7 @@ Click on the white "Scratch Tours" text to select it, and then click on **Delete
 
 --- task ---
 
-Click on the **Select** (Arrow) tool, then drag the text to position it on the bus.
+**ಸೆಲೆಕ್ಟ್** (ಬಾಣ) ಟೂಲ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ ಅದನ್ನು ಬಸ್ಸಿನಲ್ಲಿ ಇರಿಸಲು ಪಠ್ಯವನ್ನು ಎಳೆಯಿರಿ.
 
 ![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
 
