@@ -1,73 +1,73 @@
-## Create your bus scene
+## Vytvoř svou autobusovou scénu
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Vyber si pozadí a přidej autobusového skřítka.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![Městský autobus na školním pozadí.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Otevři úvodní projekt
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Otevři [startovací projekt výzvy Stihni autobus](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch se otevře na jiné kartě prohlížeče.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### Vybrat pozadí
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Klikni (nebo na tabletu klepni) na **Vyber pozadí** v podokně Scéna (v pravém dolním rohu obrazovky):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Snímek obrazovky s ikonou výběru pozadí.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Klikněte na kategorii **Venkovní**. Přidej pozadí, které bude dobrým startovacím bodem pro tvůj autobus:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![Scéna s pozadím školy.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Vyber skřítka
+
 --- task ---
 
-Type `bus` in the search box at the top:
+Klikni na **Vyber skřítka**:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+![Snímek obrazovky s ikonou výběru skřítka.](images/choose-sprite-menu.png)
 
 --- /task ---
 
-### Give your bus a starting position
+--- task ---
+
+Do vyhledávacího pole nahoře zadej `autobus`:
+
+![Vyhledávací pole zvýrazněné v knihovně Skřítek.](images/bus-search.png)
+
+Přidej skřítka **City Bus** do svého projektu.
+
+--- /task ---
+
+### Vyber svému autobusu výchozí pozici
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Ujisti se, že je v seznamu Skřítek pod scénou vybrán skřítek **městského autobusu**.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Přetáhni blok `po kliknutí na zelenou vlajku`{:class="block3events"} z menu bloků `Události`{:class="block3events"} do oblasti Kód:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Skřítek městského autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,34 +77,34 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Přetáhni autobus na správnou pozici na scéně:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Autobus uprostřed scény dole.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Souřadnice **x** a **y** (čísla použitá k popisu polohy) autobusu jsou zobrazeny v podokně Skřítek pod vymezenou plochou:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Snímek obrazovky zvýrazňující umístění souřadnic v podokně Skřítek.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Přidej blok `jdi na x: y:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Skřítek městského autobusu.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Čísla v bloku `jdi na x: y:`{:class="block3motion"} jsou aktuální souřadnice x a y autobusu. Čísla ve tvém projektu mohou být trochu jiná.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Test:** Přetáhni autobus kamkoli na scénu a poté klikni na zelenou vlajku. The bus should always go to its starting position.
 
 ![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
 
