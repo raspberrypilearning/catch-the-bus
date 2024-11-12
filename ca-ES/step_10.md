@@ -1,10 +1,10 @@
-## What next?
+## I ara què ve?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) project. In this project, you will make a game in which you have to find the bug that is hiding on each level.
+Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) , podeu passar al projecte [Cerca l'error](https://projects.raspberrypi.org/en/projects/find-the-bug) . En aquest projecte, fareu un joc en el qual haureu de trobar l'error que s'amaga a cada nivell.
 
 --- print-only ---
 
-![The 'Find the bug' project.](images/find-the-bug.png)
+![El projecte 'Agafa l'autobús'.](images/find-the-bug.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Si voleu divertir-vos més explorant Scratch, podeu provar qualsevol [d'aquests projectes](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
