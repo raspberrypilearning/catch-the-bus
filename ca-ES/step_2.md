@@ -1,73 +1,73 @@
-## Create your bus scene
+## Crea la teva escena d'autobús
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Tria un teló de fons i afegeix un personatge d'autobús.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![L'autobús urbà al teló de fons de l'escola.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Obre el projecte inicial
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Obre el [projecte inicial Agafa l'autobús](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch s'obrirà en una altra pestanya del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### Tria un teló de fons
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Fes clic (o en una tauleta, toqueu) a **Tria un teló fons** al panell de l'escenari (a l'extrem inferior dret de la pantalla):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Una captura de pantalla de la icona de triar un teló de fons.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Fes clic a la categoria **A l'aire lliure** . Afegeix un teló de fons que sigui un bon punt de partida per al teu autobús:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![L'Escenari amb el teló de fons de l'Escola.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Tria un personatge
+
 --- task ---
 
-Type `bus` in the search box at the top:
+Fes clic a **Tria un Personatge**:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+![Una captura de pantalla del menú Tria un personatge.](images/choose-sprite-menu.png)
 
 --- /task ---
 
-### Give your bus a starting position
+--- task ---
+
+Escriu `bus` al quadre de cerca de la part superior:
+
+![El quadre de cerca destacat a la biblioteca de Personatges.](images/bus-search.png)
+
+Afegeix el personatge **City Bus** al vostre projecte.
+
+--- /task ---
+
+### Dona al vostre autobús una posició inicial
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Assegurat que el personatge del  **City Bus** estigui seleccionat a la llista de Personatges a sota de l'escenari.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Arrossega un bloc `quan la bandera verda es cliqui`{:class="block3events"} des del menú de blocs `Esdeveniments`{:class="block3events"} a l'Àrea del codi:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Arrossega l'autobús fins a una bona posició a l'escenari:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![L'autobús a la part inferior de l'escenari.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Les coordenades **x** i **i** (els números utilitzats per descriure la posició) de l'autobús es mostren al panell de personatge a sota de l'escenari:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Una captura de pantalla destaca'n on es troben les coordenades al panell de personatges.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Afegeix un `ves a x: y:`{:class="block3motion"} bloc:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Els números del bloc `ves a x: y:`{:class="block3motion"} són les coordenades x i y actuals de l'autobús. Els números del vostre projecte poden ser una mica diferents.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Prova:** Arrossegueu l'autobús fins a qualsevol lloc de l'escenari i, a continuació, feu clic a la bandera verda. L'autobús ha d'anar sempre a la seva posició inicial.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![Animació que mostra l'autobús arrossegat per la pantalla i saltant cap al centre quan es fa clic a la bandera verda.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Mou l'autobús darrere dels gràfics dels personatges
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Per assegurar-te que el personatge **City Bus** estigui sempre darrere de tots els altres personatges, afegeix un bloc `ves a la capa frontal`{:class="block3looks"} , feu clic a `front`{:class="block3looks"} i canvieu-lo a `darrere`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Consell:** Si no pots veure el bloc `ves a la capa`{:class="block3looks"}, has d'anar baixant dintre del menú de bloc  `Aspecte`{:class="block3looks"} .
 
 --- /task ---
 
-### Change the bus colour
+### Canvia el color de l'autobús
 
 --- task ---
 
-You can change the colour of the bus:
+Pots canviar el color de l'autobús:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![El personatge del 'City Bus'.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### Canvia la mida del gat Scratch
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+El gat Scratch apareix en tots els projectes nous de Scratch com a **Sprite1** a la llista de Personatges. Fes clic al personatge **Sprite1** a la llista de Personatges per preparar-vos per animar al gat Scratch:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![El Sprite1 seleccionat a la llista de Personatges.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Consell:** Si per accident esborrés el personatge **Sprite1** gat Scratch, pots fer clic a la icona de **Tria un personatge** i cercar per `cat`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Al panell de personatge, feu clic a la propietat **Mida** i canvieu la mida del gat Scratch a `50`:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![Una captura de pantalla que ressalta la ubicació de la propietat de mida al panell de personatge.](images/sprite-pane-size.png)
 
 --- /task --- 
