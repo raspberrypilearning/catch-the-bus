@@ -88,7 +88,7 @@ Clique sur l'onglet **Costumes**. Le sprite **chat Scratch** a deux costumes, et
 
 --- task ---
 
-Clique sur l'onglet **Code**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Clique sur l'onglet **Code**. Essaie de modifier les chiffres dans le bloc `répéter`{:class="block3control"}.
 
 ![Le sprite chat Scratch.](images/scratch-cat-sprite.png)
 
