@@ -44,7 +44,7 @@ set [color v] effect to [50] // up to 200
 title: पूर्ण परियोजना
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+आप [पूरा हो चुका प्रोजेक्ट यहां](https://scratch.mit.edu/projects/724160134/){:target="_blank"} देख सकते हैं।
 
 --- /collapse ---
 
