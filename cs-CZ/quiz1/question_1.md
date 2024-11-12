@@ -1,17 +1,17 @@
-## Quick quiz
+## Rychlý kvíz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpověz na tři otázky. Zde jsou nápovědy, které tě dovedou ke správné odpovědi.
 
-When you have answered each question, click on **Check my answer**.
+Po zodpovězení každé otázky klikni na **Zkontrolovat mou odpověď**.
 
-Have fun!
+Bav se!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legenda: Otázka 1 ze 3
 ---
 
-In your project, the bus glides away using this code:
+Ve tvém projektu se autobus posouvá pomocí tohoto kódu:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Kdy se autobus posouvá?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- () Ihned po kliknutí na zelenou vlajku
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Části kódu běží v pořadí, podívej se na bloky před `glide`{:class="block3motion"}.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Pár sekund po kliknutí na zelenou vlajku
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Ano. Po kliknutí na zelenou vlajku autobus 4 sekundy před odjezdem počká.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Po kliknutí na autobus
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+Autobus nemá žádný kód, který se spustí `po kliknutí na tohoto skřítka`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- () Dvě sekundy po kliknutí na zelenou vlajku
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+Autobusu trvá dvě sekundy odjet, to ale není doba čekání před tím, než se rozjede.
 
   --- /feedback ---
 
