@@ -4,7 +4,7 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+Zabavi se!
 
 --- question ---
 ---
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Da. After you click on the green flag, there is a four-second wait before the bus glides away.
 
   --- /feedback ---
 
