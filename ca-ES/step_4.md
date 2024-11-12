@@ -19,7 +19,7 @@ Afegeix el personatge **Hippo1** al vostre projecte.
 
 Canvia la **Mida** del **Hippo1** :
 
-![Canvia la <0>Mida</0> del <0>Hippo1</0> :](images/hippo-sprite-size.png)
+![El panell Sprite per a l'Sprite Hippo1, amb la mida establerta en 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
