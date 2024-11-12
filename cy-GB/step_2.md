@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Byddi di'n dewis cefnlen ac yn ychwanegu corlun bws.
 </div>
 <div>
 
@@ -65,7 +65,7 @@ Ychwanega'r corlun **City Bus** at dy brosiect.
 
 Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Gwna'n siŵr dy fod wedi dewis y corlun **City Bus** yn y rhestr o Gorluniau o dan y Llwyfan.
 
 ![The City Bus sprite.](images/bus-sprite.png)
 
@@ -159,7 +159,7 @@ The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Ar hyn o bryd, mae'r Gath Scratch yn rhy fawr i ffitio ar y bws.
 
 ![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
 
