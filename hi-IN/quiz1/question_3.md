@@ -3,7 +3,7 @@
 legend: ३ का प्रश्न ३
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+इनमें से कौन सी स्क्रिप्ट कुत्ते को चेतन करने के लिए **लूप** का उपयोग करती है?
 
 ![Stage के बाईं ओर से दाईं ओर दौड़ते हुए एक कुत्ते का एनीमेशन।](images/dog-run.gif)
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+हाँ! `रिपीट`{:class="block3control"} कोड ब्लॉक कुत्ते को चलाने के लिए लूप का उपयोग करता है।
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+यह कोड कुत्ते को गति प्रदान करता है, लेकिन केवल एक बार। यहां कोई लूप नहीं है, इसलिए कोड दोहराता नहीं है।
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+यह कोड कुत्ते को दौड़ाता है, लेकिन यह लूप का उपयोग नहीं करता है। लूप का उपयोग करने से आपका कोड अक्सर छोटा हो सकता है।
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+यहां कोई लूप नहीं है, इसलिए कुत्ता केवल एक बार हिलेगा। कुत्ते को चलाने के लिए, आपको एक लूप जोड़ना होगा।
 
   --- /feedback ---
 
