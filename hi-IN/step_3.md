@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Scratch Cat को स्टेज के **दाईं ओर** प्रकट होने के लिए एनिमेट करें और **लूप** में कई बार एक छोटी गतिविधि दोहराते हुए बस तक पैदल चलें। 
 </div>
 <div>
 
@@ -25,17 +25,17 @@ Sprite वाले हिस्से में **Direction** प्रॉप�
 
 Scratch Cat को Stage के नीचे दाईं ओर ड्रैग करें।
 
-![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+![कैट Stage के निचले दाएं कोने में स्थित।](images/bottom-right-cat.png)
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**टिप:** यदि आप किसी स्प्राइट को Stage से बाहर रखने की कोशिश करते हैं, तो वह Stage पर अपनी अंतिम स्थिति में वापस चला जाएगा।
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+Scratch Cat को उनकी शुरुआती स्थिति में लाने के लिए कोड जोड़ें:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Scratch Cat स्प्राइट।](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**परीक्षण:** Scratch Cat को नई स्थिति में खींचें, फिर अपने `go to x: y:`{:class="block3motion"} ब्लॉक पर क्लिक करें। Scratch Cat को हर बार नीचे दाईं ओर वापस जाना चाहिए।
 
 --- /task ---
 
 ### Scratch Cat को एनिमेट करें
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+Scratch Cat को कुछ चरणों को कई बार दोहराने के लिए आप एक `repeat`{:class="block3control"} लूप में कोड जोड़ेंगे। इससे Scratch Cat एनिमेटिड दिखाई देगी।
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+`repeat`{:class="block3control"} `10` ब्लॉक जोड़ें, फिर `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} ब्लॉक को इसके अंदर खींचें:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+!['move' ब्लॉक में चरणों की संख्या को 10 से 5 में बदलना, फिर ब्लॉक को 'repeat' लूप में डालना।](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Scratch Cat स्प्राइट।](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,23 +74,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
+**परिक्षण:** हरे झंडे पर क्लिक करें। `repeat`{:class="block3control"} `10` ब्लॉक में संख्या बदलने की कोशिश करें ताकि Scratch Cat बस में रुक जाए।
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+कुछ स्प्राइट्स की एक से अधिक पोशाकें होती हैं। Scratch Cat के चलने का एनीमेशन बनाने के लिए आप **Scratch Cat** स्प्राइट की पोशाक का उपयोग करेंगे।
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+**Costumes** टैब पर क्लिक करें। **Scratch Cat** स्प्राइट में दो पोशाकें होती हैं, और एक साथ चलने के लिए उनका उपयोग किया जा सकता है।
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+**कोड** टैब पर क्लिक करें। Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Scratch Cat स्प्राइट।](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,11 +104,11 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**परीक्षण:** हरे झंडे पर क्लिक करें, और Scratch Cat बस की ओर चल देगी।
 
 --- /task ---
 
-### Hide the Scratch Cat
+### Scratch Cat को छुपाएं
 
 --- task ---
 
@@ -134,13 +134,13 @@ end
 
 --- /task ---
 
-### Show the Scratch Cat
+### Scratch Cat दिखायें
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+एक `show`{:class="block3looks"} ब्लॉक जोड़ें ताकि उनके बस तक जाने से पहले स्क्रैच कैट दिखाई दे:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![Scratch Cat स्प्राइट।](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -153,13 +153,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**टिप:** जब आप `hide`{:class="block3looks"} ब्लॉक का उपयोग करते हैं, तो आपको एक `show`{:class="block3looks"} ब्लॉक भी जोड़ना होगा, यह सुनिश्चित करने के लिए कि स्प्राइट तब दिखाई दे जब इसकी आवश्यकता हो
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**टेस्ट:** अपने प्रोजेक्ट का परीक्षण करने के लिए हरे झंडे पर क्लिक करें, और सुनिश्चित करें कि Scratch Cat दिखाई दे।
 
 --- /task ---
 
