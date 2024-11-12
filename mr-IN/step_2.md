@@ -1,122 +1,120 @@
-## Create your bus scene
+## तुमचा बसचा देखावा तयार करा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+पार्श्वभूमी निवडा आणि बस स्प्राइट जोडा.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![शाळेच्या पार्श्वभूमीवर सिटी बस.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### स्टार्टर प्रकल्प उघडा
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+[कॅच द बस स्टार्टर प्रोजेक्ट](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"} उघडा. दुसर्‍या ब्राउझर टॅबमध्ये स्क्रॅच उघडेल.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### एक पार्श्वभूमी निवडा
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+**वर क्लिक करा (किंवा टॅबलेटवर, टॅप करा) स्टेज फलकावर पार्श्वभूमी** निवडा (स्क्रीनच्या तळाशी उजव्या कोपर्यात):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![पार्श्वभूमी चिन्ह निवडा याचा स्क्रीनशॉट.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+**आउटडोअर** श्रेणीवर क्लिक करा. एक पार्श्वभूमी जोडा जी तुमच्या बससाठी चांगली सुरुवात ठरेल:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![शाळेच्या पार्श्वभूमीची स्टेज.](images/outdoor-backdrop.png)
 
 --- /task ---
 
---- task ---
-
-Type `bus` in the search box at the top:
-
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
-
---- /task ---
-
-### Give your bus a starting position
+### स्प्राइट निवडा
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+**वर क्लिक करा स्प्राइट**निवडा:
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
-
-![The City Bus sprite.](images/bus-sprite.png)
-
-```blocks3
-when flag clicked
-```
+![स्प्राइट मेनू निवडा याचा स्क्रीनशॉट.](images/choose-sprite-menu.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+शीर्षस्थानी असलेल्या शोध बॉक्समध्ये `बस` टाइप करा:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![स्प्राईट लायब्ररीमध्ये शोध बॉक्स हायलाइट केला आहे.](images/bus-search.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+तुमच्या प्रकल्पात **सिटी बस** स्प्राइट जोडा.
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+--- /task ---
+
+### तुमच्या बसला सुरुवातीची स्थिती द्या
+
+--- task ---
+
+स्टेजच्या खाली असलेल्या स्प्राईट सूचीमध्ये **सिटी बस** स्प्राइट निवडले असल्याची खात्री करा.
+
+`इव्हेंट`{:class="block3events"} ब्लॉक मेनूमधून </code>जेव्हा हिरवा झेंडा क्लिक केल्यावर`{:class="block3events"} ब्लॉक कोड क्षेत्रात ड्रॅग करा: </p>
+
+<p spaces-before="0"><img src="images/bus-sprite.png" alt="सिटी बस स्प्राइट." /></p>
+
+<pre><code class="blocks3">when flag clicked
+`</pre>
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+बस स्टेज वरील चांगल्या जागी ड्रॅग करा:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![स्टेजच्या खालच्या मध्यभागी असलेली बस.](images/bus-bottom-middle.png)
 
-```blocks3
-when flag clicked
+बसचे **x** आणि **y** कोऑर्डिनेट्स (स्थितीचे वर्णन करण्यासाठी वापरलेले संख्या) स्टेजच्या खाली असलेल्या स्प्राईट उपखंडात दर्शविले आहेत:
+
+![स्प्राईट उपखंडात निर्देशांक कुठे आहेत ते हायलाइट करणारा स्क्रीनशॉट.](images/coords-sprite-pane.png)
+
+--- /task ---
+
+--- task ---
+
+X: y:</code>{:class="block3motion"} ब्लॉकमध्ये `जोडा:</p>
+
+<p spaces-before="0"><img src="images/bus-sprite.png" alt="सिटी बस स्प्राइट." /></p>
+
+<pre><code class="blocks3">when flag clicked
 +go to x: (0) y: (-100)
-```
+`</pre>
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+`go to x: y:`{:class="block3motion"} ब्लॉक मधील संख्या बसचे वर्तमान x आणि y निर्देशांक आहेत. तुमच्या प्रकल्पातील संख्या थोड्या वेगळ्या असू शकतात.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**चाचणी:** स्टेजवर कुठेही बस ड्रॅग करा, आणि नंतर हिरव्या ध्वजावर क्लिक करा. बसने नेहमी त्याच्या सुरुवातीच्या स्थितीत जावे.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![हिरवा झेंडा क्लिक केल्यावर बस स्क्रीनभोवती ड्रॅग केली जात आहे आणि मध्यभागी परत उडी मारत असल्याचे अॅनिमेशन.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Sprites पात्राच्या मागे बस हलवा
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+**सिटी बस** स्प्राइट नेहमी सर्व कॅरेक्टर स्प्राइट्सच्या मागे आहे याची खात्री करण्यासाठी, फ्रंट लेयर</code>{:class="block3looks"} ब्लॉकवर `जोडा, नंतर <code>फ्रंट`{:class="block3looks"} वर क्लिक करा. आणि ते `बॅक`{:class="block3looks"} वर बदला:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![सिटी बस स्प्राइट.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +122,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**टीप:** तुम्ही `फ्रंट लेयर`{:class="block3looks"} ब्लॉकबघू शकत नसल्यास, तुम्हाला `लुक्स`{:class="block3looks"} ब्लॉक मेनूमध्ये खाली स्क्रोल करावे लागेल.
 
 --- /task ---
 
-### Change the bus colour
+### बसचा रंग बदला
 
 --- task ---
 
-You can change the colour of the bus:
+तुम्ही बसचा रंग बदलू शकता:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![सिटी बस स्प्राइट.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +143,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### स्क्रॅच कॅटचा आकार बदला
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+स्क्रॅच कॅट सर्व नवीन स्क्रॅच प्रकल्पांमध्ये स्प्राइट सूचीमध्ये **Sprite1** म्हणून दिसते. स्क्रॅच कॅटला अॅनिमेट करण्यासाठी तयार होण्यासाठी स्प्राईट यादीतील **Sprite1** sprite वर क्लिक करा:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![Sprite सूचीमध्ये Sprite1 Sprite निवडले आहे.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**टीप:** जर तुम्ही चुकून **Sprite1** (Scratch Cat) sprite हटवला असेल, तर तुम्ही **Choose a Sprite** चिन्हावर क्लिक करू शकता आणि `cat`शोधू शकता.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+स्प्राइट उपखंडात, **आकार** गुणधर्मावर क्लिक करा आणि स्क्रॅच कॅटचा आकार बदलून `50`करा:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![स्प्राइट उपखंडातील आकार गुणधर्माचे स्थान हायलाइट करणारा स्क्रीनशॉट.](images/sprite-pane-size.png)
 
 --- /task --- 
