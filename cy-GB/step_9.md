@@ -11,20 +11,22 @@ Galli di ddefnyddio unrhyw un o'r blociau y gwnes di ddysgu amdanyn nhw yn y pro
 ```blocks3
 when flag clicked
 
-go to x: [0] y: [0] // drag the sprite to choose x and y
+when [timer v] > [5]
+
+go to x: [0] y: [0] // llusga'r corlun i ddewis x a y
 
 show
 
 hide
 
-glide [2] secs to x: [0] y: [-100] // bottom middle of the Stage
+glide [2] secs to x: [0] y: [-100] // canol gwaelod y Llwyfan
 
 repeat [30]
 end
 
 point towards (City Bus v)
 
-point in direction (180) // point down
+point in direction (180) // pwyntio i lawr
 
 set rotation style [left-right v]
 
@@ -34,9 +36,9 @@ next costume
 
 start sound [clown honk v]
 
-wait [0.1] seconds // short delay
+wait [0.1] seconds // oedi byr
 
-set [color v] effect to [50] // up to 200
+set [color v] effect to [50] // hyd at 200
 ```
 
 --- collapse ---
@@ -44,7 +46,7 @@ set [color v] effect to [50] // up to 200
 teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/626229210/){:target="_blank"}.
 
 --- /collapse ---
 
