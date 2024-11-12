@@ -1,41 +1,41 @@
 --- question ---
 ---
-legend: Question 2 of 3
+llegenda: Pregunta 2 de 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Quan **arrossegues un personatge** a una nova posició a l'escenari, quines **propietats** s'actualitzaran al panell de personatge a sota de l'escenari?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- ( ) La **direcció** del personatge ![La propietat de la direcció.](images/direction.png)
 
   --- feedback ---
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
+Per canviar la direcció del personatge, has d'anar a la propietat **Direcció** i canviar-la.
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) Les coordenades **x i y** del personatge ![Les propietats de les coordenades x i y.](images/coordinates.png)
 
   --- feedback ---
 
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Quan arrossegui un personatge a una posició nova, les coordenades **x** i **i** s'actualitzen automàticament.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- ( ) Si el personatge es  **mostrarà o amagarà** ![La propietat mostrar.](images/visibility.png)
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Si fas servir les icones de l'ull **** i **de pica l'ull** , el personatge es mostrarà o s'amagarà.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- ( ) La  **mida** del personatge ![La propietat de la mida.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Per canviar la mida del personatge, has d'anar a la propietat **Mida** i canviar-hi el número.
 
   --- /feedback ---
 
