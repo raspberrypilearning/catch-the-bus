@@ -1,29 +1,29 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Umbuzo 2 wesi-3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Xa u **urhuqa i-sprite** kwindawo entsha kwiQonga, yeyiphi ipropathi ezi **** eziya kuhlaziywa kwipheyini yeSprite ngezantsi kweQonga?
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- () Ulwalathiso olu</strong> **lwe-sprite ![Ipropati yolwalathiso.](images/direction.png)</p>
 
-  --- feedback ---
+  --- feedback ---</li> </ul>
 
-To change the direction of the sprite, you need to go to the **Direction** property and change it.
-
-  --- /feedback ---
-
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
-
-  --- feedback ---
-
-When you drag a sprite to a new position, the **x** and **y** coordinates are automatically updated.
+Ukutshintsha ulwalathiso lwe-sprite, kufuneka uye kwipropati ye **Lwalathiso** kwaye uyitshintshe.
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- (x) U **x kunye no-y banxibelelanisa** we-sprite ![I-x kunye no-y zilungelelanisa iipropati.](images/coordinates.png)
+
+  --- feedback ---
+
+Xa urhuqa i-sprite kwindawo entsha, i **x** kunye ne **y** izilungelelanisi zihlaziywa ngokuzenzekelayo.
+
+  --- /feedback ---
+
+- ( ) Nokuba i-sprite siya **kuveza okanye sifihle** ![Ipropati yomboniso.](images/visibility.png)
 
   --- feedback ---
 
