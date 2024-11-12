@@ -53,9 +53,8 @@ wait [4] seconds // change 1 to 4
 ![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
-+glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
+when [timer v] > [4] 
++glide [2] secs to x: [320] y: [-100] // الجانب الأيمن من المنصة
 ```
 
 --- /task ---
@@ -75,8 +74,7 @@ wait [4] seconds // change 1 to 4
 ![الكائن باص المدينة.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-wait [4] seconds // change 1 to 4
+when [timer v] > [4] 
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -98,7 +96,7 @@ glide [2] secs to x: [320] y: [-100]
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // try numbers up to 200
+set [color v] effect to (50) // جرب الأرقام حتى 200
 +show
 ```
 
