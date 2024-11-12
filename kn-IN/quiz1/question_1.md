@@ -1,17 +1,17 @@
-## Quick quiz
+## ತ್ವರಿತ ರಸಪ್ರಶ್ನೆ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ. ಸರಿಯಾದ ಉತ್ತರಕ್ಕಾಗಿ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುವ ಸುಳಿವುಗಳಿವೆ.
 
-When you have answered each question, click on **Check my answer**.
+ನೀವು ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸಿದಾಗ, **ನನ್ನ ಉತ್ತರವನ್ನು ಪರಿಶೀಲಿಸಿ**ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Have fun!
+ಆನಂದಿಸಿ!
 
 --- question ---
 ---
 ವಿಷಯಸೂಚಿ: ಪ್ರಶ್ನೆ 1
 ---
 
-In your project, the bus glides away using this code:
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ಈ ಕೋಡ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಬಸ್ ಗ್ಲೈಡ್ ಆಗುತ್ತದೆ:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+ಬಸ್ಸು ಯಾವಾಗ ಜಾರುತ್ತದೆ?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಕ್ರಮವಾಗಿ ಚಲಿಸುತ್ತವೆ, `ಗ್ಲೈಡ್`{:class="block3motion"} ಬ್ಲಾಕ್‌ನ ಮೊದಲು ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೋಡಿ.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+ಹೌದು. ನೀವು ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದ ನಂತರ, ಬಸ್ ಗ್ಲೈಡ್ ಮಾಡುವ ಮೊದಲು ನಾಲ್ಕು ಸೆಕೆಂಡುಗಳ ಕಾಯುವಿಕೆ ಇರುತ್ತದೆ.
 
   --- /feedback ---
 
@@ -43,18 +43,20 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+ಈ ಸ್ಪ್ರೈಟ್</code>{:class="block3events"} ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ರನ್ ಆಗುವ ಯಾವುದೇ ಕೋಡ್ ಅನ್ನು ಬಸ್ ಹೊಂದಿಲ್ಲ.</p>
 
-  --- /feedback ---
+<p spaces-before="2">--- /feedback ---</p>
 
-- () ನೀವು ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದ ಎರಡು ಸೆಕೆಂಡುಗಳ ನಂತರ
+<ul>
+<li><p spaces-before="0">() ನೀವು ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದ ಎರಡು ಸೆಕೆಂಡುಗಳ ನಂತರ</p>
 
-  --- feedback ---
+<p spaces-before="2">--- feedback ---</p></li>
+</ul>
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+<p spaces-before="0">ಬಸ್ಸು ದೂರ ಸರಿಯಲು ಎರಡು ಸೆಕೆಂಡುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ, ಆದರೆ ಅದು ಚಲಿಸುವ ಮೊದಲು ಅದು ಎಷ್ಟು ಸಮಯ ಕಾಯುತ್ತದೆ.</p>
 
-  --- /feedback ---
+<p spaces-before="2">--- /feedback ---</p>
 
---- /choices ---
+<p spaces-before="0">--- /choices ---</p>
 
---- /question ---
+<p spaces-before="0">--- /question ---</p>
