@@ -3,11 +3,11 @@
 legend: Cwestiwn 2 o 3
 ---
 
-When you **drag a sprite** to a new position on the Stage, which **properties** will be updated in the Sprite pane below the Stage?
+Mae priodweddau corlun yn ymddangos yn y cwarel Corlun o dan y Llwyfan.
 
 --- choices ---
 
-- ( ) The **direction** of the sprite ![The direction property.](images/direction.png)
+- () Cyfeiriad y corlun  ![The direction property.](images/direction.png)
 
   --- feedback ---
 
@@ -15,7 +15,7 @@ To change the direction of the sprite, you need to go to the **Direction** prope
 
   --- /feedback ---
 
-- (x) The **x and y coordinates** of the sprite ![The x and y coordinate properties.](images/coordinates.png)
+- (x) Cyfesurynnau y ac x y corlun  ![The x and y coordinate properties.](images/coordinates.png)
 
   --- feedback ---
 
@@ -23,7 +23,7 @@ When you drag a sprite to a new position, the **x** and **y** coordinates are au
 
   --- /feedback ---
 
-- ( ) Whether the sprite will **show or hide** ![The show property.](images/visibility.png)
+- () A fydd y corlun yn ymddangos neu'n cuddio  ![The show property.](images/visibility.png)
 
   --- feedback ---
 
@@ -31,7 +31,7 @@ Using the **eye** and **crossed-out eye** icons will make the sprite show or hid
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- () Maint y corlun  ![The size property.](images/size.png)
 
   --- feedback ---
 
