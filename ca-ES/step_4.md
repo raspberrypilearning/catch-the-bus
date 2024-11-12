@@ -1,54 +1,54 @@
-## The hippo flies to the bus
+## L'hipopòtam corre cap a l'autobús
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+Afegeix un hipopòtam que corre cap a l'autobús.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![L'hipopòtam corre amb pressa cap l'autobús.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-### Give the Hippo a starting position
+### Dona a l'hipopòtam una posició inicial
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Afegeix el personatge **Hippo1** al vostre projecte.
 
-Change the **Size** of the **Hippo1** sprite:
+Canvia la **Mida** del **Hippo1** :
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Canvia la <0>Mida</0> del <0>Hippo1</0> :](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Arrossega l'hipopòtam a la part superior esquerra de l'escenari.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![El personatge Hippo1 a la part superior esquerra de l'escenari.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Afegeix el codi per portar l'hipopòtam a la seva posició inicial:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Consell:** Les coordinades `x`{:class="block3motion"} i `y`{:class="block3motion"} en el bloc `ves a x: y:`{:class="block3motion"} serà la posició actual de l'hipopòtam, de manera que no cal que les introduïu.
 
 --- /task ---
 
-### Make the Hippo flap its wings and fly
+### Fes que l'hipopòtam bati les ales i voli
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Afegeix el codi per fer que l'hipopòtam voli cap al **City Bus**:
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Prova:** Fes clic a la bandera verda i el gat Scratch anirà a l'autobús. Pots canviar el número al bloc `repeteix`{:class="block3control"} per aconseguir que l'hipopòtam s'aturi al lloc correcte.
 
 --- /task ---
 
-### Show and hide the bus
+### Mostra i amaga l'autobús
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Afegeix blocs `mostra't`{:class="block3looks"} i `amaga't`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Prova:** Feu clic a la bandera verda. L'hipopòtam volarà i entrarà a l'autobús.
 
 --- /task ---
