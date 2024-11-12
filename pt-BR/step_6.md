@@ -86,9 +86,8 @@ Se você quiser que o Gato Scratch **pegue o ônibus**, faça o ônibus esperar 
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when flag clicked 
-+wait [4] seconds // change from 4 to 6
-glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
++when [timer v] > [6] // mudar de 4 para 6
+glide [2] secs to x: [320] y: [-100] // lado direito do palco
 hide
 ```
 
