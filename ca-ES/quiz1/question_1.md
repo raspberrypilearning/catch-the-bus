@@ -1,17 +1,17 @@
-## Quick quiz
+## Test ràpid
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Respon les tres preguntes. Hi ha consells per guiar-te a la resposta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Quan hagis respost cada pregunta, fes clic a **Comprovar la meva resposta**.
 
-Have fun!
+Diverteix-te!
 
 --- question ---
 ---
-legend: Question 1 of 3
+llegenda: Pregunta 1 de 3
 ---
 
-In your project, the bus glides away using this code:
+En el teu projecte, l'autobús s'allunya amb aquest codi:
 
 ```blocks3
 when flag clicked 
@@ -19,39 +19,39 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+Quan marxa l'autobús?
 
 --- choices ---
 
-- ( ) Immediately when you click on the green flag
+- ( ) Immediatament quan feu clic a la bandera verda
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+Els blocs de codi s'executen en ordre, mireu els blocs abans del bloc `llisca`{:class="block3motion"}.
 
   --- /feedback ---
 
-- (x) Four seconds after you click on the green flag
+- (x) Quatre segons després de fer clic a la bandera verda
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+Sí. Després de fer clic a la bandera verda, hi ha una espera de quatre segons abans que l'autobús s'allunyi.
 
   --- /feedback ---
 
-- () When you click on the bus
+- () Quan feu clic a l'autobús
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+L'autobús no té cap codi que s'executi `quan es cliqui aquest personatge`{:class="block3events"}.
 
   --- /feedback ---
 
-- ( ) Two seconds after you click on the green flag
+- ( ) Dos segons després de fer clic a la bandera verda
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+L'autobús triga dos segons a lliscar-se, però no és el temps que espera abans de moure's.
 
   --- /feedback ---
 
