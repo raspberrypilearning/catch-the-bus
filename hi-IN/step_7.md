@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Edit the City Bus sprite
+### City Bus स्प्राइट संपादित करें
 
 --- task ---
 
@@ -25,9 +25,9 @@
 
 इसे चुनने के लिए सफेद "Scratch Tours" टेक्स्ट पर क्लिक करें, और फिर इसे हटाने के लिए **Delete** टैब पर क्लिक करें।
 
-**Tip:** You can use the **Delete** icon in the Paint editor or the <kbd>Delete</kbd> key on your keyboard.
+**टिप:** आप पेंट एडिटर में **Delete** आइकॉन उपयोग कर सकते हैं या <kbd>Delete</kbd> कुंजी का उपयोग कर सकते हैं।
 
-![The text on the Bus and the Delete icon highlighted.](images/bus-delete-text.png)
+![बस पर टेक्स्ट और Delete आइकन हाइलाइट किया गया।](images/bus-delete-text.png)
 
 --- /task ---
 
@@ -47,7 +47,7 @@ font (लेखन शैली) बदलने के लिए, आप **Font
 
 **Select** (एरो) टूल पर क्लिक करें, फिर टेक्स्ट को बस पर रखने के लिए उसे ड्रैग करें।
 
-![The text on the Bus and the Select tool highlighted.](images/bus-destination-centered.png)
+![बस पर टेक्स्ट और Select टूल हाइलाइट किया गया।](images/bus-destination-centered.png)
 
 --- /task ---
 
