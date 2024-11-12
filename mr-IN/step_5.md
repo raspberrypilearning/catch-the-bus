@@ -1,4 +1,4 @@
-## The bus leaves
+## बस निघते
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -6,7 +6,7 @@ Add more blocks to make the bus drive off.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![बस उजवीकडे सरकल्याचे दाखवणारा टप्पा.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
