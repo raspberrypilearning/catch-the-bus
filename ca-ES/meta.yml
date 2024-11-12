@@ -1,34 +1,34 @@
 ---
-title: Catch the bus
+title: Agafa l'autobús
 hero_image: images/banner.png
-description: Code sprites to walk or fly to the bus before it drives off
-meta_title: Scratch coding projects for kids and teens | Catch the bus
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch animation with sprites that run to catch a bus.
+description: Programa els personatges per caminar o volar fins a l'autobús abans que marxi
+meta_title: Projectes de programació Scratch per a nens i adolescents | Introducció a Scratch
+meta_description: Apreneu a programar a Scratch amb els projectes de programació de la Fundació Raspberry Pi per a nens i adolescents. Crea amb Scratch animacions, jocs, aplicacions i molt més.
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: You will make
+    title: Tu faràs
   - 
-    title: Create your bus scene
+    title: Crea la teva escena d'autobús
   - 
-    title: The Scratch Cat catches the bus
+    title: El gat de Scratch agafa l'autobús
     completion:
       - engaged
   - 
-    title: The hippo flies to the bus
+    title: L'hipopòtam corre cap a l'autobús
   - 
-    title: The bus leaves
+    title: L'autobús marxa
   - 
-    title: Missing the bus
+    title: Falta l'autobús
   - 
-    title: Change the destination
+    title: Canvia el destí
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Test ràpid
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Actualitza el teu projecte
   - 
-    title: What next?
+    title: I ara què ve?
