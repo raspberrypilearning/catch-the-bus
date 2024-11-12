@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legenda: Otázka 3 ze 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Který z těchto skriptů používá **smyčku** k animaci psa?
 
-![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
+![Animace psa běžícího z levé strany okna doprava.](images/dog-run.gif)
 
 --- choices ---
 
@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Yes! The `repeat`{:class="block3control"} code block uses a loop to make the dog run.
+Ano! Blok kódu `opakovat`{:class="block3control"} používá smyčku k rozběhnutí psa.
 
   --- /feedback ---
 
@@ -32,7 +32,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog move, but only once. There is no loop here, so the code does not repeat.
+Tento kód rozpohybuje psa, ale pouze jednou. Není zdě žádná smyčka, proto se kód neopakuje.
 
   --- /feedback ---
 
@@ -53,7 +53,7 @@ move (5) steps
 
   --- feedback ---
 
-This code makes the dog run, but it does not use a loop. Using a loop can often make your code shorter.
+Tento kód psa rozpohybuje, ale neobsahuje smyčku. Použití smyčky může tvůj kód často zkrátit.
 
   --- /feedback ---
 
@@ -66,7 +66,7 @@ move (5) steps
 
   --- feedback ---
 
-There is no loop here, so the dog would only move once. To make the dog run, you would have to add a loop.
+Není zde žádná smyčka, proto se pes posune pouze jednou. K tomu, aby pes běžel, budeš muset použít smyčku.
 
   --- /feedback ---
 
