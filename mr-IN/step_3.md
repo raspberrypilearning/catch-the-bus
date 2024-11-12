@@ -1,41 +1,41 @@
-## The Scratch Cat catches the bus
+## स्क्रॅच मांजर बस पकडते
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+स्टेजच्या **उजव्या बाजूला** दिसण्यासाठी स्क्रॅच मांजरीला अॅनिमेट करा आणि **लूप** मध्ये अनेक वेळा छोटी हालचाल करून बसकडे जा. 
 </div>
 <div>
 
-![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+![स्क्रॅच मांजर बसकडे चालत आहे.](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Get the Scratch Cat into their starting position
+### स्क्रॅच कॅटला त्याच्या सुरुवातीच्या स्थितीत आणा
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
+स्प्राइट फलकातील**दिशा** गुणधर्मावर क्लिक करा. `-90`कडे निर्देशित करण्यासाठी बाण फिरवा. त्यानंतर, स्क्रॅच मांजर उलटे वळायचे  थांबवण्यासाठी रोटेशन शैली `डावी-उजवी` मध्ये बदलण्यासाठी मध्यभागी **डावे/उजवे** चिन्हावर क्लिक करा:
 
-![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
+![-90 कडे निर्देशित करणारा बाण आणि 'डावा/उजवा' चिन्ह निवडला.](images/sprite-pane-direction.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the Scratch Cat to the bottom right-hand side of the Stage.
+स्क्रॅच मांजर स्टेजच्या तळाशी उजव्या बाजूला ड्रॅग करा.
 
-![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+![तळाशी-उजव्या कोपर्‍यात मांजर असलेला स्टेज.](images/bottom-right-cat.png)
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**टीप:** जर तुम्ही स्टेजच्या बाहेर स्प्राईट ठेवण्याचा प्रयत्न केला तर तो स्टेजवरील त्याच्या पूर्वीच्या स्थानावर परत जाईल.
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+स्क्रॅच कॅटला त्यांच्या सुरुवातीच्या स्थितीत आणण्यासाठी कोड जोडा:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**चाचणी:** स्क्रॅच मांजरीला नवीन स्थानावर ड्रॅग करा, नंतर तुमच्या `go to x: y:`{:class="block3motion"} ब्लॉकवर क्लिक करा. स्क्रॅच मांजर प्रत्येक वेळी तळाशी उजव्या बाजूला परत जावे.
 
 --- /task ---
 
-### Animate the Scratch Cat
+### स्क्रॅच मांजर एनिमेट करा
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+तुम्ही स्क्रॅच कॅटने अनेक वेळा छोट्या पायऱ्या रिपीट करण्यासाठी `रिपीट`{:class="block3control"} लूपमध्ये कोड जोडाल. यामुळे स्क्रॅच कॅट सजीव दिसेल.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+एक `repeat`{:class="block3control"} `10` ब्लॉक जोडा, नंतर `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} ब्लॉक त्याच्या आत ड्रॅग करा:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+!['मूव्ह' ब्लॉकमधील पायऱ्यांची संख्या 10 ते 5 पर्यंत बदलणे, त्यानंतर 'रिपीट' लूपमध्ये ब्लॉक समाविष्ट करणे.](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,23 +74,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा. `repeat`{:class="block3control"} `10` ब्लॉकमधील संख्या बदलण्याचा प्रयत्न करा जेणेकरून स्क्रॅच कॅट बसमध्ये थांबेल.
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+काही स्प्राइट्समध्ये एकापेक्षा जास्त पोशाख असतात. तुम्ही स्क्रॅच कॅट वॉकिंगचे अॅनिमेशन तयार करण्यासाठी **स्क्रॅच कॅट** स्प्राइटचे पोशाख वापराल.
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+**पोशाख** टॅबवर क्लिक करा. **स्क्रॅच कॅट** स्प्राइटमध्ये दोन पोशाख आहेत आणि ते एकत्र, चालण्याची हालचाल करण्यासाठी वापरले जाऊ शकतात.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+**कोड** टॅबवर क्लिक करा. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,17 +104,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा आणि स्क्रॅच मांजर बसमध्ये जाईल.
 
 --- /task ---
 
-### Hide the Scratch Cat
+### स्क्रॅच मांजर लपवा
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+स्क्रॅच मांजर बसमध्ये पोहोचल्यावर `लपवण्यासाठी`{:class="block3looks"} ला ब्लॉक जोडा:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -130,17 +130,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag again, and you will see that the Scratch Cat has now disappeared.
+**चाचणी:** हिरव्या झेंड्यावर पुन्हा क्लिक करा, आणि तुम्हाला दिसेल की स्क्रॅच मांजर आता नाहीशी झाली आहे.
 
 --- /task ---
 
-### Show the Scratch Cat
+### स्क्रॅच मांजर दाखवा
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+`शो`{:class="block3looks"} ब्लॉक जोडा जेणेकरून स्क्रॅच मांजर बसमध्ये जाण्यापूर्वी दिसेल:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -153,7 +153,7 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**टीप:** जेव्हा तुम्ही `hide`{:class="block3looks"} ब्लॉक वापरता, तेव्हा आवश्यकतेनुसार स्प्राइट दृश्यमान आहे याची खात्री करण्यासाठी तुम्हाला `शो`{:class="block3looks"} ब्लॉक देखील जोडणे आवश्यक आहे.
 
 --- /task ---
 
