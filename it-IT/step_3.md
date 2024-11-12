@@ -88,7 +88,7 @@ Fai clic sulla scheda **Costumi**. Lo sprite **Scratch Cat** ha due costumi e in
 
 --- task ---
 
-Fai clic sulla scheda **Codice**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Fai clic sulla scheda **Codice**. Aggiungi un blocco `passa al costume seguente`{:class="block3looks"}:
 
 ![Lo sprite di Scratch Cat.](images/scratch-cat-sprite.png)
 
