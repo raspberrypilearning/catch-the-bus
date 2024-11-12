@@ -1,17 +1,17 @@
-## Quick quiz
+## सोचिए
 
-Answer the three questions. There are hints to guide you to the correct answer.
+तीन प्रश्नों के उत्तर दीजिए। आपको सही उत्तर के लिए मार्गदर्शन करने के लिए संकेत हैं।
 
-When you have answered each question, click on **Check my answer**.
+जब आप प्रत्येक प्रश्न का उत्तर दे दें, तो **मेरा उत्तर जांचें** पर क्लिक करें।
 
-Have fun!
+शुभकामनाएं
 
 --- question ---
 ---
 legend: 3 में से पहला प्रश्न
 ---
 
-In your project, the bus glides away using this code:
+आपकी परियोजना में, बस इस कोड का उपयोग करके दूर जाती है:
 
 ```blocks3
 when flag clicked 
@@ -19,7 +19,7 @@ wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
-When does the bus glide away?
+बस कब ग्लाइड करती है?
 
 --- choices ---
 
@@ -27,7 +27,7 @@ When does the bus glide away?
 
   --- feedback ---
 
-The code blocks run in order, look at the blocks before the `glide`{:class="block3motion"} block.
+कोड ब्लॉक क्रम में चलते हैं, `ग्लाइड`{:class="block3motion"} ब्लॉक से पहले के ब्लॉक देखें।
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ The code blocks run in order, look at the blocks before the `glide`{:class="bloc
 
   --- feedback ---
 
-Yes. After you click on the green flag, there is a four-second wait before the bus glides away.
+हाँ। आपके द्वारा हरी झंडी पर क्लिक करने के बाद, बस के फिसलने से पहले चार सेकंड का इंतजार होता है।
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. After you click on the green flag, there is a four-second wait before the b
 
   --- feedback ---
 
-The bus does not have any code that runs `when this sprite clicked`{:class="block3events"}.
+बस में कोई कोड नहीं होता है जो `चलता है जब यह स्प्राइट`{:class="block3events"} पर क्लिक करता है।
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ The bus does not have any code that runs `when this sprite clicked`{:class="bloc
 
   --- feedback ---
 
-The bus takes two seconds to glide away, but that is not how long it waits before it moves.
+बस को ग्लाइड करने में दो सेकंड लगते हैं, लेकिन चलने से पहले यह इतनी देर तक प्रतीक्षा नहीं करता।
 
   --- /feedback ---
 
