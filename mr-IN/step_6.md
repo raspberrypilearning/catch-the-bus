@@ -1,12 +1,12 @@
-## Missing the bus
+## बस चुकली
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+जर स्क्रॅच मांजर बस पकडण्याइतपत वेगाने धावली नाही तर?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![स्क्रॅच मांजरची बस चुकली](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
@@ -15,9 +15,9 @@ What if the Scratch Cat did not run fast enough to catch the bus?
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+**स्क्रॅच कॅट** स्प्राइट निवडा आणि `प्रतीक्षा`{:class="block3control"} ब्लॉक जोडा:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच मांजर स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,7 +34,7 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा. स्क्रॅच मांजर खूप हळू चालेल आणि बस चुकवेल!
 
 --- /task ---
 
@@ -44,15 +44,15 @@ hide
 
 You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
 
-Change the delay in the `wait`{:class="block3control"} block:
+`प्रतीक्षा`{:class="block3control"} ब्लॉकमधील विलंब बदला:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच मांजर स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा आणि स्क्रॅच मांजर वेगाने चालेल. तुम्हाला सर्वात जास्त आवडणारा विलंब निवडा.
 
 --- /task ---
 
@@ -60,11 +60,11 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+जर तुम्हाला स्क्रॅच कॅटने **बस**चुकवायची असेल, तर तुमच्या कोडमधून `hide`{:class="block3looks"} ब्लॉक काढून टाका जेणेकरून स्क्रॅच मांजर स्टेजवर राहील:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![स्क्रिप्टमधून ब्लॉक काढण्यासाठी कोड एरियामधील स्क्रिप्टमधून ब्लॉक मेनूवर 'लपवा' ब्लॉक ड्रॅग करा.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![स्क्रॅच कॅट स्प्राइट.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+जर तुम्हाला स्क्रॅच कॅटने **बस**पकडायची असेल, तर बस निघण्यापूर्वी जास्त वेळ थांबा:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![सिटी बस स्प्राइट.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+जर तुम्ही `hide`{:class="block3looks"} ब्लॉक काढून टाकला असेल आणि स्क्रॅच कॅट यशस्वीपणे बस पकडू इच्छित असाल तर तो परत **स्क्रॅच कॅट** स्प्राइटच्या कोडमध्ये टाकणे गरजेचे आहे.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+तुम्‍हाला हवे तसे अॅनिमेशन मिळेपर्यंत बदल करा.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+एखाद्या प्रकल्पावर काम करत असताना, तुम्ही अनेकदा परत जाता आणि तुम्हाला नवीन कल्पना मिळाल्यामुळे तुमचा कोड बदलतो किंवा सुधारतो. 
 </p>
 
 
