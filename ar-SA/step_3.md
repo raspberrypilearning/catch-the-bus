@@ -88,7 +88,7 @@ end
 
 --- task ---
 
-انقر فوق علامة التبويب **المقاطع البرمجیة**. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+انقر فوق علامة التبويب **المقاطع البرمجیة**. أضف `الزي التالي`{:class="block3looks"}:
 
 ![كائن القط.](images/scratch-cat-sprite.png)
 
