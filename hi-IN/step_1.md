@@ -1,6 +1,6 @@
-## You will make
+## आपको बनाना है
 
-Create an animation with sprites that run or fly to catch a bus 🚌.
+स्प्राइट के साथ एक एनीमेशन बनाएं जो बस पकड़ने के लिए दौड़ते या उड़ते हैं ।
 
 आप करेंगे:
 + स्प्राइट्स से अलग-अलग काम करायें जब `when green flag clicked `{:class="block3events"} (जब हरे झंडे पर क्लिक करें)
@@ -9,13 +9,13 @@ Create an animation with sprites that run or fly to catch a bus 🚌.
 
 --- no-print --- --- task ---
 
-### Play ▶️
+### प्ले ️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 
 एनीमेशन देखने के लिए हरे झंडे पर क्लिक करें। 
 
-Which sprites change their costumes to create an animation 🎥 effect?
+एनीमेशन प्रभाव बनाने के लिए कौन से स्प्राइट अपनी वेशभूषा बदलते हैं?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
