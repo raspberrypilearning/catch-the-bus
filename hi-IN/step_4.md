@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+एक हिप्पो स्प्राइट जोड़ें जो बस के लिए उड़ान भरता है।
 </div>
 <div>
 
@@ -11,44 +11,44 @@ Add a hippo sprite that flies to the bus.
 </div>
 </div>
 
-### Give the Hippo a starting position
+### हिप्पो को शुरुआती स्थिति दें
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+अपने प्रोजेक्ट में **Hippo1** स्प्राइट जोड़ें।
 
-Change the **Size** of the **Hippo1** sprite:
+**Hippo1** स्प्राइट का **आकार** बदलें:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Hippo1 स्प्राइट के लिए स्प्राइट पेन, जिसका आकार 50 पर सेट है।](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+हिप्पो को Stage के ऊपर बाईं ओर खींचें।
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![Hippo1 स्प्राइट Stage के ऊपर बाईं ओर।](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+हिप्पो को उनकी प्रारंभिक स्थिति में लाने के लिए कोड जोड़ें:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**टिप:** `x`{:class="block3motion"} और `y`{:class="block3motion"} निर्देशांक `go to x: y:`{:class="block3motion"} ब्लॉक में होंगे हिप्पो की वर्तमान स्थिति, इसलिए आपको उन्हें टाइप करने की ज़रूरत नहीं है।
 
 --- /task ---
 
-### Make the Hippo flap its wings and fly
+### हिप्पो को अपने पंख फड़फड़ाने और उड़ने के लिए तैयार करो
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+हिप्पो को **सिटी बस**की ओर उड़ाने के लिए कोड जोड़ें:
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**टेस्ट:** हरे झंडे पर क्लिक करें और जांचें कि हिप्पो बस के लिए उड़ान भरता है। हिप्पो को सही जगह पर रोकने के लिए आप `repeat`{:class="block3control"} ब्लॉक में संख्या बदल सकते हैं।
 
 --- /task ---
 
-### Show and hide the bus
+### बस दिखाएँ और छुपाएँ
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+`show`{:class="block3looks"} और `hide`{:class="block3looks"} ब्लॉक जोड़ें:
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**परिक्षण:** हरे झंडे पर क्लिक करें। हिप्पो उड़ जाएगा और बस में प्रवेश करेगा।
 
 --- /task ---
