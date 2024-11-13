@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Afegeix més blocs per fer que l'autobús s'apagi.
+Afegeix més blocs per fer que l'autobús marxi.
 </div>
 <div>
 
@@ -23,7 +23,7 @@ Selecciona el personatge **City Bus** .
 
 --- task ---
 
-Afegeix codi per fer que l'autobús marxi cap a la dreta quatre segons després de fer clic a la bandera verda.
+Afegeix un nou bloc de codi per fer que l'autobús marxi cap a la dreta quatre segons després de fer clic a la bandera verda.
 
 ![El personatge del 'City Bus'.](images/bus-sprite.png)
 
