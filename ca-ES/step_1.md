@@ -1,11 +1,11 @@
-## Tu faràs
+## Que faràs
 
-Crea una animació amb personatges que corren o van de pressa per agafar un autobús 🚌.
+Crear una animació amb personatges que corren o van a correcuita per agafar un autobús 🚌.
 
-Tu faràs:
-+ Fes que els personatges facin coses diferents `quan facis clic a la bandera verda`{:class="block3events"}
-+ Col·loca els personatges a **l'escenari**
-+ Utilitza un bucle `repetiu`{:class="block3control"} per `moure`{:class="block3motion"} personatges i canvia de `vestits`{:class="block3looks"}
+Que faràs:
++ Fer que els personatges facin coses diferents `quan facis clic a la bandera verda`{:class="block3events"}
++ Col·locar els personatges a **l'escenari**
++ Utilitzar un bucle `repetiu`{:class="block3control"} per `moure`{:class="block3motion"} personatges i canvia de `vestits`{:class="block3looks"}
 
 --- no-print ---
 --- task ---
