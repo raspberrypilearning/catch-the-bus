@@ -50,7 +50,7 @@ Pots veure el [projecte completat  aquí](https://scratch.mit.edu/projects/72416
 
 També pots "reinventar" el projecte per fer els canvis que vulgueu. Pots afegir efectes de so a l'autobús o altres personatges, o definir l'efecte de color de l'autobús. Un dels personatges podria perdre l'autobús i no amagar-se.
 
-<0>Consell:</0> Quan facis clic a <0>Trieu un Personatge</0>, pots mantenir el cursor del ratolí sobre un personatge per veure'n les seves animacions(vestits), o en alguns dispositius mòbils, podeu tocar i mantenir premut un personatge per veure els seus vestits (si apareix una finestra quan toqueu i manteniu premut un personatge, toqueu al costat de la pantalla per tancar la finestra i veure els vestits).
+Gràcies al constructora digital Lyla per enviar aquesta fantàstica actualització!
 
 ![Un projecte amb un autobús amb colors intermitents.](images/Lyla-bus.gif)
 
