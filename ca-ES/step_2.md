@@ -33,7 +33,7 @@ Fes clic (o en una tauleta, toqueu) a **Tria un teló fons** al panell de l'esce
 
 --- task ---
 
-Fes clic a la categoria **A l'aire lliure** . Afegeix un teló de fons que sigui un bon punt de partida per al teu autobús:
+Fes clic a la categoria **Exteriors**. Afegeix un teló de fons que sigui un bon punt de partida per al teu autobús:
 
 ![L'Escenari amb el teló de fons de l'Escola.](images/outdoor-backdrop.png)
 
