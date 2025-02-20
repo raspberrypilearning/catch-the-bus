@@ -81,7 +81,7 @@ Arrossega l'autobús fins a una bona posició a l'escenari:
 
 ![L'autobús a la part inferior de l'escenari.](images/bus-bottom-middle.png)
 
-Les coordenades **x** i **i** (els números utilitzats per descriure la posició) de l'autobús es mostren al panell de personatge a sota de l'escenari:
+Les coordenades **x** i **y** (els números utilitzats per descriure la posició) de l'autobús es mostren al panell de personatge a sota de l'escenari:
 
 ![Una captura de pantalla destaca'n on es troben les coordenades al panell de personatges.](images/coords-sprite-pane.png)
 
@@ -124,7 +124,7 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Consell:** Si no pots veure el bloc `ves a la capa`{:class="block3looks"}, has d'anar baixant dintre del menú de bloc  `Aspecte`{:class="block3looks"} .
+**Consell:** Si no pots veure el bloc `ves a la capa`{:class="block3looks"}, has d'anar baixant dintre del menú de bloc  `Aspecte`{:class="block3looks"}.
 
 --- /task ---
 
