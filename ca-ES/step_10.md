@@ -16,4 +16,4 @@ Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-Si voleu divertir-vos més explorant Scratch, podeu provar qualsevol [d'aquests projectes](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Si voleu divertir-vos més explorant Scratch, podeu provar qualsevol [d'aquests projectes](https://projects.raspberrypi.org/ca-ES/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
