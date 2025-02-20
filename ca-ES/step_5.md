@@ -46,7 +46,7 @@ Arrossega l'autobús cap al costat dret de l'escenari. Aquesta és la posició `
 
 --- task ---
 
-Afegeix un `llisca`{:class="block3motion"} `2` `segons a x: y:`{: class="block3motion"} sota el bloc `espera`{:class="block3control"}.
+Afegeix un `llisca`{:class="block3motion"} `2` `segons a x: y:`{:class="block3motion"} sota el bloc `espera`{:class="block3control"}.
 
 Les coordenades `x`{:class="block3motion"} i `y`{:class="block3motion"} al vostre projecte poden ser una mica diferents i serà la posició exacta a la qual heu arrossegat l'autobús.
 
