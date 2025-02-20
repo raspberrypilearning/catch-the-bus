@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Ubuzo wesi- 3 kwemi- 3
 ---
 
-Which of these scripts uses a **loop** to animate the dog?
+Ngowuphi umbhalo kulemibalo osebenzisa u**phindapindwano** ukuze inja ibengupopayi?
 
 ![An animation of a dog running from the left of the Stage to the right.](images/dog-run.gif)
 
