@@ -27,7 +27,7 @@ Quan arrossegui un personatge a una posició nova, les coordenades **x** i **i**
 
   --- feedback ---
 
-Si fas servir les icones de l'ull **** i **de pica l'ull** , el personatge es mostrarà o s'amagarà.
+Si fas servir les icones de **l'ull** i **de pica l'ull** , el personatge es mostrarà o s'amagarà.
 
   --- /feedback ---
 
