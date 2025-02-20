@@ -17,7 +17,7 @@ Afegeix un hipopòtam que corre cap a l'autobús.
 
 Afegeix el personatge **Hippo1** al vostre projecte.
 
-Canvia la **Mida** del **Hippo1** :
+Canvia la **Mida** del **Hippo1**:
 
 ![El panell Sprite per a l'Sprite Hippo1, amb la mida establerta en 50.](images/hippo-sprite-size.png)
 
