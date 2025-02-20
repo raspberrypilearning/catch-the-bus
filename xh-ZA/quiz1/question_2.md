@@ -15,15 +15,15 @@ Ukutshintsha ulwalathiso lwe-sprite, kufuneka uye kwisixhobo so**lwalathiso** uk
 
   --- /feedback ---
 
-- (x) U **x kunye no-y banxibelelanisa** we-sprite ![I-x kunye no-y zilungelelanisa iipropati.](images/coordinates.png)
+- (x) U **ulungelelaniso luka-x no-y** lwe-sprite ![Isixhobo solungelelaniso ka-x no-y.](images/coordinates.png)
 
   --- feedback ---
 
-Xa urhuqa i-sprite kwindawo entsha, i **x** kunye ne **y** izilungelelanisi zihlaziywa ngokuzenzekelayo.
+Xa utsala i-sprite usibeka kwi entsha, izilungelelanisi zika-**x** kunye no-**y** zihlaziywa ngokuzenzekelayo.
 
   --- /feedback ---
 
-- ( ) Nokuba i-sprite siya **kuveza okanye sifihle** ![Ipropati yomboniso.](images/visibility.png)
+- ( ) Nokuba i-sprite siya **kuveza okanye sifihle** ![Isixhobo sokubonisa.](images/visibility.png)
 
   --- feedback ---
 
