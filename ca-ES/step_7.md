@@ -37,7 +37,7 @@ Selecciona l'eina **Text** (escriptura).
 
 Fes clic a l'autobús on voleu que comenci el text i escriviu la destinació que trieu.
 
-Per canviar l'estil d'escriptura, pots fer clic al menú desplegable **Font** :
+Per canviar l'estil d'escriptura, pots fer clic al menú desplegable **Font**:
 
 ![El menú "Font de lletra" seleccionat a la part superior central de l'editor de gràfic.](images/bus-text-font.png)
 
