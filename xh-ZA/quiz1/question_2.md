@@ -11,7 +11,7 @@ Xa u **urhuqa i-sprite** kwindawo entsha kwiQonga, yeyiphi ipropathi ezi **** ez
 
   --- feedback ---</li> </ul>
 
-Ukutshintsha ulwalathiso lwe-sprite, kufuneka uye kwipropati ye **Lwalathiso** kwaye uyitshintshe.
+Ukutshintsha ulwalathiso lwe-sprite, kufuneka uye kwisixhobo so**lwalathiso** ukuze uyitshintshe.
 
   --- /feedback ---
 
@@ -27,15 +27,15 @@ Xa urhuqa i-sprite kwindawo entsha, i **x** kunye ne **y** izilungelelanisi zihl
 
   --- feedback ---
 
-Using the **eye** and **crossed-out eye** icons will make the sprite show or hide.
+Ukusebenzisa umfanekiso we**liso ** okanye we**liso ** elihlatyiweyo kuzakwenza i-Sprite sibonakale okanye sithele.
 
   --- /feedback ---
 
-- ( ) The **size** of the sprite ![The size property.](images/size.png)
+- () U**bukhulu ** be-Sprite ![Isixhobo sobukhulu.](images/size.png)
 
   --- feedback ---
 
-To change the size of the sprite, you need to go to the **Size** property and change the number there.
+Ukuze utshintshe ubukhulu be-Sprite, kumele ucofe kwisakhiwo so**bukhulu **.
 
   --- /feedback ---
 
