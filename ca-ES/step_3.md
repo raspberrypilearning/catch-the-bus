@@ -56,7 +56,7 @@ Afegiràs el codi en un bucle `repeteix`{:class="block3control"} per fer que gat
 
 --- task ---
 
-Afegeix un bloc `repetix`{:class="block3control"} `10` i arrossega un bloc `mou-te`{: class="block3motion"} `10` `passos`{:class="block3motion"} dins d'ell:
+Afegeix un bloc `repetix`{:class="block3control"} `10` i arrossega un bloc `mou-te`{:class="block3motion"} `10` `passos`{:class="block3motion"} dins d'ell:
 
 ![Canvia el nombre de passos del bloc "mou-te" de 10 a 5 i, a continuació, inserir el bloc al bucle "repeteix".](images/block-into-loop.gif)
 
