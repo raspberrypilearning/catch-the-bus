@@ -25,7 +25,7 @@ Zeziphi izi-Sprite ezitshintshe isinxibo ukuze kubekho isiphumo sopopayi?
 
 --- print-only ---
 
-![The completed project.](images/hippo-flies.png)
+![iProjecti egqityiweyo.](images/hippo-flies.png)
 
 --- /print-only ---
 
