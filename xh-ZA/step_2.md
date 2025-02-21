@@ -6,7 +6,7 @@ Choose a backdrop and add a bus sprite.
 </div>
 <div>
 
-![The City Bus on the School backdrop.](images/bus-scene.png){:width="300px"}
+![Ibhasi yesiXeko ngasemva kweSikolo.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
