@@ -1,73 +1,73 @@
-## Create your bus scene
+## Yenza owakho umboniso
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop and add a bus sprite.
+Khetha umfanekiso wangemva kwaye ufake ne si-sprite esiyi bhasi.
 </div>
 <div>
 
-![Ibhasi yesiXeko ngasemva kweSikolo.](images/bus-scene.png){:width="300px"}
+![Ibhasi yesiXeko kumbosi wangemva kweSikolo.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Vula iprojekthi yokuqalisa
 
 --- task ---
 
-Open the [Catch the bus starter project](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch will open in another browser tab.
+Vula [iprojekthi yokuqalisa ethi Leqa ibhasi](https://scratch.mit.edu/projects/582214330/editor) {:target="_blank"}. uScratch uya kuvula kwenye ithebhu yesikhangeli.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Choose a Backdrop
+### Khetha umfanekiso wangasemva
 
 --- task ---
 
-Click (or on a tablet, tap) on **Choose a Backdrop** in the Stage pane (in the bottom right-hand corner of the screen):
+Cofa (okanye kwithebhulethi, chwetha) ku **Khetha umfanekiso wangemva** kwisahlulo seqonga (kwikona esezantsi ekunene kwekhusi):
 
-![A screenshot of the choose a backdrop icon.](images/choose-a-backdrop.png)
+![Umfanekiso wekhusi ka khetha umfanekiso wangasemva.](images/choose-a-backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Outdoors** category. Add a backdrop that makes a good starting point for your bus:
+Cofa kudididi lwa**Ngaphandle**. Yongeza umfanekiso wangemva ozakwenza isiqalo esihle sebhasi yakho:
 
-![The Stage with the School backdrop.](images/outdoor-backdrop.png)
-
---- /task ---
-
-### Choose a Sprite
-
---- task ---
-
-Click on **Choose a Sprite**:
-
-![A screenshot of the choose a sprite menu.](images/choose-sprite-menu.png)
+![Iqonga ilinomfanekiso weSkolo ngasremva.](images/outdoor-backdrop.png)
 
 --- /task ---
 
+### Khetha iSprite
+
 --- task ---
 
-Type `bus` in the search box at the top:
+Cofa ku **Khetha i-Sprite**:
 
-![The search box highlighted in the Sprite Library.](images/bus-search.png)
-
-Add the **City Bus** sprite to your project.
+![Umfanekiso wekhusi ka khetha imenyu ye-sprite.](images/choose-sprite-menu.png)
 
 --- /task ---
 
-### Give your bus a starting position
+--- task ---
+
+Chwetheza `ibhasi` kwibhokisi yokukhangela phezulu:
+
+![Ibhokisi yokukhangela iphawulwe kwithala leencwadi leSprite.](images/bus-search.png)
+
+Yongeza **Ibhasi yeSixeko** esisprite kwiprojekthi yakho.
+
+--- /task ---
+
+### Nika ibhasi yakho indawo yokuqala
 
 --- task ---
 
-Make sure that the **City Bus** sprite is selected in the Sprite list below the Stage.
+Qinisekisa ukuba isprite esiy**Ibhasi yesiXeko** sikhethiwe kuluhlu lwezi-Sprite ngezantsi kweqonga.
 
-Drag a `when green flag clicked`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the Code area:
+Tsala ibhlokhi ethi `xa iflegi eluhlaza icofiwe`{:class="block3events"} esuka kwiibhloko zemenyu `Iziganeko`{:class="block3events"} uyibeke kwindawo yeKhowudi:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -77,46 +77,46 @@ when flag clicked
 
 --- task ---
 
-Drag the bus to a good position on the Stage:
+Tsala ibhasi uyibeke kwindawo elungileyo eqongeni:
 
-![The bus at the bottom middle of the Stage.](images/bus-bottom-middle.png)
+![Ibhasi esezantsi embindini weQonga.](images/bus-bottom-middle.png)
 
-The **x** and **y** coordinates (the numbers used to describe the position) of the bus are shown in the Sprite pane below the Stage:
+Ulungelelaniso luka-**x** kunye no-**y** (amanani asetyenzisiweyo ukuchaza indawo) yebhasi abonisiwe kwipheyini ye-Sprite ngezantsi kweQonga:
 
-![A screenshot highlighting where the coordinates are located in the sprite pane.](images/coords-sprite-pane.png)
+![Umfanekiso wekhusi ophawulayo apho ulungelelwaniso lubekwe khona kwipheyini yesprite.](images/coords-sprite-pane.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block:
+Yongeza ibhloko ka `yiya ku-x: y:`{:class="block3motion"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 +go to x: (0) y: (-100)
 ```
 
-The numbers in the `go to x: y:`{:class="block3motion"} block are the current x and y coordinates of the bus. The numbers in your project might be a bit different.
+Amanani akwibhloki `yiya ku-x: y:`{:class="block3motion"} amelane nolungelelwaniso luka-x kunye no-y lwebhasi. Amanani kwiprojekthi yakho anokwahluka.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Drag the bus to anywhere on the Stage, and then click on the green flag. The bus should always go to its starting position.
+**Uvavanyo:** Tsala ibhasi ukuya naphi na eQongeni, emva koko ucofe kwiflegi eluhlaza. Ibhasi kufuneka isoloko isiya kwindawo yayo yokuqala.
 
-![Animation showing the bus being dragged around the screen and jumping back to the centre when the green flag is clicked.](images/drag-bus.gif)
+![Upopayi obonisa ibhasi irhuqwa ijikeleze isikrini kwaye itsibela umva ukuya embindini xa iflegi eluhlaza icofiwe.](images/drag-bus.gif)
 
 --- /task ---
 
-### Move the bus behind the character sprites
+### Hambisa ibhasi iyemva kwe-sprites zabalinganiswa
 
 --- task ---
 
-To make sure that the **City Bus** sprite is always behind all the character sprites, add a `go to front layer`{:class="block3looks"} block, then click on `front`{:class="block3looks"} and change it to `back`{:class="block3looks"}:
+Ukuqinisekisa ukubaisprite **Ibhasi yeSixeko** sisoloko singasemva kwabo bonke abalinganiswa, faka ibhulokhi ` yiya kumaleko ongaphambili` ulandele ngokucofa `phambili`{:class="block3looks"} uyitshinste ngokucofa `umva`{:class="block3looks"}:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,17 +124,17 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tip:** If you cannot see the `go to front layer`{:class="block3looks"} block, you need to scroll down in the `Looks`{:class="block3looks"} blocks menu.
+**Ingcebiso:** Ukuba awukwazi ukubona ibhloki ethi `yiya kumaleko ongaphambili`{:class="block3looks"}, kumele uskrole uye ezantsi kwimenyu blokhi `Imbhonakalo`{:class="block3looks"}.
 
 --- /task ---
 
-### Change the bus colour
+### Tshintsha umbala webhasi
 
 --- task ---
 
-You can change the colour of the bus:
+Ungawutshintsha umbala webhasi:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -145,22 +145,22 @@ go to [back v] layer
 
 --- /task ---
 
-### Resize the Scratch Cat
+### Tshintsha ubungakanani bekati kaScratch
 
 --- task ---
 
-The Scratch Cat appears in all new Scratch projects as **Sprite1** in the Sprite list. Click on the **Sprite1** sprite in the Sprite list to get ready to animate the Scratch Cat:
+Ikati kaSprite ibonakala kuzo zonke iiprojekthi zeScratch ezintsha njenge **Sprite1** kuluhlu lweSprite. Cofa kwi **Sprite1** sprite kuluhlu lweSprite ukuze ulungele ukwenza upopayi kweSprite seKati:
 
-![The Sprite1 sprite selected in the Sprite list.](images/sprite1-selected.png)
+![I-Sprite1 sprite ekhethiweyo kuluhlu lweSprite.](images/sprite1-selected.png)
 
-**Tip:** If you have accidentally deleted the **Sprite1** (Scratch Cat) sprite, you can click on the **Choose a Sprite** icon and search for `cat`.
+**Ingcebiso:** Ukuba ucime ngempazamo isprite u**Sprite1** (ikati kaScratch), unga cofa ku **Khetha i-Sprite** ukhangele u`kati`.
 
 --- /task ---
 
 --- task ---
 
-In the Sprite pane, click in the **Size** property and change the Scratch Cat's size to `50`:
+Kwipheyini yeSprite, cofa **Ubungakanani** ipropathi kwaye utshintshe ubungakanani beScratch Cat uyenze u`50`:
 
-![A screenshot highlighting the location of the size property in the Sprite pane.](images/sprite-pane-size.png)
+![Umfanekiso wekhusi oqaqambisa indawo yepropathi yobungakanani kwipheyini yeSprite.](images/sprite-pane-size.png)
 
 --- /task --- 
