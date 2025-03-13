@@ -1,15 +1,15 @@
 --- question ---
 ---
-legend: Umbuzo 2 wesi-3
+legend: Umbuzo wesi-2 kwemi--3
 ---
 
-Xa u **urhuqa i-sprite** kwindawo entsha kwiQonga, yeyiphi ipropathi ezi **** eziya kuhlaziywa kwipheyini yeSprite ngezantsi kweQonga?
+Xa u- **tsala i-sprite** kwindawo entsha eQongeni, zeziphi **izakhiwo** ezizakuhlaziywa kwipheyini ye-Sprite ngezantsi kweQonga?
 
 --- choices ---
 
-- () Ulwalathiso olu</strong> **lwe-sprite ![Ipropati yolwalathiso.](images/direction.png)</p>
+- ( ) I- **isalathiso** se-Sprite ![Isixhobo sokwelathisa.](images/direction.png)
 
-  --- feedback ---</li> </ul>
+  --- feedback ---
 
 Ukutshintsha ulwalathiso lwe-sprite, kufuneka uye kwisixhobo so**lwalathiso** ukuze uyitshintshe.
 
@@ -35,7 +35,7 @@ Ukusebenzisa umfanekiso we**liso ** okanye we**liso ** elihlatyiweyo kuzakwenza 
 
   --- feedback ---
 
-Ukuze utshintshe ubukhulu be-Sprite, kumele ucofe kwisakhiwo so**bukhulu **.
+Ukuze utshintshe ubukhulu be-Sprite, kumele ucofe isixhobo so**bukhulu **.
 
   --- /feedback ---
 
