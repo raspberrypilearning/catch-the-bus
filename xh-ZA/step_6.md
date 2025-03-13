@@ -1,23 +1,23 @@
-## Missing the bus
+## Ukushiywa yibhasi
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What if the Scratch Cat did not run fast enough to catch the bus?
+Kungathini ukuba Ikati ka-Scratch ayikwazanga ukubaleka ifumane ibhasi?
 </div>
 <div>
 
-![The Scratch Cat missing the bus.](images/cat-misses-bus.png){:width="300px"}
+![Ikati kaScratch ishiywa yibhasi.](images/cat-misses-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Make Scratch Cat miss the bus
+### Yenza iKati kaScratch ishiyiwe yibhasi
 
 --- task ---
 
-Select the **Scratch Cat** sprite and add a `wait`{:class="block3control"} block:
+Khetha i-sprite esy**iKati kaScratch** kwaye wongeze ibhloki `linda`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -34,37 +34,37 @@ hide
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat will walk too slowly and miss the bus!
+**Uvavanyo:** Cofa kwiflegi eluhlaza. Ikati kaSrcatch iya kuhamba kancinci kwaye ishiywe yibhasi!
 
 --- /task ---
 
-### Make Scratch Cat catch the Bus
+### Yenza iKati kaSratch ikhwele iBhasi
 
 --- task ---
 
-You will want delays of less than one second. 0.5 is half a second, 0.25 is a quarter of a second, and 0.1 is a tenth of a second.
+Uya kufuna ulibaziseko olungaphantsi komzuzwana omnye. i- 0.5 sisiqingatha somzuzwana, i- 0.25 yikota yomzuzwana, kwaye i- 0.1 lishumi lomzuzwanai.
 
-Change the delay in the `wait`{:class="block3control"} block:
+Tshintsha ulibaziseko kw ibhloki `linda`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 wait (0.2) seconds // try 0.1, 0.5, 0.05
 ```
 
-**Test:** Click on the green flag, and the Scratch Cat will walk faster. Choose the delay that you like the most.
+**Uvavanyo:** Cofa kwiflegi eluhlaza, ukuze iKati KaScratch ihamba iye ebhasini. Khetha ukulibaziseka okuthanda kakhulu.
 
 --- /task ---
 
-### Choose if Scratch Cat catches or misses the bus
+### Khetha ukuba iKati kaScrath iyahamba okanye iyashiywa yibhasi
 
 --- task ---
 
-If you want the Scratch Cat to **miss the bus**, remove the `hide`{:class="block3looks"} block from your code so that the Scratch Cat stays on the Stage:
+Ukuba ufuna iKati kaScratch<0>ishywe yibhasi</0>, susa ibhlokhi <1>fihla</1>{:class="block3looks"} kwikhowudi yakho ukuze iKati kaScratch ihlale eqongeni:
 
-![Dragging the 'hide' block from the script in the Code area to the Blocks menu to remove the block from the script.](images/removing-blocks-at-script-ends.gif)
+![Ukutsala ibhloko 'yokufihla' usisusa kwiskripthi kwindawo yeKhowudi ukuyakusibeka kwiibhloki zemenyu kukususa lo bhloki kwiscript.](images/removing-blocks-at-script-ends.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -81,9 +81,9 @@ end
 
 --- task ---
 
-If you want the Scratch Cat to **catch the bus**, make the bus wait longer before it leaves:
+Ukuba ufuna iKati kaScratch `ihambe ne bhasi`, yenza ibhasi ilinde ixesha elide phambi kokuba ihambe:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,18 +92,18 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-You will need to put the `hide`{:class="block3looks"} block back in the **Scratch Cat** sprite's code if you have removed it and want the Scratch Cat to successfully catch the bus.
+Kuya kufuneka ubuyisele ibhulokhi `fihla`{:class="block3looks"} emva kwikhowudi yesprit **iKati kaScratch** ukuba uyisusile ukuba ufuna iKati kaScratch ikwelw ngempumelelo ebhasini.
 
 --- /task ---
 
 --- task ---
 
-Make changes until you get the animation to work the way that you want it to.
+Yenza utshintsho ude ufumane oopopayi basebenze ngendlela ofuna ngayo.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-When working on a project, you often go back and change or improve your code as you get new ideas. 
+Xa usebenza kwiprojekthi, uhlala ubuyela emva uyokutshintsha okanye uyokuphucula ikhowudi yakho njengoko ufumana imibono emitsha. 
 </p>
 
 
