@@ -2,7 +2,7 @@
 
 Yenza upopayi ngezi-Sprite ezibalekayo okanye ezibhabhayo ukuze zifumane ibhusi.
 
-You will:
+Uzaku:
 + Kwenza i-Sprite senze izinto ezahlukileyo `xa ucofa iflegi eluhlaza`{:class=block3motion"}
 + Beka i-Sprite e**Qongeni**
 + Sebenzisa uku`phinda`{:class=block3motion"} lophindaphindwano ukuze ukwazi `hambisa`{:class=block3motion"} i-Sprite kwaye u`tshinsthe isinxibo`{:class=block3motion"}
@@ -30,5 +30,5 @@ Zeziphi izi-Sprite ezitshintshe isinxibo ukuze kubekho isiphumo sopopayi?
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Animation**</span> creates the effect of movement by changing pictures quickly. Abenzi bokuqala bopopayi babekrola iinkuni baze bazenze izitampu. Ukusebenzisa u-Scratch ekubhaleni ikhowudi yokwenza upopayi wakho, kuyakhaulezisa kakhulu!
+ukwenza u<span style="color: #0faeb0">**Popayi**</span> kukwenza umphumo wentshukumo ngokuguqula imifanekiso ngokukhawuleza. Abenzi bokuqala bopopayi babekrola iinkuni baze bazenze izitampu. Ukusebenzisa u-Scratch ekubhaleni ikhowudi yokwenza upopayi wakho, kuyakhaulezisa kakhulu!
 </p>
