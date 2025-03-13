@@ -1,31 +1,31 @@
-## The bus leaves
+## Ibhasi iyahamba
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more blocks to make the bus drive off.
+Yongeza ezinye iibhloki ukwenza ibhasi ihambe.
 </div>
 <div>
 
-![The Stage showing that the bus has moved to the right.](images/bus-leaving.png){:width="300px"}
+![Iqonga libonisa ukuba ibhasi iye ekunene.](images/bus-leaving.png){:width="300px"}
 
 </div>
 </div>
 
-### Animate the Bus
+### Yenza ibhasi inengupopayi
 
 --- task ---
 
-Select the **City Bus** sprite.
+Khetha i-sprite esiyi **Ibhasi yeSixeko**.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to make the bus drive off to the right four seconds after the green flag is clicked.
+Yongeza ikhowudi yokwenza ibhasi ihambe iye ekunene imizuzwana emine emva kokuba iflegi eluhlaza icofiwe.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -36,21 +36,21 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-Drag your bus to the right-hand side of the Stage. This is the `x`{:class="block3motion"} and `y`{:class="block3motion"} position that the bus will `glide`{:class="block3motion"} to.
+Tsalela ibhasi yakho kwicala lasekunene eQongeni. Isalathiso  u`x`{:class="block3motion"} kunye no `y`{:class="block3motion"} yindawo apho ibhasi izaku `tyibilika`{:class="3motion"} khona.
 
 ![](images/bus-right.png)
 
-**Tip:** If you move the bus too far to the right, it will jump back. Try again, but don't move it so far.
+**Ingcebiso:** Ukuba uhambise ibhasi kude kakhulu ukuya ekunene, izakubuyela umva. Zama kwakhona, kodwa ungayihambisi kakhulu ngoku.
 
 --- /task ---
 
 --- task ---
 
-Add a `glide`{:class="block3motion"} `2` `secs to x: y:`{:class="block3motion"} block under the `wait`{:class="block3control"} block.
+Yongeza ibhulokhi u`tyibilika`{:class="block3motion"} emi-`2` `imizuzu ukuya ku-x: no-y:`{:class="block3motion"} ezantsu kwebhulokhi ka `linda`{:class="block3motion"}.
 
-The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in your project might be a bit different and will be the exact position that you dragged the bus to.
+Ulungelelaniso u-`x` no-`y` kwiprojekhti yakho lungohluka kancinci kwaye luzakuba ngqo kulendawo utsalele ibhasi yakho kuyo.
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -62,17 +62,17 @@ wait [4] seconds // change 1 to 4
 
 --- task ---
 
-**Test:** Click on the green flag. The Scratch Cat and hippo will move to the bus, and the bus will drive off to the right after four seconds.
+**Uvavanyo:** Cofa kwiflegi eluhlaza. Ikati kaScratch kunye nemvubu ziya kufudukela ebhasini, kwaye ibhasi iya kuhamba iye ekunene emva kwemizuzwana emine.
 
 --- /task ---
 
-### Hide and show the Bus
+### Fihla kwaye ubonise iBus
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to make the bus seem to drive off the Stage:
+Yongeza ibhulokhi `fuhla`{:class="block3motion"} ukuze wenze ibhasi yakho ibengathi iyahamba:
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -84,15 +84,15 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-**Test:** Click on the green flag. The bus will now hide after driving off. Do you remember how to make sure that a sprite reappears when you click on the green flag?
+**Uvavanyo:** Cofa kwiflegi eluhlaza. Ibhasi ngoku iza kuzimela emva kokuba ihambile. Uyakhumbula ukuba ungaqinisekisa njani ukuba i-sprite siphinde sivele xa ucofa iflegi eluhlaza?
 
 --- /task ---
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block to your `when green flag clicked`{:class="block3events"} script to make the bus appear when you run your project:
+Yongeza ibhulakhi `bonisa`{:class="block3motion"}
 
-![The City Bus sprite.](images/bus-sprite.png)
+![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,8 +106,8 @@ set [color v] effect to (85) // try numbers up to 200
 
 --- task ---
 
-**Test:** Click on the green flag and watch your animation. The bus should appear in the centre of the Stage and then drive off to the right and disappear.
+**Uvavanyo:** Cofa kwiflegi eluhlaza kwaye ubukele oopopayi bakho. Ibhasi kufuneka ivele embindini weQonga kwaye emva koko iqhube iye ekunene kwaye inyamalale.
 
-Is everyone on the bus when it leaves? You can change the amount of time that the bus waits, if you need to.
+Ingaba wonke umntu ukhwele kwibhasi xa ihamba? Ungatshintsha ubude bexesha ibhasi elilindayo, ukuba dinga njalo.
 
 --- /task ---
