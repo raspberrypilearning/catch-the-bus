@@ -1,54 +1,54 @@
-## The hippo flies to the bus
+## Umvubu uyabhabha ukuya ebhasini
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a hippo sprite that flies to the bus.
+Faka isprite esingumvubu esibhabhayo ukuya ebhasini.
 </div>
 <div>
 
-![The hippo flying to the bus.](images/hippo-flies.png){:width="300px"}
+![Umvubu uyabhabha ukuya ebhasini.](images/hippo-flies.png){:width="300px"}
 
 </div>
 </div>
 
-### Give the Hippo a starting position
+### Nika uMvubu indawo yokuqala
 
 --- task ---
 
-Add the **Hippo1** sprite to your project.
+Yongeza isprite so**Mvubu1** kwiprojekthi yakho.
 
-Change the **Size** of the **Hippo1** sprite:
+Tshintsha **Ubungakanani** besprite so**Mvubu1**:
 
-![The Sprite pane for the Hippo1 sprite, with the size set to 50.](images/hippo-sprite-size.png)
+![Ipheyini yesprite, isprite uMvubu1, esinobungakanani obumiselwe ku- 50.](images/hippo-sprite-size.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the hippo to the top left-hand side of the Stage.
+Tsala umvubu uye kwicala lasekhohlo eliphezulu kwiQonga.
 
-![The Hippo1 sprite on the top left-hand side of the Stage.](images/hippo-sprite-stage.png)
+![I-Spritr uMvubu1 kwicala eliphezulu lwasekholo eQongeni.](images/hippo-sprite-stage.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to get the hippo to their starting position:
+Yongeza ikhowudi yokubeka umvubu kwindawo yayo yokuqala:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tip:** The `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates in the `go to x: y:`{:class="block3motion"} block will be the current position of the hippo, so you do not need to type them in.
+**Ingcebiso:** Ulungelelaniso `x`{:class="block3motion"} no-`y`{:class="block3motion"} kwiblokhi `iya ku x:y:`{:class="block3motion"} lizakuba yile ndawo umvubu wakho ume kuyo, awudingi kuyixhaxhaza.
 
 --- /task ---
 
-### Make the Hippo flap its wings and fly
+### Yenza uMvubu uphaphazelise iimphiko zayo ibhabhe
 
 --- task ---
 
-Add code to make the hippo fly towards the **City Bus**:
+Faka ikhowudi yokwenza umvubu ubhabhele ngakwi **Bhasi yeSixeko**:
 
 ```blocks3
 when flag clicked
@@ -64,15 +64,15 @@ next costume
 
 --- task ---
 
-**Test:** Click on the green flag and check that the hippo flies to the bus. You can change the number in the `repeat`{:class="block3control"} block to get the hippo to stop in just the right place.
+**Uvavanyo:** Cofa kwiflegi eluhlaza ukuze ujonge ukuba umvubu ubhabhela ebhasini. Ungatshintsha inani kwibhloki `phinda`{:class="block3control"} ukuze umvubu ume kwindawo elungileyo.
 
 --- /task ---
 
-### Show and hide the bus
+### Bonisa uphinde ufihle ibhasi
 
 --- task ---
 
-Add `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Yongeza iibhloki u`bonisa`{:class="block3looks"} kunye no`fihla`{:class="block3looks"}:
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. The hippo will fly and enter the bus.
+**Uvavanyo:** Cofa kwiflegi eluhlaza. Umvubu uza kubhabha ungene ebhasini.
 
 --- /task ---
