@@ -1,12 +1,12 @@
-## Upgrade your project
+## Phucula iprojekthi yakho
 
-Now, you can add a sprite of your choice to your animation. You will need to add code to make your sprite `go to`{:class="block3motion"} a starting position, `point`{:class="block3motion"} in the right direction, and then `repeat`{:class="block3control"} `move`{:class="block3motion"} and `next costume`{:class="block3looks"} blocks to reach the bus.
+Ngoku, ungongeza isprite esithandwa nguwe kupopayi wakho. Uzakudinga ukufaka ikhowudi ukuze wenze i-sprite sako `siye`{:class="block3motion"} kwindawo yaso yokuqala, `yalatha`{:class="block3motion"} kwicala elifanele, ngoku faka ibhulakhi `phinda`{:class="block3motion"} `hamba`{:class="block3motion"} kwaye ucofe `imbonakalo elandelayo` ukuze ufike kwibhasi.
 
-**Tip:** When you click on **Choose a Sprite**, you can hold your mouse cursor over a sprite to see its costumes, or on some mobile devices, you can tap and hold on a sprite to see its costumes (if a window pops up when you tap and hold on a sprite, tap at the side of the screen to close the window and see the costumes). Looking at sprites' costumes can help you find a sprite that works well for animation.
+**Ingcebiso:** Xa ucofa ku**Khetha i-Sprite**, ubeke isalathisi semouse yakho ngaphezulu kwe-sprite ukuze ubone isinxibo sayo, okanye kwezinye izixhobo eziphathwayo, ungacofa kwaye ubambe kwi-sprite ukuze ubone isinxibo sayo (ukuba kuvela ifestile kwaye xa ubambe i-sprite, cofa ecaleni kwesikrini ukuvala ifestile kwaye uzakubona izinxibo). Ukujonga iimpahla ze-sprites kunokukunceda ufumane i-sprite esebenza kakuhle kupopayi.
 
-![Other sprites moving towards a bus with "Maker Festival" text.](images/bus-upgrade.png){:width="300px"}
+![Ezinye iisprites zisiya ngakwibhasi eno "Umenzi weTheko" umbhalo.](images/bus-upgrade.png){:width="300px"}
 
-You can use any of the blocks that you learned about in this project, as well as those that you already know:
+Ungasebenzisa naziphi na iibhloko ofunde ngazo kule projekthi, kunye nezo sele uzazi:
 
 ```blocks3
 when flag clicked
@@ -41,17 +41,17 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Completed project
+isihloko: Iprojekthi egqityiweyo
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
+Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/724160134/){:tharget="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the bus or other sprites, or set the colour effect of the bus. One of the sprites could miss the bus and not hide.
+Unako kwakhona 'ukuxuba' iprojekthi ukwenza naluphi na utshintsho oluthandayo. Unokongeza iziphumo zesandi ebhasini okanye kwezinye ii-sprites, okanye usete isiphumo sombala webhasi. Enye yee-sprites inokushiywa ibhasi kwaye ingazifihli.
 
-Thanks to digital maker Lyla for sending this fantastic upgrade!
+Enkosi kumenzi wedijithali uLyla ngokuthumela olu hlaziyo lumangalisayo!
 
-![A project with a bus with flashing colours.](images/Lyla-bus.gif)
+![Iprojekthi enebhasi enemibala edanyazayo.](images/Lyla-bus.gif)
 
 --- save ---
