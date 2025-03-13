@@ -1,41 +1,41 @@
-## The Scratch Cat catches the bus
+## Ikati kaScratch ileqa ibhasi
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Animate the Scratch Cat to appear on the **right-hand side** of the Stage and walk to the bus by repeating a small movement many times in a **loop**. 
+Yenza iKati ka Scratch ibonakale kwi-**isandla sasekunene** seqonga kwaye uhambe uye ebhasini ngokuphinda intshukumo encinci kaninzi ku**phindaphhindwano**. 
 </div>
 <div>
 
-![The Scratch Cat walking to the bus.](images/cat-catches-bus.png){:width="300px"}
+![Ikati kaScratch ihamba isiya ebhasini.](images/cat-catches-bus.png){:width="300px"}
 
 </div>
 </div>
 
-### Get the Scratch Cat into their starting position
+### Yisa iKati kaScratch kwindawo yayo yokuqala
 
 --- task ---
 
-Click in the **Direction** property in the Sprite pane. Rotate the arrow to point to `-90`. Then, click on the **Left/Right** icon in the middle to change the rotation style to `left-right` to stop the Scratch Cat turning upside down:
+Cofa kwi **Umolwathiso** kwipropathi kwipheyini yeSprite. Jikelezisa utolo lwalathe ku `-90`. Emva koko, cofa umboniso **Ekhohlo/Ekunene** embindini ukuze utshintsha indlela sokujikelezisa ukuya `ekhohlo-ekunene` ukuze iKati kaScratch ingajongi ezantsi:
 
-![The arrow pointing to -90 and the 'Left/Right' icon selected.](images/sprite-pane-direction.png)
+![Utolo olukhomba ku -90 kunye nomfanekiso 'Ekhohlo/Ekunene' okhethiweyo.](images/sprite-pane-direction.png)
 
 --- /task ---
 
 --- task ---
 
-Drag the Scratch Cat to the bottom right-hand side of the Stage.
+Tsala iKati kaScratch ukuya kwicala lasekunene le-Qonga.
 
-![The Stage with the cat positioned in the bottom-right corner.](images/bottom-right-cat.png)
+![Iqonga elinekati elibekwe kwikona esezantsi ekunene.](images/bottom-right-cat.png)
 
-**Tip:** If you try to position a sprite off the Stage, it will move back to its last position on the Stage.
+**Ingcebiso:** Ukuba uzama ukubeka i-sprite ngaphandle kwiQonga, iyakubuyela emva kwindawo yayo yokugqibela eQongeni.
 
 --- /task ---
 
 --- task ---
 
-Add code to get the Scratch Cat to their starting position:
+Yisa iKati kaScratch kwindawo yayo yokuqala:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -46,21 +46,21 @@ go to x:(200) y:(-150) // bottom right-hand side
 
 --- task ---
 
-**Test:** Drag the Scratch Cat to a new position, then click on your `go to x: y:`{:class="block3motion"} block. The Scratch Cat should move back to the bottom right-hand side each time.
+**Uvavanyo:** Tsala iKati KaScratch uyise kwindawo entsha, emva koko ucofe kweyakho ibhloki `uye ku-x: y:`{:class="block3motion"}. Ikati kaScratch kufuneka ibuyele umva kwicala lasekunene ngasekunene rhoqo.
 
 --- /task ---
 
-### Animate the Scratch Cat
+### Yenza iKati kaScrath upapoyi
 
-You will add code in a `repeat`{:class="block3control"} loop to make the Scratch Cat repeat a small number of steps many times. This will make the Scratch Cat appear animated.
+Uyakongeza ikhowudi kuphindaphindo elingu `phinda`{:class="block3control"} ukwenza iKati kaScratch iphinde amanyathelo amancinci kaninzi. Oku kuya kwenza iKati kaScratch ibonakale ingupopayi.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} `10` block, then drag a `move`{:class="block3motion"} `10` `steps`{:class="block3motion"} block inside it:
+Yongeza ibhulokhi `phinda`{:class="block3control"} `10`, kwaye utsale ibhulokhi u`hamba`{:class="block3motion"} `10` `amanyathelo`{:class="block3motion"} phakathi kuyo:
 
-![Changing the number of steps in the 'move' block from 10 to 5, then inserting the block into the 'repeat' loop.](images/block-into-loop.gif)
+![Ukutshintsha inani lamanyathelo kwibhloko 'hamba' ukusuka kwi- 10 ukuya kwisi- 5, uze ufakele ibhloki 'phinda' kuphindaphindo.](images/block-into-loop.gif)
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,23 +74,23 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag. Try changing the numbers in the `repeat`{:class="block3control"} `10` block so that the Scratch Cat stops at the bus.
+**Uvavanyo:** Cofa kwiflegi eluhlaza. Zama ukutshintsha amanani kwibhuloki `phinda`{:class="block3control"} `10` ukuze iKati kaScrath ime ebhasini.
 
 --- /task ---
 
-Some sprites have more than one costume. You will use the **Scratch Cat** sprite's costumes to create an animation of the Scratch Cat walking.
+Ezinye ii-sprites zinempahla engaphezulu kwesinye. Uya kusebenzisa iinkangeleko zesprite **iKati kaScratch** ukwenza upopayi yekati ehambayo.
 
 --- task ---
 
-Click on the **Costumes** tab. The **Scratch Cat** sprite has two costumes, and together, they can be used to make a walking movement.
+Cofa kwithebhu **Inkangeleko**. Isprite **Ikati kaScratch** ineenkangeleko ezimbini, kwaye kunye, zingasetyenziselwa ukwenza intshukumo yokuhamba.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab. Add a `next costume`{:class="block3looks"} block inside the `repeat`{:class="block3control"} block:
+Cofa kwithebhu **Ikhowudi**. Yongeza iblokhi `inkangeleko elandelayo`{:class="block3looks"} phakathi kweblokhi `phinda`{:class="block3control"}:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,17 +104,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag, and the Scratch Cat will walk to the bus.
+**Uvavanyo:** Cofa kwiflegi eluhlaza, ukuze iKati KaScratch ihamba iye ebhasini.
 
 --- /task ---
 
-### Hide the Scratch Cat
+### Zimelisa iKati kaScratch
 
 --- task ---
 
-Add a block to `hide`{:class="block3looks"} the Scratch Cat when they reach the bus:
+Yongeza ibhloko ezaku `fihla`{:class="block3looks"}iKati kaScratch xa ifika ebhasini:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -130,17 +130,17 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag again, and you will see that the Scratch Cat has now disappeared.
+**Uvavanyo:** Cofa kwiflegi eluhlaza kwakhona, uya kubona ukuba iKati KaScratch ngoku inyamalele.
 
 --- /task ---
 
-### Show the Scratch Cat
+### Bonakalisa Kati KaScratch
 
 --- task ---
 
-Add a `show`{:class="block3looks"} block so that the Scratch Cat appears before they walk to the bus:
+Yongeza ibhlokhi - `bonisa`{:class="block3looks"} ukuze iKati kaScratch ivele phambi kokuba baye ebhasini:
 
-![The Scratch Cat sprite.](images/scratch-cat-sprite.png)
+![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -153,13 +153,13 @@ end
 hide
 ```
 
-**Tip:** When you use a `hide`{:class="block3looks"} block, you need to also add a `show`{:class="block3looks"} block to make sure that a sprite is visible when it needs to be.
+**Ingcebiso:** Xa usebenzisa ibhlokhi `fihla`{:class="block3looks"}, kufuneka ufake ibhlokhi `bonisa`{:class="block3looks"} ukuze uqinisekise ukuba isprite siyabonakala xa kudingeka sibonakale.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project, and make sure that the Scratch Cat appears.
+**Uvavanyo:** Cofa kwiflegi eluhlaza ukuvavanya iprojekthi yakho, kwaye uqinisekise ukuba iKati kaScratch iyavela.
 
 --- /task ---
 
