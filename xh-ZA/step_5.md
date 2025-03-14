@@ -90,7 +90,7 @@ glide [2] secs to x: [320] y: [-100]
 
 --- task ---
 
-Yongeza ibhulakhi `bonisa`{:class="block3motion"}
+Yongeza ibhulakhi `bonisa`{:class="block3motion"} ` xa iflegi elihlaza icofiwe`{:class="block3events"} ukuze ibonise ibhasi xa udlalisa iprojekthi yakho:
 
 ![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
