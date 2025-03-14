@@ -17,3 +17,7 @@ Ukuba ulandela [Intshayelelo kaSratch](https://projects.raspberrypi.org/xh-ZA/pa
 --- /no-print ---
 
 Ukuba ufuna ukuzonwabisa ngoku phonononga u-Scratch, ungazama enye [yezi projekti](https://projects.raspberrypi.org/xh-ZA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+
+***
+
+This project was translated by Sulungeka Myataza.

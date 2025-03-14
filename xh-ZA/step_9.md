@@ -41,7 +41,7 @@ set [umbala v] effect to [50] // ukuya kuthi ga kuma- 200
 
 --- collapse ---
 ---
-isihloko: Iprojekthi egqityiweyo
+title: Iprojekthi egqityiweyo
 ---
 
 Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/1147284637/){:target="_blank"}.

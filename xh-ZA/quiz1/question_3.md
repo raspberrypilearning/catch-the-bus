@@ -19,7 +19,7 @@ next costume
 
   --- feedback ---
 
-Ewe! Uku`phinda` ikhowudi{:class="block3control"} kusebenzisa uphindaphindwano ukuze inja ibaleke.
+Ewe! Uku`phinda`{:class="block3control"} ikhowudi kusebenzisa uphindaphindwano ukuze inja ibaleke.
 
   --- /feedback ---
 
