@@ -1,0 +1,32 @@
+---
+title: Leqa ibhasi
+hero_image: images/banner.png
+description: Khowuda isprites ukuze sihambe okanye sibhabhe ukuya ebhasini phambi kokuba ihambe
+meta_title: Iiprojekthi zokubhala iikhowudi zabantwana kunye nabaselula | Fumana ibhasi
+meta_description: Funda ukwenza ikhowudi kwiScratch kunye neeprojekthi zeekhowudi zeRaspberry Pi Foundation zabantwana kunye nolutsha. Yenza umdlalo weScratch upopayi eleqa ibhasi.
+version: 4
+listed: true
+copyedit: false
+last_tested: 2021-02-17
+steps:
+  - title: Uya kwenza
+  - title: Yenza umboniso wakho weBhasi
+  - title: I-Scratch Cat ileqa ibhasi
+    completion:
+      - engaged
+  - title: Imvubu ibhabha isiya ebhasini
+  - title: Ibhasi iyahamba
+  - title: Ukushiywa yibhasi
+  - title: Guqula indawo ekuyiwa kuyo
+    completion:
+      - internal
+  - title: Imibuzo ekhawulezayo
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Phucula iprojekthi yakho
+  - title: Yintoni elandelayo?
