@@ -10,15 +10,15 @@ copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Uya kwenza
+    title: Uza kwenza
   - 
     title: Yenza umboniso wakho weBhasi
   - 
-    title: I-Scratch Cat ileqa ibhasi
+    title: iKatikaSceatch ileqa ibhasi
     completion:
       - engaged
   - 
-    title: Imvubu ibhabha isiya ebhasini
+    title: Umvubu ibhabha isiya ebhasini
   - 
     title: Ibhasi iyahamba
   - 
