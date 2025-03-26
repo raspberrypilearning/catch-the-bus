@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Yenza iKati ka Scratch ibonakale kwi-**isandla sasekunene** seqonga kwaye uhambe uye ebhasini ngokuphinda intshukumo encinci kaninzi ku**phindaphhindwano**. 
+Yenza iKati ka Scratch ibonakale **kwisandla sasekunene** seqonga kwaye uhambe uye ebhasini ngokuphinda intshukumo encinci kaninzi ku**phindaphhindwano**. 
 </div>
 <div>
 
@@ -15,7 +15,7 @@ Yenza iKati ka Scratch ibonakale kwi-**isandla sasekunene** seqonga kwaye uhambe
 
 --- task ---
 
-Cofa kwi **Umolwathiso** kwipropathi kwipheyini yeSprite. Jikelezisa utolo lwalathe ku `-90`. Emva koko, cofa umboniso **Ekhohlo/Ekunene** embindini ukuze utshintsha indlela sokujikelezisa ukuya `ekhohlo-ekunene` ukuze iKati kaScratch ingajongi ezantsi:
+Cofa ipropathi **Umolwathiso** kwipheyini yeSprite. Jikelezisa utolo lwalathe ku `-90`. Emva koko, cofa umboniso **Ekhohlo/Ekunene** embindini ukuze utshintsha indlela sokujikelezisa ukuya `ekhohlo-ekunene` ukuze iKati kaScratch ingajongi ezantsi:
 
 ![Utolo olukhomba ku -90 kunye nomfanekiso 'Ekhohlo/Ekunene' okhethiweyo.](images/sprite-pane-direction.png)
 
