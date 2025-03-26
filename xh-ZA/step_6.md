@@ -15,7 +15,7 @@ Kungathini ukuba Ikati ka-Scratch ayikwazanga ukubaleka ifumane ibhasi?
 
 --- task ---
 
-Khetha i-sprite esy**iKati kaScratch** kwaye wongeze ibhloki `linda`{:class="block3control"}:
+Khetha i-sprite esiyi**Kati kaScratch** kwaye wongeze ibhloki `linda`{:class="block3control"}:
 
 ![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
@@ -92,7 +92,7 @@ glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 hide
 ```
 
-Kuya kufuneka ubuyisele ibhulokhi `fihla`{:class="block3looks"} emva kwikhowudi yesprit **iKati kaScratch** ukuba uyisusile ukuba ufuna iKati kaScratch ikwelw ngempumelelo ebhasini.
+Kuza kufuneka ubuyisele ibhulokhi `fihla`{:class="block3looks"} emva kwikhowudi yesprit **iKati kaScratch** ukuba uyisusile ukuba ufuna iKati kaScratch ikwelw ngempumelelo ebhasini.
 
 --- /task ---
 
