@@ -9,7 +9,7 @@ listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Create your bus scene
   - title: The Scratch Cat catches the bus
     completion:
@@ -29,4 +29,4 @@ steps:
     completion:
       - external
   - title: Upgrade your project
-  - title: What next?
+  - title: What can you do now?
