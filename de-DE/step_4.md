@@ -40,7 +40,7 @@ when flag clicked
 go to x: [-200] y: [150] // oben links
 ```
 
-**Tipp:** Die `x`{:class="block3motion"} und `y`{:class="block3motion"}-Koordinaten im Block `gehe zu x: y:`{:class="block3motion"} sind die aktuelle Position des Nilpferds. Sie müssen nicht eingeben werden.
+**Tipp:** `x`{:class="block3motion"} und `y`{:class="block3motion "}-Koordinaten im Block `gehe zu x: y:`{:class="block3motion"} werden die aktuelle Position des Nilpferds übernehmen. Sie müssen nicht eingegeben werden.
 
 --- /task ---
 
@@ -48,13 +48,13 @@ go to x: [-200] y: [150] // oben links
 
 --- task ---
 
-Füge Code hinzu, damit das Nilpferd zum **Stadtbus** fliegt:
+Füge Code hinzu, damit das Nilpferd zum **City Bus** fliegt:
 
 ```blocks3
 when flag clicked
 go to x: [-200] y: [150] 
 +repeat [100] 
-point towards (City Bus v) // Auswahl mit Mauszeiger
+point towards (City Bus v) // ändere Auswahl von Mauszeiger zu City Bus
 move [3] steps
 next costume
 +end
@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### Den Bus ein- und ausblenden
+### Das Nilpferd ein- und ausblenden
 
 --- task ---
 

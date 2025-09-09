@@ -23,7 +23,7 @@ Wähle die **Scratch Katze** Figur und füge einen Block `warte`{:class="block3c
 when flag clicked
 go to x:(200) y:(-150) 
 show
-repeat (20) // Probiere verschiedene Zahlen aus
+repeat (20) // probiere verschiedene Zahlen aus
 move (5) steps 
 next costume 
 + wait (1) seconds
@@ -42,14 +42,14 @@ hide
 
 --- task ---
 
-Du brauchst Verzögerungen von weniger als eine Sekunde. 0,5 ist eine halbe Sekunde, 0,25 ist eine Viertelsekunde und 0,1 ist eine Zehntelsekunde.
+Du wirst Verzögerungen von weniger als eine Sekunde benötigen. 0,5 ist eine halbe Sekunde, 0,25 ist eine Viertelsekunde und 0,1 ist eine Zehntelsekunde.
 
 Ändere die Verzögerung im Block `warte`{:class="block3control"}:
 
 ![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
 ```blocks3
-wait (0.2) seconds // Versuche es mit 0.1, 0.5, 0.05
+wait (0.2) seconds // versuche es mit 0.1, 0.5, 0.05
 ```
 
 **Test:** Klicke auf die grüne Flagge und die Scratch Katze läuft schneller. Wähle die Verzögerung, die dir am besten gefällt.
@@ -83,7 +83,7 @@ end
 
 Wenn du möchtest, dass die Scratch Katze **den Bus erwischt**, lasse den Bus länger warten, bevor er abfährt:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 

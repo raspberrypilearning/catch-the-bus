@@ -15,9 +15,9 @@ Füge weitere Blöcke hinzu, damit der Bus losfährt.
 
 --- task ---
 
-Wähle die **Stadtbus** Figur aus.
+Wähle die **City Bus** Figur aus.
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Wähle die **Stadtbus** Figur aus.
 
 Füge Code hinzu, damit der Bus vier Sekunden nach dem Anklicken der grünen Flagge nach rechts abfährt.
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -50,7 +50,7 @@ Füge unter dem Block `warte`{:class="block3control"} einen Block `gleite in`{:c
 
 In deinem Projekt können die Koordinaten `x`{:class="block3motion"} und `y`{:class="block3motion"} etwas anders sein und entsprechen der genauen Position, an die du den Bus gezogen hast.
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -72,7 +72,7 @@ wait [4] seconds // ändere 1 auf 4
 
 Füge einen `verstecke dich`{:class="block3looks"}-Block hinzu, damit es so aussieht, als würde der Bus von der Bühne fahren:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked 
@@ -92,7 +92,7 @@ glide [2] secs to x: [320] y: [-100]
 
 Füge einen `zeige dich`{:class="block3looks"}-Block zu deinem `Wenn grüne Flagge angeklickt wird`{:class="block3events"}-Skript hinzu, damit der Bus beim Ausführen deines Projekts angezeigt wird:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked

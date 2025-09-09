@@ -6,7 +6,7 @@ Wähle ein Hintergrundbild und füge eine Bus-Figur hinzu.
 </div>
 <div>
 
-![Der Stadtbus vor dem Schulhintergrund.](images/bus-scene.png){:width="300px"}
+![Der City Bus vor dem Schulhintergrund.](images/bus-scene.png){:width="300px"}
 
 </div>
 </div>
@@ -15,7 +15,7 @@ Wähle ein Hintergrundbild und füge eine Bus-Figur hinzu.
 
 --- task ---
 
-Öffne das [Krieg den Bus Starterprojekt](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch wird in einem anderen Tab im Browser geöffnet.
+Öffne das [Erwische den Bus Starterprojekt](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch wird in einem anderen Tab im Browser geöffnet.
 
 [[[working-offline]]]
 
@@ -67,7 +67,7 @@ Achte darauf, dass die **City Bus** Figur in der Figurenliste ausgewählt ist.
 
 Ziehe einen Block `wenn grüne Flagge angeklickt wird`{:class="block3events"} Block aus dem Blockmenü `Ereignisse`{:class="block3events"} in den Codebereich:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -91,7 +91,7 @@ Die **x** und **y** Koordinaten (die zur Beschreibung der Position verwendeten Z
 
 Füge deinem Code einen Block `gehe zu x: y:`{:class="block3motion"} hinzu:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -114,9 +114,9 @@ Die Zahlen im Block `gehe zu x: y:`{:class="block3motion"} sind die aktuellen x-
 
 --- task ---
 
-Um sicherzustellen, dass die **City Bus** Figur immer hinter allen Charakterfiguren liegt, füge eine `gehe zu vorderster Ebene`{:class="block3looks"} hinzu. Dann klicke auf `vorderster`{:class="block3looks"} und ändere es in `hinterster`{:class="block3looks"}:
+Um sicherzustellen, dass die **City Bus** Figur immer hinter allen Charakterfiguren liegt, füge den Block `gehe zu vorderster Ebene`{:class="block3looks"} hinzu. Dann klicke auf `vorderster`{:class="block3looks"} und ändere es in `hinterster`{:class="block3looks"}:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,7 +124,7 @@ go to x: (0) y: (-100)
 + go to [hinterster v] layer
 ```
 
-**Tipp:** Wenn du den `gehe zu vorderester Ebene`{:class="block3looks"} nicht siehst, musst du im Blockmenü in der `Aussehen`{:class="block3looks"} Kategorie runterscrollen.
+**Tipp:** Wenn du den Block `gehe zu vorderester Ebene`{:class="block3looks"} nicht siehst, musst du im Blockmenü in der `Aussehen`{:class="block3looks"} Kategorie runterscrollen.
 
 --- /task ---
 
@@ -134,13 +134,13 @@ go to x: (0) y: (-100)
 
 Du kannst die Farbe des Busses ändern:
 
-![Die Figur "Stadtbus".](images/bus-sprite.png)
+![Die Figur "City Bus".](images/bus-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
 go to [hinterster v] layer
-+set [Farbe v] effect to (50) // Versuche Zahlen bis 200
++set [Farbe v] effect to (50) // versuche Zahlen bis 200
 ```
 
 --- /task ---

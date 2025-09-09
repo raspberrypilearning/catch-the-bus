@@ -35,7 +35,7 @@ Die Codeblöcke werden der Reihe nach ausgeführt. Schau dir die Blöcke vor dem
 
   --- feedback ---
 
-Ja. Nach dem Klick auf die grüne Fahne beträgt die Wartezeit vier Sekunden, bevor der Bus losfährt.
+Ja. Nachdem du auf die grüne Flagge geklickt hast, beträgt die Wartezeit vier Sekunden, bevor der Bus losfährt.
 
   --- /feedback ---
 
