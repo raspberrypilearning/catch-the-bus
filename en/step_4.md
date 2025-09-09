@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### Show and hide the bus
+### Show and hide the hippo
 
 --- task ---
 
