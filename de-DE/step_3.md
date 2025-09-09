@@ -1,4 +1,4 @@
-## Die Scratch Katze erreicht den Bus
+## Die Scratch Katze erwischt den Bus
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -56,7 +56,7 @@ Du fügst Code in einer `wiederhole`{:class="block3control"}-Schleife hinzu, dam
 
 --- task ---
 
-Füge einen Block `wiederhole`{:class="block3control"} `10` mal hinzu und ziehe dann einen Block `gehe`{:class="block3motion"} `10`er `Schritt`{:class="block3motion"} in den Wiederholungsblock hinein:
+Füge einen Block `wiederhole`{:class="block3control"} `10` mal hinzu und ziehe dann einen Block `gehe`{:class="block3motion"} `10` `er Schritt`{:class="block3motion"} in den Wiederholungsblock hinein:
 
 ![Die Anzahl der Schritte im „gehe zu“-Block werden von 10 auf 5 gestellt, dann wird der Block in die „wiederhole“-Schleife eingesetzt.](images/block-into-loop.gif)
 
@@ -65,7 +65,7 @@ Füge einen Block `wiederhole`{:class="block3control"} `10` mal hinzu und ziehe 
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // unten rechts
-+ repeat (10) // Probiere verschiedene Zahlen aus
++ repeat (10) // probiere verschiedene Zahlen aus
 move (5) steps //  5 ist eine gute Gehgeschwindigkeit
 end
 ```
@@ -88,14 +88,14 @@ Klicke auf die Registerkarte **Kostüme**. Die **Scratch Katze** Figur hat zwei 
 
 --- task ---
 
-Klicke auf das **Skripte** Register. Füge den Block `Wechsle zum nächstes Kostüm`{:class="block3looks"} in die `wiederhole fortlaufend`{:class="block3control"} Schleife ein:
+Klicke auf das **Skripte** Register. Füge den Block `wechsle zum nächsten Kostüm`{:class="block3looks"} in die `wiederhole`{:class="block3control"} Schleife ein:
 
 ![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // unten rechts
-repeat (20) // Probiere verschiedene Zahlen aus
+repeat (20) // probiere verschiedene Zahlen aus
 move (5) steps //  5 ist eine gute Gehgeschwindigkeit
 + next costume 
 end
@@ -119,7 +119,7 @@ Füge einen `verstecke dich`{:class="block3looks"} Block hinzu, um die Scratch K
 ```blocks3
 when flag clicked
 go to x:(200) y:(-150) // unten rechts
-repeat (20) // Probiere verschiedene Zahlen aus
+repeat (20) // probiere verschiedene Zahlen aus
 move (5) steps //  5 ist eine gute Gehgeschwindigkeit
 next costume 
 end
@@ -146,7 +146,7 @@ Füge einen `zeige dich`{:class="block3looks"} Block hinzu, damit die Scratch Ka
 when flag clicked
 go to x:(200) y:(-150) // unten rechts
 + show
-repeat (20) // Probiere verschiedene Zahlen aus
+repeat (20) // probiere verschiedene Zahlen aus
 move (5) steps //  5 ist eine gute Gehgeschwindigkeit
 next costume 
 end
