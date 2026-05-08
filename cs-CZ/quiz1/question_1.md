@@ -8,7 +8,7 @@ Bav se!
 
 --- question ---
 ---
-legenda: Otázka 1 ze 3
+legend: Question 1 of 3
 ---
 
 Ve tvém projektu se autobus posouvá pomocí tohoto kódu:
