@@ -7,7 +7,7 @@ Je gaat:
 + Sprites op de **speelveld** plaatsen
 + Een `herhaal`{:class="block3control"} lus gebruiken om sprites te `verplaatsen`{:class="block3motion"} en van `uiterlijk te veranderen`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ Welke sprites veranderen hun uiterlijk om een animatie-effect te creëren?
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
