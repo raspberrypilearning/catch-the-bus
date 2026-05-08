@@ -1,6 +1,6 @@
 ## I ara què ve?
 
-Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) , podeu passar al projecte [Cerca l'error](https://projects.raspberrypi.org/en/projects/find-the-bug) . En aquest projecte, fareu un joc en el qual haureu de trobar l'error que s'amaga a cada nivell.
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug){:target="_blank"} project. En aquest projecte, fareu un joc en el qual haureu de trobar l'error que s'amaga a cada nivell.
 
 --- print-only ---
 
@@ -11,7 +11,7 @@ Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/p
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
