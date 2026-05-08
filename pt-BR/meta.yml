@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Atores de código para caminhar ou voar até o ônibus antes que ele desapareça
 meta_title: Projetos de codificação Scratch para crianças e adolescentes | Pegar o ônibus
 meta_description: Aprenda a programar no Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça uma animação do Scratch com atores que correm para pegar um ônibus.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Melhore o seu projeto
-  - 
-    title: E agora?
