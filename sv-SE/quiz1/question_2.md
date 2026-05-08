@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Fråga 2 av 3
+legend: Question 2 of 3
 ---
 
 Vilka **egenskaper** uppdateras i sprajtrutan under scenen när du **drar en sprajt** till en ny plats på scenen?
