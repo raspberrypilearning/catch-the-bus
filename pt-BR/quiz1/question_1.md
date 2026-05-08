@@ -14,7 +14,8 @@ legend: Pergunta 1 de 3
 No projeto, o ônibus sempre vai deslizar com este código:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
