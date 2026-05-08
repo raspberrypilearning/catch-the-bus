@@ -1,6 +1,6 @@
 ## E agora?
 
-Se você estiver seguindo certo a [Introdução ao Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), você pode passar para o projeto [Encontre o inseto](https://projects.raspberrypi.org/en/projects/find-the-bug). Neste projeto, você vai fazer um jogo no qual você terá que achar o inseto que está se escondendo em cada nível.
+Se você estiver seguindo certo a [Introdução ao Scratch](https://projects.raspberrypi.org/pt-BR/pathways/scratch-intro), você pode passar para o projeto [Encontre o inseto](https://projects.raspberrypi.org/pt-BR/projects/find-the-bug). Neste projeto, você vai fazer um jogo no qual você terá que achar o inseto que está se escondendo em cada nível.
 
 --- print-only ---
 
@@ -11,9 +11,9 @@ Se você estiver seguindo certo a [Introdução ao Scratch](https://projects.ras
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-Se você quiser se divertir mais explorando os Scratch, então você pode tentar qualquer um [destes projetos](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Se você quiser se divertir mais explorando os Scratch, então você pode tentar qualquer um [destes projetos](https://projects.raspberrypi.org/pt-BR/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
