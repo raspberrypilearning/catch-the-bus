@@ -15,7 +15,7 @@ Kungathini ukuba Ikati ka-Scratch ayikwazanga ukubaleka ifumane ibhasi?
 
 --- task ---
 
-Khetha i-sprite esiyi**Kati kaScratch** kwaye wongeze ibhloki `linda`{:class="block3control"}:
+Khetha i-sprite esy **iKati kaScratch** kwaye wongeze ibhloki `linda`{:class="block3control"}:
 
 ![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
@@ -60,7 +60,7 @@ wait (0.2) seconds // try 0.1, 0.5, 0.05
 
 --- task ---
 
-Ukuba ufuna iKati kaScratch<0>ishywe yibhasi</0>, susa ibhlokhi <1>fihla</1>{:class="block3looks"} kwikhowudi yakho ukuze iKati kaScratch ihlale eqongeni:
+Ukuba ufuna iKati kaScratch **ishywe yibhasi**, susa ibhlokhi `fihla`{:class="block3looks"} kwikhowudi yakho ukuze iKati kaScratch ihlale eqongeni:
 
 ![Ukutsala ibhloko 'yokufihla' usisusa kwiskripthi kwindawo yeKhowudi ukuyakusibeka kwiibhloki zemenyu kukususa lo bhloki kwiscript.](images/removing-blocks-at-script-ends.gif)
 
