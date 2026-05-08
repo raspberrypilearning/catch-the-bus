@@ -53,8 +53,9 @@ Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en tu pr
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
-+glide [2] secs to x: [320] y: [-100] // lado derecho del Escenario
+when flag clicked 
+wait [4] seconds // change 1 to 4
++glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 ```
 
 --- /task ---
@@ -74,7 +75,8 @@ Agrega un bloque `esconder`{:class="block3looks"} para que el autobús parezca s
 ![El objeto Autobús.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // change 1 to 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -96,7 +98,7 @@ Agrega un bloque `mostrar`{:class="block3looks"} a tu script `al presionar bande
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // prueba con un número hasta 200
+set [color v] effect to (85) // try numbers up to 200
 +show
 ```
 
