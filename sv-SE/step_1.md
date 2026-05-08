@@ -7,7 +7,7 @@ Du kommer:
 + Placera sprajter på **scenen**
 + Använd en `repetera`{:class="block3control"}loop för att få sprajter att `röra`{:class="block3motion"}sig och `byta klädsel`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
