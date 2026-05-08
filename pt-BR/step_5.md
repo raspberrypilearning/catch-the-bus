@@ -53,8 +53,9 @@ As coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} no seu pr
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
-+glide [2] secs to x: [320] y: [-100] // lado direito do palco
+when flag clicked 
+wait [4] seconds // change 1 to 4
++glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 ```
 
 --- /task ---
@@ -74,7 +75,8 @@ Adicione um bloco `esconda`{:class="block3looks"} para fazer com que o ônibus p
 ![O ator do Ônibus Cidade.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // change 1 to 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -96,7 +98,7 @@ Adicione um bloco `mostre`{:class="block3looks"} ao seu script `Quando a bandeir
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (85) // tente números até 200
+set [color v] effect to (85) // try numbers up to 200
 +show
 ```
 
