@@ -7,7 +7,7 @@ Uzaku:
 + Beka i-Sprite e **Qongeni**
 + Sebenzisa uku`phinda`{:class="block3control"} lophindaphindwano ukuze ukwazi `hambisa`{:class="block3motion"} i-Sprite kwaye u`tshinsthe isinxibo`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
