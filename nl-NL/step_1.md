@@ -9,6 +9,8 @@ Je gaat:
 
 --- no-print --- --- task ---
 
+--- task ---
+
 ### Afspelen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -21,6 +23,9 @@ Welke sprites veranderen hun uiterlijk om een animatie-effect te creëren?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
+--- /task ---
+
 --- /task --- --- /no-print ---
 
 --- print-only ---
