@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
 Mae priodweddau corlun yn ymddangos yn y cwarel Corlun o dan y Llwyfan.
