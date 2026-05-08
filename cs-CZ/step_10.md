@@ -1,6 +1,6 @@
-## Co dál?
+## What can you do now?
 
-Pokud následuješ [Úvod do Scratche](https://projects.raspberrypi.org/en/pathways/scratch-intro), můžeš se přesunout na projekt [Najdi chybu](https://projects.raspberrypi.org/en/projects/find-the-bug). V tomto projektu vytvoříš hru, ve které budeš muset najít chybu, která se skrývá na každé úrovni.
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug){:target="_blank"} project. V tomto projektu vytvoříš hru, ve které budeš muset najít chybu, která se skrývá na každé úrovni.
 
 --- print-only ---
 
@@ -11,9 +11,9 @@ Pokud následuješ [Úvod do Scratche](https://projects.raspberrypi.org/en/pathw
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-Pokud tě baví prozkoumávat Scratch, můžeš zkusit kterýkoliv [z těchto projektů](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
