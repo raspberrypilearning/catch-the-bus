@@ -1,6 +1,6 @@
-## Wie geht es weiter?
+## What can you do now?
 
-Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) folgst, kannst du mit dem Projekt [Finde den Bug](https://projects.raspberrypi.org/en/projects/find-the-bug) fortfahren. In diesem Projekt erstellst du ein Spiel, in dem du einen Käfer (engl.: bug) finden musst, der sich in jedem Level versteckt.
+Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/de-DE/pathways/scratch-intro) folgst, kannst du mit dem Projekt [Finde den Bug](https://projects.raspberrypi.org/de-DE/projects/find-the-bug) fortfahren. In diesem Projekt erstellst du ein Spiel, in dem du einen Käfer (engl.: bug) finden musst, der sich in jedem Level versteckt.
 
 --- print-only ---
 
@@ -11,9 +11,9 @@ Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/en/pa
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-Wenn du mehr Spaß beim Erkunden von Scratch haben willst, dann könntest du einige [dieser Projekte](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) ausprobieren.
+Wenn du mehr Spaß beim Erkunden von Scratch haben willst, dann könntest du einige [dieser Projekte](https://projects.raspberrypi.org/de-DE/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) ausprobieren.
