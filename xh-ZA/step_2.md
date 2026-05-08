@@ -114,7 +114,7 @@ Amanani akwibhloki `yiya ku-x: y:`{:class="block3motion"} amelane nolungelelwani
 
 --- task ---
 
-Ukuqinisekisa ukubaisprite **Ibhasi yeSixeko** sisoloko singasemva kwabo bonke abalinganiswa, faka ibhulokhi ` yiya kumaleko ongaphambili` ulandele ngokucofa `phambili`{:class="block3looks"} uyitshinste ngokucofa `umva`{:class="block3looks"}:
+Ukuqinisekisa ukubaisprite **Ibhasi yeSixeko** sisoloko singasemva kwabo bonke abalinganiswa, faka ibhulokhi `yiya kumaleko ongaphambili` ulandele ngokucofa `phambili`{:class="block3looks"} uyitshinste ngokucofa `umva`{:class="block3looks"}:
 
 ![Isi-Sprite esiyiIbhasi yesiXeko.](images/bus-sprite.png)
 
