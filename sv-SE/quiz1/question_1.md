@@ -8,7 +8,7 @@ Ha så kul!
 
 --- question ---
 ---
-legend: Fråga 1 av 3
+legend: Question 1 of 3
 ---
 
 I ditt projekt kommer bussen åka iväg med kod:
