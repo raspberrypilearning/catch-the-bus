@@ -1,6 +1,6 @@
-## ಮುಂದೆ ಏನು?
+## What can you do now?
 
-ನೀವು [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸುತ್ತಿದ್ದರೆ, [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug) ಯೋಜನೆಗೆ ಮುಂದುವರಿಯಬಹುದು. ಈ ಯೋಜನೆಯಲ್ಲಿ, ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ನೀವು ರಚಿಸುವಿರಿ.
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug){:target="_blank"} project. ಈ ಯೋಜನೆಯಲ್ಲಿ, ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ನೀವು ರಚಿಸುವಿರಿ.
 
 --- print-only ---
 
@@ -11,9 +11,9 @@
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-ನೀವು ಸ್ಕ್ರಾಚ್ ಅನ್ನು ಅನ್ವೇಷಿಸಲು ಬಯಸಿದರೆ, [these project](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) ಪ್ರಯತ್ನಿಸಿ.
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
