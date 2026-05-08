@@ -98,7 +98,7 @@ glide [2] secs to x: [320] y: [-100]
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // δοκίμασε αριθμούς έως 200
+set [color v] effect to (85) // try numbers up to 200
 +show
 ```
 
