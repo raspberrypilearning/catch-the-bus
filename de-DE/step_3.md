@@ -56,7 +56,7 @@ Du fügst Code in einer `wiederhole`{:class="block3control"}-Schleife hinzu, dam
 
 --- task ---
 
-Füge einen Block `wiederhole`{:class="block3control"} `10` mal hinzu und ziehe dann einen Block `gehe`{: class="block3motion"} `10`er `Schritt`{:class="block3motion"} in den Wiederholungsblock hinein:
+Füge einen Block `wiederhole`{:class="block3control"} `10` mal hinzu und ziehe dann einen Block `gehe`{:class="block3motion"} `10` `er Schritt`{:class="block3motion"} in den Wiederholungsblock hinein:
 
 ![Die Anzahl der Schritte im „gehe zu“-Block werden von 10 auf 5 gestellt, dann wird der Block in die „wiederhole“-Schleife eingesetzt.](images/block-into-loop.gif)
 
@@ -88,7 +88,7 @@ Klicke auf die Registerkarte **Kostüme**. Die **Scratch Katze** Figur hat zwei 
 
 --- task ---
 
-Klicke auf das **Skripte** Register. Füge den Block `Wechsle zum nächstes Kostüm`{:class="block3looks"} in die `wiederhole fortlaufend`{:class="block3control"} Schleife ein:
+Klicke auf das **Skripte** Register. Füge den Block `wechsle zum nächsten Kostüm`{:class="block3looks"} in die `wiederhole`{:class="block3control"} Schleife ein:
 
 ![Die Scratch Katze Figur.](images/scratch-cat-sprite.png)
 
