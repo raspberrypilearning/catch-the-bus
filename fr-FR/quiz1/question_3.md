@@ -9,7 +9,7 @@ Lequel de ces scripts utilise une **boucle** pour faire courir le chien ?
 
 --- choices ---
 
-- (X)
+- (x)
 ```blocks3
 when flag clicked
 repeat (5)
