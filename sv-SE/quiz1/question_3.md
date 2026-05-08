@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Fråga 3 av 3
+legend: Question 3 of 3
 ---
 
 Vilken av dessa program använder en **loop** för att animera hunden?
