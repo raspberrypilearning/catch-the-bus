@@ -7,7 +7,7 @@
 + ضع الكائنات المتحركة على **المنصة**
 + استخدم حلقة `repeat`{: class = "block3control"} لغرض `تحريك`{: class = "block3motion"} الكائنات و `تبديل الأزياء `{: class = "block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
