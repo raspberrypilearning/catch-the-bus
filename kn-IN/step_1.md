@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Create an animation with sprites that run or fly to catch a bus 🚌.
 
@@ -7,7 +7,9 @@ Create an animation with sprites that run or fly to catch a bus 🚌.
 + **ಸ್ಟೇಜ್** ನಲ್ಲಿ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಇರಿಸುವುದು
 + ಒಂದು `ರಿಪೀಟ್`{:class= "block3control"} ಲೂಪ್ ಬಳಸಿ ಸ್ಪ್ರೈಟ್ ಗಳನ್ನು `ಮೂವ್`{:class = "block3motion"} ಮಾಡುವುದು ಮತ್ತು ` ವೇಷಭೂಷಣಗಳನ್ನು ಸ್ವಿಚ್`{:class = "block3looks"} ಮಾಡುವುದು
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@ Which sprites change their costumes to create an animation 🎥 effect?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
