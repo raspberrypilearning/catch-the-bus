@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: Khowuda isprites ukuze sihambe okanye sibhabhe ukuya ebhasini phambi kokuba ihambe
 meta_title: Iiprojekthi zokubhala iikhowudi zabantwana kunye nabaselula | Fumana ibhasi
 meta_description: Funda ukwenza ikhowudi kwiScratch kunye neeprojekthi zeekhowudi zeRaspberry Pi Foundation zabantwana kunye nolutsha. Yenza umdlalo weScratch upopayi eleqa ibhasi.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Uza kwenza
+    title: Uya kwenza
   - 
     title: Yenza umboniso wakho weBhasi
   - 
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Phucula iprojekthi yakho
-  - 
-    title: Yintoni elandelayo?
