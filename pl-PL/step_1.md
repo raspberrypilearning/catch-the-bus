@@ -7,7 +7,7 @@ Co zrobisz:
 + Ustawisz duszki na **Scenie**
 + Użyjesz pętli `powtórz`{:class="block3control"} do `przesunięcia`{:class="block3motion"} duszków i `zmiany kostiumów`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -24,9 +24,9 @@ Które duszki zmieniają kostiumy, aby uzyskać efekt animacji 🎥?
 </div>
 </div>
 
-Co zrobisz:
+--- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
