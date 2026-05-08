@@ -4,10 +4,12 @@ Yenza upopayi ngezi-Sprite ezibalekayo okanye ezibhabhayo ukuze zifumane ibhusi.
 
 Uzaku:
 + Kwenza i-Sprite senze izinto ezahlukileyo `xa ucofa iflegi eluhlaza`{:class=block3motion"}
-+ Beka i-Sprite e**Qongeni**
-+ Sebenzisa uku`phinda`{:class=block3motion"} lophindaphindwano ukuze ukwazi `hambisa`{:class=block3motion"} i-Sprite kwaye u`tshinsthe isinxibo`{:class=block3motion"}
++ Beka i-Sprite e **Qongeni**
++ Sebenzisa uku`phinda`{:class="block3control"} lophindaphindwano ukuze ukwazi `hambisa`{:class="block3motion"} i-Sprite kwaye u`tshinsthe isinxibo`{:class="block3looks"}
 
 --- no-print --- --- task ---
+
+--- task ---
 
 ### Dlala ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@ Zeziphi izi-Sprite ezitshintshe isinxibo ukuze kubekho isiphumo sopopayi?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
