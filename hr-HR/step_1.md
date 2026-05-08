@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Create an animation with sprites that run or fly to catch a bus 🚌.
 
@@ -7,7 +7,9 @@ You will:
 + Position sprites on the **Stage**
 + Use a `repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@ Which sprites change their costumes to create an animation 🎥 effect?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
