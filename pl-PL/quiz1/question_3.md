@@ -11,10 +11,10 @@ Który z tych skryptów wykorzystuje **pętlę** do animowania psa?
 
 - (x)
 ```blocks3
-kiedy kliknięto flagę
-powtórz(5)
-przesuń o (5) kroków
-następny kostium
+when flag clicked
+repeat (5)
+move (5) steps
+next costume
 ```
 
   --- feedback ---
@@ -25,9 +25,9 @@ Tak! Blok `powtórz`{:class="block3control"} używa pętli, aby pies biegł.
 
 - ( )
 ```blocks3
-kiedy kliknięto flagę
-następny kostium
-przesuń o (5) kroków
+when flag clicked 
+next costume
+move (5) steps
 ```
 
   --- feedback ---
@@ -38,17 +38,17 @@ Ten kod sprawia, że pies się przesunie, ale tylko raz. Nie ma tu pętli, więc
 
 - ()
 ```blocks3
-kiedy kliknięto flagę
-następny kostium
-przesuń o (5) kroków
-następny kostium
-przesuń o (5) kroków
-następny kostium
-przesuń o (5) kroków
-następny kostium
-przesuń o (5) kroków
-następny kostium
-przesuń o (5) kroków
+when flag clicked
+next costume
+move (5) steps
+next costume
+move (5) steps
+next costume
+move (5) steps
+next costume
+move (5) steps
+next costume
+move (5) steps
 ```
 
   --- feedback ---
@@ -59,9 +59,9 @@ Ten kod sprawia, że pies biegnie, ale nie używa pętli. Przez użycie pętli m
 
 - ( )
 ```blocks3
-kiedy ten duszek kliknięty
-następny kostium
-przesuń o (5) kroków
+when this sprite clicked 
+next costume
+move (5) steps
 ```
 
   --- feedback ---
