@@ -1,6 +1,6 @@
 --- question ---
 ---
-legenda: Otázka 3 ze 3
+legend: Question 3 of 3
 ---
 
 Který z těchto skriptů používá **smyčku** k animaci psa?
