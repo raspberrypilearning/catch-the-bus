@@ -8,7 +8,7 @@ Diverteix-te!
 
 --- question ---
 ---
-llegenda: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 En el teu projecte, l'autobús s'allunya amb aquest codi:
