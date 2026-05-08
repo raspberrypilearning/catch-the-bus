@@ -7,7 +7,7 @@ Vas a:
 + Colocar los objetos en el **escenario**
 + Utilizar un bucle de `repetición`{: class = "block3control"} para `mover`{: class = "block3motion"} los objetos y `cambiar sus disfraces`{: class = "block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ Haz clic en la bandera verde para ver la animación.
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
