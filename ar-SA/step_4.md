@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### إظهار وإخفاء الحافلة
+### Show and hide the hippo
 
 --- task ---
 
