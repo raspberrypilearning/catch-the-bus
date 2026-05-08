@@ -1,6 +1,6 @@
 --- question ---
 ---
-legenda: Pergunta 2 de 3
+legend: Pergunta 2 de 3
 ---
 
 Se você arrastar um ator para uma nova posição no Palco, quais propriedades vão mudar?
