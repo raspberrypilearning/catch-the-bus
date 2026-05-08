@@ -9,6 +9,8 @@ Du kommer:
 
 --- no-print --- --- task ---
 
+--- task ---
+
 ### Spela ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -21,7 +23,10 @@ Vilka sprajter byter ut sina klädslar för att skapa en 🎥 animeringsseffekt?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
