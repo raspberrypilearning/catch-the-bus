@@ -147,7 +147,7 @@ when flag clicked
 go to x:(200) y:(-150) // 下部の右側です
 + show
 repeat (20) // 違う数を試してください
-move (5) steps //  5歩はちょうど良い歩く速さです
+move (5) steps // 5歩はちょうど良い歩く速さです
 next costume 
 end
 hide

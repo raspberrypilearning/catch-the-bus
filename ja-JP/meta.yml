@@ -2,12 +2,15 @@
 title: バスに乗る
 hero_image: images/banner.png
 description: バスの出発前にスプライトを到着させるコードをつくります
+meta_title: 子供と十代の若者向けのScratch コーディング プロジェクト |バスに乗る
+meta_description: Raspberry Pi Foundationの子どもと十台の若者向けのコーディングプロジェクトでScratchによるコーディングを学びましょう。バスに間に合うように走るスプライトを使って、Scratchアニメーションを作ります。
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
-- title: はじめに
+- title: 作るもの
 - title: バスの場面を作る
 - title: スクラッチキャットがバスに乗る
   completion:

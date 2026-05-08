@@ -28,7 +28,8 @@
 ![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] // 10から4に変更
+when flag clicked 
+wait [4] seconds // 1から4に変更
 ```
 
 --- /task ---
@@ -52,7 +53,8 @@ when [timer v] > [4] // 10から4に変更
 ![シティバスのスプライト。](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // 1から4に変更
 +glide [2] secs to x: [320] y: [-100] // ステージの右側
 ```
 
@@ -75,7 +77,7 @@ when [timer v] > [4]
 ```blocks3
 when flag clicked 
 wait [4] seconds // 1から4に変更
-glide [2] secs to x: [320] y: [-100]
+glide [2] secs to x: [320] y: [-100] // ステージの右側
 + hide
 ```
 --- /task ---
@@ -95,8 +97,8 @@ glide [2] secs to x: [320] y: [-100]
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
-go to [back v] layer
-set [color v] effect to (50) // 200までの数
+go to [最背面 v] layer
+set [色 v] effect to (50) // 200までの数
 +show
 ```
 
