@@ -8,7 +8,7 @@ Yonwaba!
 
 --- question ---
 ---
-legend: Umbuzo 1 wesi-3
+legend: Question 1 of 3
 ---
 
 Kwiprojekthi yakho, ibhasi iyatyibilika imke isebenzisa le khowudi:
@@ -43,7 +43,7 @@ Ewe. Emva kokuba ucofe iflegi eluhlaza, kukho ukulinda kwemizuzwana emine ngapha
 
   --- feedback ---
 
-Ibhasi ayinayo nayiphi na ikhowudi eqhuba `xa ucofa isprite `{:class="block3events"}.
+Ibhasi ayinayo nayiphi na ikhowudi eqhuba `xa ucofa isprite`{:class="block3events"}.
 
   --- /feedback ---
 
