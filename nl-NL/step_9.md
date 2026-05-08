@@ -11,22 +11,20 @@ Je kunt elk van de blokken gebruiken die je in dit project hebt geleerd, evenals
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
-go to x: [0] y: [0] // sleep de sprite om x en y te kiezen
+go to x: [0] y: [0] // drag the sprite to choose x and y
 
 show
 
 hide
 
-glide [2] secs to x: [0] y: [-100] // midden onder in het speelveld
+glide [2] secs to x: [0] y: [-100] // bottom middle of the Stage
 
 repeat [30]
 end
 
 point towards (City Bus v)
 
-point in direction (180) // naar beneden wijzen
+point in direction (180) // point down
 
 set rotation style [left-right v]
 
@@ -36,9 +34,9 @@ next costume
 
 start sound [clown honk v]
 
-wait [0.1] seconds // korte vertraging
+wait [0.1] seconds // short delay
 
-set [color v] effect to [50] // tot 200
+set [color v] effect to [50] // up to 200
 ```
 
 --- collapse ---
