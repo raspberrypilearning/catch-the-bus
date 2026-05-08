@@ -40,7 +40,7 @@ when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Tipp:** Die `x`{:class="block3motion"} und `y`{:class="block3motion "}-Koordinaten im Block `gehe zu x: y:`{:class="block3motion"} sind die aktuelle Position des Nilpferds. Sie müssen nicht eingeben werden.
+**Tipp:** Die `x`{:class="block3motion"} und `y`{:class="block3motion "}-Koordinaten im Block `gehe zu x: y:`{:class="block3motion"} werden die aktuelle Position des Nilpferds übernehmen. Sie müssen nicht eingegeben werden.
 
 --- /task ---
 
@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### Den Bus ein- und ausblenden
+### Show and hide the hippo
 
 --- task ---
 
