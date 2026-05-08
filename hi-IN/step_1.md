@@ -1,4 +1,4 @@
-## आपको बनाना है
+## What you will make
 
 स्प्राइट के साथ एक एनीमेशन बनाएं जो बस पकड़ने के लिए दौड़ते या उड़ते हैं ।
 
@@ -7,7 +7,9 @@
 + **Stage** पर स्प्राइट्स की पोजीशन सेट करें
 + `repeat`{:class="block3control"} लूप का उपयोग करें स्प्राइट को `move`{:class="block3motion"} करने और `switch costumes`{:class="block3looks"} (कॉस्ट्यूम बदलने) के लिए |
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### प्ले ️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
