@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### बस दिखाएँ और छुपाएँ
+### Show and hide the hippo
 
 --- task ---
 
