@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: Nakóduj skřítky tak, aby došli nebo doletěli k autobusu, než se rozjede
 meta_title: Kódovací projekty ve Scratchi pro děti a náctileté | Stihni autobus
 meta_description: Nauč se kódovat ve Scratchi pomocí kódovacích projektů pro děti a náctileté od nadace Raspberry Pi Foundation. Vytvoř si animaci ve Scratchi se skřítky, kteří se snaží doběhnout autobus.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: Co budeš dělat
+    title: What you will make
   - 
     title: Vytvoř svou autobusovou scénu
   - 
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Vylepši svůj projekt
-  - 
-    title: Co dál?
