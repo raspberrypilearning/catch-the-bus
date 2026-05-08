@@ -121,7 +121,7 @@ when flag clicked
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
-+ go to [back v] layer
++ go to [最背面 v] layer
 ```
 
 **ヒント:** `最前面に移動`{:class="block3looks"}ブロックが見つからないときには、`見た目`{:class="block3looks"}ブロックメニューを下にスクロールして探してみてください。
@@ -139,8 +139,8 @@ go to x: (0) y: (-100)
 ```blocks3
 when flag clicked
 go to x: (0) y: (-100)
-go to [back v] layer
-+set [color v] effect to (50) // 200までの数
+go to [最背面 v] layer
++set [色 v] effect to (50) // 200までの数
 ```
 
 --- /task ---

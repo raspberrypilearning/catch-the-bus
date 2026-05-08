@@ -26,7 +26,7 @@ point towards (City Bus v)
 
 point in direction (180) // 下向き
 
-set rotation style [left-right v]
+set rotation style [左右のみ v]
 
 move [3] steps
 
@@ -36,7 +36,7 @@ start sound [clown honk v]
 
 wait [0.1] seconds // 短い待ち時間
 
-set [color v] effect to [50] // 最大200
+set [色 v] effect to [50] // 最大200
 ```
 
 --- collapse ---
@@ -44,7 +44,7 @@ set [color v] effect to [50] // 最大200
 title: 完成したプロジェクト
 ---
 
-[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/602807225/){:target="_blank"}で確認できます。
+[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/724160134/){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
