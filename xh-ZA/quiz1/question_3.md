@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Ubuzo wesi- 3 kwemi- 3
+legend: Question 3 of 3
 ---
 
 Ngowuphi umbhalo kulemibalo osebenzisa u**phindapindwano** ukuze inja ibengupopayi?
