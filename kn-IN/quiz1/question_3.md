@@ -1,6 +1,6 @@
 --- question ---
 ---
-ವಿಷಯಸೂಚಿ: ಪ್ರಶ್ನೆ 3
+legend: Question 3 of 3
 ---
 
 Which of these scripts uses a **loop** to animate the dog?
