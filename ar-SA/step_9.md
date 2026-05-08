@@ -43,7 +43,7 @@ set [color v] effect to [50] // ما يصل إلى 200
 
 --- collapse ---
 ---
-المشروع المكتمل
+title: المشروع المكتمل
 ---
 
 يمكنك عرض [مشروع مكتمل هنا](https://scratch.mit.edu/projects/627769143/){:target="_blank"}.
