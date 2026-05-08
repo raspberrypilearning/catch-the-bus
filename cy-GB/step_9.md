@@ -43,7 +43,7 @@ set [color v] effect to [50] // hyd at 200
 
 --- collapse ---
 ---
-teitl: Prosiect gorffenedig
+title: Completed project
 ---
 
 Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/626229210/){:target="_blank"}.
