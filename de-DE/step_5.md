@@ -15,7 +15,7 @@ Füge weitere Blöcke hinzu, damit der Bus losfährt.
 
 --- task ---
 
-Wähle die **Stadtbus** Figur aus.
+Wähle die **City Bus** Figur aus.
 
 ![Die Figur "Stadtbus".](images/bus-sprite.png)
 
