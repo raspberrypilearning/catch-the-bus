@@ -33,7 +33,7 @@ Cofa kulendawo imhlophe ibhale "Ukhenketho lukaScratch" uwukhethe lombhalo kwaye
 
 --- task ---
 
-Khetha isixhobo (sokubhala) **Umbhal0**.
+Khetha isixhobo (sokubhala) **Umbhalo**.
 
 Cofa ibhasi apho ufuna umbhalo wakho aqale khona, ulandelise ngokuxhahxaza indawo ofuna uye kuyo ibhasi.
 
