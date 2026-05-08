@@ -41,7 +41,7 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-title: Завершений проєкт
+title: Completed project
 ---
 
 Ти можеш ознайомитися з завершеним проєктом [завершеним проєктом тут](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
