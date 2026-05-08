@@ -14,7 +14,8 @@ legend: السؤال 1 من 3
 في مشروعك ، تنزلق الحافلة بعيدًا باستخدام هذه التعليمات البرمجية:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
