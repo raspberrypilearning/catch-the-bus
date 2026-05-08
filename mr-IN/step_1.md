@@ -1,4 +1,4 @@
-## तुम्ही बनवाल
+## What you will make
 
 या प्रकल्पात, तुम्ही बस पकडण्यासाठी धावणाऱ्या किंवा उडणाऱ्या स्प्राइट्ससह चित्रफीत तयार कराल 🚌.
 
@@ -7,7 +7,9 @@
 <li>स्प्राइट्सला <strong x-id="1">स्टेज</strong>ठिकाणी ठेवा </li>
 <li>वापरा  <code>repeat`{:class="block3control"} loop to `move`{:class="block3motion"} sprites and `switch costumes`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### खेळा ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
