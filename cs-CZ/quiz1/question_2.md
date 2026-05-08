@@ -1,6 +1,6 @@
 --- question ---
 ---
-legenda: Otázka 2 ze 3
+legend: Question 2 of 3
 ---
 
 Když **přetáhneš skřítka** do nové pozice na okně, které **vlastnosti** se aktualizují v podokně Skřítek pod daným oknem?
