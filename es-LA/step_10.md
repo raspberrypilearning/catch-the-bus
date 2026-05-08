@@ -1,6 +1,6 @@
-## ¿Qué sigue?
+## What can you do now?
 
-Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el error](https://projects.raspberrypi.org/en/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el error que se esconde en cada nivel.
+Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/es-LA/pathways/scratch-intro), puedes pasar al proyecto [Encuentra el error](https://projects.raspberrypi.org/es-LA/projects/find-the-bug). En este proyecto, crearás un juego en el que tendrás que encontrar el error que se esconde en cada nivel.
 
 --- print-only ---
 
@@ -11,9 +11,9 @@ Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberry
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-Si quieres divertirte más explorando Scratch, entonces puedes probar cualquiera de [Estos proyectos](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Si quieres divertirte más explorando Scratch, entonces puedes probar cualquiera de [Estos proyectos](https://projects.raspberrypi.org/es-LA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
