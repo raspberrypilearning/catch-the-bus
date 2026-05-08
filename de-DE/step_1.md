@@ -7,7 +7,7 @@ Du wirst:
 + Figuren auf der **Bühne** positionieren
 + Eine `wiederhole`{:class="block3control"}-Schleife benutzen, um Figuren zum `gehen`{:class="block3motion"} zu bringen und `Kostüme zu wechseln`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ Welche Figuren wechseln ihre Kostüme, um einen Animationseffekt 🎥 zu erzeuge
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
