@@ -1,24 +1,24 @@
-Versuche Zahlen bis 200
+versuche Zahlen bis 200
 
 unten rechts
 
-Probiere verschiedene Zahlen aus
+probiere verschiedene Zahlen aus
 
 5 ist eine gute Gehgeschwindigkeit
 
 oben links
 
-Auswahl mit Mauszeiger
+ändere Auswahl von Mauszeiger zu City Bus
 
 ändere 1 auf 4
 
 rechte Seite der Bühne
 
-Versuche es mit 0.1, 0.5, 0.05
+versuche es mit 0.1, 0.5, 0.05
 
 von 4 auf 6 wechseln
 
-Ziehe die Figur, um x und y auszuwählen
+ziehe die Figur, um x und y auszuwählen
 
 unten in der Mitte der Bühne
 
