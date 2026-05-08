@@ -7,7 +7,7 @@ Que faràs:
 + Col·locar els personatges a **l'escenari**
 + Utilitzar un bucle `repetiu`{:class="block3control"} per `moure`{:class="block3motion"} personatges i canvia de `vestits`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
