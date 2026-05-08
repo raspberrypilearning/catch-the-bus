@@ -1,9 +1,10 @@
 ---
-title: Erreiche den Bus
+title: Erwische den Bus
 hero_image: images/banner.png
 description: Programmiere Figuren so, dass sie zum Bus laufen oder fliegen, bevor er losfährt
-meta_title: Scratch Coding Projekte für Kinder und Jugendliche | Erreiche den Bus
-meta_description: Lerne Coding in Scratch mit den Coding Projekten der Raspberry Pi Foundation für Kinder und Jugendliche. Erstelle mit Scratch eine Animation mit Figuren, die sich beeilen, einen Bus zu erreichen.
+meta_title: Scratch Coding Projekte für Kinder und Jugendliche | Erwische den Bus
+meta_description: Lerne Coding in Scratch mit den Coding Projekten der Raspberry Pi Foundation für Kinder und Jugendliche. Erstelle mit Scratch eine Animation mit Figuren, die sich beeilen, einen Bus zu erwischen.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
@@ -14,7 +15,7 @@ steps:
   - 
     title: Erstelle deine Busszene
   - 
-    title: Die Scratch Katze erreicht den Bus
+    title: Die Scratch Katze erwischt den Bus
     completion:
       - engaged
   - 
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Verbessere dein Projekt
-  - 
-    title: Wie geht es weiter?
