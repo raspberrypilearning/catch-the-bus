@@ -9,6 +9,8 @@ Você vai:
 
 --- no-print --- --- task ---
 
+--- task ---
+
 ### Jogar
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -21,6 +23,9 @@ Quais atores mudam suas fantasias para criar um efeito de animação?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
+Jogar
+
 --- /task --- --- /no-print ---
 
 --- print-only ---
