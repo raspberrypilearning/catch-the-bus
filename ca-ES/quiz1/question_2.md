@@ -1,6 +1,6 @@
 --- question ---
 ---
-llegenda: Pregunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Quan **arrossegues un personatge** a una nova posició a l'escenari, quines **propietats** s'actualitzaran al panell de personatge a sota de l'escenari?
