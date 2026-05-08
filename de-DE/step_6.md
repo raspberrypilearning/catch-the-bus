@@ -42,7 +42,7 @@ hide
 
 --- task ---
 
-Du brauchst Verzögerungen von weniger als eine Sekunde. 0,5 ist eine halbe Sekunde, 0,25 ist eine Viertelsekunde und 0,1 ist eine Zehntelsekunde.
+Du wirst Verzögerungen von weniger als eine Sekunde benötigen. 0,5 ist eine halbe Sekunde, 0,25 ist eine Viertelsekunde und 0,1 ist eine Zehntelsekunde.
 
 Ändere die Verzögerung im Block `warte`{:class="block3control"}:
 
