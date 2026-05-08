@@ -7,7 +7,7 @@ Tu:
 + Posizionerai gli sprite sullo **Stage**
 + Userai un ciclo `ripeti`{:class="block3control"} per `muovere`gli sprite {:class="block3motion"} e `cambiare i costumi`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ Quali sprite cambiano i loro costumi per creare un effetto di animazione 🎥?
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
