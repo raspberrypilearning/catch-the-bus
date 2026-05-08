@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### Mostre e esconda o ônibus
+### Show and hide the hippo
 
 --- task ---
 
