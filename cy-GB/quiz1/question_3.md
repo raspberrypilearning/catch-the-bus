@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Cwestiwn 3 o 3
+legend: Question 3 of 3
 ---
 
 Yn dy brosiect, fe wnes di wneud i'r hipo hedfan a'r Gath Scratch gerdded i'r bws.
