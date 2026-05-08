@@ -8,7 +8,7 @@ Divirta-se!
 
 --- question ---
 ---
-legenda: Pergunta 1 de 3
+legend: Pergunta 1 de 3
 ---
 
 No projeto, o ônibus sempre vai deslizar com este código:
