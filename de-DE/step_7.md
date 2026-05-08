@@ -11,11 +11,11 @@ Die Aufschrift auf dem Bus lautet „Scratch Tours“, aber du kannst das Ziel n
 </div>
 </div>
 
-### Bearbeite die Figur Stadtbus
+### Bearbeite die Figur City Bus
 
 --- task ---
 
-Wähle die Figur **City Bus** und klicke auf den Tab **Kostüme**:
+Wähle die Figur **City Bus** und klicke auf die Registerkarte **Kostüme**:
 
 ![Das Kostüm im Paint-Editor.](images/costumes-bus-sprite-highlighted.png)
 
@@ -33,9 +33,9 @@ Klicke auf den weißen Text „Scratch Tours“, um ihn auszuwählen, und klicke
 
 --- task ---
 
-Wähle das **Text**werkzeug (Schreiben) aus.
+Wähle das **Text** (Schreib-)Werkzeug aus.
 
-Klicke auf der Stelle auf den Bus, bei dem dein Text beginnen soll, und gebe das gewünschte Ziel ein.
+Klicke an der Stelle auf den Bus, an der dein Text beginnen soll, und gebe das gewünschte Ziel ein.
 
 Um die Schriftart (den Schreibstil) zu ändern, kannst du auf das Dropdown-Menü **Schriftarten** klicken:
 
