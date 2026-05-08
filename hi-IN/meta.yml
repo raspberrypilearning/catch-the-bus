@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: बस चलने से पहले चलने या उड़ान भरने के लिए स्प्राइट कोड करें
 meta_title: बच्चों और किशोरों के लिए स्क्रैच कोडिंग प्रोजेक्ट | बस को पकड़ो
 meta_description: बच्चों और किशोरों के लिए रास्पबेरी पाई फाउंडेशन की कोडिंग प्रोजेक्ट से शुरुआत से कोड करना सीखें। बस चलने से पहले चलने या उड़ान भरने के लिए स्प्राइट कोड करें
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: आप बनाएंगे
+    title: What you will make
   - 
     title: अपना बस दृश्य बनाएं
   - 
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: अपना प्रोजेक्ट अपग्रेड करें
-  - 
-    title: आगे क्या?
