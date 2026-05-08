@@ -17,7 +17,7 @@ Faka isprite esingumvubu esibhabhayo ukuya ebhasini.
 
 Yongeza isprite so**Mvubu1** kwiprojekthi yakho.
 
-Tshintsha **Ubungakanani** besprite so**Mvubu1**:
+Tshintsha **Ubungakanani** besprite so **Mvubu1**:
 
 ![Ipheyini yesprite, isprite uMvubu1, esinobungakanani obumiselwe ku- 50.](images/hippo-sprite-size.png)
 
@@ -40,7 +40,7 @@ when flag clicked
 go to x: [-200] y: [150] // top left-hand side
 ```
 
-**Ingcebiso:** Ulungelelaniso `x`{:class="block3motion"} no-`y`{:class="block3motion"} kwiblokhi `iya ku x:y:`{:class="block3motion"} lizakuba yile ndawo umvubu wakho ume kuyo, awudingi kuyixhaxhaza.
+**Ingcebiso:** Ulungelelaniso `x`{:class="block3motion"} no-`y`{:class="block3motion"} kwiblokhi `iya ku x: y:`{:class="block3motion"} lizakuba yile ndawo umvubu wakho ume kuyo, awudingi kuyixhaxhaza.
 
 --- /task ---
 
