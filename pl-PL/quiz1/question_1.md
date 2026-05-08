@@ -14,7 +14,8 @@ legend: Pytanie 1 z 3
 W Twoim projekcie autobus odjeżdża za pomocą tego kodu:
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds
 glide [2] secs to x: [320] y: [-100]
 ```
 
