@@ -1,6 +1,6 @@
-## आगे क्या?
+## What can you do now?
 
-अगर आप स्क्रैच [Scratch का परिचय ](https://projects.raspberrypi.org/en/pathways/scratch-intro)को फॉलो कर रहे हैं, तो आप [बग को ढूंढे](https://projects.raspberrypi.org/en/projects/find-the-bug) प्रोजेक्ट पर जा सकते हैं। इस प्रोजेक्ट में, आप एक गेम बनाएंगे जिसमें आपको प्रत्येक स्तर पर छिपे बग को ढूंढना होगा।
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Find the bug](https://projects.raspberrypi.org/en/projects/find-the-bug){:target="_blank"} project. इस प्रोजेक्ट में, आप एक गेम बनाएंगे जिसमें आपको प्रत्येक स्तर पर छिपे बग को ढूंढना होगा।
 
 --- print-only ---
 
@@ -11,9 +11,9 @@
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
-यदि आप Scratch को एक्सप्लोर करने में और अधिक मज़ा लेना चाहते हैं, तो आप [इन प्रोजेक्टस ](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) को आज़मा सकते हैं।
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
