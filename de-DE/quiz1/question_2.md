@@ -3,7 +3,7 @@
 legend: Frage 2 von 3
 ---
 
-Wenn du **eine Figur ziehst** um sie an eine neue Position auf der Bühne ziehen, welche **Eigenschaften** werden im Figurenbereich unter der Bühne aktualisiert?
+Wenn du **eine Figur** an eine neue Position auf der Bühne **ziehst**, welche **Eigenschaften** werden im Figurenbereich unter der Bühne aktualisiert?
 
 --- choices ---
 
