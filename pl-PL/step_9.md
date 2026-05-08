@@ -11,22 +11,20 @@ Możesz użyć dowolnych bloków, z których korzystaliśmy w tym projekcie, jak
 ```blocks3
 when flag clicked
 
-when [timer v] > [5]
-
-go to x: [0] y: [0] // przeciągnij duszka, aby wybrać x i y
+go to x: [0] y: [0] // drag the sprite to choose x and y
 
 show
 
 hide
 
-glide [2] secs to x: [0] y: [-100] // środek dolnej części sceny
+glide [2] secs to x: [0] y: [-100] // bottom middle of the Stage
 
 repeat [30]
 end
 
 point towards (City Bus v)
 
-point in direction (180) // wskazać dół
+point in direction (180) // point down
 
 set rotation style [left-right v]
 
@@ -36,9 +34,9 @@ next costume
 
 start sound [clown honk v]
 
-wait [0.1] seconds // krótkie opóźnienie
+wait [0.1] seconds // short delay
 
-set [color v] effect to [50] // do 200
+set [color v] effect to [50] // up to 200
 ```
 
 --- collapse ---
