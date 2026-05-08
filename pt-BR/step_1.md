@@ -7,7 +7,7 @@ Você vai:
 + Posicionar atores no **Palco**
 + Usar um loop do tipo `repeat` para `mover`{:class="block3motion"} e `alternar entre fantasias`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -24,9 +24,9 @@ Quais atores mudam suas fantasias para criar um efeito de animação?
 </div>
 </div>
 
-Jogar
+--- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
