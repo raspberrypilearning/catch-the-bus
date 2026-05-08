@@ -41,10 +41,10 @@ set [color v] effect to [50] // up to 200
 
 --- collapse ---
 ---
-isihloko: Iprojekthi egqityiweyo
+title: Completed project
 ---
 
-Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/724160134/){:tharget="_blank"}.
+Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/1147284637/){:target="_blank"}.
 
 --- /collapse ---
 
