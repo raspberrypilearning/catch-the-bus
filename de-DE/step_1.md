@@ -1,13 +1,15 @@
-## Das wirst Du machen
+## Das wirst du machen
 
-Erstelle eine Animation mit Figuren, die rennen oder fliegen, um einen Bus 🚌 zu erreichen.
+Erstelle eine Animation mit Figuren, die rennen oder fliegen, um einen Bus 🚌 zu erwischen.
 
 Du wirst:
-+ Figuren verschiedene Dinge machen lassen ` wenn die grüne Flagge geklickt wird`{:class="block3events"}
++ Figuren verschiedene Dinge machen lassen, `wenn die grüne Flagge geklickt wird`{:class="block3events"}
 + Figuren auf der **Bühne** positionieren
-+ Eine `wiederhole`{:class="block3control"}-Schleife benutzen, um Figuren zum `gehen`{:class="block3motion"} zu bringen, und `Kostüme zu wechseln`{:class="block3looks"}
++ Eine `wiederhole`{:class="block3control"}-Schleife benutzen, um Figuren zum `gehen`{:class="block3motion"} zu bringen und `Kostüme zu wechseln`{:class="block3looks"}
 
 --- no-print --- --- task ---
+
+--- task ---
 
 ### Spielen ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,6 +23,9 @@ Welche Figuren wechseln ihre Kostüme, um einen Animationseffekt 🎥 zu erzeuge
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
+--- /task ---
+
 --- /task --- --- /no-print ---
 
 --- print-only ---
