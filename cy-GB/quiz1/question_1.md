@@ -8,7 +8,7 @@ Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r a
 
 --- question ---
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 In your project, the bus glides away using this code:
