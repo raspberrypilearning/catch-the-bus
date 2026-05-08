@@ -1,6 +1,6 @@
 --- question ---
 ---
-llegenda: Pregunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Quines d'aquestes llista d'accions utilitza un **bucle** per animar el gos?
