@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: رمز كائنات متحركة للسير أو المشي إلى الحافلة قبل انطلاقها
 meta_title: مشاريع البرمجة باستخدام منصة سكراتش للأطفال والمراهقين | اللحاق بالباص
 meta_description: تعلم البرمجة في سكراتش باستخدام مشاريع البرمجة الخاصة بمؤسسة Raspberry Pi Foundation للأطفال والمراهقين. أنشئ رسومًا متحركة وألعابًا وتطبيقات من سكراتش والمزيد.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: قم بترقية مشروعك
-  - 
-    title: ما التالي؟
