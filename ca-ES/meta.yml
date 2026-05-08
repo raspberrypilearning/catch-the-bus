@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Programa els personatges per caminar o volar fins a l'autobús abans que marxi
 meta_title: Projectes de programació Scratch per a nens i adolescents | Introducció a Scratch
 meta_description: Apreneu a programar a Scratch amb els projectes de programació de la Fundació Raspberry Pi per a nens i adolescents. Crea amb Scratch animacions, jocs, aplicacions i molt més.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Actualitza el teu projecte
-  - 
-    title: I ara què ve?
