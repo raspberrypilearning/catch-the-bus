@@ -1,6 +1,6 @@
 --- question ---
 ---
-legenda: Pergunta 3 de 3
+legend: Pergunta 3 de 3
 ---
 
 Qual do scripts a seguir usa um **loop** para fazer o cachorro correr?
