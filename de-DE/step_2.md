@@ -15,7 +15,7 @@ Wähle ein Hintergrundbild und füge eine Bus-Figur hinzu.
 
 --- task ---
 
-Öffne das [Krieg den Bus Starterprojekt](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch wird in einem anderen Tab im Browser geöffnet.
+Öffne das [Erwische den Bus Starterprojekt](https://scratch.mit.edu/projects/582214330/editor){:target="_blank"}. Scratch wird in einem anderen Tab im Browser geöffnet.
 
 [[[working-offline]]]
 
@@ -114,7 +114,7 @@ Die Zahlen im Block `gehe zu x: y:`{:class="block3motion"} sind die aktuellen x-
 
 --- task ---
 
-Um sicherzustellen, dass die **City Bus** Figur immer hinter allen Charakterfiguren liegt, füge eine `gehe zu vorderster Ebene`{:class="block3looks"} hinzu. Dann klicke auf `vorderster`{:class="block3looks"} und ändere es in `hinterster`{:class="block3looks"}:
+Um sicherzustellen, dass die **City Bus** Figur immer hinter allen Charakterfiguren liegt, füge den Block `gehe zu vorderster Ebene`{:class="block3looks"} hinzu. Dann klicke auf `vorderster`{:class="block3looks"} und ändere es in `hinterster`{:class="block3looks"}:
 
 ![Die Figur "Stadtbus".](images/bus-sprite.png)
 
@@ -124,7 +124,7 @@ go to x: (0) y: (-100)
 + go to [back v] layer
 ```
 
-**Tipp:** Wenn du den `gehe zu vorderester Ebene`{:class="block3looks"} nicht siehst, musst du im Blockmenü in der `Aussehen`{:class="block3looks"} Kategorie runterscrollen.
+**Tipp:** Wenn du den Block `gehe zu vorderester Ebene`{:class="block3looks"} nicht siehst, musst du im Blockmenü in der `Aussehen`{:class="block3looks"} Kategorie runterscrollen.
 
 --- /task ---
 
