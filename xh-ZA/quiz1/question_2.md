@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Umbuzo wesi-2 kwemi--3
+legend: Question 2 of 3
 ---
 
 Xa u- **tsala i-sprite** kwindawo entsha eQongeni, zeziphi **izakhiwo** ezizakuhlaziywa kwipheyini ye-Sprite ngezantsi kweQonga?
@@ -27,15 +27,15 @@ Xa utsala i-sprite usibeka kwi entsha, izilungelelanisi zika-**x** kunye no-**y*
 
   --- feedback ---
 
-Ukusebenzisa umfanekiso we**liso ** okanye we**liso ** elihlatyiweyo kuzakwenza i-Sprite sibonakale okanye sithele.
+Ukusebenzisa umfanekiso we**liso** okanye we**liso** elihlatyiweyo kuzakwenza i-Sprite sibonakale okanye sithele.
 
   --- /feedback ---
 
-- () U**bukhulu ** be-Sprite ![Isixhobo sobukhulu.](images/size.png)
+- () U**bukhulu** be-Sprite ![Isixhobo sobukhulu.](images/size.png)
 
   --- feedback ---
 
-Ukuze utshintshe ubukhulu be-Sprite, kumele ucofe isixhobo so**bukhulu **.
+Ukuze utshintshe ubukhulu be-Sprite, kumele ucofe isixhobo so**bukhulu**.
 
   --- /feedback ---
 
