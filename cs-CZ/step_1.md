@@ -1,4 +1,4 @@
-## Co budeš dělat
+## What you will make
 
 Vytvoř animaci se skřítky, kteří běží nebo létají, aby stihli autobus 🚌.
 
@@ -7,7 +7,9 @@ Budeš:
 + Umísti skřítky na **scéně**
 + Použij `repeat`{:class="block3control"} smyčku pro `pohyb`{:class="block3motion"} skřítků a `přepínání kostýmů`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### Hraj ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@ Kteří skřítci mění své kostýmy, aby vytvořili animaci 🎥?
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
