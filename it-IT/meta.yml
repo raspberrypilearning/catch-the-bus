@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Programma gli sprite per farli camminare o volare verso l'autobus prima che parta
 meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Prendi l'autobus
 meta_description: Impara a programmare con Scratch con i progetti di programmazione per bambini e ragazzi offerti dalla Raspberry Pi Foundation. Fai animazioni con gli sprite per farli correre verso l'autobus.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: Migliora il tuo progetto
-  - 
-    title: E adesso?
