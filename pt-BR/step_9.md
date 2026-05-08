@@ -43,7 +43,7 @@ set [color v] effect to [50] // até 200
 
 --- collapse ---
 ---
-título: A conclusão do projeto
+title: A conclusão do projeto
 ---
 
 Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/724160134/){:target="_blank"}.
