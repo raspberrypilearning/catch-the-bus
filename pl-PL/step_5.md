@@ -53,8 +53,9 @@ Współrzędne `x`{:class="block3motion"} i `y`{:class="block3motion"} w Twoim p
 ![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
-+glide [2] secs to x: [320] y: [-100] // prawa strona sceny
+when flag clicked 
+wait [4] seconds // change 1 to 4
++glide [2] secs to x: [320] y: [-100] // right-hand side of the Stage
 ```
 
 --- /task ---
@@ -74,7 +75,8 @@ Dodaj blok `ukryj`{:class="block3looks"}, aby wywołać wrażenie opuszczenia sc
 ![Duszek autobusu.](images/bus-sprite.png)
 
 ```blocks3
-when [timer v] > [4] 
+when flag clicked 
+wait [4] seconds // change 1 to 4
 glide [2] secs to x: [320] y: [-100]
 + hide
 ```
@@ -96,7 +98,7 @@ Dodaj blok `pokaż`{:class="block3looks"} do swojego skryptu uruchomiającego si
 when flag clicked
 go to x: (0) y: (-100)
 go to [back v] layer
-set [color v] effect to (50) // spróbuj liczb do 200
+set [color v] effect to (85) // try numbers up to 200
 +show
 ```
 
