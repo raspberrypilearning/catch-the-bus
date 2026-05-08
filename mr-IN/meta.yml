@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: बस चालवण्याआधी चालण्यासाठी किंवा उड्डाण करण्यासाठी कोड स्प्राइट्स करतो
 meta_title: मुलांसाठी आणि किशोरांसाठी स्क्रॅच कोडिंग प्रकल्प | बस पकडा
 meta_description: रास्पबेरी पाई फाउंडेशनच्या मुलांसाठी आणि किशोरवयीन मुलांसाठी कोडिंग प्रकल्पांसह स्क्रॅचमध्ये कोड करायला शिका. बस पकडण्यासाठी धावणाऱ्या स्प्राईट्ससह स्क्रॅच अॅनिमेशन बनवा.
+pdf: resources/catch-the-bus.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: 2021-02-17
 steps:
   - 
-    title: तुम्ही बनवाल
+    title: What you will make
   - 
     title: आपलं बस दृश्य तयार करा
   - 
@@ -38,5 +39,3 @@ steps:
       - external
   - 
     title: तुमचा प्रकल्प अपग्रेड/सुधारित करा
-  - 
-    title: पुढे काय?
