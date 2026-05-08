@@ -68,7 +68,7 @@ next costume
 
 --- /task ---
 
-### Laat de bus verschijnen en verdwijnen
+### Show and hide the hippo
 
 --- task ---
 
