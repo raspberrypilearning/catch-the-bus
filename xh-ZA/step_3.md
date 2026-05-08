@@ -112,7 +112,7 @@ end
 
 --- task ---
 
-Yongeza ibhloko ezaku `fihla`{:class="block3looks"}iKati kaScratch xa ifika ebhasini:
+Yongeza ibhloko ezaku `fihla`{:class="block3looks"} iKati kaScratch xa ifika ebhasini:
 
 ![I-Sprite esiyi Kati KaScratch.](images/scratch-cat-sprite.png)
 
