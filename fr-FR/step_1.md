@@ -7,7 +7,7 @@ Tu vas devoir :
 + Positionner les sprites sur la **Scène**
 + Utiliser une boucle `répéter`{: class = "block3control"} pour faire `avancer`{:class="block3motion"} et `basculer sur le costume`{:class="block3looks"}
 
---- no-print --- --- task ---
+--- no-print ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ Quels sprites changent de costume pour créer un effet d'animation 🎥 ?
 
 --- /task ---
 
---- /task --- --- /no-print ---
+--- /no-print ---
 
 --- print-only ---
 
