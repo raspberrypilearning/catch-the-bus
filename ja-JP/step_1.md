@@ -1,4 +1,4 @@
-## はじめに
+## 作るもの
 
 スプライトが走ったり飛んだりしてバス🚌に乗るアニメーションを作成します。
 
@@ -7,7 +7,9 @@
 + スプライトを**ステージ**に配置します。
 + `繰り返す`{:class="block3control"} ループを使ってスプライトを `動かす`{:class="block3motion"} 、そして `コスチュームを変えます`{:class="block3looks"}。
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
 
 ### プレイ ▶️
 <div style="display: flex; flex-wrap: wrap">
@@ -21,7 +23,10 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/724160134/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
